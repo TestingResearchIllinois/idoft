@@ -119,6 +119,16 @@ Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
 
 # Acknowledgments
 
+If you use the dataset, please cite the following:
+```
+@misc{IllinoisDatasetofFlakyTests,
+    title = {{Illinois Dataset of Flaky Tests (IDoFT)}},
+    author = {Lam, Wing},
+    year = {2020},
+    url = {http://mir.cs.illinois.edu/flakytests}
+}
+```
+
 [Wing Lam](http://mir.cs.illinois.edu/winglam) is the author of this dataset. He thanks all contributors and the students from the Fall 2020 CS 527 class from the University of Illinois at Urbana-Champaign for their contributions.
 
 For any questions about the dataset, please email [testflaky@gmail.com](mailto:testflaky@gmail.com).
