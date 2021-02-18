@@ -55,7 +55,7 @@ To add more information about any test:
   * Project URL,SHA Detected: If the notes are for a particular project.
 * Make sure to include any steps to reproduce, any relevant logs, or any relevant information about the test/module in the issue. You may attach relevant files (e.g., log output of NonDex or iDFlakies, `flaky-lists.json` files of iDFlakies) by [attaching the files to the issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/file-attachments-on-issues-and-pull-requests).
 
-An example issue can be found [here](https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1).
+An example issue can be found [here](https://github.com/TestingResearchIllinois/idoft/issues/5).
 
 #### Example entry in the [pr-data.csv file](https://github.com/TestingResearchIllinois/pr-data/blob/main/pr-data.csv):
 
