@@ -119,13 +119,22 @@ Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
 
 # Acknowledgments
 
-If you use the dataset, please cite the following:
+If you use the dataset, please cite this website and our original dataset:
 ```
 @misc{IllinoisDatasetofFlakyTests,
     title = {{Illinois Dataset of Flaky Tests (IDoFT)}},
     author = {Lam, Wing},
     year = {2020},
     url = {http://mir.cs.illinois.edu/flakytests}
+}
+@inproceedings{LamETAL19iDFlakies,
+    author      = "Wing Lam and Reed Oei and August Shi and Darko Marinov and Tao Xie",
+    title       = "{iDF}lakies: {A} framework for detecting and partially classifying flaky tests",
+    booktitle   = "ICST 2019: 12th IEEE International Conference on Software Testing, Verification and Validation",
+    month       = "April",
+    year 	= "2019",
+    address 	= "Xi'an, China",
+    pages       = "312--322"
 }
 ```
 
