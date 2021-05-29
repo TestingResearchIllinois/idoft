@@ -557,7 +557,7 @@ https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086d
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testPerm,NOD,,,
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testReturnNonSerialized,OD-Vic;NOD,,,
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.ExplicitCallbackTest.TestCallbackMultiInstans,NOD;NDOD,,,
-https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke,NOD;ND,,,
+https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke,NOD,,,
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.test_multi_destory,OD-Vic,,,
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.test_not_share_connect,OD-Vic,,,
 https://github.com/apache/incubator-dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-dubbo,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.test_share_connect,OD-Vic,,,
