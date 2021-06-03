@@ -1841,7 +1841,7 @@ https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.ext.RequiredPropertyConstructorExtensionTest.testEnums,ID,,,
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.FullyQualifiedNamesTest.test,ID,,,
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.GenericsTest.testAdvancedGenerics,ID,,,
-https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.ImmutablesTest.testImmutables,ID,,,
+https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.ImmutablesTest.testImmutables,ID,Accepted,https://github.com/vojtechhabarta/typescript-generator/pull/686,
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.Jackson1ParserTest.test,ID,,,
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.Jackson2ParserTest.test,ID,,,
 https://github.com/vojtechhabarta/typescript-generator,caef58bfe55a8cd1fc5d7368c19e9ff818a7b7fa,typescript-generator-core,cz.habarta.typescript.generator.Jackson2ParserTest.testJsonNumberFieldValuedEnum,ID,,,
