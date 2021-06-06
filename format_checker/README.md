@@ -4,10 +4,10 @@
 
 #### 1. Install dependencies
 
-The only dependency for this tool is [errorhandler](https://errorhandler.readthedocs.io/en/latest/). It can be installed running
+The dependencies for this tool can be installed running the following from the root directory:
 
 ```
-pip install errorhandler
+$ pip install -r format_checker/requirements.txt
 ```
 
 #### 2. Run the tool
@@ -15,7 +15,7 @@ pip install errorhandler
 Running this tool locally only requires running `main.py` from the root directory:
 
 ```
-python format_checker/main.py
+$ python format_checker/main.py
 ```
 
 This will check all the implemented rules only for the rows of the `.csv` files that have been modified in some way (including row additions). It can check either for uncommitted changes (e.g. if a row was modified in `pr-data.csv` but the file wasn't committed) or for changes made in the commits related to the push/pull request that triggered the GitHub Actions build, as well as for committed changes that haven't yet been pushed. By default, the tool looks for uncommitted changes as well as committed changes every time it is run locally.
