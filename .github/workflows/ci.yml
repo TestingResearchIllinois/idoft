@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install errorhandler
+          pip install -r format_checker/requirements.txt
       - name: Run format checker on pull request
         if: ${{github.event_name == 'pull_request'}}
         env:
