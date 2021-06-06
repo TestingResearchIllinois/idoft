@@ -88,9 +88,9 @@ def check_num_failures(filename, row, i, log):
 # Checks that tso-iso-data.csv is properly formatted.
 
 
-def run_checks_tso_iso(log):
+def run_checks_tso_iso(log, commit_range):
     file = 'tso-iso-rates.csv'
-    committed_lines = get_committed_lines(file)
+    committed_lines = get_committed_lines(file, commit_range)
     uncommitted_lines = get_uncommitted_lines(file)
     with open(file, newline='') as csvfile:
         info = csv.DictReader(csvfile, tso_iso_rates['columns'])

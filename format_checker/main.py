@@ -15,9 +15,10 @@ if __name__ == "__main__":
     log_std_error.tracker = 0
     log_esp_error.tracker = 0
     log_warning.tracker = 0
-    run_checks_pr(logger)
-    run_checks_tic_fic(logger)
-    run_checks_tso_iso(logger)
+    commit_range = sys.argv[1:]
+    checks = [run_checks_pr, run_checks_tic_fic, run_checks_tso_iso]
+    for check in checks:
+        check(logger, sys.argv[1:])
     error_count = str(log_std_error.tracker + log_esp_error.tracker)
     if error_handler.fired:
         logger.critical(

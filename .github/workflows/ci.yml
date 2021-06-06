@@ -33,6 +33,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install errorhandler
-      - name: Run format checker
+      - name: Run format checker on pull request
+        if: ${{github.event_name == 'pull_request'}}
+        env:
+          BASE_SHA: ${{github.event.pull_request.base.sha}}
+          HEAD_SHA: ${{github.event.pull_request.head.sha}}
         run: |
-          python ./format_checker/main.py
+          commit_list=$(git log --oneline $BASE_SHA..$HEAD_SHA | cut -d " " -f 1)
+          python ./format_checker/main.py $commit_list
+      - name: Run format checker on push
+        if: ${{github.event_name == 'push'}}
+        env:
+          BASE_SHA: ${{github.event.before}}
+          HEAD_SHA: ${{github.event.after}}
+        run: |
+          commit_list=$(git log --oneline $BASE_SHA..$HEAD_SHA | cut -d " " -f 1)
+          python ./format_checker/main.py $commit_list

@@ -95,9 +95,9 @@ def check_notes(filename, row, i, log):
 
 # Checks that pr-data.csv is properly formatted.
 
-def run_checks_pr(log):
+def run_checks_pr(log, commit_range):
     file = 'pr-data.csv'
-    committed_lines = get_committed_lines(file)
+    committed_lines = get_committed_lines(file, commit_range)
     uncommitted_lines = get_uncommitted_lines(file)
     with open(file, newline='') as csvfile:
         info = csv.DictReader(csvfile, pr_data['columns'])

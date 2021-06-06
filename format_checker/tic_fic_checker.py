@@ -110,9 +110,9 @@ def check_tic_eq_fic(filename, row, i, log):
 
 # Checks that tic-fic-data.csv is properly formatted.
 
-def run_checks_tic_fic(log):
+def run_checks_tic_fic(log, commit_range):
     file = 'tic-fic-data.csv'
-    committed_lines = get_committed_lines(file)
+    committed_lines = get_committed_lines(file, commit_range)
     uncommitted_lines = get_uncommitted_lines(file)
     with open(file, newline='') as csvfile:
         info = csv.DictReader(csvfile, tic_fic_data['columns'])
