@@ -129,4 +129,3 @@ def log_warning(filename, log, line, message):
         + ": \n"
         + message
     )
-    

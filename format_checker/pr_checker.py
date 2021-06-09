@@ -148,4 +148,3 @@ def run_checks_pr(log, commit_range):
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
-    

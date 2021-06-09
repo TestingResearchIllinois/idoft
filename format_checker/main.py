@@ -40,4 +40,3 @@ if __name__ == "__main__":
             else " warning generated",
         )
     logger.info("Success: Exiting with code 0 due to no logged errors")
-    

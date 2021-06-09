@@ -132,4 +132,3 @@ def run_checks_tic_fic(log, commit_range):
         check_days_between,
     ]
     run_checks("tic-fic-data.csv", tic_fic_data, log, commit_range, checks)
-    

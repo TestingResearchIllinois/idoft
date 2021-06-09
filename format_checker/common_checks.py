@@ -123,4 +123,3 @@ def run_checks(file, data_dict, log, commit_range, checks):
                         check_rule(*params)
         else:
             log_info(file, log, "There are no changes to be checked")
-            

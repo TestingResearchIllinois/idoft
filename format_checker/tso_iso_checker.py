@@ -102,4 +102,3 @@ def run_checks_tso_iso(log, commit_range):
         check_totals,
     ]
     run_checks("tso-iso-rates.csv", tso_iso_rates, log, commit_range, checks)
-    
