@@ -1,27 +1,16 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-  pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+'on':
+  push: null
+  pull_request: null
+  workflow_dispatch: null
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    env:
+      # When there is no base commit (e.g., first push to a new branch), 
+      # GitHub assigns a strin of zeros to event.before. It's necessary to 
+      # handle this separately
+      NULL_COMMIT: '0000000000000000000000000000000000000000'
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -33,19 +22,28 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r format_checker/requirements.txt
-      - name: Run format checker on pull request
-        if: ${{github.event_name == 'pull_request'}}
-        env:
-          BASE_SHA: ${{github.event.pull_request.base.sha}}
-          HEAD_SHA: ${{github.event.pull_request.head.sha}}
-        run: |
-          commit_list=$(git log --oneline $BASE_SHA..$HEAD_SHA | cut -d " " -f 1)
-          python ./format_checker/main.py $commit_list
-      - name: Run format checker on push
-        if: ${{github.event_name == 'push'}}
-        env:
-          BASE_SHA: ${{github.event.before}}
-          HEAD_SHA: ${{github.event.after}}
-        run: |
-          commit_list=$(git log --oneline $BASE_SHA..$HEAD_SHA | cut -d " " -f 1)
-          python ./format_checker/main.py $commit_list
+      # Only run this step if the event is a push and event.before shows 
+      # that it's the first push to a new branch
+      - if: >-
+          ${{github.event_name == 'push' && github.event.before ==
+          env.NULL_COMMIT}}
+        name: Run format checker on new branch
+        run: >
+          python format_checker/main.py ${{github.event.before}}
+          ${{github.event.commits[0].id}} ${{github.event.after}}
+      # Only run this step if the event is a pull request
+      - if: ${{github.event_name == 'pull_request'}}
+        name: Run format checker on pull request
+        run: >
+          python format_checker/main.py ${{github.event.pull_request.base.sha}}
+          ${{github.event.pull_request.head.sha}}
+      # Only run this step if the event is a push and it's not the first one
+      # to a new branch
+      - if: >-
+          ${{github.event_name == 'push' && github.event.before !=
+          env.NULL_COMMIT}} 
+        name: Run format checker on push
+        run: >
+          python format_checker/main.py ${{github.event.before}}
+          ${{github.event.after}}
+          
