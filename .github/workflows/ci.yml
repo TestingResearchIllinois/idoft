@@ -46,4 +46,3 @@ jobs:
         run: >
           python format_checker/main.py ${{github.event.before}}
           ${{github.event.after}}
-          
