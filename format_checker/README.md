@@ -2,11 +2,20 @@
 
 <p align="center">A format checking tool to ensure that changes made to files of the dataset do not violate any of the required rules.</p>
 
-## Run locally
+## Run Locally
 
-### 1. Install dependencies
+#### 1. Check your Python version
 
-***Important: Python 3.9 is recommended for running this tool.***
+This tool is recommended to be run using Python 3.9, however Python 3.7 and above should also work. You can check your Python version by typing `python -V` on your command line. For example:
+
+```
+$ python -V
+Python 3.9.4
+```
+
+If doing that tells you you're working with Python 2.7, you should try `python3 -V`. If it's version 3.7 or above, you can run the tool following step number 3. Otherwise, you should consider installing the [latest Python version](https://www.python.org/downloads/).
+
+#### 2. Install dependencies
 
 The dependencies for this tool can be installed running the following from the root directory:
 
@@ -14,13 +23,14 @@ The dependencies for this tool can be installed running the following from the r
 $ pip install -r format_checker/requirements.txt
 ```
 
-### 2. Run the tool
+#### 3. Run the tool
 
 Running this tool locally only requires running `main.py` from the root directory:
 
 ```
 $ python format_checker/main.py
 ```
+In case your Python version is 2.7 but your your Python3 version is 3.7 or above (see step 1), you should run it using `python3` instead of `python`. 
 
 This will check all the implemented rules only for the rows of the `.csv` files that have been modified in some way (including row additions). It can check either for uncommitted changes (e.g. if a row was modified in `pr-data.csv` but the file wasn't committed) or for changes made in the commits related to the push/pull request that triggered the GitHub Actions build, as well as for committed changes that haven't yet been pushed. By default, the tool looks for uncommitted changes as well as committed changes every time it is run locally.
 
@@ -28,51 +38,55 @@ This will check all the implemented rules only for the rows of the `.csv` files 
 
 The file `ci.yml` is already set up to run this tool automatically everytime a push is made to a repository that contains it, and the same goes for pull requests.  
 
-In case you're already working with another GitHub Actions worklflow, you can add support for this tool by adding this global build enviroment (or just adding  `NULL_COMMIT` to your enviroment if you already have one):
+In case you're already working with another GitHub Actions workflow, and want to integrate this tool into your own workflow, you can do so by adding the following job to your `.yml` file:
 
 ```yml
-env:
-  NULL_COMMIT: '0000000000000000000000000000000000000000'
+format-checker:
+  runs-on: ubuntu-latest
+  env:
+    # When there is no base commit (e.g., first push to a new branch), 
+    # GitHub assigns a string of zeros to event.before. It's necessary to 
+    # handle this separately
+    NULL_COMMIT: '0000000000000000000000000000000000000000'
+  steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Install Python 3
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9.4
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r format_checker/requirements.txt
+    # Only run this step if the event is a push and event.before shows 
+    # that it's the first push to a new branch
+    - if: >-
+        ${{github.event_name == 'push' && github.event.before ==
+        env.NULL_COMMIT}}
+      name: Run format checker on new branch
+      run: >
+        python format_checker/main.py ${{github.event.before}}
+        ${{github.event.commits[0].id}} ${{github.event.after}}
+    # Only run this step if the event is a pull request
+    - if: ${{github.event_name == 'pull_request'}}
+      name: Run format checker on pull request
+      run: >
+        python format_checker/main.py ${{github.event.pull_request.base.sha}}
+        ${{github.event.pull_request.head.sha}}
+    # Only run this step if the event is a push and it's not the first one
+    # to a new branch
+    - if: >-
+        ${{github.event_name == 'push' && github.event.before !=
+        env.NULL_COMMIT}} 
+      name: Run format checker on push
+      run: >
+        python format_checker/main.py ${{github.event.before}}
+        ${{github.event.after}}
 ```
 
-And adding the following steps:
-
-```yml
-- uses: actions/checkout@v2
-  with:
-    fetch-depth: 0
-- name: Install Python 3
-  uses: actions/setup-python@v2
-  with:
-    python-version: 3.9.4
-- name: Install dependencies
-  run: |
-    python -m pip install --upgrade pip
-    pip install -r format_checker/requirements.txt
-- if: >-
-    ${{github.event_name == 'push' && github.event.before ==
-    env.NULL_COMMIT}}
-  name: Run format checker on new branch
-  run: >
-    python format_checker/main.py ${{github.event.before}}
-    ${{github.event.commits[0].id}} ${{github.event.after}}
-- if: '${{github.event_name == ''pull_request''}}'
-  name: Run format checker on pull request
-  run: >
-    python format_checker/main.py ${{github.event.pull_request.base.sha}}
-    ${{github.event.pull_request.head.sha}}
-- if: >-
-    ${{github.event_name == 'push' && github.event.before !=
-    env.NULL_COMMIT}} 
-  name: Run format checker on push
-  run: >
-    python format_checker/main.py ${{github.event.before}}
-    ${{github.event.after}}
-```
-
-You can find some explanatory comments for those steps in `.github/workflows/ci.yml`.
-
-## Example runs
+## Usage/Examples
 
 Given the following uncommitted changes to `tso-iso-rates.csv` (the last column changes from 0 to 10):
 

@@ -48,7 +48,7 @@ pr_data = {
     ),
     "Notes": re.compile(
         r"(https:\/\/github.com\/TestingResearchIllinois\/"
-        r"((idoft)|(flaky-test-dataset))\\/issues\\/\\d+)|^$"
+        r"((idoft)|(flaky-test-dataset))\\/issues\\/\\d+)"
     ),
 }
 
@@ -76,25 +76,18 @@ def check_status_consistency(filename, row, i, log):
     # and checks for required information if so
     if row["Status"] in ["Accepted", "Opened", "Rejected"]:
 
-        # If it is, check that it has a valid PR Link
-        if not pr_data["PR Link"].fullmatch(row["PR Link"]) or (
-            re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
-            != row["Project URL"].casefold()
+        # The project apache/incubator-dubbo was renamed to apache/dubbo,
+        # so the Project URL name (old) doesn't match the PR Link name
+        # (new), despite them being the same project. This if statement is
+        # a workaround for that issue.
+        if (
+            row["Project URL"] == "https://github.com/apache/incubator-dubbo"
+            and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
+            == "https://github.com/apache/dubbo"
         ):
-
-            # The project apache/incubator-dubbo was renamed to apache/dubbo,
-            # so the Project URL name (old) doesn't match the PR Link name
-            # (new), despite them being the same project. This if statement is
-            # a workaround for that issue.
-            if (
-                row["Project URL"]
-                == "https://github.com/apache/incubator-dubbo"
-                and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
-                == "https://github.com/apache/dubbo"
-            ):
-                pass
-            else:
-                log_std_error(filename, log, i, row, "PR Link")
+            pass
+        else:
+            check_pr_link(filename, row, i, log)
 
     if row["Status"] in ["InspiredAFix", "Skipped"]:
 
@@ -106,17 +99,22 @@ def check_status_consistency(filename, row, i, log):
                 i,
                 "Status " + row["Status"] + " should contain a note",
             )
+        # If it contains a note, it should be a valid link
+        else:
+            check_notes(filename, row, i, log)
 
         # Should contain a PR Link
-        if row["Status"] == "InspiredAFix" and not pr_data[
-            "PR Link"
-        ].fullmatch(row["PR Link"]):
-            log_warning(
-                filename,
-                log,
-                i,
-                "Status " + row["Status"] + " should have a PR Link",
-            )
+        if row["Status"] == "InspiredAFix":
+            if row["PR Link"] == "":
+                log_warning(
+                    filename,
+                    log,
+                    i,
+                    "Status " + row["Status"] + " should have a PR Link",
+                )
+            # If it contains a PR link, it should be a valid one
+            else:
+                check_pr_link(filename, row, i, log)
 
 
 def check_notes(filename, row, i, log):
@@ -129,7 +127,10 @@ def check_notes(filename, row, i, log):
 def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
 
-    if not pr_data["PR Link"].fullmatch(row["PR Link"]):
+    if not pr_data["PR Link"].fullmatch(row["PR Link"]) or (
+        re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
+        != row["Project URL"].casefold()
+    ):
         log_std_error(filename, log, i, row, "PR Link")
 
 
@@ -143,8 +144,6 @@ def run_checks_pr(log, commit_range):
         check_category,
         check_status,
         check_status_consistency,
-        check_pr_link,
-        check_notes,
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)

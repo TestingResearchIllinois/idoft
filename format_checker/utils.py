@@ -122,10 +122,5 @@ def log_warning(filename, log, line, message):
 
     log_warning.tracker += 1
     log.warning(
-        "WARNING: On file "
-        + filename
-        + ", row "
-        + str(line + 1)
-        + ": \n"
-        + message
+        "WARNING: On file " + filename + ", row " + line + ": \n" + message
     )

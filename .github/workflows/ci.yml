@@ -3,7 +3,7 @@
   pull_request: null
   workflow_dispatch: null
 jobs:
-  build:
+  format-checker:
     runs-on: ubuntu-latest
     env:
       # When there is no base commit (e.g., first push to a new branch), 
