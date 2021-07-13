@@ -1068,7 +1068,7 @@ https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestGetFunction.test,NDOD;OD-Brit;NOD,,,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestIssue34.testIssue34_Scenario1,NDOD,,,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestMemoryLimit.test_no_abuse,NDOD;NOD,,,
-https://github.com/javadev/underscore-java,cd437058731dcce7ce0206857610b8c3842384e6,.,com.github.underscore.ArraysTest.replace,ID,Opened,https://github.com/javadev/underscore-java/pull/304,
+https://github.com/javadev/underscore-java,cd437058731dcce7ce0206857610b8c3842384e6,.,com.github.underscore.ArraysTest.replace,ID,Accepted,https://github.com/javadev/underscore-java/pull/304,
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.ComparingTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/75
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.ManipulationTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/75
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.PrettyPrintingTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/64
