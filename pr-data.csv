@@ -1068,7 +1068,7 @@ https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestGetFunction.test,NDOD;OD-Brit;NOD,,,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestIssue34.testIssue34_Scenario1,NDOD,,,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestMemoryLimit.test_no_abuse,NDOD;NOD,,,
-https://github.com/javadev/underscore-java,cd437058731dcce7ce0206857610b8c3842384e6,.,com.github.underscore.ArraysTest.replace,ID,,,
+https://github.com/javadev/underscore-java,cd437058731dcce7ce0206857610b8c3842384e6,.,com.github.underscore.ArraysTest.replace,ID,Opened,https://github.com/javadev/underscore-java/pull/304,
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.ComparingTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/75
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.ManipulationTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/75
 https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc366,javaparser-core-testing-bdd,com.github.javaparser.PrettyPrintingTest.run,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/64
@@ -1097,7 +1097,7 @@ https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.j
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.auth.XMPPAuthenticationAuthorityTest.testXmppDomainAuthentication,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.RolesTest.testPassModeratorRole,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.XmppTest.testAllocateConference,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
-https://github.com/jmeter-maven-plugin/jmeter-maven-plugin,618363c461843ec2849cdc15d53ee85bdbaec3f2,.,com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile,ID,,,
+https://github.com/jmeter-maven-plugin/jmeter-maven-plugin,618363c461843ec2849cdc15d53ee85bdbaec3f2,.,com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile,ID,Opened,https://github.com/jmeter-maven-plugin/jmeter-maven-plugin/pull/408,
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.GroupTest.getgroups,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.NlLanginfoTest.testNlLanginfo,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.SpawnTest.closeInput,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
