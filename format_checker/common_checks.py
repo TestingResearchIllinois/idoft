@@ -78,7 +78,7 @@ def check_sort(filename, log):
     command = (
         'echo "$(head -n1 '
         + filename
-        + " && tail +2 "
+        + " && tail -n +2 "
         + filename
         + ' | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" >  sorted-'
         + filename
