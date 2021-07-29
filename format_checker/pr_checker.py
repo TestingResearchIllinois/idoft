@@ -48,7 +48,7 @@ pr_data = {
     ),
     "Notes": re.compile(
         r"(https:\/\/github.com\/TestingResearchIllinois\/"
-        r"((idoft)|(flaky-test-dataset))\\/issues\\/\\d+)"
+        r"((idoft)|(flaky-test-dataset))\/issues\/\d+)"
     ),
 }
 
