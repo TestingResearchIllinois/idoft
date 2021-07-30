@@ -105,7 +105,8 @@ InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from t
 DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 Deleted | For tests that can no longer be fixed as the tests have been removed from the repository after the tests were detected
 Rejected | For tests where a PR was rejected/closed as the developers did not think a fix was necessary
-Skipped | For test which was inspected and should not be fixed (e.g., test is annotated with @Ignore). To use this status, please provide some [Notes](#adding-notes)
+Skipped | For test which was inspected and should not be fixed (e.g., test is annotated with @Ignore). To use this status, please provide some [Notes](#adding-notes) on why the test should be skipped
+MovedOrRenamed | For test that has a different fully-qualified name on two different shas. This status should be added only to the row with the older sha. To use this status, please also provide some [Notes](#adding-notes) on what the test is renamed to
 
 * **PR Link**: Link to the pull request in the repository of the Project URL to fix a given flaky test.
 
@@ -116,6 +117,11 @@ Example: https://github.com/alibaba/fastjson/pull/2148
 Note: The only acceptable values are URLs for this column. For more information about the format please refer to the [Adding notes](#adding-notes) section.
 
 Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
+
+# FAQ
+
+## How to indicate that a test is renamed or moved to a different location?
+If the test method body is the same between two versions (e.g., if in ```old_sha```, ```some.test.name``` has the same test method body as ```some.other.test.name``` in ```new_sha```), please use the status ```MovedOrRenamed``` and add [Notes](#adding-notes) to the row with the older sha. If the test method body is different, please just leave the row with the older sha unchanged and add a new row.
 
 # Acknowledgments
 
