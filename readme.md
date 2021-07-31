@@ -121,7 +121,11 @@ Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
 # FAQ
 
 ## How to indicate that a test is renamed or moved to a different location?
-If the test method body is the same between two versions (e.g., if in ```old_sha```, ```some.test.name``` has the same test method body as ```some.other.test.name``` in ```new_sha```), please use the status ```MovedOrRenamed``` and add [Notes](#adding-notes) to the row with the older sha. If the test method body is different, please just leave the row with the older sha unchanged and add a new row.
+If the test method body is the same between two versions (e.g., if in ```old_sha```, ```some.test.name``` has the same test method body as ```some.other.test.name``` in ```new_sha```), we consider the two different versions of the test to be the same test. For the row with the older sha, please change the Status to ```MovedOrRenamed``` and add [Notes](#adding-notes) describing which version the test is found to be renamed/moved. 
+
+If the test method body is different, we consider the two different versions of the test to be two different tests. For the row with the older sha, please change the Status to ```Deleted``` and add [Notes](#adding-notes) describing which version the test is found to be renamed/moved and how the test method body differs between the two versions.
+
+For either case, please also add a new row for the newer sha and test name. Once the preceding changes are made, all future pull request updates should only be made to the row with the newer sha.
 
 # Acknowledgments
 
