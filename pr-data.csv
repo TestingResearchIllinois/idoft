@@ -869,7 +869,7 @@ https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,e
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.client.TestSuiteClientCompile.testClientCompileEventTypeAutoName,ID,,,
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.client.TestSuiteClientCompile.testClientCompileModule,ID,,,
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.client.TestSuiteClientMultitenancy.testClientMultitenancyProtected,ID,,,
-https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextCategory,ID,,,
+https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextCategory,ID,Opened,https://github.com/espertechinc/esper/pull/248,
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextInitTerm,ID,,,
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextKeySegmented,ID,,,
 https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextSelectionAndFireAndForget,ID,,,
