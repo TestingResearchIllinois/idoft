@@ -42,6 +42,7 @@ pr_data = {
         "Deleted",
         "Rejected",
         "Skipped",
+        "MovedOrRenamed",
     ],
     "PR Link": re.compile(
         r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
@@ -89,7 +90,7 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in ["InspiredAFix", "Skipped"]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed"]:
 
         # Should contain a note
         if row["Notes"] == "":
