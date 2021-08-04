@@ -22,7 +22,7 @@ jobs:
         java-version: '15'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file auto-update-dataset/pom.xml
     - name: git add file
       run: git add pr-data.csv
     - name: check for changes
