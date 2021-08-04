@@ -4,10 +4,8 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+    - cron: '41 8 4 * *'
 
 jobs:
   build:
