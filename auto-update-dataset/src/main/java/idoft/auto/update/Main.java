@@ -21,7 +21,7 @@ public class Main {
 	private static void readData() {
 		Scanner scanner;
 		try {
-			File f = new File("..\\..\\pr-data.csv");
+			File f = new File("pr-data.csv");
 			scanner = new Scanner(f);
 			while (scanner.hasNextLine()) {
 				String values = scanner.nextLine();
@@ -81,7 +81,7 @@ public class Main {
 				if (i % 200 == 0)
 					Thread.sleep(20000);
 			}
-			fw = new FileWriter("..\\pr-data.csv");
+			fw = new FileWriter("pr-data.csv");
 			int i = 0;
 			while (i < count) {
 				fw.write(status[i] + "\n");
