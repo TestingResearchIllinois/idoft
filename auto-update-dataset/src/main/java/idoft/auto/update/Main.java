@@ -21,7 +21,7 @@ public class Main {
 	private static void readData() {
 		Scanner scanner;
 		try {
-			File f = new File("..\\pr-data.csv");
+			File f = new File("..\\..\\pr-data.csv");
 			scanner = new Scanner(f);
 			while (scanner.hasNextLine()) {
 				String values = scanner.nextLine();
