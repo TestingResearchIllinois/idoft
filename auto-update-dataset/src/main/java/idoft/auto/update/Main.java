@@ -81,7 +81,7 @@ public class Main {
 				if (i % 200 == 0)
 					Thread.sleep(20000);
 			}
-			fw = new FileWriter("pr-data.csv");
+			fw = new FileWriter("/home/runner/work/idoft/idoft/pr-data.csv");
 			int i = 0;
 			while (i < count) {
 				fw.write(status[i] + "\n");
