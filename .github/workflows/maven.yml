@@ -4,8 +4,10 @@
 name: Java CI with Maven
 
 on:
-  schedule:
-    - cron: '40 7 4 * *'
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -20,7 +22,7 @@ jobs:
         java-version: '15'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file auto-update-dataset/pom.xml
     - name: git add file
       run: git add pr-data.csv
     - name: check for changes
