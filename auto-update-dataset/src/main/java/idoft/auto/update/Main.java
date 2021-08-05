@@ -18,7 +18,7 @@ public class Main {
 	private static int count = 0;
 	private static ArrayList<String> columnValues = new ArrayList<String>();
 
-	private static void readData() {
+	private void readData() {
 		Scanner scanner;
 		try {
 			File f = new File("/home/runner/work/idoft/idoft/pr-data.csv");
@@ -30,12 +30,11 @@ public class Main {
 			}
 			f = null;
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-	private static String status(String url) {
+	private String status(String url) {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions ChromeOptions = new ChromeOptions();
 		ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
