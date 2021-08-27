@@ -17,23 +17,39 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Main {
 	private static int count = 0;
 	private static ArrayList<String> columnValues = new ArrayList<String>();
-
+	private static ArrayList<Integer> ignore = new ArrayList<Integer>();
 	private void readData() {
-		Scanner scanner;
+		Scanner scanner, scanner1;
+		int i=0;	
 		try {
 			File f = new File("/home/runner/work/idoft/idoft/pr-data.csv");
 			scanner = new Scanner(f);
+			scanner1 = new Scanner(new File("ignore.csv"));
 			while (scanner.hasNextLine()) {
 				String values = scanner.nextLine();
 				columnValues.add(values);
 				count++;
+			}
+			while (scanner1.hasNextLine()) {
+				if (i == 0) {
+					String values = scanner1.nextLine();
+					i++;
+				} else {
+					String values = scanner1.nextLine();
+					System.out.println(Integer.parseInt(values));
+					ignore.add(Integer.parseInt(values));
+				}
 			}
 			f = null;
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
-
+	private boolean isIgnoreLine(int i) {
+		if (ignore.contains(i))
+			return true;
+		return false;
+	}
 	private String status(String url) {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions ChromeOptions = new ChromeOptions();
@@ -67,7 +83,7 @@ public class Main {
 			status[0] = columnValues.get(0);
 			for (int i = 1; i < count; i++) {
 				String[] tmp = columnValues.get(i).split(",", -1);
-				if (columnValues.get(i).contains("Opened")) {
+				if (columnValues.get(i).contains("Opened") && !isIgnoreLine(i)) {
 					String url = tmp[6];
 					tmp[5] = status(url);
 					status[i] = String.join(",", tmp);
