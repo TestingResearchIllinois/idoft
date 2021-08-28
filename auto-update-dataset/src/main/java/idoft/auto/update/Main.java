@@ -17,16 +17,27 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Main {
 	private static int count = 0;
 	private static ArrayList<String> columnValues = new ArrayList<String>();
-
+	private static ArrayList<String> ignore = new ArrayList<String>();
 	private void readData() {
-		Scanner scanner;
+		Scanner scanner, scanner1;
+		int i=0;
 		try {
 			File f = new File("/home/runner/work/idoft/idoft/pr-data.csv");
 			scanner = new Scanner(f);
+			scanner1 = new Scanner(new File("ignore.csv"));
 			while (scanner.hasNextLine()) {
 				String values = scanner.nextLine();
 				columnValues.add(values);
 				count++;
+			}
+			while (scanner1.hasNextLine()) {
+				if (i == 0) {
+					String values = scanner1.nextLine();
+					i++;
+				} else {
+					String values = scanner1.nextLine();
+					ignore.add(values);
+				}
 			}
 			f = null;
 		} catch (FileNotFoundException e) {
@@ -58,7 +69,11 @@ public class Main {
 		}
 
 	}
-
+	private boolean isIgnoreLine(String s) {
+		if (ignore.contains(s))
+			return true;
+		return false;
+	}
 	public int getStatuses() {
 		try {
 			readData();
@@ -67,7 +82,7 @@ public class Main {
 			status[0] = columnValues.get(0);
 			for (int i = 1; i < count; i++) {
 				String[] tmp = columnValues.get(i).split(",", -1);
-				if (columnValues.get(i).contains("Opened")) {
+				if (columnValues.get(i).contains("Opened") && !isIgnoreLine(tmp[3]) {
 					String url = tmp[6];
 					tmp[5] = status(url);
 					status[i] = String.join(",", tmp);
@@ -100,4 +115,4 @@ public class Main {
 		return 0;
 	}
 
-}
+}			   
