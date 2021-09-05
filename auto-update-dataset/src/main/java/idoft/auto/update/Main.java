@@ -70,9 +70,7 @@ public class Main {
 
 	}
 	private boolean isIgnoreLine(String s) {
-		if (ignore.contains(s))
-			return true;
-		return false;
+		return ignore.contains(s);
 	}
 	public int getStatuses() {
 		try {
