@@ -112,5 +112,4 @@ public class Main {
 		System.out.println("Process finished!");
 		return 0;
 	}
-
-}	
+}
