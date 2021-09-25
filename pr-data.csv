@@ -163,7 +163,7 @@ https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/jav
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testMultipleFieldAliases,ID,,,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testRecord,ID,Accepted,https://github.com/apache/avro/pull/667,
 https://github.com/apache/cayenne,5209b9f533ab5f2ac97d31eeb3d1dd2c4dbd64d8,cayenne-client,org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncToOneRelationship,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/77
-https://github.com/apache/cayenne,5209b9f533ab5f2ac97d31eeb3d1dd2c4dbd64d8,cayenne-server,org.apache.cayenne.log.CompactSlf4jJdbcEventLoggerTest.compactBindings,ID,,,
+https://github.com/apache/cayenne,5209b9f533ab5f2ac97d31eeb3d1dd2c4dbd64d8,cayenne-server,org.apache.cayenne.log.CompactSlf4jJdbcEventLoggerTest.compactBindings,ID,WIP,,
 https://github.com/apache/cayenne,5209b9f533ab5f2ac97d31eeb3d1dd2c4dbd64d8,cayenne-server,org.apache.cayenne.reflect.PojoMapperTest.testObjectCreation,ID,,,
 https://github.com/apache/cayenne,5209b9f533ab5f2ac97d31eeb3d1dd2c4dbd64d8,cayenne-server,org.apache.cayenne.util.WeakValueMapTest.testConcurrentModification,ID,,,
 https://github.com/apache/commons-collections,81e3a7ec0492148724da4512fcefcb47ba82894a,.,org.apache.commons.collections4.CollectionUtilsTest.getFromMap,ID,Accepted,https://github.com/apache/commons-collections/pull/200,
