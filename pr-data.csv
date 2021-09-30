@@ -2052,3 +2052,5 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.ObjectMapperOverrideTest.shouldOverride,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.url.UrlResolutionTest.shouldAppendUrl,UD,,,
 https://github.com/zhangxd1989/spring-boot-cloud,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,,,
+https://github.com/alibaba/testable-mock,80b0f3b8789921d46103d9af14a52e75406b92af,testable-core,com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index,ID,Opened,https://github.com/alibaba/testable-mock/pull/223,,
+https://github.com/Activiti/Activiti,b11f757a48600e53aaf3fcb7a3ba1ece6c463cb4,activiti-spring-boot-starter,org.activiti.spring.boot.tasks.TaskRuntimeStandaloneTaskTest.bCreateStandaloneTaskForGroup,OD-Vic,Deleted,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/111,
