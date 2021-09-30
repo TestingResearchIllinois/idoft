@@ -1277,7 +1277,7 @@ https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.bytesmarshallable.BytesMarshallableTest.primitiveDto[0],ID,,,
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.bytesmarshallable.BytesMarshallableTest.primitiveDto[1],ID,,,
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.DefaultMarshallerTest.testDeserialize,ID,,,
-https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.DefaultMarshallerTest.testDeserializeWithNestedArray,ID,,,
+https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.DefaultMarshallerTest.testDeserializeWithNestedArray,ID,WIP,,
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.dynenum.WireDynamicEnumTest.addedEnum,ID,,,
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.dynenum.WireDynamicEnumTest.deserialize,ID,,,
 https://github.com/OpenHFT/Chronicle-Wire,a4dfcb6885ce468a64f6a3ceb5e4e16bb858ed2e,.,net.openhft.chronicle.wire.dynenum.WireDynamicEnumTest.deserialize2,ID,,,
