@@ -14,6 +14,8 @@ To contribute a newly detected or fixed flaky test to the dataset, please see [C
   * If the flaky test being added already exist but has a different SHA Detected, please update the existing row's SHA Detected if the existing SHA is older than the one being added. There should only be one row for each triple of `Project URL, Module Path, Fully-Qualified Test Name`.
     * One recommended way to check if which SHAs may be more recent is to run `[[ $(git show -s --pretty=%at $SHA1) -gt $(git show -s --pretty=%at $SHA2) ]] && echo $SHA1 || echo $SHA2`.
 
+* You should open an issue describing in detail about your newly detected flaky tests, along with your pull request that add entries to `pr-data.csv file`. The specfic format details and examples are described in the [Adding notes](#adding-notes) section. 
+
 #### Example:
 
 Project URL | SHA Detected | Module Path | Fully-Qualified Test Name (packageName.ClassName.methodName) | Category | Status | PR Link | Notes
@@ -53,9 +55,9 @@ To add more information about any test:
   * Project URL,SHA Detected,Fully-Qualified Test Name (packageName.ClassName.methodName): If the notes are for a particular test.
   * Project URL,SHA Detected,Module Path: If the notes are for a particular module.
   * Project URL,SHA Detected: If the notes are for a particular project.
-* Make sure to include any steps to reproduce, any relevant logs, or any relevant information about the test/module in the issue. You may attach relevant files (e.g., log output of NonDex or iDFlakies, `flaky-lists.json` files of iDFlakies) by [attaching the files to the issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/file-attachments-on-issues-and-pull-requests).
+* Make sure to include any steps to reproduce, any relevant logs, or any relevant information about the test/module in the issue. You should attach relevant files (e.g., log output of NonDex or iDFlakies) by [attaching the files to the issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/file-attachments-on-issues-and-pull-requests). For instance, for tests found using iDFlakies, you should include `flaky-list.json` and `original-order` located in `.dtfixingtools\` where the iDFlakies was running on. For the ease of uploading and viewing, these files should be of `.txt` format (e.g., `flaky-list.txt` and `original-order.txt`, respectively). 
 
-An example issue can be found [here](https://github.com/TestingResearchIllinois/idoft/issues/5).
+An example issue can be found [here](https://github.com/TestingResearchIllinois/idoft/issues/88).
 
 #### Example entry in the [pr-data.csv file](https://github.com/TestingResearchIllinois/pr-data/blob/main/pr-data.csv):
 
