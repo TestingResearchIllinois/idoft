@@ -113,7 +113,7 @@ MovedOrRenamed | For test that has a different fully-qualified name on two diffe
 
 Example: https://github.com/alibaba/fastjson/pull/2148
 
-* **Notes**: Any additional information that one may need to debug the test such as steps to reproduce, any relevant logs, or any relevant information about this test.Note: The only acceptable values are URLs for this column. For more information about the format please refer to the [Adding notes](#adding-notes) section.
+* **Notes**: Any additional information that one may need to debug the test such as steps to reproduce, any relevant logs, or any relevant information about this test. Note: The only acceptable values are URLs for this column. For more information about the format please refer to the [Adding notes](#adding-notes) section.
 
 Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
 
