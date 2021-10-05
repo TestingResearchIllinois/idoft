@@ -13,8 +13,7 @@ To contribute a newly detected or fixed flaky test to the dataset, please see [C
   * Status and PR Link should be left blank. Notes can be provided if applicable, see [here](#adding-notes) for what to provide.
   * If the flaky test being added already exist but has a different SHA Detected, please update the existing row's SHA Detected if the existing SHA is older than the one being added. There should only be one row for each triple of `Project URL, Module Path, Fully-Qualified Test Name`.
     * One recommended way to check if which SHAs may be more recent is to run `[[ $(git show -s --pretty=%at $SHA1) -gt $(git show -s --pretty=%at $SHA2) ]] && echo $SHA1 || echo $SHA2`.
-
-* Please add some notes describing how you detected the new tests (e.g., commands that were run) and any necessary data to reproduce the detection (e.g., including the NonDex seed or `flaky-list.json` file for ID and OD tests, respectively). The specific format for the notes is described in [Adding notes](#adding-notes).
+  * Please add some notes describing how you detected the new tests (e.g., commands that were run) and any necessary data to reproduce the detection (e.g., including the NonDex seed or `flaky-list.json` file for ID and OD tests, respectively). The specific format for the notes is described in [Adding notes](#adding-notes).
 
 #### Example:
 
@@ -114,9 +113,7 @@ MovedOrRenamed | For test that has a different fully-qualified name on two diffe
 
 Example: https://github.com/alibaba/fastjson/pull/2148
 
-* **Notes**: Any additional information that one may need to debug the test such as steps to reproduce, any relevant logs, or any relevant information about this test.
-
-Note: The only acceptable values are URLs for this column. For more information about the format please refer to the [Adding notes](#adding-notes) section.
+* **Notes**: Any additional information that one may need to debug the test such as steps to reproduce, any relevant logs, or any relevant information about this test.Note: The only acceptable values are URLs for this column. For more information about the format please refer to the [Adding notes](#adding-notes) section.
 
 Example: https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
 
