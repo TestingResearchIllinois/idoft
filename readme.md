@@ -14,7 +14,7 @@ To contribute a newly detected or fixed flaky test to the dataset, please see [C
   * If the flaky test being added already exist but has a different SHA Detected, please update the existing row's SHA Detected if the existing SHA is older than the one being added. There should only be one row for each triple of `Project URL, Module Path, Fully-Qualified Test Name`.
     * One recommended way to check if which SHAs may be more recent is to run `[[ $(git show -s --pretty=%at $SHA1) -gt $(git show -s --pretty=%at $SHA2) ]] && echo $SHA1 || echo $SHA2`.
 
-* You should open an issue describing in detail about your newly detected flaky tests, along with your pull request that add entries to `pr-data.csv file`. The specfic format details and examples are described in the [Adding notes](#adding-notes) section. 
+* Please add some notes describing how you detected the new tests (e.g., commands that were run) and any necessary data to reproduce the detection (e.g., including the NonDex seed or `flaky-list.json` file for ID and OD tests, respectively). The specific format for the notes is described in [Adding notes](#adding-notes).
 
 #### Example:
 
