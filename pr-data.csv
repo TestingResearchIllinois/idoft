@@ -1051,7 +1051,7 @@ https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testDefault,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testNormalize,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/hexagonframework/spring-data-ebean,dd11b97654982403b50dd1d5369cadad71fce410,.,org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById,OD-Brit,Accepted,https://github.com/hexagonframework/spring-data-ebean/pull/8,
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.builder.circuit.CircuitBuilderTest.testBus,ID,,,
+https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.builder.circuit.CircuitBuilderTest.testBus,ID,Opened,,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj,ID,,,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,,,
 https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,,,
