@@ -109,6 +109,7 @@ https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,c
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.date.DateTest.test_date,OD,Accepted,https://github.com/alibaba/fastjson/pull/2148,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.date.DateTest_tz.test_codec,OD,Accepted,https://github.com/alibaba/fastjson/pull/2148,
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.geo.FeatureCollectionTest.test_geo,ID,Opened,https://github.com/alibaba/fastjson/pull/3526,
+https://github.com/alibaba/fastjson,93d8c01e907fe35a8ff0eb5fe1c3b279d2f30282,.,com.alibaba.json.bvt.GroovyTest.test_groovy,NOD,,,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.guava.ArrayListMultimapTest.test_for_multimap,ID,Accepted,https://github.com/alibaba/fastjson/pull/3502,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap,ID,Accepted,https://github.com/alibaba/fastjson/pull/3570,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.guava.MultiMapTes.test_multimap,ID,Opened,https://github.com/alibaba/fastjson/pull/3532,
@@ -118,6 +119,7 @@ https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,c
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1,OD,Accepted,https://github.com/alibaba/fastjson/pull/2148,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.issue_1300.Issue1363.test_for_issue,ID,Opened,https://github.com/alibaba/fastjson/pull/3522,https://github.com/TestingResearchIllinois/idoft/issues/3
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.issue_1300.Issue1363.test_for_issue_1,ID,Opened,https://github.com/alibaba/fastjson/pull/3522,https://github.com/TestingResearchIllinois/idoft/issues/3
+https://github.com/alibaba/fastjson,93d8c01e907fe35a8ff0eb5fe1c3b279d2f30282,.,com.alibaba.json.bvt.issue_1300.Issue1368.test_for_issue,ID,,,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue,ID,Accepted,https://github.com/alibaba/fastjson/pull/3025,
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.issue_1400.Issue1492.test_for_issue,ID,Opened,https://github.com/alibaba/fastjson/pull/3571,
 https://github.com/alibaba/fastjson,a7f1f5c4ac52503cc95bf1d27498098b3093a0df,.,com.alibaba.json.bvt.issue_1400.Issue1493.test_for_issue,ID,,,
@@ -135,6 +137,8 @@ https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,c
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.issue_2400.Issue2447.test_for_issue,ID,Opened,https://github.com/alibaba/fastjson/pull/3534,
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.issue_2400.Issue2447.test_for_issue2,ID,Opened,https://github.com/alibaba/fastjson/pull/3534,
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.issue_3000.Issue3082.test_for_issue,ID,Accepted,https://github.com/alibaba/fastjson/pull/3570,
+https://github.com/alibaba/fastjson,93d8c01e907fe35a8ff0eb5fe1c3b279d2f30282,.,com.alibaba.json.bvt.issue_3600.Issue3655.test_inherit_from_abstract_class_1,ID,,,
+https://github.com/alibaba/fastjson,93d8c01e907fe35a8ff0eb5fe1c3b279d2f30282,.,com.alibaba.json.bvt.issue_3600.Issue3655.test_inherit_from_abstract_class_2,ID,,,
 https://github.com/alibaba/fastjson,3ea25de368b185e3c9f3d56e46a4cfcdb9265318,.,com.alibaba.json.bvt.JSONObjectTest_readObject.test_6,ID,Opened,https://github.com/alibaba/fastjson/pull/3529,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.jsonp.JSONPParseTest2.test_f,ID,Accepted,https://github.com/alibaba/fastjson/pull/2799,
 https://github.com/alibaba/fastjson,e05e9c5e4be580691cc55a59f3256595393203a1,.,com.alibaba.json.bvt.jsonp.JSONPParseTest3.test_f,ID,Accepted,https://github.com/alibaba/fastjson/pull/3011,
