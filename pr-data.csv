@@ -1086,7 +1086,7 @@ https://github.com/fluent/fluent-logger-java,da14ec349bf0904da9865940b57b8756361
 https://github.com/fluent/fluent-logger-java,da14ec349bf0904da9865940b57b87563616ee04,.,org.fluentd.logger.TestFluentLogger.testReconnection,NDOD;UD;NOD,,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-engine,net.redpipe.engine.swagger.SwaggerApiTest.checkSwagger,NOD,,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkMail,NOD,,,
-https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationDefault,ID,Opened,https://github.com/FroMage/redpipe/pull/54,
+https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationDefault,ID,Opened,https://github.com/SpiceOwlf/redpipe/pull/1,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationSingleHtml,NOD,,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationText,NOD,,,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,ID,,,
