@@ -1126,8 +1126,8 @@ https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testNormalize,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/hexagonframework/spring-data-ebean,dd11b97654982403b50dd1d5369cadad71fce410,.,org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById,OD-Brit,Accepted,https://github.com/hexagonframework/spring-data-ebean/pull/8,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.builder.circuit.CircuitBuilderTest.testBus,ID,Opened,https://github.com/hneemann/Digital/pull/858,
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj,ID,Opened,https://github.com/hneemann/Digital/pull/865
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,,,
+https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj,ID,,,
+https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,Opened,https://github.com/hneemann/Digital/pull/866,
 https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,,,
 https://github.com/intuit/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,,,
 https://github.com/intuit/karate,2ca51aca126d691d87c09f3b476cbbaef58881ca,karate-core,com.intuit.karate.ScriptTest.testKarateToJson,ID,,,
@@ -1675,7 +1675,7 @@ https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retr
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalPreApi24,ID,,,
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrl,ID,,,
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrlAbsolute,ID,,,
-https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.graph.DirectedMultiGraphTest.testConnectedComponents,ID,Opened,https://github.com/FanYuliang/CoreNLP/pull/1
+https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.graph.DirectedMultiGraphTest.testConnectedComponents,ID,,,
 https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.naturalli.RelationTripleSegmenterTest.testAmericanActorChrisPratt,ID,,,
 https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.semgraph.semgrex.SemgrexTest.testEqualsRelation,ID,,,
 https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.semgraph.semgrex.SemgrexTest.testNotEquals,ID,,,
