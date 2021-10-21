@@ -866,6 +866,9 @@ https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-slf4j,com.openhtmltopdf.slf4j.Slf4JLoggerTest.testLogger,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.testcases.ConcateOutputTest.testConcateOutput,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.testcases.TestcaseRunnerTest.runTestcaseRunner,OD,,,
+https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.core.H2FullPrunedBlockChainTest.testFirst100KBlocks,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
+https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.protocols.channels.PaymentChannelStateTest.basic,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
+https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.protocols.channels.PaymentChannelStateTest.serverAddsFeeTest,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancel,NDOD,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancelObservable,NDOD;OD-Vic,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.internal.flowable.FlowableServerSocketTest.serverSocketReadsTcpPushWhenBufferIsSmallerThanInput,UD,,,
