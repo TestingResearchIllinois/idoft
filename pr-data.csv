@@ -212,7 +212,7 @@ https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295
 https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295b9cbb4,innodb-java-reader,com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkPutOrdinal56,ID,Accepted,https://github.com/alibaba/innodb-java-reader/pull/14,
 https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295b9cbb4,innodb-java-reader,com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkPutOrdinal57,ID,Accepted,https://github.com/alibaba/innodb-java-reader/pull/14,
 https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295b9cbb4,innodb-java-reader,com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkPutOrdinal80,ID,Accepted,https://github.com/alibaba/innodb-java-reader/pull/14,
-https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.filed.CreateCacheTest.test,ID,,,
+https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.filed.CreateCacheTest.test,ID,DeveloperFixed,,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test,ID,,,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.embedded.CaffeineCacheTest.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/446,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.embedded.LinkedHashMapCacheTest.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/446,
