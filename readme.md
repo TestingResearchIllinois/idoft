@@ -110,7 +110,7 @@ Deleted | For tests that can no longer be fixed as the tests have been removed f
 Rejected | For tests where a PR was rejected/closed as the developers did not think a fix was necessary
 Skipped | For test which was inspected and should not be fixed (e.g., test is annotated with @Ignore). To use this status, please provide some [Notes](#adding-notes) on why the test should be skipped
 MovedOrRenamed | For test that has a different fully-qualified name on two different shas. This status should be added only to the row with the older sha. To use this status, please also provide some [Notes](#adding-notes) on what the test is renamed to
-RepoArchived | For test that is in an archived repo, which has a reminder similar as "This repository has been archived by the owner. It is now read-only."
+RepoArchived | For test that is in an archived repo, which is indicated by GitHub in messages such as "This repository has been archived by the owner. It is now read-only."
 
 * **PR Link**: Link to the pull request in the repository of the Project URL to fix a given flaky test.
 
