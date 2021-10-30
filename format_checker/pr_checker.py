@@ -39,6 +39,7 @@ pr_data = {
         "Accepted",
         "InspiredAFix",
         "DeveloperFixed",
+        "RepoArchived",
         "Deleted",
         "Rejected",
         "Skipped",
