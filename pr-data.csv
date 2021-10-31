@@ -1276,7 +1276,7 @@ https://github.com/logzio/sawmill,e493c2e279b8820c0fdc2c79ab760d6759eb5a4a,sawmi
 https://github.com/logzio/sawmill,e493c2e279b8820c0fdc2c79ab760d6759eb5a4a,sawmill-core,io.logz.sawmill.processors.ConvertFieldProcessorTest.testConvertToBoolean,NOD,,,
 https://github.com/looly/hutool,91565d052d2771dd26547e79c619ee8c31497e8f,hutool-core,cn.hutool.core.io.FileTypeUtilTest.fileTypeUtilTest,ID,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/67
 https://github.com/looly/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-core,cn.hutool.core.text.StrJoinerTest#joinMultiArrayTest,OD,,https://github.com/dromara/hutool/pull/1883,
-https://github.com/looly/hutool,c1642522bbf5adc70fb57517e46d5a921d9a5703,hutool-core,cn.hutool.core.util.EnumUtilTest.getFieldNamesTest,ID,,https://github.com/looly/hutool/pull/1270,
+https://github.com/looly/hutool,c1642522bbf5adc70fb57517e46d5a921d9a5703,hutool-core,cn.hutool.core.util.EnumUtilTest.getFieldNamesTest,ID,Accepted,https://github.com/looly/hutool/pull/1270,
 https://github.com/looly/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-core,cn.hutool.core.util.JAXBUtilTest#beanToXmlTest,OD,,https://github.com/dromara/hutool/pull/1851,
 https://github.com/looly/hutool,91565d052d2771dd26547e79c619ee8c31497e8f,hutool-cron,cn.hutool.cron.test.CronTest.matchAllTest,NDOD;NOD,,,
 https://github.com/looly/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-json,cn.hutool.json.xml.XMLTest#toXmlTest,OD,,https://github.com/dromara/hutool/pull/1874,
