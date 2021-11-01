@@ -1133,15 +1133,9 @@ https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testDefault,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testNormalize,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/hexagonframework/spring-data-ebean,dd11b97654982403b50dd1d5369cadad71fce410,.,org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById,OD-Brit,Accepted,https://github.com/hexagonframework/spring-data-ebean/pull/8,
-<<<<<<< HEAD
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.builder.circuit.CircuitBuilderTest.testBus,ID,Opened,https://github.com/hneemann/Digital/pull/858,
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj,ID,WIP,,
-https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,WIP,,
-=======
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.builder.circuit.CircuitBuilderTest.testBus,ID,InspiredAFix,https://github.com/hneemann/Digital/pull/858,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj,ID,Opened,https://github.com/hneemann/Digital/pull/870,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,Opened,https://github.com/hneemann/Digital/pull/866,
->>>>>>> a4acd1cfda3ad1e866f8f07d3df3d2cba8cdadfa
 https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,,,
 https://github.com/intuit/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,,,
 https://github.com/intuit/karate,2ca51aca126d691d87c09f3b476cbbaef58881ca,karate-core,com.intuit.karate.ScriptTest.testKarateToJson,ID,,,
@@ -1316,7 +1310,6 @@ https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.model.JsonBodyTest.shouldReturnValuesFromStaticObjectBuilderWithMatchType,ID,Accepted,https://github.com/mock-server/mockserver/pull/949,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.model.JsonBodyTest.shouldReturnValuesFromStaticObjectBuilderWithMatchTypeAndCharset,ID,Accepted,https://github.com/mock-server/mockserver/pull/949,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.model.JsonBodyTest.shouldReturnValuesFromStaticObjectBuilderWithMediaTypeAndMatchType,ID,Accepted,https://github.com/mock-server/mockserver/pull/949,
-<<<<<<< HEAD
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnAdd,ID,WIP,,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnRemove,ID,WIP,,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdate,ID,WIP,,
@@ -1326,17 +1319,6 @@ https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseDTOSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,WIP,,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,WIP,,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.WebSocketMessageSerializerTest.shouldSerializeCompleteRequest,ID,WIP,,
-=======
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnAdd,ID,Opened,https://github.com/mock-server/mockserver/pull/1088,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnRemove,ID,,,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdate,ID,,,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAll,ID,,,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAllFromFileWatcher,ID,,,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.body.JsonBodySerializerTest.shouldSerializeJsonBodyAsObject,ID,Opened,https://github.com/mock-server/mockserver/pull/1089,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseDTOSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,Opened,https://github.com/mock-server/mockserver/pull/1090,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,Opened,https://github.com/mock-server/mockserver/pull/1090,
-https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.WebSocketMessageSerializerTest.shouldSerializeCompleteRequest,ID,,,
->>>>>>> a4acd1cfda3ad1e866f8f07d3df3d2cba8cdadfa
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.WebSocketMessageSerializerTest.shouldSerializeCompleteResponse,ID,Opened,https://github.com/mock-server/mockserver/pull/1083,
 https://github.com/mybatis/mybatis-3,0ca486022cbc98bed6ae9d017919dae564986aec,.,org.apache.ibatis.reflection.ReflectorTest.shouldSettersWithUnrelatedArgTypesThrowException,ID,Accepted,https://github.com/mybatis/mybatis-3/pull/1833,
 https://github.com/nationalsecurityagency/timely,3a8cbd3378cffdc96aad1c52e9b0b2e1481ca45f,server,timely.api.model.MetricAdapterTest.testToMetricResponse,ID,Accepted,https://github.com/NationalSecurityAgency/timely/pull/211,
@@ -1579,13 +1561,8 @@ https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,ca
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[1],ID,,,
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.graph.DirectedGraphTest.toStringTest,ID,,,
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor1,ID,,,
-<<<<<<< HEAD
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor2,ID,WIP,,
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.TableCellTest.td2,ID,,,
-=======
-https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor2,ID,,,
-https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.TableCellTest.td2,ID,InspiredAFix,https://github.com/schemacrawler/SchemaCrawler/pull/525,
->>>>>>> a4acd1cfda3ad1e866f8f07d3df3d2cba8cdadfa
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,common,io.seata.common.util.CollectionUtilsTest.encodeMap,ID,Accepted,https://github.com/seata/seata/pull/1802,
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,tm,io.seata.tm.api.transaction.TransactionInfoTest.testFieldGetSetFromJson,ID,,,
 https://github.com/Slimefun/Slimefun4,d5e4149b4f4d83dd1620d4a4cbb6d876903c851c,.,io.github.thebusybiscuit.slimefun4.api.items.settings.TestMaterialTagSetting.testAllowedValue,ID,Accepted,https://github.com/Slimefun/Slimefun4/pull/3179,
