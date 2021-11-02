@@ -46,7 +46,7 @@ def check_common_rules(filename, row, i, log):
         log_std_error(filename, log, i, row, "Module Path")
     if not common_data["Fully-Qualified Name"].fullmatch(
         row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
-    ):
+    ) or '#' in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]:
         log_std_error(
             filename,
             log,
