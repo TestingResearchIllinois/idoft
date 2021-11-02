@@ -1,4 +1,8 @@
 Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
+https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom3,ID,,,
+https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom5,ID,,,
+https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,org.apache.atlas.repository.graphdb.janus.AtlasSolrQueryBuilderTest.testGenerateSolrQueryString2TypeNames,ID,,,
+https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGenerateSearchWeightString,ID,,,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.annotation.IdTest.testCompositeKeys,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.FieldHelperTest.testComplex,ID,Opened,https://github.com/abel533/Mapper/pull/666,
@@ -950,14 +954,10 @@ https://github.com/FasterXML/jackson-dataformats-binary,d78d13c574a4b139438841bd
 https://github.com/FasterXML/jackson-dataformats-binary,d78d13c574a4b139438841bd5859b8b99beb63ea,avro,com.fasterxml.jackson.dataformat.avro.interop.annotations.AvroEncodeTest.testUuidValue[Apache to Jackson with Jackson schema],ID,,,
 https://github.com/FasterXML/jackson-dataformats-binary,d78d13c574a4b139438841bd5859b8b99beb63ea,avro,com.fasterxml.jackson.dataformat.avro.interop.annotations.AvroEncodeTest.testUuidValue[Jackson to Jackson with Apache schema],ID,,,
 https://github.com/FasterXML/jackson-dataformats-binary,d78d13c574a4b139438841bd5859b8b99beb63ea,avro,com.fasterxml.jackson.dataformat.avro.interop.annotations.AvroEncodeTest.testUuidValue[Jackson to Jackson with Jackson schema],ID,,,
-https://github.com/FasterXML/jackson-dataformats-text,3815d9791b5a8ffc9f194b9f39c1ec1c93e1fd98,yaml,com.fasterxml.jackson.dataformat.yaml.misc.ObjectIdTest.testNativeSerialization,ID,,,
-https://github.com/FasterXML/jackson-dataformats-text,3815d9791b5a8ffc9f194b9f39c1ec1c93e1fd98,yaml,com.fasterxml.jackson.dataformat.yaml.misc.ObjectIdTest.testNonNativeSerialization,ID,,,
-https://github.com/FasterXML/jackson-datatype-hibernate,22706d6a9dc4d6a8f3cc8b424b014365d922fe42,hibernate4,com.fasterxml.jackson.datatype.hibernate4.InfiniteRecursion70Test.testInfinite,ID,,,
 https://github.com/FasterXML/jackson-datatypes-collections,8b88868ac3012783fb7f1bda00309c823172e02a,guava,com.fasterxml.jackson.datatype.guava.FluentIterableTest.testSerialization,ID,InspiredAFix,https://github.com/FasterXML/jackson-datatypes-collections/pull/91,https://github.com/TestingResearchIllinois/idoft/issues/48
 https://github.com/FasterXML/jackson-datatypes-collections,8b88868ac3012783fb7f1bda00309c823172e02a,guava,com.fasterxml.jackson.datatype.guava.FluentIterableTest.testWrappedSerialization,ID,InspiredAFix,https://github.com/FasterXML/jackson-datatypes-collections/pull/91,https://github.com/TestingResearchIllinois/idoft/issues/48
 https://github.com/FasterXML/jackson-jaxrs-providers,fcc3e957b9d9d71ead4765f9181df6b11f09d1ec,base,com.fasterxml.jackson.jaxrs.base.cfg.AnnotationBundleKeyTest.testWithClassAnnotations,ID,,,
 https://github.com/FasterXML/jackson-jaxrs-providers,fcc3e957b9d9d71ead4765f9181df6b11f09d1ec,base,com.fasterxml.jackson.jaxrs.base.cfg.AnnotationBundleKeyTest.testWithMethodAnnotationEquals,ID,,,
-https://github.com/FasterXML/jackson-jr,a8d6988bb1e461d4dd2656e88847627b88495d74,jr-annotation-support,com.fasterxml.jackson.jr.annotationsupport.BasicReorderTest.testPartialReorder,ID,,,
 https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad586562ee2ab948b3,.,com.fasterxml.jackson.module.jsonSchema.TestGenerateJsonSchema.testMultiplePropertyDependencies,ID,,,
 https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad586562ee2ab948b3,.,com.fasterxml.jackson.module.jsonSchema.TestGenerateJsonSchema.testSchemaPropertyDependencies,ID,,,
 https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad586562ee2ab948b3,.,com.fasterxml.jackson.module.jsonSchema.TestGenerateJsonSchema.testSchemaPropertyDependency,ID,,,
