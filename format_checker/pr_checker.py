@@ -118,6 +118,9 @@ def check_status_consistency(filename, row, i, log):
             else:
                 check_pr_link(filename, row, i, log)
 
+    if row["Status"] == "" and row["PR Link"] != "":
+        check_pr_link(filename, row, i, log)
+        log_std_error(filename, log, i, row, "Status should not be empty when a PR link is provided.")        
 
 def check_notes(filename, row, i, log):
     """Checks validity of Notes."""
