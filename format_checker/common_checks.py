@@ -123,3 +123,9 @@ def run_checks(file, data_dict, log, commit_range, checks):
                         check_rule(*params)
         else:
             log_info(file, log, "There are no changes to be checked")
+
+    with open(file, 'rb') as fp:
+        for line in fp:
+            if line.endswith(b'\r\n'):
+                log_esp_error(file, log, "Incorrect End of Line encoding")
+                break
