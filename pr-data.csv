@@ -1176,7 +1176,7 @@ https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testBasic,ID,Accepted,https://github.com/j256/ormlite-core/pull/222,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue,ID,Accepted,https://github.com/j256/ormlite-core/pull/222,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.support.ReflectionDatabaseConnectionProxyFactoryTest.testBasic,ID,Accepted,https://github.com/j256/ormlite-core/pull/223,
-https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.table.TableUtilsTest.testComboIndex,ID,,,https://github.com/j256/ormlite-core/issues/238
+https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.table.TableUtilsTest.testComboIndex,ID,InspiredAFix,https://github.com/j256/ormlite-core/pull/240,https://github.com/j256/ormlite-core/issues/238
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.table.TableUtilsTest.testCreateStatements,ID,InspiredAFix,https://github.com/j256/ormlite-core/pull/224,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.table.TableUtilsTest.testCreateStatementsTableConfig,ID,InspiredAFix,https://github.com/j256/ormlite-core/pull/224,
 https://github.com/javadelight/delight-nashorn-sandbox,da35edc0a75424bad8cbf60959fae253202154c4,.,delight.nashornsandbox.TestGetFunction.test,NDOD;OD-Brit;NOD,,,
