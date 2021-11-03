@@ -1705,7 +1705,6 @@ https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f
 https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f448eb,spring-ws-core,org.springframework.ws.wsdl.wsdl11.Wsdl4jDefinitionTest.testGetSource,ID,InspiredAFix,https://github.com/spring-projects/spring-ws/pull/122,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/26
 https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-junit4,com.squareup.burst.BurstJUnit4Test.multipleFields,ID,,,
 https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-junit4,com.squareup.burst.BurstJUnit4Test.multipleNamedFields,ID,,,
-https://github.com/square/otto,2a67589abd91879cf23a8c96542b59349485ec3d,otto,com.squareup.otto.outside.AnnotatedHandlerFinderTest.neitherOverriddenNorAnnotated,UD,,,
 https://github.com/square/otto,2a67589abd91879cf23a8c96542b59349485ec3d,otto,com.squareup.otto.outside.AnnotatedHandlerFinderTest.neitherOverriddenNorAnnotated,UD,RepoArchived,,
 https://github.com/square/retrofit,ae28c3d5f6fe54f6ca409cdf82106efb47609f8f,retrofit-adapters/rxjava,retrofit2.adapter.rxjava.CancelDisposeTest.cancelDoesNotDispose,NOD,,,
 https://github.com/square/retrofit,ae28c3d5f6fe54f6ca409cdf82106efb47609f8f,retrofit-adapters/rxjava,retrofit2.adapter.rxjava.CompletableThrowingSafeSubscriberTest.throwingInOnCompleteDeliveredToPlugin,NDOD;NOD,,,
