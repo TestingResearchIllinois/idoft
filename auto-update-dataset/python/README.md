@@ -1,10 +1,10 @@
-environment:  
+Environment:  
 python3.6  
 
-libraries needed:
+Libraries needed:  
 pandas, requests_html
 
-usage:
+Usage:
 > python3 repoArchivedCheck.py  
 
 The example results in console:  
