@@ -1083,7 +1083,7 @@ https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad5
 https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad586562ee2ab948b3,.,com.fasterxml.jackson.module.jsonSchema.TestGenerateJsonSchema.testSinglePropertyDependency,ID,,,
 https://github.com/FasterXML/jackson-module-jsonSchema,69d682d794e47433b3f8e6ad586562ee2ab948b3,.,com.fasterxml.jackson.module.jsonSchema.TestUnwrapping.testUnwrapping,ID,,,
 https://github.com/FasterXML/jackson-modules-base,34b0362b7d8d6f42f7bf954f0bc043d368e8f0eb,jaxb,com.fasterxml.jackson.module.jaxb.id.TestXmlID2.testIdWithJacksonRules,ID,,,
-https://github.com/FasterXML/jackson-modules-base,34b0362b7d8d6f42f7bf954f0bc043d368e8f0eb,jaxb,com.fasterxml.jackson.module.jaxb.id.TestXmlID2.testIdWithJaxbRules,ID,,,
+https://github.com/FasterXML/jackson-modules-base,34b0362b7d8d6f42f7bf954f0bc043d368e8f0eb,jaxb,com.fasterxml.jackson.module.jaxb.id.TestXmlID2.testIdWithJaxbRules,ID,InspiredAFix,https://github.com/FasterXML/jackson-modules-base/pull/149,
 https://github.com/FasterXML/jackson-modules-base,34b0362b7d8d6f42f7bf954f0bc043d368e8f0eb,jaxb,com.fasterxml.jackson.module.jaxb.introspect.TestPropertyVisibility.testNoneAccessWithXmlElements,ID,,,
 https://github.com/FasterXML/java-classmate,912adde71f67719c7b1ed7df3c7ba28e8ba97876,.,com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface,ID,,,
 https://github.com/FasterXML/java-classmate,912adde71f67719c7b1ed7df3c7ba28e8ba97876,.,GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass,ID,,,
