@@ -1,4 +1,4 @@
-0. We can use ``repoArchivedCheck.py`` to find the archived projects in [pr-data.csv](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv).
+0. We can use ``repoArchivedCheck.py`` to find archived projects in [pr-data.csv](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv).
 
 1. Environment:  
     - python3.6  
