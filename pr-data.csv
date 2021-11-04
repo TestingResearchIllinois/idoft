@@ -2201,7 +2201,7 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryWithDynamicDelayDate,NDOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordErrorResponseMetric,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordSuccessResponseMetric,UD,,,
-https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensDefaultCredentialsDirectoryTest.shouldUseCredentialsDirectory,ID,,,
+https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensDefaultCredentialsDirectoryTest.shouldUseCredentialsDirectory,ID,DeveloperFixed,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensMissingTest.shouldFailDueToMissingAccessTokenUrl,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensPropertiesTest.shouldRun,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AsyncClientHttpRequestFactoryTest.shouldAutowireAsync,UD,,,
