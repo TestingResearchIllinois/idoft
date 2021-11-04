@@ -1,8 +1,9 @@
 Environment:  
-python3.6  
+- python3.6  
 
 Libraries needed:  
-pandas, requests_html
+- pandas
+- requests_html
 
 Usage:
 ```
