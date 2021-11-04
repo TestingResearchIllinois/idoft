@@ -49,8 +49,7 @@ pr_data = {
         r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
     ),
     "Notes": re.compile(
-        r"(https:\/\/github.com\/TestingResearchIllinois\/"
-        r"((idoft)|(flaky-test-dataset))\/issues\/\d+)"
+        r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
     ),
 }
 
