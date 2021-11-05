@@ -1535,8 +1535,13 @@ https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnAdd,ID,Opened,https://github.com/mock-server/mockserver/pull/1088,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnRemove,ID,Opened,https://github.com/mock-server/mockserver/pull/1093,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdate,ID,Opened,https://github.com/mock-server/mockserver/pull/1094,
+<<<<<<< HEAD
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAll,ID,Opened,https://github.com/mock-server/mockserver/pull/1095,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAllFromFileWatcher,ID,Opened,https://github.com/mock-server/mockserver/pull/1096,
+=======
+https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAll,ID,,,
+https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.persistence.ExpectationFileSystemPersistenceTest.shouldPersistExpectationsToJsonOnUpdateAllFromFileWatcher,ID,,,
+>>>>>>> added opened PRs
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.body.JsonBodySerializerTest.shouldSerializeJsonBodyAsObject,ID,Opened,https://github.com/mock-server/mockserver/pull/1089,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseDTOSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,Opened,https://github.com/mock-server/mockserver/pull/1090,
 https://github.com/mock-server/mockserver,3009f363b84df6a0ba377e72f6cff6ce204af0e8,mockserver-core,org.mockserver.serialization.serializers.response.HttpResponseSerializerTest.shouldReturnFormattedResponseWithAllFieldsSet,ID,Opened,https://github.com/mock-server/mockserver/pull/1090,
