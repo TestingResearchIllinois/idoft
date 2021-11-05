@@ -2218,7 +2218,6 @@ https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io
 https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io.jboot.test.cache.redis.RedisCacheTester.testPut,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/88
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-backup,org.zalando.riptide.backup.BackupRequestPluginTest.shouldUseBackupRequest,NOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginCircuitBreakerTest.shouldOpenCircuit,UD,,,
-https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldAllowNestedCalls,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldInvokeListenersOnRetryableResult,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldNotRetryNonIdempotentMethod,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay,NOD,,,
