@@ -1179,7 +1179,7 @@ https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,d
 https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,,,
 https://github.com/intuit/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,,,
 https://github.com/intuit/karate,2ca51aca126d691d87c09f3b476cbbaef58881ca,karate-core,com.intuit.karate.ScriptTest.testKarateToJson,ID,,,
-https://github.com/intuit/wasabi,eaac73406a80ca75fb9423bdf3faada67f955083,modules/experiment-objects,com.intuit.wasabi.experimentobjects.ExperimentBatchTest.testToString,ID,,,
+https://github.com/intuit/wasabi,eaac73406a80ca75fb9423bdf3faada67f955083,modules/experiment-objects,com.intuit.wasabi.experimentobjects.ExperimentBatchTest.testToString,ID,Opened,https://github.com/intuit/wasabi/pull/422,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.field.DatabaseFieldConfigTest.testComboIndex,ID,Opened,https://github.com/j256/ormlite-core/pull/216,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.field.DatabaseFieldConfigTest.testFromDbField,ID,Opened,https://github.com/j256/ormlite-core/pull/216,
 https://github.com/j256/ormlite-core,f75ab557d902b11a7ae320e713c3a7fd5ba1f117,.,com.j256.ormlite.field.DatabaseFieldConfigTest.testJavaxAnnotations,ID,Opened,https://github.com/j256/ormlite-core/pull/216,
