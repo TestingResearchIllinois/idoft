@@ -57,7 +57,6 @@ def main():
 
     print("\n===========\n[summary]")
     print("1.total time: ", end-begin, "s")
-
     print("2.repoArchived: ")
     for i in archived:
         print("    ", i)
@@ -72,8 +71,6 @@ def main():
         print("[!]May need to update the STATUS:[line_number, url, test_name, status, notes]")
         for i in update:
             print("    ", i)
-
-
     print("")
     print("3.anomaly[[status_code, url]]:")
     for i in anomaly:
