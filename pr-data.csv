@@ -2192,7 +2192,6 @@ https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io
 https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io.jboot.test.cache.redis.RedisCacheTester.testCacheType,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/88
 https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io.jboot.test.cache.redis.RedisCacheTester.testGet,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/88
 https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io.jboot.test.cache.redis.RedisCacheTester.testPut,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/88
-https://github.com/zalando/riptide,fd15f72892bef56d27d0d8715d48c6c4d5a6655c,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.AccessTokensCredentialsDirectoryTest.shouldUseCredentialsDirectory,ID,DeveloperFixed,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-backup,org.zalando.riptide.backup.BackupRequestPluginTest.shouldUseBackupRequest,NOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginCircuitBreakerTest.shouldOpenCircuit,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldAllowNestedCalls,ID,,,
@@ -2202,6 +2201,7 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryWithDynamicDelayDate,NDOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordErrorResponseMetric,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordSuccessResponseMetric,UD,,,
+https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensDefaultCredentialsDirectoryTest.shouldUseCredentialsDirectory,ID,Deleted,,https://github.com/TestingResearchIllinois/idoft/issues/185
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensMissingTest.shouldFailDueToMissingAccessTokenUrl,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensPropertiesTest.shouldRun,ID,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AsyncClientHttpRequestFactoryTest.shouldAutowireAsync,UD,,,
