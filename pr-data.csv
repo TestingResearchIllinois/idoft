@@ -2438,8 +2438,8 @@ https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io
 https://github.com/yangfuhai/jboot,4bffb4dff4ce5190917491a1b68f79efbfe99650,.,io.jboot.test.cache.redis.RedisCacheTester.testPut,OD,Opened,https://github.com/yangfuhai/jboot/pull/97,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/88
 https://github.com/zalando/riptide,a64c010cd1a6c40270c9e83074c9c247fca431a2,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.LogbookCompatibilityTest.shouldUseInterceptors,ID,Deleted,,
 https://github.com/zalando/riptide,cef45a1e325b5b1fdc4c47def3269ad3578b1fe1,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.ClientConfigurationTest.shouldApplyTimeouts,ID,MovedOrRenamed,,
-https://github.com/zalando/riptide,cef45a1e325b5b1fdc4c47def3269ad3578b1fe1,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.ClientConfigurationTest.shouldWireNonOAuthCorrectly,ID,MovedOrRenamed,,
 https://github.com/zalando/riptide,cef45a1e325b5b1fdc4c47def3269ad3578b1fe1,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.ClientConfigurationTest.shouldWireOAuthCorrectly,ID,MovedOrRenamed,,
+https://github.com/zalando/riptide,cef45a1e325b5b1fdc4c47def3269ad3578b1fe1,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.ClientConfigurationTest.shouldWireNonOAuthCorrectly,ID,MovedOrRenamed,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-backup,org.zalando.riptide.backup.BackupRequestPluginTest.shouldUseBackupRequest,NOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginCircuitBreakerTest.shouldOpenCircuit,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldInvokeListenersOnRetryableResult,UD,,,
