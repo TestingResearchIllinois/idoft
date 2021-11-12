@@ -1191,7 +1191,7 @@ https://github.com/elasticjob/elastic-job-lite,b022898ef1b8c984e17efb2a422ee45f6
 https://github.com/elasticjob/elastic-job-lite,b022898ef1b8c984e17efb2a422ee45f6b13e46e,elastic-job-lite-spring,io.elasticjob.lite.spring.job.JobSpringNamespaceWithEventTraceRdbTest.assertSpringJobBean,NOD,,,
 https://github.com/elasticjob/elastic-job-lite,b022898ef1b8c984e17efb2a422ee45f6b13e46e,elastic-job-lite-spring,io.elasticjob.lite.spring.job.JobSpringNamespaceWithListenerAndJdkDynamicProxyTest.assertSpringJobBean,NOD,,,
 https://github.com/elasticjob/elastic-job-lite,b022898ef1b8c984e17efb2a422ee45f6b13e46e,elastic-job-lite-spring,io.elasticjob.lite.spring.job.JobSpringNamespaceWithoutListenerTest.assertSpringJobBean,NOD,,,
-https://github.com/Erudika/para,4e5c7de01e1a88ee830216b35fae8d1ef3314d32,para-server,com.erudika.para.persistence.MockDAOTest.testReadPage,ID,,,
+https://github.com/Erudika/para,4e5c7de01e1a88ee830216b35fae8d1ef3314d32,para-server,com.erudika.para.persistence.MockDAOTest.testReadPage,ID,DeveloperFixed,,
 https://github.com/espertechinc/esper,50eddcdc2e7894de20309cd0b6f585110e4bc61b,common,com.espertech.esper.common.client.configuration.TestConfiguration.testFile,ID,Opened,https://github.com/espertechinc/esper/pull/227,
 https://github.com/espertechinc/esper,50eddcdc2e7894de20309cd0b6f585110e4bc61b,common,com.espertech.esper.common.client.configuration.TestConfiguration.testString,ID,Opened,https://github.com/espertechinc/esper/pull/227,
 https://github.com/espertechinc/esper,50eddcdc2e7894de20309cd0b6f585110e4bc61b,common,com.espertech.esper.common.client.configuration.TestConfiguration.testURL,ID,Opened,https://github.com/espertechinc/esper/pull/227,
