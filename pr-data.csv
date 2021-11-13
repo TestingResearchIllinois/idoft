@@ -2440,7 +2440,6 @@ https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,ript
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.HttpMessageConvertersOverrideTest.shouldOverride,ID,,,
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.metrics.MetricsTest.shouldRecordCircuitBreakers,ID,,,
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.metrics.MetricsTest.shouldRecordRequests,ID,,,
-https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.metrics.MetricsTest.shouldRecordRetries,ID,,,
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.PluginTest.shouldUseBackupRequestPlugin,ID,,,
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.PluginTest.shouldUseOriginalStackTracePlugin,ID,,,
 https://github.com/zalando/riptide,4ba93dd669a529ac1f6804534bd11d21a9e33009,riptide-spring-boot-autoconfigure,org.zalando.riptide.autoconfigure.retry.RetryTest.shouldRetryForAtMostMaxRetriesTimes,ID,,,
