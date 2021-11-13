@@ -129,6 +129,10 @@ If the test method body is different, we consider the two different versions of 
 
 For either case, please also add a new row for the newer sha and test name. Once the preceding changes are made, all future pull request updates should only be made to the row with the newer sha.
 
+## How to indicate that a repository has changed owner or is renamed?
+Please update all rows of the old repository owner and name with the new repository owner and name.
+
+
 # Acknowledgments
 
 If you use the dataset, please cite this website and our original dataset:
