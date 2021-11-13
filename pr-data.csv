@@ -1,4 +1,3 @@
-WIP ON jackson-dataformats-binary
 Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.annotation.IdTest.testCompositeKeys,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test,ID,Opened,https://github.com/abel533/Mapper/pull/666,
