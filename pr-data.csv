@@ -1,10 +1,10 @@
 Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
-https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.annotation.IdTest.testCompositeKeys,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test,ID,Opened,https://github.com/abel533/Mapper/pull/666,
+https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.able.TestBasicAble.testInsert,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.FieldHelperTest.testComplex,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.FieldHelperTest.testUser,ID,Opened,https://github.com/abel533/Mapper/pull/666,
+https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.annotation.IdTest.testCompositeKeys,ID,Opened,https://github.com/abel533/Mapper/pull/666,
 https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,core,tk.mybatis.mapper.mapperhelper.SqlHelperTest.testLogicDeleteSql,ID,Opened,https://github.com/abel533/Mapper/pull/666,
-https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.able.TestBasicAble.testInsert,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.country.TestDeleteByPrimaryKey.testDynamicDelete,OD,Opened,https://github.com/abel533/Mapper/pull/838,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.country.TestDeleteByPrimaryKey.testDynamicDeleteEntity,OD,Opened,https://github.com/abel533/Mapper/pull/838,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.country.TestDeleteByPrimaryKey.testDynamicDeleteException,OD,Opened,https://github.com/abel533/Mapper/pull/838,https://github.com/TestingResearchIllinois/idoft/issues/90
@@ -213,11 +213,7 @@ https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295
 https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295b9cbb4,innodb-java-reader,com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkPutOrdinal57,ID,Accepted,https://github.com/alibaba/innodb-java-reader/pull/14,
 https://github.com/alibaba/innodb-java-reader,24a95d8005d480d460c3004fad89cfa295b9cbb4,innodb-java-reader,com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkPutOrdinal80,ID,Accepted,https://github.com/alibaba/innodb-java-reader/pull/14,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.filed.CreateCacheTest.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/446,
-<<<<<<< HEAD
-https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test,ID,,,
-=======
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/614,
->>>>>>> a4acd1cfda3ad1e866f8f07d3df3d2cba8cdadfa
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.embedded.CaffeineCacheTest.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/446,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.embedded.LinkedHashMapCacheTest.test,ID,Accepted,https://github.com/alibaba/jetcache/pull/446,
 https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jetcache-test,com.alicp.jetcache.LoadingCacheTest.test,ID,Opened,https://github.com/alibaba/jetcache/pull/618,
