@@ -91,7 +91,6 @@ def check_sort(filename, log):
     )
     diff = subprocess.check_output(command, shell=True).decode("utf-8")
     if diff != "":
-        
         log_esp_error(filename, log, "The file is not properly ordered")
         print("Go to readme under IDOFT for automatically sorting commands")
         print("The differences are: ", diff)
