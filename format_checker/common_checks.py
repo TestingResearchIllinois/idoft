@@ -46,7 +46,7 @@ def check_common_rules(filename, row, i, log):
         log_std_error(filename, log, i, row, "Module Path")
     if not common_data["Fully-Qualified Name"].fullmatch(
         row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
-    ):
+    ) or '#' in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]:
         log_std_error(
             filename,
             log,
@@ -123,3 +123,9 @@ def run_checks(file, data_dict, log, commit_range, checks):
                         check_rule(*params)
         else:
             log_info(file, log, "There are no changes to be checked")
+
+    with open(file, 'rb') as fp:
+        for line in fp:
+            if line.endswith(b'\r\n'):
+                log_esp_error(file, log, "Incorrect End of Line encoding")
+                break
