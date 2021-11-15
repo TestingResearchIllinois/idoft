@@ -239,7 +239,7 @@ https://github.com/alibaba/testable-mock,80b0f3b8789921d46103d9af14a52e75406b92a
 https://github.com/alien4cloud/alien4cloud,eb57d0feca6c37e0a4aafc3feef494e43e02ecda,alien4cloud-security,alien4cloud.security.LdapAuthenticationProviderTest.testLdapUserImport,OD,Accepted,https://github.com/alien4cloud/alien4cloud/pull/182,
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyReadLockedBlock,ID,,,
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyWriteLockedBlock,ID,,,
-https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGenerateSearchWeightString,ID,WIP,,
+https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGenerateSearchWeightString,ID,Opened,https://github.com/apache/atlas/pull/149,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom3,ID,WIP,,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom5,ID,WIP,,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,atlas-graphdb-janus,org.apache.atlas.repository.graphdb.janus.AtlasSolrQueryBuilderTest.testGenerateSolrQueryString2TypeNames,ID,WIP,,
