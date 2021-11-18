@@ -291,7 +291,7 @@ https://github.com/apache/dolphinscheduler,26a84b30d822b59925a82fa6724df24fd5c13
 https://github.com/apache/dubbo-admin,c01fa4acc3aab736dd5dadaef2449a1311c24ea3,util,org.apache.dubbo.admin.common.util.UrlUtilsTest.testParamsMapToString,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-core,org.apache.flink.api.java.typeutils.runtime.kryo.KryoGenericTypeSerializerTest.testJavaSet,ID,Rejected,https://github.com/apache/flink/pull/11181,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.nfa.NFATest.testNFASerialization,ID,,,
-https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.nfa.NFATest.testSimpleNFA,ID,Opened,https://github.com/arianacai1997/idoft.git,
+https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.nfa.NFATest.testSimpleNFA,ID,Opened,https://github.com/apache/flink/pull/17824,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.operator.CEPOperatorTest.testCEPOperatorCleanupEventTime,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.operator.CEPOperatorTest.testCEPOperatorCleanupProcessingTime,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.operator.CEPOperatorTest.testCEPOperatorComparatorEventTime,ID,,,
