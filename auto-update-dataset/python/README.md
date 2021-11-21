@@ -11,6 +11,5 @@
     - ``python3 repoArchivedCheck.py``
 
 4. The example results in console:  
-    - if no update on ```status``` is needed, it'll print ```No need to update```, otherwise "May need to update the STATUS" with details of the repo;
-    - ![image](https://user-images.githubusercontent.com/46290389/140616423-99be6835-eac5-4bf0-aab6-d8fcdc261665.png)
-
+    - if no update on ```status``` is needed, it'll print ```No need to update```, otherwise ```Need to Update``` with the contents which user can copy to replace the corresesponding line in ```pr_data.csv``` file;
+    - ![image](https://user-images.githubusercontent.com/46290389/142753068-c5234bb5-d037-49c5-bf6a-b238f650eb3f.png)
