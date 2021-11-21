@@ -10,16 +10,18 @@ def main():
     urls = pd.read_csv(pr_data_url, usecols=["Project URL"])
     urls = list(set([i[0] for i in urls.values.tolist()]))
     print("load data from", pr_data_url)
-    data = pd.read_csv(pr_data_url,
-                       usecols=["Project URL",
-                                "Fully-Qualified Test Name (packageName.ClassName.methodName)",
-                                "Status",
-                                "Notes"])
+    
+    # copy the first line of raw cvs.file here:
+    csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
+    cols = csv_first_line.split(",")
+    status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
+    data = pd.read_csv(pr_data_url, usecols=cols)
+                                
     data = data.values  # get an array of array
-    my_dict = {}  # {url:[[line_num, url, test_name, status], [...], ...],}
+    my_dict = {}  # {url:[[line_num, url, sha, path, ...], [...], ...],}
     line_number = 2
-    for i in data:
-        if i[0] not in my_dict:
+    for i in data: 
+        if i[0] not in my_dict:  # i[0] == project_url
             my_dict[i[0]] = []
         line = list(i)
         line.insert(0, line_number)
@@ -57,28 +59,35 @@ def main():
 
     print("\n===========\n[summary]")
     print("1.total time: ", end-begin, "s")
+
     print("2.repoArchived: ")
     for i in archived:
         print("    ", i)
     update = []
     for i in archived:
         for j in my_dict[i]:
-            if j[3] != "RepoArchived":
+            if j[status_idx] != "RepoArchived":
+                j[status_idx] = "RepoArchived"
                 update.append(j)
     if not update:
         print("No need to update")
     else:
-        print("[!]May need to update the STATUS:[line_number, url, test_name, status, notes]")
+        print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
         for i in update:
-            print("    ", i)
-    print("")
-    print("3.anomaly[[status_code, url]]:")
+            print("line_number "+ str(i[0]) + ":")  # line_number
+            print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+            print("")
+
+    print("3.anomaly:")
     for i in anomaly:
-        print("    ", i)
-    print("details: [line_number, url, test_name, status, notes]")
-    for i in anomaly:
-        for j in my_dict[i[1]]:
-            print("    ", j)
+        print("status code:" + str(i[0]) + ", "),
+        print("url:", i[1])
+    print("[!]details: ")
+    for j in anomaly:
+        for i in my_dict[j[1]]:
+            print("line_number "+ str(i[0]) + ":") 
+            print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+            print("")
     print("")
 
 
