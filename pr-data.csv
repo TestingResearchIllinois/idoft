@@ -2051,7 +2051,7 @@ https://github.com/spring-projects/spring-hateoas,6be1cc607ecde44d469640f187deee
 https://github.com/spring-projects/spring-hateoas,6be1cc607ecde44d469640f187deeeffa1211579,.,org.springframework.hateoas.mediatype.hal.Jackson2HalIntegrationTest.serializesPagedResource,ID,,,
 https://github.com/spring-projects/spring-hateoas,6be1cc607ecde44d469640f187deeeffa1211579,.,org.springframework.hateoas.mediatype.problem.JacksonSerializationTest.extensionSerialize,ID,,,
 https://github.com/spring-projects/spring-hateoas,6be1cc607ecde44d469640f187deeeffa1211579,.,org.springframework.hateoas.RepresentationModelIntegrationTest.doesNotRenderId,ID,,,
-https://github.com/spring-projects/spring-security-oauth,2b58aafecac336e82f20ea43da9b208b0a4a40dd,spring-security-oauth2,org.springframework.security.oauth2.provider.client.JdbcClientDetailsServiceTests.testUpdateClientRedirectURI,ID,,,
+https://github.com/spring-projects/spring-security-oauth,2b58aafecac336e82f20ea43da9b208b0a4a40dd,spring-security-oauth2,org.springframework.security.oauth2.provider.client.JdbcClientDetailsServiceTests.testUpdateClientRedirectURI,ID,WIP,,
 https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f448eb,spring-ws-core,org.springframework.ws.client.core.AxiomNonStreamingSoap11WebServiceTemplateIntegrationTest.attachment,OD-Vic,,,
 https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f448eb,spring-ws-core,org.springframework.ws.client.core.AxiomNonStreamingSoap11WebServiceTemplateIntegrationTest.fault,OD-Vic,,,
 https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f448eb,spring-ws-core,org.springframework.ws.client.core.AxiomNonStreamingSoap11WebServiceTemplateIntegrationTest.faultNonCompliant,OD-Vic,,,
