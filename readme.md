@@ -80,7 +80,7 @@ Example: a82213e40e7e6aa529341fdd1d1c3de776949e64
 
 Example: components/apimgt/org.wso2.carbon.apimgt.rest.api.commons
  
-* **Fully-Qualified Test Name (packageName.ClassName.methodName)**: The fully-qualified test name of the flaky test in the format of packageName.ClassName.methodName.
+* **Fully-Qualified Test Name (packageName.ClassName.methodName)**: The test description of the flaky test. This column is typically the fully-qualified test name in the format of packageName.ClassName.methodName. In some cases, such as Cucumber or parameterized tests, please include all relevant test description (e.g., ```lv.ctco.cukes.plugins.RunCukesTest.Given wait for 1 second```).
 
 Example: org.wso2.carbon.apimgt.rest.api.commons.util.RestApiUtilTestCase.testConvertYmlToJson
  
