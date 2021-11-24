@@ -1894,8 +1894,8 @@ https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[0],ID,,,
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[1],ID,,,
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.graph.DirectedGraphTest.toStringTest,ID,DeveloperFixed,,https://github.com/schemacrawler/SchemaCrawler/commit/90da3f145cc52e908651dfd3c6baaca6ba48e502
-https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor1,ID,,,
-https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor2,ID,,,
+https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor1,ID,InspiredAFix,,https://github.com/schemacrawler/SchemaCrawler/pull/530
+https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.AnchorTest.anchor2,ID,InspiredAFix,,https://github.com/schemacrawler/SchemaCrawler/pull/530
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.TableCellTest.td2,ID,InspiredAFix,https://github.com/schemacrawler/SchemaCrawler/pull/525,
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,common,io.seata.common.util.CollectionUtilsTest.encodeMap,ID,Accepted,https://github.com/seata/seata/pull/1802,
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,tm,io.seata.tm.api.transaction.TransactionInfoTest.testFieldGetSetFromJson,ID,Deleted,,https://github.com/seata/seata/commit/6c0c75939dedbf19c4a21a8ac7aa0fb98879a8fd
