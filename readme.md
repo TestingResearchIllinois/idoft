@@ -105,8 +105,8 @@ Blank | A blank value denotes that a flaky test was detected and is yet to be in
 Opened | For tests where a PR was opened to fix the flaky test
 Accepted | For tests where a PR was accepted to fix the flaky test
 InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from the developer, but did not directly change any code. The PR Link should be the one the developer uses to fix the flakiness and some [Notes](#adding-notes) should be added to explain how the work inspired the fix
-DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 DeveloperDoNotWantFix | For tests where a developer claimed that they do not want a fix
+DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 Deleted | For tests that can no longer be fixed as the tests have been removed from the repository after the tests were detected
 Rejected | For tests where a PR was rejected/closed as the developers did not think a fix was necessary
 Skipped | For test which was inspected and should not be fixed (e.g., test is annotated with @Ignore). To use this status, please provide some [Notes](#adding-notes) on why the test should be skipped
