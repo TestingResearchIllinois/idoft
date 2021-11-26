@@ -38,6 +38,7 @@ pr_data = {
         "Opened",
         "Accepted",
         "InspiredAFix",
+        "DevelopersDoNotWantFix",
         "DeveloperFixed",
         "RepoArchived",
         "Deleted",
