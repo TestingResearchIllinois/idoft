@@ -229,7 +229,7 @@ https://github.com/alibaba/jetcache,d9a26f0bcfaef1a7fb6b374be500d2f2d947306d,jet
 https://github.com/alibaba/jetcache,d9a26f0bcfaef1a7fb6b374be500d2f2d947306d,jetcache-test,com.alicp.jetcache.RefreshCacheTest.baseTest,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/202
 https://github.com/alibaba/metrics,2dbfbd0b2e9ba5d652f1f2e86d655cff8ea1ec66,prometheus,com.alibaba.metrics.prometheus.TestAlibabaMetricsExports.testExportFastCompass,ID,,,
 https://github.com/alibaba/nacos,525672272ecb00cd769a13c7b21a8e51cf873f25,api,com.alibaba.nacos.api.naming.pojo.healthcheck.HealthCheckerFactoryTest.testDeserializeExtend,OD-Vic,Accepted,https://github.com/alibaba/nacos/pull/4384,
-https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,http,com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl,ID,,,
+https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,common,com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl,ID,Opened,https://github.com/alibaba/nacos/pull/7296,
 https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,utils,com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3,ID,,,
 https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,utils,com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1,ID,,,
 https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,utils,com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJsonBytes1,ID,,,
