@@ -1429,8 +1429,8 @@ https://github.com/google/java-monitoring-client-library,3212364c3e535530c3d96e1
 https://github.com/google/jimfs,ced6093fe69a31e37ba8bbf63858b50c7164f4a4,jimfs,com.google.common.jimfs.JimfsFileChannelTest.testCloseByInterrupt,UD,,,
 https://github.com/googleapis/google-auth-library-java,0a8412fcf9de4ac568b9f88618e44087dd31b144,appengine,com.google.auth.appengine.AppEngineCredentialsTest.warnsDefaultCredentialsWithTransport,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/81
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,isochrone,com.graphhopper.isochrone.algorithm.IsochroneTest.testSearch,ID,,,
-https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyEdgeBasedPresent,ID,,,
-https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyNodeBasedPresent,ID,,,
+https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyEdgeBasedPresent,ID,DeveloperFixed,,
+https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyNodeBasedPresent,ID,DeveloperFixed,,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,tools,com.graphhopper.tools.QueryTortureTest.testGetQuery,ID,Rejected,https://github.com/graphhopper/graphhopper/pull/1941,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,web-api,com.graphhopper.util.InstructionListRepresentationTest.testRoundaboutJsonIntegrity,ID,,,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,web-api,com.graphhopper.util.InstructionListRepresentationTest.testRoundaboutJsonNaN,ID,Rejected,https://github.com/graphhopper/graphhopper/pull/1873,
