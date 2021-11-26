@@ -111,6 +111,11 @@ https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateResourceGroupTest_hive.test_alter,ID,Opened,https://github.com/alibaba/druid/pull/4578,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateResourceGroupTest_hive.test_create,ID,Opened,https://github.com/alibaba/druid/pull/4578,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,utils,com.alibaba.druid.bvt.utils.JdbcUtilsTest.test_curd,ID,,,
+https://github.com/alibaba/easy-retry,acd91eb71acf69ffc483508e5b0e6b321e997478,access,com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest.finish,OD-Vic,,,
+https://github.com/alibaba/easy-retry,acd91eb71acf69ffc483508e5b0e6b321e997478,access,com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest.handle,OD-Vic,,,
+https://github.com/alibaba/easy-retry,acd91eb71acf69ffc483508e5b0e6b321e997478,access,com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest.stop,OD-Vic,,,
+https://github.com/alibaba/easy-retry,acd91eb71acf69ffc483508e5b0e6b321e997478,dao,com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest.deleteRetryTask,OD-Vic,,,
+https://github.com/alibaba/easy-retry,acd91eb71acf69ffc483508e5b0e6b321e997478,dao,com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest.listRetryTask,OD-Vic,,,
 https://github.com/alibaba/easyexcel,756f16e42fbd7bc5c7fa18426cbc02fc81a42057,.,com.alibaba.easyexcel.test.core.simple.SimpleDataTest.t03SynchronousRead07,OD,Accepted,https://github.com/alibaba/easyexcel/pull/1684,
 https://github.com/alibaba/easyexcel,756f16e42fbd7bc5c7fa18426cbc02fc81a42057,.,com.alibaba.easyexcel.test.core.simple.SimpleDataTest.t04SynchronousRead03,OD,Accepted,https://github.com/alibaba/easyexcel/pull/1684,
 https://github.com/alibaba/fastjson,a7f1f5c4ac52503cc95bf1d27498098b3093a0df,.,com.alibaba.fastjson.serializer.TestParse.testParse,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/76
