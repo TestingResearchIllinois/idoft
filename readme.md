@@ -80,7 +80,7 @@ Example: a82213e40e7e6aa529341fdd1d1c3de776949e64
 
 Example: components/apimgt/org.wso2.carbon.apimgt.rest.api.commons
  
-* **Fully-Qualified Test Name (packageName.ClassName.methodName)**: The fully-qualified test name of the flaky test in the format of packageName.ClassName.methodName.
+* **Fully-Qualified Test Name (packageName.ClassName.methodName)**: The test description of the flaky test. This column is typically the fully-qualified test name in the format of packageName.ClassName.methodName. In some cases, such as Cucumber or parameterized tests, please include all relevant test description (e.g., ```lv.ctco.cukes.plugins.RunCukesTest.Given wait for 1 second```).
 
 Example: org.wso2.carbon.apimgt.rest.api.commons.util.RestApiUtilTestCase.testConvertYmlToJson
  
@@ -105,6 +105,7 @@ Blank | A blank value denotes that a flaky test was detected and is yet to be in
 Opened | For tests where a PR was opened to fix the flaky test
 Accepted | For tests where a PR was accepted to fix the flaky test
 InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from the developer, but did not directly change any code. The PR Link should be the one the developer uses to fix the flakiness and some [Notes](#adding-notes) should be added to explain how the work inspired the fix
+DevelopersDoNotWantFix | For tests where where developers claimed that they do not want a fix
 DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 Deleted | For tests that can no longer be fixed as the tests have been removed from the repository after the tests were detected
 Rejected | For tests where a PR was rejected/closed as the developers did not think a fix was necessary
@@ -128,6 +129,10 @@ If the test method body is the same between two versions (e.g., if in ```old_sha
 If the test method body is different, we consider the two different versions of the test to be two different tests. For the row with the older sha, please change the Status to ```Deleted``` and add [Notes](#adding-notes) describing which version the test is found to be renamed/moved and how the test method body differs between the two versions.
 
 For either case, please also add a new row for the newer sha and test name. Once the preceding changes are made, all future pull request updates should only be made to the row with the newer sha.
+
+## How to indicate that a repository has changed owner or is renamed?
+Please update all rows of the old repository owner and name with the new repository owner and name.
+
 
 # Acknowledgments
 
