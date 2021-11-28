@@ -281,7 +281,7 @@ https://github.com/alibaba/wasp,fabe54be13e4db11d0658bc93cd72f20e70047df,.,Descr
 https://github.com/alien4cloud/alien4cloud,eb57d0feca6c37e0a4aafc3feef494e43e02ecda,alien4cloud-security,alien4cloud.security.LdapAuthenticationProviderTest.testLdapUserImport,OD,Accepted,https://github.com/alien4cloud/alien4cloud/pull/182,
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyReadLockedBlock,ID,,,
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyWriteLockedBlock,ID,,,
-https://github.com/apache/aries-cdi,8397a099e591bb1e646381de1773e944d1c8a30b,model,org.apache.aries.cdi.container.internal.model.MapsTest.checkMerge_1,ID,,,
+https://github.com/apache/aries-cdi,8397a099e591bb1e646381de1773e944d1c8a30b,model,org.apache.aries.cdi.container.internal.model.MapsTest.checkMerge_1,ID,Opened,https://github.com/apache/aries-cdi/pull/116,
 https://github.com/apache/aries-cdi,8397a099e591bb1e646381de1773e944d1c8a30b,phase,org.apache.aries.cdi.container.internal.phase.CDIBundlePhaseTest.extensions_simple,ID,,,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb/janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGenerateSearchWeightString,ID,Opened,https://github.com/apache/atlas/pull/149,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb/janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom3,ID,Opened,https://github.com/apache/atlas/pull/150,
