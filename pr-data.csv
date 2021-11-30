@@ -1557,8 +1557,8 @@ https://github.com/javaparser/javaparser,f9893b765d49c43b2f0d0a1748ec38fcc36bc36
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,core,hudson.util.CopyOnWriteMapTest.hashSerialization,ID,Opened,https://github.com/jenkinsci/jenkins/pull/5981,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,core,hudson.util.CopyOnWriteMapTest.treeSerialization,ID,Opened,https://github.com/jenkinsci/jenkins/pull/5981,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,core,hudson.util.RobustReflectionConverterTest.classOwnership,ID,,,
-https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopSecondJobEvenIfFirstStopFailed,ID,,,
-https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopWorkingBuildsInSeveralJobs,ID,,,
+https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopSecondJobEvenIfFirstStopFailed,ID,Opened,https://github.com/jenkinsci/jenkins/pull/5989,
+https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopWorkingBuildsInSeveralJobs,ID,Opened,https://github.com/jenkinsci/jenkins/pull/5989,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testBallColorTd,ID,,,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testTasks,ID,,,
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.capabilityRead,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
