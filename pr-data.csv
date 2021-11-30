@@ -1966,6 +1966,12 @@ https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-api,net.ripe.db.whois.api.rdap.RdapResponseJsonTest.ip_serialization_test,ID,,,
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-api,net.ripe.db.whois.api.rdap.RdapResponseJsonTest.nameserver_serialization_test,ID,,,
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-endtoend,net.ripe.db.whois.spec.domain.AckResponseTest.successes,UD,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testExport,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testImport,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion2,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.demo.RunDemo.runDemo,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.graph.FontTest.testClean,OD-Vic,,,
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[0],ID,,,
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[1],ID,,,
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.graph.DirectedGraphTest.toStringTest,ID,DeveloperFixed,,https://github.com/schemacrawler/SchemaCrawler/commit/90da3f145cc52e908651dfd3c6baaca6ba48e502
