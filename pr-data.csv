@@ -1264,6 +1264,10 @@ https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae
 https://github.com/dropwizard/dropwizard,cf2230d3bad462c5242c1b9bf968dfa2537b081d,dropwizard-json-logging,io.dropwizard.logging.json.layout.MapBuilderTest.testIncludeStringValue,ID,Rejected,https://github.com/dropwizard/dropwizard/pull/3582,
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testOnlyJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
+https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testDiskClean,ID,,,
+https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testModifyProperty,ID,,,
+https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testWrite,ID,,,
+https://github.com/eBay/taxonomy-sdk,7d6bc84b8d3c20b872b3457a4c22cf03cef1bbd6,.,com.ebay.commerce.taxonomy.AspectsSDKCoreTest.testAspectsDelta,ID,,,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/non-deployable,org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest,ID,Accepted,https://github.com/eclipse-ee4j/tyrus/pull/736,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/non-deployable,org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.serverMaxMessageSizeTooLargeTest,ID,Accepted,https://github.com/eclipse-ee4j/tyrus/pull/736,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/non-deployable,org.glassfish.tyrus.test.e2e.non_deployable.ServerExecutorsManagementTest.testExecutorServicesGetClosed,NOD;UD,,,
@@ -1738,6 +1742,7 @@ https://github.com/nationalsecurityagency/timely,3a8cbd3378cffdc96aad1c52e9b0b2e
 https://github.com/nationalsecurityagency/timely,3a8cbd3378cffdc96aad1c52e9b0b2e1481ca45f,server,timely.store.iterators.TimeSeriesGroupingIteratorTest.testManySparseTimeSeries,NDOI,,,
 https://github.com/nationalsecurityagency/timely,3a8cbd3378cffdc96aad1c52e9b0b2e1481ca45f,server,timely.store.iterators.TimeSeriesGroupingIteratorTest.testMultipleTimeSeriesMovingAverage,NDOI,,,
 https://github.com/nationalsecurityagency/timely,3a8cbd3378cffdc96aad1c52e9b0b2e1481ca45f,server,timely.store.iterators.TimeSeriesGroupingIteratorTest.testTimeSeriesDropOff,NDOI,,,
+https://github.com/networknt/json-schema-validator,fdae2f85faf213562a3dee8f28b20453dc882203,.,com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword,ID,,,
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostInvalidJson,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostJsonMap,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostNonJson,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
