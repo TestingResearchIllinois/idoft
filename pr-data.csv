@@ -1974,6 +1974,7 @@ https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b2783
 https://github.com/schemacrawler/SchemaCrawler,18d6c5fb79c8e27cdeafc317ee63b27837aa6fec,schemacrawler-utility,us.fatehi.utility.test.html.TableCellTest.td2,ID,InspiredAFix,https://github.com/schemacrawler/SchemaCrawler/pull/525,
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,common,io.seata.common.util.CollectionUtilsTest.encodeMap,ID,Accepted,https://github.com/seata/seata/pull/1802,
 https://github.com/seata/seata,d334f85395887193f72fa57daea906a73a2da34e,tm,io.seata.tm.api.transaction.TransactionInfoTest.testFieldGetSetFromJson,ID,Deleted,,https://github.com/seata/seata/commit/6c0c75939dedbf19c4a21a8ac7aa0fb98879a8fd
+https://github.com/shunfan-shao/idoft,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,,,
 https://github.com/skyscreamer/JSONassert,523009b2576b9f54ed78c6f4720fba87f79b1466,.,org.skyscreamer.jsonassert.comparator.CustomComparatorTest.testFullArrayComparison,ID,,,
 https://github.com/Slimefun/Slimefun4,d5e4149b4f4d83dd1620d4a4cbb6d876903c851c,.,io.github.thebusybiscuit.slimefun4.api.items.settings.TestMaterialTagSetting.testAllowedValue,ID,Accepted,https://github.com/Slimefun/Slimefun4/pull/3179,
 https://github.com/Slimefun/Slimefun4,282367d6ffaf60d79f1fa357d90b01ca154c44f2,.,io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestMaterialTagSetting.testAllowedValue,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/51
@@ -2736,4 +2737,3 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.ObjectMapperOverrideTest.shouldOverride,ID,MovedOrRenamed,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.url.UrlResolutionTest.shouldAppendUrl,UD,,,
 https://github.com/zhangxd1989/spring-boot-cloud,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,,,
-https://github.com/shunfan-shao/idoft,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,,,
