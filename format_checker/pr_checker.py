@@ -1,13 +1,13 @@
 """Implements rule checks for the pr-data.csv file."""
 
 import re
-import requests
 from utils import log_std_error, log_warning
 from common_checks import (
     check_common_rules,
     check_row_length,
     check_sort,
     run_checks,
+    check_project_url
 )
 
 
@@ -53,9 +53,6 @@ pr_data = {
     "Notes": re.compile(
         r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
     ),
-    "Repo Link": re.compile(
-        r"(https:\/\/github.com\/([\w|\.|-]+)\/([\w|\.|-]+))"
-    )
 }
 
 
@@ -142,25 +139,6 @@ def check_pr_link(filename, row, i, log):
     ):
         log_std_error(filename, log, i, row, "PR Link")
 
-def check_project_url(filename, row, i, log):
-    project_url = row["Project URL"]
-    match = pr_data["Repo Link"].fullmatch(project_url)
-    if not match:
-        log_std_error(filename, log, i, row, "Project URL")
-        return
-    
-    author = match.group(2)
-    repo = match.group(3)
-
-    url = "https://api.github.com/repos/{}/{}".format(author, repo)
-    try:
-        resp = requests.get(url).json()
-        # Determine if it is a forked project
-        if "fork" in resp and resp["fork"]:
-            log_std_error(filename, log, i, row, "Project URL")
-    except requests.exceptions.RequestException as e: 
-        # handle(e)
-        pass
 
 def run_checks_pr(log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
