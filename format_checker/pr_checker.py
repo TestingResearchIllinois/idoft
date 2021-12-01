@@ -7,7 +7,7 @@ from common_checks import (
     check_row_length,
     check_sort,
     run_checks,
-    check_project_url
+    check_repo_sanity
 )
 
 
@@ -150,7 +150,7 @@ def run_checks_pr(log, commit_range):
         check_category,
         check_status,
         check_status_consistency,
-        check_project_url
+        check_repo_sanity
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)

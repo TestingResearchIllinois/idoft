@@ -24,7 +24,7 @@ common_data = {
 }
 
 
-def check_project_url(checked_projects, filename, row, i, log):
+def check_repo_sanity(checked_projects, filename, row, i, log):
     project_url = row["Project URL"]
     if project_url in checked_projects:
         return
@@ -146,7 +146,7 @@ def run_checks(file, data_dict, log, commit_range, checks):
                         if check_rule.__name__ == check_row_length.__name__:
                             check_rule(len(header), *params)
                             continue
-                        if check_rule.__name__ == check_project_url.__name__:
+                        if check_rule.__name__ == check_repo_sanity.__name__:
                             check_rule(checked_projects, *params)
                             continue
                         check_rule(*params)
