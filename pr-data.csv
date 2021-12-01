@@ -1987,7 +1987,7 @@ https://github.com/SonarSource/sonar-php,df211f66a67c48184006cff90e80e8406a87f8e
 https://github.com/sonatype-nexus-community/nexus-repository-helm,60a9e8de0d97bfa4e3f7ee6bb87d518e398f03f2,.,org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest.testChartIndexPassedCorrectly,OD-Vic,RepoArchived,,
 https://github.com/sonatype-nexus-community/nexus-repository-helm,60a9e8de0d97bfa4e3f7ee6bb87d518e398f03f2,.,org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml,ID,RepoArchived,,
 https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot.toolkits.graph.TestDominance.TestAcyclicCFG,ID,Accepted,https://github.com/soot-oss/soot/pull/1802,
-https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot.toolkits.graph.TestDominance.TestMultiTailedPostDom,Accepted,Opened,https://github.com/soot-oss/soot/pull/1802,
+https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot.toolkits.graph.TestDominance.TestMultiTailedPostDom,Accepted,https://github.com/soot-oss/soot/pull/1802,
 https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot.toolkits.graph.TestDominance.TestSimpleDiamond,ID,Accepted,https://github.com/soot-oss/soot/pull/1802,
 https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.compare.TestPackageSheet.tesConcludedLicensetCol,ID,,,
 https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.compare.TestPackageSheet.testDeclaredLicenseCol,ID,,,
