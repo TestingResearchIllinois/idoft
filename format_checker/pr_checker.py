@@ -1,11 +1,13 @@
 """Implements rule checks for the pr-data.csv file."""
 
 import re
-from utils import log_std_error, log_warning
+from utils import log_std_error, log_esp_error, log_warning
+import requests
 from common_checks import (
     check_common_rules,
     check_row_length,
     check_sort,
+    check_repo_archived,
     run_checks,
 )
 
@@ -117,10 +119,22 @@ def check_status_consistency(filename, row, i, log):
             # If it contains a PR link, it should be a valid one
             else:
                 check_pr_link(filename, row, i, log)
+                
+    if row["Status"] == "RepoArchived":
+        try:
+            response = requests.get(row["Project URL"])
+            # Determine if it is not archived
+            if "This repository has been archived by the owner. It is now read-only." not in response.text:
+                log_esp_error(filename, log, "Status should not be \"RepoArchived\" when the repo is not archived.\n" + 
+                              "row " + str(i) + ", URL: " + row["Project URL"])
+        except requests.exceptions.RequestException as e:
+            # handle(e) 
+            pass
 
     if row["Status"] == "" and row["PR Link"] != "":
         check_pr_link(filename, row, i, log)
-        log_std_error(filename, log, i, row, "Status should not be empty when a PR link is provided.")        
+        log_esp_error(filename, log, "Status should not be empty when a PR link is provided.\n" + 
+                      "row " + str(i) + ", URL: " + row["Project URL"])       
 
 def check_notes(filename, row, i, log):
     """Checks validity of Notes."""
@@ -149,6 +163,7 @@ def run_checks_pr(log, commit_range):
         check_category,
         check_status,
         check_status_consistency,
+        check_repo_archived,
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
