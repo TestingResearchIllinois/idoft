@@ -116,7 +116,26 @@ def log_esp_error(filename, log, message):
     log_esp_error.tracker += 1
     log.error("ERROR: On file " + filename + ": " + message)
 
+    
+def log_archived_error(filename, log, line, row, key):
+    """Logs a archived-related error."""
 
+    # log_archived_error.tracker += 1  # AttributeError: 'function' object has no attribute 'tracker'
+    log_esp_error.tracker += 1
+    log.error(
+        "ERROR: On file "
+        + filename
+        + ", row "
+        + line
+        + ":\n"
+        + "Archived "
+        + key
+        + ': "'
+        + row[key]
+        + '"'
+    )
+    
+    
 def log_warning(filename, log, line, message):
     """Logs a warning."""
 
