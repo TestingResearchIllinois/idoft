@@ -286,9 +286,7 @@ https://github.com/alien4cloud/alien4cloud,eb57d0feca6c37e0a4aafc3feef494e43e02e
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyReadLockedBlock,ID,,,
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyWriteLockedBlock,ID,,,
 https://github.com/amzn/amazon-hub-counter-sdk-java,c8d1be1f81539a3aebd31290441c8a9f602ca3d9,.,com.amazon.hub.counter.AmazonHubCounterFeedAPITest.postFeedSerializationTest,ID,,,
-https://github.com/amzn/amazon-instant-access-sdk-java,3aae2253569751eaa4c419300cf9915f03a42bf1,.,com.amazon.dtasdk.v2.serialization.messages.InstantAccessRequestTest.testSerialize,ID,,,
 https://github.com/amzn/amazon-instant-access-sdk-java,3aae2253569751eaa4c419300cf9915f03a42bf1,.,com.amazon.dtasdk.v2.serialization.messages.InstantAccessRequestTest.testSerialize,ID,Opened,https://github.com/amzn/amazon-instant-access-sdk-java/pull/13,
-https://github.com/amzn/amazon-instant-access-sdk-java,3aae2253569751eaa4c419300cf9915f03a42bf1,.,com.amazon.dtasdk.v3.messages.InstantAccessRequestTest.testSerialize,ID,,,
 https://github.com/amzn/amazon-instant-access-sdk-java,3aae2253569751eaa4c419300cf9915f03a42bf1,.,com.amazon.dtasdk.v3.messages.InstantAccessRequestTest.testSerialize,ID,Opened,https://github.com/amzn/amazon-instant-access-sdk-java/pull/13,
 https://github.com/amzn/amazon-pay-api-sdk-java,4093fc0ddca8e410764919f587a2e984246d5dc1,.,com.amazon.pay.api.GenerateButtonSignatureTest.testButtonSignatureWithJSONObject,ID,,,
 https://github.com/apache/archiva,292dbe1bb4323dd299d36b78f37d9c1d55c889f8,archiva-modules/archiva-maven/archiva-maven-proxy,org.apache.archiva.proxy.CacheFailuresTransferTest.testGetWithCacheFailuresOn,OD,,,
@@ -1304,8 +1302,6 @@ https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testOnlyJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
 https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testDiskClean,ID,,,
-https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testDiskClean,ID,,,
-https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testModifyProperty,ID,,,
 https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testModifyProperty,ID,,,
 https://github.com/eBay/mTracker,dbead631bb0e8cacbb4448fef7aa2fe3aefc034b,core,com.ccoe.build.core.utils.FileUtilsTest.testWrite,ID,,,
 https://github.com/eBay/taxonomy-sdk,7d6bc84b8d3c20b872b3457a4c22cf03cef1bbd6,.,com.ebay.commerce.taxonomy.AspectsSDKCoreTest.testAspectsDelta,ID,,,
