@@ -9,7 +9,7 @@
 This tool is recommended to be run using Python 3.9, however Python 3.7 and above should also work. You can check your Python version by typing `python -V` on your command line. For example:
 
 ```
-$ python -V
+python -V
 Python 3.9.4
 ```
 
