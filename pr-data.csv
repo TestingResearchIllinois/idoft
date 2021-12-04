@@ -1733,8 +1733,8 @@ https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyEdgeBasedPresent,ID,DeveloperFixed,,https://github.com/graphhopper/graphhopper/commit/524aaeab96bb778936120de957d787e91d51cf47
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyNodeBasedPresent,ID,DeveloperFixed,,https://github.com/graphhopper/graphhopper/commit/524aaeab96bb778936120de957d787e91d51cf47
 https://github.com/graphhopper/graphhopper,b65d9413e2dc29b662a1bb2db146b536471167a9,core,com.graphhopper.routing.DirectionResolverOnQueryGraphTest.duplicateCoordinatesAtBaseOrAdjNode,ID,,,
-https://github.com/graphhopper/graphhopper,b65d9413e2dc29b662a1bb2db146b536471167a9,core,com.graphhopper.search.StringIndexTest.putDuplicate,ID,,,
-https://github.com/graphhopper/graphhopper,b65d9413e2dc29b662a1bb2db146b536471167a9,core,com.graphhopper.search.StringIndexTest.testLoadKeys,ID,,,
+https://github.com/graphhopper/graphhopper,b65d9413e2dc29b662a1bb2db146b536471167a9,core,com.graphhopper.search.StringIndexTest.putDuplicate,ID,Opened,https://github.com/graphhopper/graphhopper/pull/2480,
+https://github.com/graphhopper/graphhopper,b65d9413e2dc29b662a1bb2db146b536471167a9,core,com.graphhopper.search.StringIndexTest.testLoadKeys,ID,Opened,https://github.com/graphhopper/graphhopper/pull/2480,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,tools,com.graphhopper.tools.QueryTortureTest.testGetQuery,ID,Rejected,https://github.com/graphhopper/graphhopper/pull/1941,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,web-api,com.graphhopper.util.InstructionListRepresentationTest.testRoundaboutJsonIntegrity,ID,,,
 https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,web-api,com.graphhopper.util.InstructionListRepresentationTest.testRoundaboutJsonNaN,ID,Rejected,https://github.com/graphhopper/graphhopper/pull/1873,
