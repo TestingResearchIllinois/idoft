@@ -38,8 +38,8 @@ def check_repo_sanity(checked_projects, filename, row, i, log):
     try:
         resp = requests.get(url).json()
         # Determine if it is a forked project
-        if "fork" in resp and resp["fork"]:
-            log_std_error(filename, log, i, row, "Project URL")
+        if resp.get("fork"):
+            log_esp_error(filename, log, f"{author}/{repo} is a forked repo")
     except requests.exceptions.RequestException as e:
         # handle(e)
         pass
