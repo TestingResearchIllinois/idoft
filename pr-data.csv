@@ -1868,7 +1868,7 @@ https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,d
 https://github.com/hneemann/Digital,ce65635267a64ab4b4f8e6ce85441dcf1af3644f,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj2,ID,Opened,https://github.com/hneemann/Digital/pull/876,
 https://github.com/hneemann/Digital,ce65635267a64ab4b4f8e6ce85441dcf1af3644f,.,de.neemann.digital.core.memory.DataFieldConverterTest.testMarshalObj3,ID,Opened,https://github.com/hneemann/Digital/pull/876,
 https://github.com/hneemann/Digital,d2a0335ed2bd282a2d31151e3fafed601b05e628,.,de.neemann.gui.language.ResourcesTest.testWrite,ID,Opened,https://github.com/hneemann/Digital/pull/866,
-https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,,,
+https://github.com/hs-web/hsweb-framework,9eb96c4c7e6912253de3783673a922c216b5eec7,hsweb-commons/hsweb-commons-dao/hsweb-commons-dao-mybatis,org.hswebframework.web.dao.mybatis.builder.SqlParamParserTest.testParseQueryParam,ID,Deleted,,
 https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4518a4,dmestore-service,com.huawei.dmestore.services.DmeAccessServiceImplTest.testAccess,ID,,,
 https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4518a4,dmestore-service,com.huawei.dmestore.services.DmeAccessServiceImplTest.testAccess401,ID,,,
 https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4518a4,dmestore-service,com.huawei.dmestore.services.DmeAccessServiceImplTest.testAccessByJson,ID,,,
