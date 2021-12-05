@@ -29,7 +29,17 @@ The valid repo is defined as:
 
 >  To find the author_repository_url, find the author that you want to run Nondex with, and get this author's repository overview url (e.g., https://github.com/orgs/spotify/repositories). Note that you don't need to provide the url with other parameters, as the script will automatically add the parameters needed.
 >
->  A sample command for runNondexUnderAuthor: `./runNondexUnderAuthor.sh https://github.com/orgs/spotify/repositories ~/progress6`
+>  There are two types of account in the github: personal account and organizational account, and their repo's url is slightly different:
+> 
+>  1. Organizational Account: https://github.com/orgs/HubSpot/repositories
+>  2. Personal Account: https://github.com/Anuken?tab=repositories
+> 
+>  You don't need to worry about the account type that you want to run Nondex with. This script will automatically handle both cases. 
+> 
+>  Two sample commands for runNondexUnderAuthor:
+>  
+>  1. Organizational Account: `./runNondexUnderAuthor.sh https://github.com/orgs/spotify/repositories ~/progress6`
+>  2. Personal Account: `./runNondexUnderAuthor.sh https://github.com/Anuken?tab=repositories ~/progress6`
 
 
 
