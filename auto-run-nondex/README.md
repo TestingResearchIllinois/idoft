@@ -41,7 +41,7 @@ The valid repo is defined as:
 >  1. Organizational Account: `./runNondexUnderAuthor.sh https://github.com/orgs/spotify/repositories ~/progress6`
 >  2. Personal Account: `./runNondexUnderAuthor.sh https://github.com/Anuken?tab=repositories ~/progress6`
 >  
->  After running the `runNondexUnderAuthor.sh` command, you could go to your `progress6` directory (the directory you indicate in the command) and run the command above to get an overview of your findings (`./progress_stats.md`)!
+>  After running the `runNondexUnderAuthor.sh` command, you could go to your `progress6` directory (the directory you indicate in the command) and run the command below to get an overview of your findings (`./progress_stats.md`)!
 > 
 >  `find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' &&  git rev-parse HEAD && git config --get remote.origin.url | rev | cut -c5- | rev  && cat .runNondex/htmlOutput && cat report_md.md" \; &> progress_stats.md`
 
