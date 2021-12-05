@@ -54,6 +54,23 @@ pr_data = {
     ),
 }
 
+all_pr_test_identifier_set = set()
+
+
+def check_repetitive_tests(filename, row, i, log):
+    """Check whether there exists repetitive tests."""
+    test_identifier = '{}-{}-{}'.format(row['Project URL'], row["Module Path"],
+                                        row["Fully-Qualified Test Name (packageName.ClassName.methodName)"])
+    if test_identifier in all_pr_test_identifier_set:
+        log_warning(
+            filename,
+            log,
+            i,
+            "There might have repetitive tests in the file: " + test_identifier,
+        )
+    else:
+        all_pr_test_identifier_set.add(test_identifier)
+
 
 def check_category(filename, row, i, log):
     """Check validity of Category."""
@@ -149,6 +166,7 @@ def run_checks_pr(log, commit_range):
         check_category,
         check_status,
         check_status_consistency,
+        check_repetitive_tests
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
