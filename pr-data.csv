@@ -1413,7 +1413,6 @@ https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testOnlyJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.cliarg.CliParserTest.testParse,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
-https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testBasicEncoding,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testCustomQuote,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testCyclicReference,ID,,,
@@ -2521,8 +2520,6 @@ https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIdentityFilter,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter,ID,,,
-https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
-https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter,ID,,,
