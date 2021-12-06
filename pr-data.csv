@@ -385,7 +385,6 @@ https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644
 https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644158a20,.,org.apache.commons.collections4.multimap.HashSetValuedHashMapTest.testToString,ID,,,
 https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644158a20,.,org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testCollectionToArray2,ID,,,
 https://github.com/apache/commons-collections,14ff6fae576085767045bff074c35f2b0220b317,.,org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testMultiValuedMapIterator,ID,,,
-https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644158a20,.,org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testMultiValuedMapIterator,ID,,,
 https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644158a20,.,org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testToString,ID,,,
 https://github.com/apache/commons-collections,371313a2e4d1da5e0776419ce94bb8b644158a20,.,org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest.testCollectionToArray2,ID,,,  
 https://github.com/apache/commons-collections,81e3a7ec0492148724da4512fcefcb47ba82894a,.,org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest.testRemoveException,ID,Accepted,https://github.com/apache/commons-collections/pull/190,
@@ -1412,7 +1411,6 @@ https://github.com/dropwizard/dropwizard,cf2230d3bad462c5242c1b9bf968dfa2537b081
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
 https://github.com/dropwizard/dropwizard,616ed866460ca909cb30a4eafb786c6040218ae8,dropwizard-views-freemarker,io.dropwizard.views.freemarker.MultipleContentTypeTest.testOnlyJsonContentType,ID,InspiredAFix,,https://github.com/dropwizard/dropwizard/pull/3056
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.cliarg.CliParserTest.testParse,ID,,,
-https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testBasicEncoding,ID,,,
 https://github.com/eBay/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testCustomQuote,ID,,,
@@ -2521,8 +2519,6 @@ https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIdentityFilter,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter,ID,,,
-https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
-https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceRequestInvocationTest.readResourcesTests,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers,ID,,,
 https://github.com/SAP/scimono,a1a6fc3524b650e5ea191792ad0d203b3a5cb774,scimono-client,com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter,ID,,,
