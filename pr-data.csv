@@ -479,7 +479,7 @@ https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-m
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-remoting/dubbo-remoting-netty,org.apache.dubbo.remoting.transport.netty.ClientReconnectTest.testReconnectWarnLog,NDOD;NIO,Deleted,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testMethodStickyNoCheck,NIO;OD-Vic,DeveloperFixed,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testStickyNoCheck,NIO;OD-Vic,DeveloperFixed,,
-https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.support.FailbackClusterInvokerTest.testNoInvoke,NIO,intentionalOD,,
+https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.support.FailbackClusterInvokerTest.testNoInvoke,NIO,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-api,org.apache.dubbo.rpc.filter.AccessLogFilterTest.testInvokeException,NIO,Accepted,https://github.com/apache/dubbo/pull/6993,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-api,org.apache.dubbo.rpc.filter.ExecuteLimitFilterTest.testExecuteLimitInvokeWitException,NIO,Accepted,https://github.com/apache/dubbo/pull/8401,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-rpc/dubbo-rpc-rest,org.apache.dubbo.rpc.protol.rest.RestProtocolTest.testRestProtocol,NIO;UD,DeveloperFixed,,
