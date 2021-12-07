@@ -699,7 +699,7 @@ https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/l
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testForcedLocalityMultiplePreemptionsSameHost2,OD,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testGuaranteedScheduling,OD,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testHeartbeatInconsistency,OD,,,
-https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testHostPreferenceMissesConsistentPartialAliveOD,,,
+https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testHostPreferenceMissesConsistentPartialAlive,OD,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testHostPreferenceMissesConsistentRollover,OD,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testNodeReEnabled,OD,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/llap-tez,org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService.testPreemptionChoiceTimeOrdering,OD,,,
