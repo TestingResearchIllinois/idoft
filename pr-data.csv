@@ -2018,7 +2018,7 @@ https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03
 https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03a,value-fixture,org.immutables.fixture.jackson.ObjectMappedTest.keywordNames,ID,,,
 https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03a,value-fixture,org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections,ID,,,
 https://github.com/Infosys/olingo-odata2,daa83f4d80f3eb8019ae2cb6729486d1821b8c89,odata2-jpa-processor/jpa-core,org.apache.olingo.odata2.jpa.processor.core.access.data.JPAEntityTest.testCreateODataEntryPropertyWithOutCallBack,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/388
-https://github.com/intel/graphbuilder,ca510a155398c32134ccc9dbe88cfbaef0254088,.,com.intel.hadoop.graphbuilder.test.graph.SimpleGraphTest.testGraphFormatter,ID,,,
+https://github.com/intel/graphbuilder,ca510a155398c32134ccc9dbe88cfbaef0254088,.,com.intel.hadoop.graphbuilder.test.graph.SimpleGraphTest.testGraphFormatter,ID,RepoArchived,,
 https://github.com/intel/jndn-utils,b4f2fb28e48d8a4bc18410ec6c932c0c229f8884,.,com.intel.jndn.utils.client.impl.DefaultSegmentedClientTest.testGetSegmentsAsync,ID,Accepted,https://github.com/intel/jndn-utils/pull/8,
 https://github.com/intel/jndn-utils,b4f2fb28e48d8a4bc18410ec6c932c0c229f8884,.,com.intel.jndn.utils.client.impl.DefaultSegmentedClientTest.verifyThatSegmentsAreRetrievedOnlyOnce,ID,Accepted,https://github.com/intel/jndn-utils/pull/8,
 https://github.com/intuit/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,MovedOrRenamed,,https://github.com/karatelabs/karate
@@ -2813,8 +2813,8 @@ https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f
 https://github.com/spring-projects/spring-ws,e8d89c9eb0929dda304174729c9c69fb29f448eb,spring-ws-core,org.springframework.ws.wsdl.wsdl11.Wsdl4jDefinitionTest.testGetSource,ID,InspiredAFix,https://github.com/spring-projects/spring-ws/pull/122,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/26
 https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-junit4,com.squareup.burst.BurstJUnit4Test.multipleFields,ID,,,
 https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-junit4,com.squareup.burst.BurstJUnit4Test.multipleNamedFields,ID,,,
-https://github.com/square/catalog-api-demo,79e7a447aa0c0c3ca5512c826e6654119bde4988,.,com.squareup.catalog.demo.example.DeduplicateTaxesExampleTest.mergeDuplicate_neitherPresentAtAllLocations,ID,,,
-https://github.com/square/dagger,0fa73e0ee07015f191c25b1f3fdf7048321d1610,core,dagger.SetBindingTest.multiValueBindings_WithSingletonAndDefaultValues,ID,,,
+https://github.com/square/catalog-api-demo,79e7a447aa0c0c3ca5512c826e6654119bde4988,.,com.squareup.catalog.demo.example.DeduplicateTaxesExampleTest.mergeDuplicate_neitherPresentAtAllLocations,ID,RepoArchived,,
+https://github.com/square/dagger,0fa73e0ee07015f191c25b1f3fdf7048321d1610,core,dagger.SetBindingTest.multiValueBindings_WithSingletonAndDefaultValues,ID,RepoArchived,,
 https://github.com/square/otto,2a67589abd91879cf23a8c96542b59349485ec3d,otto,com.squareup.otto.outside.AnnotatedHandlerFinderTest.neitherOverriddenNorAnnotated,UD,RepoArchived,,
 https://github.com/square/pagerduty-incidents,c95398ffcb246082bfccddf36fcb97c877a17204,.,com.squareup.pagerduty.incidents.EventTest.serialization,ID,,,
 https://github.com/square/retrofit,ae28c3d5f6fe54f6ca409cdf82106efb47609f8f,retrofit-adapters/rxjava,retrofit2.adapter.rxjava.CancelDisposeTest.cancelDoesNotDispose,NOD,,,
