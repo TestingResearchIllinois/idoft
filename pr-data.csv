@@ -1284,8 +1284,8 @@ https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-da
 https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-daq/c2mon-daq-core,cern.c2mon.daq.filter.dynamic.DiffTimeDeadbandActivatorTest.testNoActivationOnFirstRecord,NOD;UD,,,
 https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-common,cern.c2mon.server.common.republisher.RepublisherImplTest.testMultipleExceptions,NDOD;OD-Vic;NOD,,,
 https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-common,cern.c2mon.server.common.republisher.RepublisherImplTest.testMultiplePublicationsWithExceptions,NDOD;OD-Vic,,,
-https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-elasticsearch,cern.c2mon.server.elasticsearch.ElasticsearchModuleIntegrationTest.testModuleStartup,ID,,,
-https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-elasticsearch,cern.c2mon.server.elasticsearch.tag.config.TagConfigDocumentIndexerTests.reindexTagConfigDocuments,OD-Vic,,,
+https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-elasticsearch,cern.c2mon.server.elasticsearch.ElasticsearchModuleIntegrationTest.testModuleStartup,ID,Deleted,,https://github.com/c2mon/c2mon/commit/1b5dcd2a49aef3aa06d86ea2fee441448bd3c85b
+https://github.com/c2mon/c2mon,d80687b119c713dd177a58cf53a997d8cc5ca264,c2mon-server/c2mon-server-elasticsearch,cern.c2mon.server.elasticsearch.tag.config.TagConfigDocumentIndexerTests.reindexTagConfigDocuments,OD-Vic,MovedOrRenamed,,https://github.com/c2mon/c2mon/commit/d77ca9cab7c95399d4274ad72090298e575f24ca
 https://github.com/castle/castle-java,1f42ccdbd85c095e307c8604eb7426733dbb8863,.,io.castle.client.model.CastleContextTest.minimalContextAsJson,ID,Opened,https://github.com/castle/castle-java/pull/107,
 https://github.com/castle/castle-java,1f42ccdbd85c095e307c8604eb7426733dbb8863,.,io.castle.client.model.CastleDeviceTest.fullBuilderJson,ID,Opened,https://github.com/castle/castle-java/pull/107,
 https://github.com/castle/castle-java,1f42ccdbd85c095e307c8604eb7426733dbb8863,.,io.castle.client.model.CastleDeviceTest.jsonSerialized,ID,Opened,https://github.com/castle/castle-java/pull/107,
@@ -1692,7 +1692,7 @@ https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redp
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationText,NOD,,,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,ID,,,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.testing.LogAssertTest.contains,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/80
-https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,Opened,https://github.com/gooddata/GoodData-CL/pull/145,
+https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,RepoArchived,,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.FilteredCollectionsTest$SetsFilterHashSetTest.testForEach,ID,,,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.FilteredCollectionsTest$SetsFilterHashSetTest.testIterationOrderPreserved,ID,,,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.ForwardingMapTest.testToStringWithNullValues,ID,,,
