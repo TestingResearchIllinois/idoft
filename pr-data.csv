@@ -578,9 +578,7 @@ https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-r
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-remoting/dubbo-remoting-netty,org.apache.dubbo.remoting.transport.netty.ThreadNameTest.testThreadName,NDOD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-remoting/dubbo-remoting-netty4,org.apache.dubbo.remoting.transport.netty4.NettyClientToServerTest.testFuture,UD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testMethodStickyNoCheck,NIO;OD-Vic,Accepted,https://github.com/apache/dubbo/pull/2807,
-https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testMethodStickyNoCheck,NIO;OD-Vic,DeveloperFixed,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testStickyNoCheck,NIO;OD-Vic,Accepted,https://github.com/apache/dubbo/pull/2807,
-https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.StickyTest.testStickyNoCheck,NIO;OD-Vic,DeveloperFixed,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.support.AbstractClusterInvokerTest.testBindingAttachment,OD-Vic,DeveloperFixed,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/23
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.support.FailbackClusterInvokerTest.testNoInvoke,NIO,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-cluster,org.apache.dubbo.rpc.cluster.support.ForkingClusterInvokerTest.testClearRpcContext,OD-Vic,DeveloperFixed,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/23
