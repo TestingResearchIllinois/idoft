@@ -33,8 +33,7 @@ def check_repo_archived(checked_projects, filename, row, i, log):
         if "This repository has been archived by the owner. It is now read-only." in resp.text:
             log_archived_error(filename, log, i, row, "Project URL")
     except requests.exceptions.RequestException as e:
-        # handle(e)
-        pass
+        log_esp_error(filename, log, "The check for repo-archived failed due to ERROR:" + str(e))
     
     
 def check_header(header, valid_dict, filename, log):
