@@ -7,8 +7,9 @@ from tqdm import tqdm
 import json
 
 archieved = [
-	"https://github.com/gooddata/GoodData-CL",
+	"https://github.com/gooddata/GoodData-CL"
 ]
+
 
 df = pd.read_csv("../pr-data.csv")
 error_log = []
@@ -19,10 +20,12 @@ base_dir = os.getcwd()
 df = df.groupby("Project URL").agg(lambda x: list(x))
 
 for url, row in tqdm(df.iterrows(), total=df.shape[0]):
-	if url in archieved:
-		continue
+
 	testname_list, status_list, note_list = row["Fully-Qualified Test Name (packageName.ClassName.methodName)"], row["Status"], row["Notes"]
 	print("url", url)
+	if url in archieved:
+		print("this url has been archieved! skip")
+		continue
 
 	clone_cmd = "git clone --quiet {} tmp && cd tmp".format(url)
 	subprocess.run(clone_cmd, shell=True, stdout=open(os.devnull, 'wb'))
@@ -50,8 +53,7 @@ for url, row in tqdm(df.iterrows(), total=df.shape[0]):
 					print("[INFO]:detected Test File " + "{}, {} was deleted at SHA {}".format(url, full_testname, commit_SHA))
 				# test file not found; add to log
 				else:
-					test_file_deleted.append("{}, {}".format(url, full_testname))
-					print("[INFO]: detected deleted Test File: ", "{}, {}".format(url, full_testname))
+					print("[INFO]: detected deleted Test File WITHOUT FINDING SHA: ", "{}, {}".format(url, full_testname))
 
 
 	# clean the repo and repeat
