@@ -3172,8 +3172,8 @@ https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retr
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.onlyMatchesOptional,ID,,,
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalApi24,ID,,,
 https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalPreApi24,ID,,,
-https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrl,ID,,,
-https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrlAbsolute,ID,,,
+https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrl,ID,Deleted,,https://github.com/square/retrofit/commit/34f6a7fdc2f359d05a32f3262825563fc10929b4
+https://github.com/square/retrofit,8c93b59dbc57841959f5237cb141ce0b3c18b778,retrofit,retrofit2.RequestFactoryAndroidTest.getWithAndroidUriUrlAbsolute,ID,Deleted,,https://github.com/square/retrofit/commit/34f6a7fdc2f359d05a32f3262825563fc10929b4
 https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.graph.DirectedMultiGraphTest.testConnectedComponents,ID,Accepted,https://github.com/stanfordnlp/CoreNLP/pull/1215,
 https://github.com/stanfordnlp/CoreNLP,08f6dca23e5296d6affdc40895bf294d9b3144f6,.,edu.stanford.nlp.naturalli.RelationTripleSegmenterTest.testAmericanActorChrisPratt,ID,Opened,https://github.com/stanfordnlp/CoreNLP/pull/1218,
 https://github.com/stanfordnlp/CoreNLP,0f7c464edc7c346c028eec128d0025f61321962d,.,edu.stanford.nlp.semgraph.semgrex.ProcessSemgrexRequestTest.testDoubleMultiRequest,ID,Opened,https://github.com/stanfordnlp/CoreNLP/pull/1218,
@@ -3710,8 +3710,8 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.FailsafePluginRetriesTest.shouldNotRetryNonIdempotentMethod,UD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay,NOD,,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-failsafe,org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryWithDynamicDelayDate,NDOD,,,
-https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordErrorResponseMetric,UD,,,
-https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordSuccessResponseMetric,UD,,,
+https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordErrorResponseMetric,UD,MovedOrRenamed,,https://github.com/zalando/riptide/commit/b900ffecdeffcdcf7055ae1f87595b6e62bd0e19
+https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-metrics,org.zalando.riptide.metrics.MetricsPluginTest.shouldRecordSuccessResponseMetric,UD,MovedOrRenamed,,https://github.com/zalando/riptide/commit/b900ffecdeffcdcf7055ae1f87595b6e62bd0e19
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensDefaultCredentialsDirectoryTest.shouldUseCredentialsDirectory,ID,Deleted,,https://github.com/TestingResearchIllinois/idoft/issues/185
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensMissingTest.shouldFailDueToMissingAccessTokenUrl,ID,Deleted,,
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.AccessTokensPropertiesTest.shouldRun,ID,Deleted,,
