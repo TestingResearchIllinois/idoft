@@ -3,6 +3,12 @@ DIR="${PWD}"
 cd $1
 mvn install -DskipTests
 mvn -Dexec.executable='echo' -Dexec.args='${project.artifactId}' exec:exec -q -fn | tee modnames
+if grep -q "[ERROR]" modnames; then
+    echo !!!!!
+    exit 1
+else
+    echo OK
+fi
 mkdir .runNondex
 mkdir ./.runNondex/LOGSSS
 input="modnames"
