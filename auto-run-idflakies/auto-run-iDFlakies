@@ -1,0 +1,4 @@
+#!/bin/bash
+bash ../iDFlakies/pom-modify/modify-project.sh .
+nohup mvn testrunner:testplugin -Ddetector.detector_type=random-class-method -Ddt.randomize.rounds=10 -Ddt.detector.original_order.all_must_pass=false &
+find -name "list.txt" -size +0 -print
