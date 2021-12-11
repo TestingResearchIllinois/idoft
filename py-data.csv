@@ -1,6 +1,6 @@
-Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
+Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod),Category,Status,PR Link,Notes
 https://github.com/abeelen/nikamap,d39c488c89bf5d90fffe3c05580fc13551522ee5,nikamap/tests/test_nikamap.py::test_nikamap_write,NIO,Opened,https://github.com/abeelen/nikamap/pull/2,
-https://github.com/agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,NIO,Opened,https://github.com/agile4you/bottle-neck/pull/3,
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,NIO,Opened,https://github.com/agile4you/bottle-neck/pull/3,
 https://github.com/AguaClara/aguaclara,9ee3d1d007bc984b73b19520d48954b6d81feecc,tests/core/test_cache.py::test_ac_cache,NIO,,,
 https://github.com/airbrake/pybrake,9bf82941d8bf521055b258cea91596a11e4eb81f,pybrake/test_celery_integration.py::test_celery_integration,NIO,Accepted,https://github.com/airbrake/pybrake/pull/163,
 https://github.com/aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain,NIO,,,
