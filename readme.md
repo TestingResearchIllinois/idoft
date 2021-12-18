@@ -1,5 +1,5 @@
-# Illinois Dataset of Flaky Tests (IDoFT)
-This repository contains all of the data used to build the flaky tests website, hosted here: [http://mir.cs.illinois.edu/flakytests](http://mir.cs.illinois.edu/flakytests). Specifically, the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) contains all of the information about the flaky tests detected or fixed in the Illinois Dataset of Flaky Tests (IDoFT).
+# International Dataset of Flaky Tests (IDoFT)
+This repository contains all of the data used to build the flaky tests website, hosted here: [http://mir.cs.illinois.edu/flakytests](http://mir.cs.illinois.edu/flakytests). Specifically, the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) for **Java** and [py-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/py-data.csv) for **Python** contain all of the information about the flaky tests detected or fixed in the International Dataset of Flaky Tests (IDoFT).
  
 To contribute a newly detected or fixed flaky test to the dataset, please see [Contributing detected flaky test](#contributing-detected-flaky-test) or [Contributing fixed flaky test](#contributing-fixed-flaky-test), respectively.
 
@@ -7,19 +7,26 @@ To contribute a newly detected or fixed flaky test to the dataset, please see [C
   
 ### To contribute a newly detected flaky test:
 
-* Add a new entry to the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) while maintaining the order of the file (i.e., alphabetical order for Project URL, then Fully-Qualified Test Name, then SHA Detected, ...).
-  * One recommended way to automatically sort is to run `echo "$(head -n1 pr-data.csv && tail +2 pr-data.csv | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" > pr-data.csv`.
-  * The following columns need to be filled in: `Project URL, SHA Detected, Module Path, Fully-Qualified Test Name (packageName.ClassName.methodName), Category`. Detailed information for the columns can be found [here](#detailed-information-for-each-column).
+* Add a new entry to the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) for **Java** or the [py-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/py-data.csv) for **Python** while maintaining the order of the file (i.e., alphabetical order for Project URL, then Fully-Qualified Test Name, then SHA Detected, ...).
+  * One recommended way to automatically sort is to run `echo "$(head -n1 pr-data.csv && tail +2 pr-data.csv | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" > pr-data.csv` for **Java** and `echo "$(head -n1 py-data.csv && tail +2 py-data.csv | LC_ALL=C sort -k1,1 -k3,3 -t, -f)" > py-data.csv` for **Python**.
+  * The following columns need to be filled in: `Project URL, SHA Detected, Module Path, Fully-Qualified Test Name (packageName.ClassName.methodName), Category` for **Java** and `Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod),Category` for **Python**. Detailed information for the columns can be found [here](#detailed-information-for-each-column). Note that for **Python**, we do not have `Module Path` column. Please note that in `Pytest Test Name` column, the notion of `TestClass` does not always apply (depending on how developers write tests). We expect the Python testing framework `pytest` can directly run the test with `pytest $Pytest_Test_Name`. The documentation of `pytest` can be found [here](https://docs.pytest.org/en/latest/how-to/usage.html).
   * Status and PR Link should be left blank. Notes can be provided if applicable, see [here](#adding-notes) for what to provide.
-  * If the flaky test being added already exist but has a different SHA Detected, please update the existing row's SHA Detected if the existing SHA is older than the one being added. There should only be one row for each triple of `Project URL, Module Path, Fully-Qualified Test Name`.
+  * If the flaky test being added already exist but has a different SHA Detected, please update the existing row's SHA Detected if the existing SHA is older than the one being added. There should only be one row for each tuple of `Project URL, Module Path, Fully-Qualified Test Name` for **Java** and `Project URL,Pytest Test Name` for **Python**.
     * One recommended way to check if which SHAs may be more recent is to run `[[ $(git show -s --pretty=%at $SHA1) -gt $(git show -s --pretty=%at $SHA2) ]] && echo $SHA1 || echo $SHA2`.
   * Please add some notes describing how you detected the new tests (e.g., commands that were run) and any necessary data to reproduce the detection (e.g., including the NonDex seed or `flaky-list.json` file for ID and OD tests, respectively). The specific format for the notes is described in [Adding notes](#adding-notes).
 
 #### Example:
+For Java:
 
 Project URL | SHA Detected | Module Path | Fully-Qualified Test Name (packageName.ClassName.methodName) | Category | Status | PR Link | Notes
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
 https://github.com/alibaba/fastjson | e05e9c5e4be580691cc55a59f3256595393203a1 | . | com.alibaba.json.bvt.date.DateTest_tz.test_codec | OD | | |
+
+For Python:
+
+Project URL | SHA Detected | Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod) | Category | Status | PR Link | Notes
+---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
+https://github.com/AguaClara/aguaclara | 9ee3d1d007bc984b73b19520d48954b6d81feecc | tests/core/test_cache.py::test_ac_cache | NIO | | |
  
 ## Contributing fixed flaky test
 
@@ -30,29 +37,45 @@ https://github.com/alibaba/fastjson | e05e9c5e4be580691cc55a59f3256595393203a1 |
 Note that to submit the fix to the developers you likely need to reproduce the flaky-test failure in the latest commit of the repository. We expect that the fix you submit (or a very similar fix) would also remove the flakiness at the SHA Detected commit. If your fix does not remove the flaky-test failure at the existing SHA Detected commit, please create a new row with the SHA Detected as the latest commit of the repository.
 
 #### Example:
+For Java:
 
 Project URL | SHA Detected | Module Path | Fully-Qualified Test Name (packageName.ClassName.methodName) | Category | Status | PR Link | Notes
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
 https://github.com/alibaba/fastjson | e05e9c5e4be580691cc55a59f3256595393203a1 | . | com.alibaba.json.bvt.date.DateTest_tz.test_codec | OD | Opened | https://github.com/alibaba/fastjson/pull/2148 |
 
+For Python:
+
+Project URL | SHA Detected | Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod) | Category | Status | PR Link | Notes
+---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
+https://github.com/drtexx/volux | c41339aceeab4295967ea88b2edd05d0d456b2ce | tests/test_operator.py::Test_operator::test_add_module | NIO | Opened | https://github.com/DrTexx/Volux/pull/37 |
 
 ### To contribute a newly accepted flaky test fix:
 
 * Edit the same test entry to set the Status as Accepted.
 
 #### Example:
+For Java:
 
 Project URL | SHA Detected | Module Path | Fully-Qualified Test Name (packageName.ClassName.methodName) | Category | Status | PR Link | Notes
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
 https://github.com/alibaba/fastjson | e05e9c5e4be580691cc55a59f3256595393203a1 | . | com.alibaba.json.bvt.date.DateTest_tz.test_codec | OD | Accepted | https://github.com/alibaba/fastjson/pull/2148 |
 
+For Python:
+
+Project URL | SHA Detected | Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod) | Category | Status | PR Link | Notes
+---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
+https://github.com/chaosmail/python-fs | 2567922ced9387e327e65f3244caff3b7af35684 | fs/tests/test_touch.py::test_touch_on_new_file | NIO | Accepted | https://github.com/chaosmail/python-fs/pull/9 |
+
 ## Adding notes
 
 To add more information about any test:
 
-* Open an issue in this repository where the title is of the format:
+* Open an issue for **Java** in this repository where the title is of the format:
   * Project URL,SHA Detected,Fully-Qualified Test Name (packageName.ClassName.methodName): If the notes are for a particular test.
   * Project URL,SHA Detected,Module Path: If the notes are for a particular module.
+  * Project URL,SHA Detected: If the notes are for a particular project.
+* Open an issue for **Python** in this repository where the title is of the format:
+  * Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod): If the notes are for a particular test.
   * Project URL,SHA Detected: If the notes are for a particular project.
 * Make sure to include any steps to reproduce, any relevant logs, or any relevant information about the test/module in the issue. You should attach relevant files (e.g., log output of NonDex or iDFlakies) by [attaching the files to the issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/file-attachments-on-issues-and-pull-requests). E.g., 
   * for tests detected by iDFlakies, you should include `flaky-list.json` and `original-order` located under the `.dtfixingtools` directory generated by iDFlakies. Note that GitHub requires that these files be of `.txt` format (e.g., upload `flaky-list.txt` and `original-order.txt`, respectively).
@@ -61,10 +84,14 @@ To add more information about any test:
 An example issue can be found [here](https://github.com/TestingResearchIllinois/idoft/issues/88).
 
 #### Example entry in the [pr-data.csv file](https://github.com/TestingResearchIllinois/pr-data/blob/main/pr-data.csv):
+For Java:
 
 Project URL | SHA Detected | Module Path | Fully-Qualified Test Name (packageName.ClassName.methodName) | Category | Status | PR Link | Notes
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------
 https://github.com/wso2/carbon-apimgt | a82213e40e7e6aa529341fdd1d1c3de776949e64 | components/apimgt/org.wso2.carbon.apimgt.rest.api.commons | org.wso2.carbon.apimgt.rest.api.commons.util.RestApiUtilTestCase.testConvertYmlToJson | ID | Skipped | | https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/1
+
+For Python:
+We do not have an example yet. If someone wants to open an issue for a Python test, the only two differences from Java are that (1) Python tests do not have the column of `Module Path`, and (2) the `Test Name` is Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod).
 
 ## Detailed information for each column
 
@@ -92,6 +119,7 @@ OD | Order-Dependent flaky tests as defined in [iDFlakies](http://mir.cs.illinoi
 OD-Brit | Order-Dependent Brittle tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 OD-Vic | Order-Dependent Victim tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 ID | Implementation-Dependent Tests found by [Nondex](http://mir.cs.illinois.edu/marinov/publications/ShiETAL16NonDex.pdf)
+NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](). Tests that pass in the first run but fail in the second.
 NOD | Non-Deterministic tests 
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
