@@ -166,8 +166,8 @@ Please update all rows of the old repository owner and name with the new reposit
 
 If you use the dataset, please cite this website and our original dataset:
 ```
-@misc{IllinoisDatasetofFlakyTests,
-    title = {{Illinois Dataset of Flaky Tests (IDoFT)}},
+@misc{InternationalDatasetofFlakyTests,
+    title = {{International Dataset of Flaky Tests (IDoFT)}},
     author = {Lam, Wing},
     year = {2020},
     url = {http://mir.cs.illinois.edu/flakytests}
