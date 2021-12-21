@@ -132,7 +132,7 @@ Status | Description
 Blank | A blank value denotes that a flaky test was detected and is yet to be inspected
 Opened | For tests where a PR was opened to fix the flaky test
 Accepted | For tests where a PR was accepted to fix the flaky test
-InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from the developer, but did not directly change any code. The PR Link should be the one the developer uses to fix the flakiness and some [Notes](#adding-notes) should be added to explain how the work inspired the fix
+InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from the developer, but did not directly change any code. The PR Link should be the link of the PR that the developer merged to fix the flakiness and some [Notes](#adding-notes) should be added to explain how the work inspired the fix
 DevelopersDoNotWantFix | For tests where where developers claimed that they do not want a fix
 DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 Deleted | For tests that can no longer be fixed as the tests have been removed from the repository after the tests were detected
