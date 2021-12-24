@@ -1074,11 +1074,7 @@ https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar
 https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-standard-services/nifi-hbase_1_1_2-client-service-bundle/nifi-hbase_1_1_2-client-service,org.apache.nifi.hbase.TestHBase_1_1_2_ClientService.testScan,ID,,,
 https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-standard-services/nifi-hbase_2-client-service-bundle/nifi-hbase_2-client-service,org.apache.nifi.hbase.TestHBase_2_ClientService.testScan,ID,,,
 https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors,org.apache.nifi.hbase.TestScanHBase.testScanToContentWithStringValues,ID,,,
-<<<<<<< HEAD
-https://github.com/apache/nifi,12015a17dd93a1d42c9d6ddab6cc5ce606fef16a,nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api,org.apache.nifi.integration.accesscontrol.ITConnectionAccessControl.testNoneUserDeleteConnection,OD-Vic,,,
-=======
 https://github.com/apache/nifi,12015a17dd93a1d42c9d6ddab6cc5ce606fef16a,nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api,org.apache.nifi.integration.accesscontrol.ITConnectionAccessControl.testNoneUserDeleteConnection,OD-Brit,,,
->>>>>>> da65f05737e51d83fd87f39813963f453cea7542
 https://github.com/apache/nifi,12015a17dd93a1d42c9d6ddab6cc5ce606fef16a,nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api,org.apache.nifi.integration.accesscontrol.ITConnectionAccessControl.testReadUserGetConnection,OD,,,
 https://github.com/apache/nifi,12015a17dd93a1d42c9d6ddab6cc5ce606fef16a,nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api,org.apache.nifi.integration.accesscontrol.ITCountersAccessControl.testUpdateCounters,OD,,,
 https://github.com/apache/nifi,12015a17dd93a1d42c9d6ddab6cc5ce606fef16a,nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api,org.apache.nifi.integration.accesscontrol.ITFlowAccessControl.testGenerateClientId,OD,,,
