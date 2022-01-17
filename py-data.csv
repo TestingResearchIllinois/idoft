@@ -137,7 +137,7 @@ https://github.com/Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tes
 https://github.com/Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_wait_for_stable_cluster_success,NIO,,,
 https://github.com/ylaizet/alphanum_code,fb5cd313dc41f046aac01ff01d6e1561d17894a6,tests/test_alphanum_code.py::test_init_code,NIO,,,
 https://github.com/Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_location.py::test_zero,NIO,Accepted,https://github.com/Zabamund/wellpathpy/pull/50,
-https://github.com/rmarkello/abagen,2aeab5bd0f147fa76b488645e148a1c18095378d,mouse\test_gene.py::test_get_gene_info::test_get_gene_info,OD,Opened,https://github.com/rmarkello/abagen/issues/201,
+https://github.com/rmarkello/abagen,2aeab5bd0f147fa76b488645e148a1c18095378d,mouse\test_gene.py::test_get_gene_info::test_get_gene_info,OD,,,https://github.com/rmarkello/abagen/issues/201
 https://github.com/datacommonsorg/api-python,16fabfc49a9c7d46a5b5847b0d9809242ec884e5,set_api_key_test.py::TestApiKey::test_query_no_api_key?,OD,Opened,https://github.com/datacommonsorg/api-python/pull/175,
 https://github.com/datacommonsorg/api-python,16fabfc49a9c7d46a5b5847b0d9809242ec884e5,set_api_key_test.py::TestApiKey::test_send_request_no_api_key?,OD,Opened,https://github.com/datacommonsorg/api-python/pull/175,
 https://github.com/eillarra/carbonize,891d1d07ca2e9cc48ca5b609da292dce2e574c7e,test_api.py::TestFootprint::test_flight?,OD,Opened,https://github.com/eillarra/carbonize/pull/1,
