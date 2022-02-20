@@ -137,6 +137,26 @@ https://github.com/Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tes
 https://github.com/Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_wait_for_stable_cluster_success,NIO,,,
 https://github.com/ylaizet/alphanum_code,fb5cd313dc41f046aac01ff01d6e1561d17894a6,tests/test_alphanum_code.py::test_init_code,NIO,,,
 https://github.com/Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_location.py::test_zero,NIO,Accepted,https://github.com/Zabamund/wellpathpy/pull/50,
+https://github.com/rmarkello/abagen,2aeab5bd0f147fa76b488645e148a1c18095378d,mouse\test_gene.py::test_get_gene_info::test_get_gene_info,OD,,,https://github.com/rmarkello/abagen/issues/201
+https://github.com/datacommonsorg/api-python,16fabfc49a9c7d46a5b5847b0d9809242ec884e5,set_api_key_test.py::TestApiKey::test_query_no_api_key?,OD,Opened,https://github.com/datacommonsorg/api-python/pull/175,
+https://github.com/datacommonsorg/api-python,16fabfc49a9c7d46a5b5847b0d9809242ec884e5,set_api_key_test.py::TestApiKey::test_send_request_no_api_key?,OD,Opened,https://github.com/datacommonsorg/api-python/pull/175,
+https://github.com/eillarra/carbonize,891d1d07ca2e9cc48ca5b609da292dce2e574c7e,test_api.py::TestFootprint::test_flight?,OD,Opened,https://github.com/eillarra/carbonize/pull/1,
+https://github.com/eillarra/carbonize,891d1d07ca2e9cc48ca5b609da292dce2e574c7e,test_api.py::TestFootprint::test_flight_two_way?,OD,Opened,https://github.com/eillarra/carbonize/pull/1,
+https://github.com/codespell-project/codespell,4f2325ec18ccef64ed8062f63dc63d360fa33f47,test_dictionary.py::test_dictionary_looping,OD,Opened,https://github.com/codespell-project/codespell/pull/2105,
+https://github.com/lonly7star/icloud_photos_downloader,999c804a02c6db420aeb517700d09d9ba1c5a9df,test_logger.py::LoggerTestCase::test_logger_tqdm_fallback,OD,Opened,https://github.com/icloud-photos-downloader/icloud_photos_downloader/pull/388,
+https://github.com/juntossomosmais/regex4ocr,a140c62e01b378ef9fc334e66eaf3450da70feed,test_drm_scanner.py::test_scan_drms_folder,OD,Accepted,https://github.com/juntossomosmais/regex4ocr/pull/2,
+https://github.com/daliclass/rxpy-backpressure,b1a7bddfb370884135d6f2e7d9a3dd332a90d7cc,test_sized_buffer_backpressure_strategy.py::TestDropBackPressureStrategy::test_when_on_next_buffer_following_messages,OD,,,https://github.com/daliclass/rxpy-backpressure/issues/4
+https://github.com/scrapinghub/spidermon,d58090de7c0fcb656fc4daa19b6119df95df57d6,test_validators_schematics.py::test_choices,NOD,Opened,https://github.com/scrapinghub/spidermon/pull/322,
+https://github.com/Parsely/serpextract,e156430b32eb833686820f490dbcdd989f27baa2,test_serps.py::TestSERPs::test_mojeek,NOD,Opened,"	https://github.com/Parsely/serpextract/pull/26",
+https://github.com/irmen/Pyro5,55bec91891bb9007441024186f3c62b06a3a6870,test_pyro4compat.py::test_compat_config,OD,Accepted,https://github.com/irmen/Pyro5/pull/57,
+https://github.com/dowjones/factiva-news-python,763b178fe7fd3716e5542cf098600ef56c6fbd62,__init__.py,OD,Opened,https://github.com/dowjones/factiva-news-python/pull/8,
+https://github.com/scrapinghub/shub, 7297d6b05b487749d99a4d94eea2f2de3e558f8a,test_utils.py::ReleaseUtilsTes::test_get_docker_client,OD,Opened,https://github.com/scrapinghub/shub/pull/411,
+https://github.com/brightway-lca/stats_arrays, 3d3480d064365571e64e736dcbd778badb1210db,extreme.py::GeneralizedExtremeValueUncertaintyTestCase::test_random_variables,OD,Opened,https://github.com/brightway-lca/stats_arrays/pull/10,
+https://github.com/brightway-lca/stats_arrays, 3d3480d064365571e64e736dcbd778badb1210db,gama.py::GeneralizedExtremeValueUncertaintyTestCase::pretty_close,OD,Opened,https://github.com/brightway-lca/stats_arrays/pull/10,
+https://github.com/brightway-lca/stats_arrays, 3d3480d064365571e64e736dcbd778badb1210db,student.py::GeneralizedExtremeValueUncertaintyTestCase::test_scale_matters/pretty_close,OD,Opened,https://github.com/brightway-lca/stats_arrays/pull/10,
+https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_check_call_args,OD,Opened,https://github.com/agronholm/typeguard/pull/220,
+https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_exec_no_namespace,OD,,,https://github.com/agronholm/typeguard/issues/221
+https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_forward_ref_policy_guess,OD,,,https://github.com/agronholm/typeguard/issues/221
 https://github.com/chakki-works/chazutsu,52b2f8acaac1b6c7eab97dded1a1757d3adcefa7,tests/test_movie_review.py::test_download,NOD,Open,https://github.com/chakki-works/chazutsu/pull/13,
 https://github.com/CitrineInformatics/citrine-python,cf2ec34cad3f1ff44478cad44e4918d7925cba25,tests/_util/test_functions.py::test_shadow_classes_in_module,NIO,Accepted,https://github.com/CitrineInformatics/citrine-python/pull/690,
 https://github.com/mehdisadeghi/clashogram,6ea9eef543201f117749fa290df800c32eb18f54,test_everything.py::MessageFactoryTestCase::test_format_time_default,OD-Vic,Accepted,https://github.com/mehdisadeghi/clashogram/pull/32,
