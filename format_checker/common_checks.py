@@ -3,6 +3,7 @@
 import re
 import csv
 import subprocess
+import requests
 from utils import (
     get_committed_lines,
     get_uncommitted_lines,
@@ -14,13 +15,34 @@ from utils import (
 
 # Contains regexes for columns that are commmon to pr-data and tic-fic-data
 common_data = {
-    "Project URL": re.compile(r"(https:\/\/github.com)(\/(\w|\.|-)+){2}"),
+    "Project URL": re.compile(r"(https:\/\/github.com\/([\w|\.|-]+)\/([\w|\.|-]+))"),
     "SHA": re.compile(r"\b[0-9a-f]{40}\b"),
     "Module Path": re.compile(r"((\w|\.|-)+(\/|\w|\.|-)*)|^$"),
     "Fully-Qualified Name": re.compile(
         r"((\w|\s)+\.)+(\w+|\d+|\W+)+(\[((\d+)|(\w+|\s)+)\])?"
     ),
 }
+
+
+def check_repo_sanity(checked_projects, filename, row, i, log):
+    project_url = row["Project URL"]
+    if project_url in checked_projects:
+        return
+    checked_projects.add(project_url)
+
+    match = common_data["Project URL"].fullmatch(project_url)
+    author = match.group(2)
+    repo = match.group(3)
+
+    url = "https://api.github.com/repos/{}/{}".format(author, repo)
+    try:
+        resp = requests.get(url).json()
+        # Determine if it is a forked project
+        if resp.get("fork"):
+            log_esp_error(filename, log, f"{author}/{repo} is a forked repo")
+    except requests.exceptions.RequestException as e:
+        # handle(e)
+        pass
 
 
 def check_header(header, valid_dict, filename, log):
@@ -108,6 +130,7 @@ def run_checks(file, data_dict, log, commit_range, checks):
         if "1" in uncommitted_lines or "1" in committed_lines:
             check_header(list(header.values()), data_dict, file, log)
         if uncommitted_lines != [] or committed_lines != []:
+            checked_projects = set()
             for i, row in enumerate(info):
                 i += 2
                 line = str(i)
@@ -122,6 +145,9 @@ def run_checks(file, data_dict, log, commit_range, checks):
                     for check_rule in checks:
                         if check_rule.__name__ == check_row_length.__name__:
                             check_rule(len(header), *params)
+                            continue
+                        if check_rule.__name__ == check_repo_sanity.__name__:
+                            check_rule(checked_projects, *params)
                             continue
                         check_rule(*params)
         else:
