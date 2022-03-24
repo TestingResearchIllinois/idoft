@@ -1819,7 +1819,7 @@ https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redp
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationText,NOD,,,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,ID,,,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.testing.LogAssertTest.contains,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/80
-https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,Opened,https://github.com/gooddata/GoodData-CL/pull/145,Repo returns 404 right now
+https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,RepoArchived,https://github.com/gooddata/GoodData-CL/pull/145,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.FilteredCollectionsTest$SetsFilterHashSetTest.testForEach,ID,,,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.FilteredCollectionsTest$SetsFilterHashSetTest.testIterationOrderPreserved,ID,,,
 https://github.com/google/guava,a197d99b96d69ea75a2c4a15ecd8a730dd3270d6,guava-test,com.google.common.collect.ForwardingMapTest.testToStringWithNullValues,ID,,,
@@ -3409,7 +3409,7 @@ https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,auth,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,auth,com.vmware.admiral.auth.project.ProjectServiceTest.testPostUpgradeDefaultProject,ID,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.AuthUtilsTest.testValidateSessionData,NIO,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.JsonMapperTest.testRoundtrip,ID,RepoArchived,,
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReflectionUtilsTest.testSetPathAnnotation,NIO,Opened,https://github.com/vmware/admiral/pull/338,
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReflectionUtilsTest.testSetPathAnnotation,NIO,RepoArchived,https://github.com/vmware/admiral/pull/338,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReliableSubscriptionManagerTest.testReliableSubscriptionsAfterDocumentOwnerChange,ID,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTlsDisabledAlgorithms,NIO,Opened,https://github.com/vmware/admiral/pull/319,RepoArchived
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTrustStoreSettings,NIO,Opened,https://github.com/vmware/admiral/pull/319,RepoArchived
