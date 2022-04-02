@@ -14,7 +14,7 @@ from utils import (
 
 # Contains regexes for columns that are commmon to pr-data and tic-fic-data
 common_data = {
-    "Project URL": re.compile(r"(https:\/\/github.com)(\/(\w|\.|-)+){2}"),
+    "Project URL": re.compile(r"(https:\/\/github.com)(\/(\w|\.|-)+){2}(?<!\.git)$"),
     "SHA": re.compile(r"\b[0-9a-f]{40}\b"),
     "Module Path": re.compile(r"((\w|\.|-)+(\/|\w|\.|-)*)|^$"),
     "Fully-Qualified Name": re.compile(
