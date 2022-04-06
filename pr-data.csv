@@ -2819,8 +2819,6 @@ https://github.com/pholser/junit-quickcheck,9361b6dae25b193782604d071754eb7fc566
 https://github.com/pholser/junit-quickcheck,9361b6dae25b193782604d071754eb7fc566390a,core,com.pholser.junit.quickcheck.UsualJUnitMachineryOnTraitBasedPropertyTest.expectedOrderingOfMethods,NIO,Accepted,https://github.com/pholser/junit-quickcheck/pull/287,
 https://github.com/pinterest/secor,0927a127e3014ee494c97f8c0c25dafe9cf5ac27,.,com.pinterest.secor.io.FileReaderWriterFactoryTest.testDelimitedTextFileReader,NOD,Accepted,https://github.com/pinterest/secor/pull/1687,
 https://github.com/pinterest/secor,0927a127e3014ee494c97f8c0c25dafe9cf5ac27,.,com.pinterest.secor.io.FileReaderWriterFactoryTest.testDelimitedTextFileWriter,NOD,Accepted,https://github.com/pinterest/secor/pull/1687,
-https://github.com/pinterest/secor,a76fe9fedfa0571347d0b5465b3c40c83dd3c949,.,com.pinterest.secor.io.FileReaderWriterFactoryTest.testSequenceFileReader,ID,,,
-https://github.com/pinterest/secor,a76fe9fedfa0571347d0b5465b3c40c83dd3c949,.,com.pinterest.secor.io.FileReaderWriterFactoryTest.testSequenceFileWriter,ID,,,
 https://github.com/pinterest/secor,a76fe9fedfa0571347d0b5465b3c40c83dd3c949,.,Test mechanism.Test mechanism,ID,,,
 https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pippo-session-parent/pippo-session-hazelcast,ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest.testGet,NOD,,,
 https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pippo-session-parent/pippo-session-hazelcast,ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest.testSave,NOD,,,
