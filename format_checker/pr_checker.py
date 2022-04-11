@@ -92,7 +92,7 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed"]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "DeveloperFixed"]:
 
         # Should contain a note
         if row["Notes"] == "":
@@ -117,6 +117,11 @@ def check_status_consistency(filename, row, i, log):
                 )
             # If it contains a PR link, it should be a valid one
             else:
+                check_pr_link(filename, row, i, log)
+
+        if row["Status"] == "DeveloperFixed":
+            # Should contain either no PR Link or a valid one
+            if not row["PR Link"] == "":
                 check_pr_link(filename, row, i, log)
 
     if row["Status"] == "" and row["PR Link"] != "":
