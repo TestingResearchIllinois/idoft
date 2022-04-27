@@ -119,7 +119,7 @@ OD | Order-Dependent flaky tests as defined in [iDFlakies](http://mir.cs.illinoi
 OD-Brit | Order-Dependent Brittle tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 OD-Vic | Order-Dependent Victim tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 ID | Implementation-Dependent Tests found by [Nondex](http://mir.cs.illinois.edu/marinov/publications/ShiETAL16NonDex.pdf)
-NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](http://mir.cs.illinois.edu/winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
+NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](https://cs.gmu.edu/~winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
 NOD | Non-Deterministic tests 
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
