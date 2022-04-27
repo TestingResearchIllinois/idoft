@@ -119,7 +119,7 @@ OD | Order-Dependent flaky tests as defined in [iDFlakies](http://mir.cs.illinoi
 OD-Brit | Order-Dependent Brittle tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 OD-Vic | Order-Dependent Victim tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 ID | Implementation-Dependent Tests found by [Nondex](http://mir.cs.illinois.edu/marinov/publications/ShiETAL16NonDex.pdf)
-NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](http://mir.cs.illinois.edu/winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
+NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](https://cs.gmu.edu/~winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
 NOD | Non-Deterministic tests 
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
@@ -133,7 +133,7 @@ Blank | A blank value denotes that a flaky test was detected and is yet to be in
 Opened | For tests where a PR was opened to fix the flaky test
 Accepted | For tests where a PR was accepted to fix the flaky test
 InspiredAFix | The work (e.g., issue report, pull request) inspired a fix from the developer, but did not directly change any code. The PR Link should be the link of the PR that the developer merged to fix the flakiness and some [Notes](#adding-notes) should be added to explain how the work inspired the fix
-DevelopersDoNotWantFix | For tests where where developers claimed that they do not want a fix
+DeveloperWontFix | For tests where developers claimed that they do not want a fix
 DeveloperFixed | For tests where a developer fixed the tests before a PR was made
 Deleted | For tests that can no longer be fixed as the tests have been removed from the repository after the tests were detected
 Rejected | For tests where a PR was rejected/closed as the developers did not think a fix was necessary
