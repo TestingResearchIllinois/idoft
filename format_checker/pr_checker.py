@@ -42,6 +42,7 @@ pr_data = {
         "DeveloperWontFix",
         "DeveloperFixed",
         "RepoArchived",
+        "Deprecated",
         "Deleted",
         "Rejected",
         "Skipped",
@@ -92,7 +93,7 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed"]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated"]:
 
         # Should contain a note
         if row["Notes"] == "":
