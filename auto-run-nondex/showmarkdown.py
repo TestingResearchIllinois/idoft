@@ -14,7 +14,7 @@ while True:
     with open(filename) as f:
         content = f.read()
         report = html2text.html2text(content).replace("|\n", "|")
-        print(report)
+        print(report.encode("utf-8"))
         f_md.write(report + "\n")
         f.close()
     print(filename)
