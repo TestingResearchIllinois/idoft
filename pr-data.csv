@@ -697,6 +697,7 @@ https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-l
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-libraries/flink-cep,org.apache.flink.cep.operator.CEPOperatorTest.testCEPOperatorComparatorProcessTime,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-connectors/flink-connector-hive,org.apache.flink.connectors.hive.HiveTableSinkTest.testWriteComplexType,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/18
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-connectors/flink-connector-hive,org.apache.flink.connectors.hive.TableEnvHiveConnectorTest.testUDTF,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/19
+https://github.com/apache/flink,549d4327cf4ae9646f74a1da561dcebecd3d47ff,flink-kubernetes,org.apache.flink.kubernetes.kubeclient.decorators.InitTaskManagerDecoratorTest.testNodeAffinity,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-runtime,org.apache.flink.runtime.checkpoint.CheckpointCoordinatorTest.testTriggerAndDeclineCheckpointComplex,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-runtime,org.apache.flink.runtime.state.FileStateBackendMigrationTest.testKeyedMapStateAsIs,ID,Rejected,https://github.com/apache/flink/pull/11301,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-runtime,org.apache.flink.runtime.state.FileStateBackendMigrationTest.testKeyedMapStateSerializerReconfiguration,ID,,,
