@@ -3,12 +3,14 @@
 import re
 import csv
 import subprocess
+import requests
 from utils import (
     get_committed_lines,
     get_uncommitted_lines,
     log_info,
     log_std_error,
     log_esp_error,
+    log_archived_error,
 )
 
 
@@ -23,6 +25,17 @@ common_data = {
 }
 
 
+def check_repo_archived(checked_projects, filename, row, i, log):
+    project_url = row["Project URL"]
+    try:
+        resp = requests.get(project_url)
+        # Determine if it is an archived project
+        if "This repository has been archived by the owner. It is now read-only." in resp.text:
+            log_archived_error(filename, log, i, row, "Project URL")
+    except requests.exceptions.RequestException as e:
+        log_esp_error(filename, log, "The check for repo-archived failed due to ERROR:" + str(e))
+    
+    
 def check_header(header, valid_dict, filename, log):
     """Validates that the header is correct."""
 
@@ -108,6 +121,7 @@ def run_checks(file, data_dict, log, commit_range, checks):
         if "1" in uncommitted_lines or "1" in committed_lines:
             check_header(list(header.values()), data_dict, file, log)
         if uncommitted_lines != [] or committed_lines != []:
+            checked_projects = set()
             for i, row in enumerate(info):
                 i += 2
                 line = str(i)
@@ -122,6 +136,9 @@ def run_checks(file, data_dict, log, commit_range, checks):
                     for check_rule in checks:
                         if check_rule.__name__ == check_row_length.__name__:
                             check_rule(len(header), *params)
+                            continue
+                        if check_rule.__name__ == check_repo_archived.__name__:
+                            check_rule(checked_projects, *params)
                             continue
                         check_rule(*params)
         else:
