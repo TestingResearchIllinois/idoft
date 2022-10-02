@@ -4044,8 +4044,8 @@ https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30a
 https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.protocols.ProtoclHandshakeRejectionTest.testHandshakeRejectionTestCase6,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/22
 https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.protocols.ProtoclHandshakeRejectionTest.testHandshakeRejectionTestCase8,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/22
 https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.protocols.ProtoclHandshakeRejectionTest.testHandshakeRejectionTestCase9,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/22
-https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToJSON,ID,Opened,https://github.com/twilio/authy-java/pull/70,
-https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToXML,ID,,,
+https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToJSON,ID,RepoArchived,https://github.com/twilio/authy-java/pull/70,
+https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToXML,ID,RepoArchived,,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.MetaFieldUtilTest.toMetaFieldInfoArray,ID,,,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.windowing.WindowTest.simulatedMultithreadedProcessing,ID,,,
 https://github.com/twitter/GraphJet,dbb652a99b6213ddb5892ae6e3396ef10fa0279b,graphjet-core,com.twitter.graphjet.algorithms.salsa.SalsaTest.testSalsaWithRandomGraph,ID,,,
@@ -4086,7 +4086,7 @@ https://github.com/visallo/vertexium,f1fd59e23610312cf0ec6756ea01baaf56cdb74e,ac
 https://github.com/visallo/vertexium,f1fd59e23610312cf0ec6756ea01baaf56cdb74e,inmemory,org.vertexium.inmemory.InMemoryGraphTest.manyVisibilities,NOD,,,
 https://github.com/visallo/vertexium,f1fd59e23610312cf0ec6756ea01baaf56cdb74e,inmemory,org.vertexium.inmemory.InMemoryGraphTest.testMarkPropertyVisible,NOD,,,
 https://github.com/visallo/vertexium,bc52f7cd33f6e559b3f144db77e160bddac0e003,core,org.vertexium.util.IncreasingTimeTest.currentTimeMillisReturnsTimeGreaterThanSystemTime,NOD,,,
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,adapter/kubernetes,com.vmware.admiral.adapter.kubernetes.KubernetesMaintenanceTest.testAdapterRequestOnPeriodicMaintenance,NIO,Opened,https://github.com/vmware/admiral/pull/320,RepoArchived
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,adapter/kubernetes,com.vmware.admiral.adapter.kubernetes.KubernetesMainteceTest.testAdapterRequestOnPeriodicMaintece,NIO,RepoArchived,https://github.com/vmware/admiral/pull/320,RepoArchived
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,adapter/kubernetes,com.vmware.admiral.adapter.pks.service.KubeConfigContentServiceTest.testGetKubeConfigWithBearerToken,ID,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,adapter/registry,com.vmware.admiral.adapter.registry.service.RegistryAdapterServiceProxyTest.testInitNoProxyNoList,UD,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,adapter/registry,com.vmware.admiral.adapter.registry.service.RegistryAdapterServiceProxyTest.testInitNoProxyWithList,UD,RepoArchived,,
@@ -4120,10 +4120,10 @@ https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,auth,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,auth,com.vmware.admiral.auth.project.ProjectServiceTest.testPostUpgradeDefaultProject,ID,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.AuthUtilsTest.testValidateSessionData,NIO,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.JsonMapperTest.testRoundtrip,ID,RepoArchived,,
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReflectionUtilsTest.testSetPathAnnotation,NIO,Opened,https://github.com/vmware/admiral/pull/338,RepoArchived
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReflectionUtilsTest.testSetPathAnnotation,NIO,RepoArchived,https://github.com/vmware/admiral/pull/338,RepoArchived
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.ReliableSubscriptionManagerTest.testReliableSubscriptionsAfterDocumentOwnerChange,ID,RepoArchived,,
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTlsDisabledAlgorithms,NIO,Opened,https://github.com/vmware/admiral/pull/319,RepoArchived
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTrustStoreSettings,NIO,Opened,https://github.com/vmware/admiral/pull/319,RepoArchived
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTlsDisabledAlgorithms,NIO,RepoArchived,https://github.com/vmware/admiral/pull/319,RepoArchived
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,common,com.vmware.admiral.common.util.SecurityUtilsTest.testEnsureTrustStoreSettings,NIO,RepoArchived,https://github.com/vmware/admiral/pull/319,RepoArchived
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,compute,com.vmware.admiral.compute.cluster.ClusterServiceTest.testPatchSingleHostClusterWithPublicAddress,NOD,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,compute,com.vmware.admiral.compute.container.ContainerHostDataCollectionServiceTest.testPlacementUpdates,ID,RepoArchived,,
 https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,compute,com.vmware.admiral.compute.container.GroupResourcePlacementServiceTest.testMemoryPlacementReservationRequest,OD-Brit,RepoArchived,,
@@ -4172,7 +4172,7 @@ https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,reque
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.ContainerRemovalTaskServiceTest.testRemoveOfStaleContainerOperationFromHostRemoval,ID,RepoArchived,,
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.ContainerVolumeProvisionTaskServiceTest.testVolumeProvisioningTaskWithProvidedHostIds,ID,RepoArchived,,
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.ContainerVolumeProvisionTaskServiceTest.testVolumeProvisioningTaskWithSoftAntiaffinity,ID,RepoArchived,,
-https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,request,com.vmware.admiral.request.kubernetes.RequestBrokerKubernetesServiceTest.testRequestStateHasK8sInfo,NIO;OD-Vic,Opened,https://github.com/vmware/admiral/pull/327,RepoArchived
+https://github.com/vmware/admiral,e4b02936cc7d4ff2714e7231db0c4373ba5d48a2,request,com.vmware.admiral.request.kubernetes.RequestBrokerKubernetesServiceTest.testRequestStateHasK8sInfo,NIO;OD-Vic,RepoArchived,https://github.com/vmware/admiral/pull/327,RepoArchived
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.notifications.NotificationsServiceTest.testGetNoNotifications,ID,RepoArchived,,
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.pks.PKSClusterProvisioningTaskServiceTest.testDoValidatePlanSelection,ID,RepoArchived,,
 https://github.com/vmware/admiral,24c9ac00953b144de0a4de13847561f9bf58e648,request,com.vmware.admiral.request.RequestBrokerServiceTest.testDeletingRequestBrokerShouldDeleteAssociatedRequestStatus,ID,RepoArchived,,
