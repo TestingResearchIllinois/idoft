@@ -15,6 +15,7 @@ def main():
     csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
     cols = csv_first_line.split(",")
     status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
+    notes = cols.index("Notes") + 1
     data = pd.read_csv(pr_data_url, usecols=cols)
                                 
     data = data.values  # get an array of array
@@ -67,7 +68,7 @@ def main():
     for i in archived:
         for j in my_dict[i]:
             if j[status_idx] != "RepoArchived":
-                j[status_idx] = "RepoArchived"
+                j[notes] = "RepoArchived"
                 update.append(j)
     if not update:
         print("No need to update")
@@ -81,15 +82,32 @@ def main():
     print("3.anomaly:")
     for i in anomaly:
         print("status code:" + str(i[0]) + ", "),
-        print("url:", i[1])
-    print("[!]details: ")
-    for j in anomaly:
-        for i in my_dict[j[1]]:
-            print("line_number "+ str(i[0]) + ":") 
-            print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+        print("url:", i[1]) 
+        print("[!]details: ")
+        update = []
+        if str(i[0]) == '404':
+            for i in anomaly:
+                for j in my_dict[i[1]]:
+                    if j[status_idx] != "RepoDeleted":
+                        j[notes] = "RepoDeleted"
+                        update.append(j)
+            if not update:
+                print("No need to update")
+            else:
+                print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
+                for j in anomaly:
+                    for i in my_dict[j[1]]:
+                        print("line_number "+ str(i[0]) + ":") 
+                        print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                        print("")
+                print("")
+        else:
+            for j in anomaly:
+                for i in my_dict[j[1]]:
+                    print("line_number "+ str(i[0]) + ":") 
+                    print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                    print("")
             print("")
-    print("")
-
 
 if __name__ == "__main__":
     main()
