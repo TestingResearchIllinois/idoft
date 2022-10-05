@@ -141,6 +141,7 @@ Skipped | For test which was inspected and should not be fixed (e.g., test is an
 MovedOrRenamed | For test that has a different fully-qualified name on two different shas. This status should be added only to the row with the older sha. To use this status, please also provide some [Notes](#adding-notes) on what the test is renamed to
 RepoArchived | For test that is in an archived repo, which is indicated by GitHub in messages such as "This repository has been archived by the owner. It is now read-only."
 Deprecated | For test that is in a deprecated repository, which is usually indicated in the project README or description as "Deprecated" or a similar message. To use this status, please also provide some [Notes](#adding-notes) that contain a link to the commit that marks the repository as deprecated. 
+RepoDeleted | For tests that are in repository that does not exist anymore and the link to the repository throws a 404 status code error.
 
 * **PR Link**: Link to the pull request in the repository of the Project URL to fix a given flaky test.
 
