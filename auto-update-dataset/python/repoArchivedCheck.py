@@ -67,8 +67,11 @@ def main():
     update = []
     for i in archived:
         for j in my_dict[i]:
-            if j[status_idx] != "RepoArchived":
-                j[notes] = "RepoArchived"
+            if j[status_idx] != "RepoArchived" and j[notes] != "RepoArchived":
+                if pd.isna(j[status_idx]) or j[status_idx] == "":
+                    j[status_idx] = "RepoArchived"  
+                else:
+                    j[notes] = "RepoArchived"
                 update.append(j)
     if not update:
         print("No need to update")
@@ -88,9 +91,12 @@ def main():
         if str(i[0]) == '404':
             for i in anomaly:
                 for j in my_dict[i[1]]:
-                    if j[status_idx] != "RepoDeleted":
-                        j[notes] = "RepoDeleted"
-                        update.append(j)
+                    if j[status_idx] != "RepoDeleted" and j[notes] != "RepoDeleted":
+                        if pd.isna(j[status_idx]) or j[status_idx] == "":
+                            j[status_idx] = "RepoDeleted"  
+                        else:
+                            j[notes] = "RepoDeleted"
+                update.append(j)
             if not update:
                 print("No need to update")
             else:
