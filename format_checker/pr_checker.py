@@ -42,6 +42,7 @@ pr_data = {
         "DeveloperWontFix",
         "DeveloperFixed",
         "RepoArchived",
+        "RepoDeleted",
         "Deprecated",
         "Deleted",
         "Rejected",
