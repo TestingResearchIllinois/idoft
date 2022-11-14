@@ -1067,7 +1067,7 @@ https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyr
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_init_with_dict,OD-Vic,,,
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_num_targets,OD-Vic,,,
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_return_data_labels,OD-Vic,,,
-https://github.com/raphaelvallat/pingouin,08560bb978949e97653b203f7374e90b022b88fb,pingouin/tests/test_regression.py::TestRegression::test_logistic_regression,OD-Vic,,,
+https://github.com/raphaelvallat/pingouin,08560bb978949e97653b203f7374e90b022b88fb,pingouin/tests/test_regression.py::TestRegression::test_logistic_regression,OD-Vic,Accepted,https://github.com/raphaelvallat/pingouin/pull/303,
 https://github.com/raphaelvallat/pingouin/issues/211,cc5d687e24453e79987991484f9311e738bcaa59,pingouin/tests/test_regression.py,,,,pytest --flake-finder --flake-runs=2 or pytest --randomly-seed=1234
 https://github.com/rduldulao/tornado-swirl,b8df27efc3d7fd0dce0f0290767c94ac2e747311,tests/test_swirl.py::TestSampleEndpoints::test_security_scheme1,OD-Brit,,,
 https://github.com/rduldulao/tornado-swirl,b8df27efc3d7fd0dce0f0290767c94ac2e747311,tests/test_swirl.py::TestSampleEndpoints::test_security_scheme2,OD-Brit,,,
