@@ -378,7 +378,7 @@ https://github.com/alien4cloud/alien4cloud,eb57d0feca6c37e0a4aafc3feef494e43e02e
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.GreedyAllocatorTest.allocateBlock,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.MaxFreeAllocatorTest.allocateBlock,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.RoundRobinAllocatorTest.allocateBlock,ID,,,
-https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyReadLockedBlock,ID,,,
+https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyReadLockedBlock,ID,DeveloperFixed,,https://github.com/Alluxio/alluxio/commit/921a053d0feafc3c831743d1ae996b31d3cc1288
 https://github.com/Alluxio/alluxio,e6d76803f27133d7700811585f5310470e50e487,core/server/worker,alluxio.worker.block.BlockLockManagerTest.lockAlreadyWriteLockedBlock,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.BlockMetadataViewTest.sameTierView,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.BlockMetadataViewTest.sameTierViewsBelow,ID,,,
