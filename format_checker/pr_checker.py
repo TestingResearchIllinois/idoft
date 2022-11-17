@@ -94,16 +94,22 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated"]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated", "Deleted"]:
 
         # Should contain a note
         if row["Notes"] == "":
-            log_warning(
-                filename,
-                log,
-                i,
-                "Status " + row["Status"] + " should contain a note",
-            )
+            # warning if no note:
+            if row["Status"] in ["InspiredAFix", "Skipped", "Deprecated"]:
+                log_warning(
+                    filename,
+                    log,
+                    i,
+                    "Status " + row["Status"] + " should contain a note",
+                )
+            # error if no note:
+            if row["Status"] in ["MovedOrRenamed", "Deleted"]:
+                log_std_error(filename, log, i, row, "Notes")
+
         # If it contains a note, it should be a valid link
         else:
             check_notes(filename, row, i, log)
@@ -117,9 +123,10 @@ def check_status_consistency(filename, row, i, log):
                     i,
                     "Status " + row["Status"] + " should have a PR Link",
                 )
-            # If it contains a PR link, it should be a valid one
-            else:
-                check_pr_link(filename, row, i, log)
+
+        # If it contains a PR link, it should be a valid one
+        if row["PR Link"] != "":
+            check_pr_link(filename, row, i, log)
 
     if row["Status"] == "" and row["PR Link"] != "":
         check_pr_link(filename, row, i, log)
