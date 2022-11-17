@@ -1205,6 +1205,7 @@ https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-s
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-server,org.apache.hadoop.hbase.ipc.TestRpcMetrics.testSourceMethods,NIO,,,https://github.com/TestingResearchIllinois/idoft/issues/411
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-server,org.apache.hadoop.hbase.master.cleaner.TestReplicationHFileCleaner.testIsFileDeletable,NIO,Accepted,https://github.com/apache/hbase/pull/2984,
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-server,org.apache.hadoop.hbase.master.TestCatalogJanitor.testParentCleanedEvenIfDaughterGoneFirst,ID,,,
+https://github.com/apache/hbase,6bb4b387a34d148be98e537012074e412efb8aa4,hbase-server,org.apache.hadoop.hbase.monitoring.TestTaskMonitor.testClone,ID,Accepted,https://github.com/apache/hbase/pull/4876,
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-server,org.apache.hadoop.hbase.monitoring.TestTaskMonitor.testDoNotPurgeRPCTask,NIO,Opened,https://github.com/apache/hbase/pull/3615,
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-procedure,org.apache.hadoop.hbase.procedure2.store.wal.TestWALProcedureStore.testLoad,UD,,,
 https://github.com/apache/hbase,801fc05e9c082ab12c7c1207087d3667ab162d1a,hbase-procedure,org.apache.hadoop.hbase.procedure2.store.wal.TestWALProcedureStore.testNoTrailerDoubleRestart,UD,,,
@@ -2819,7 +2820,7 @@ https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4
 https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.io.hfile.TestLruAdaptiveBlockCache.testBackgroundEvictionThread,ID,,,
 https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.master.TestRegionsRecoveryChore.testRegionReopensWithLessThreshold,ID,,,
 https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.master.TestRegionsRecoveryChore.testRegionReopensWithStoreRefConfig,ID,,,
-https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.monitoring.TestTaskMonitor.testClone,ID,Opened,https://github.com/apache/hbase/pull/4876,
+https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.monitoring.TestTaskMonitor.testClone,ID,,,
 https://github.com/HubSpot/hbase,102c2bb129dea33d2de928b4888e3e09fd0e04ca,hbase-server,org.apache.hadoop.hbase.util.compaction.TestMajorCompactionTTLRequest,ID,,,
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.EagerTest.itHandlesDoubleImportModification,ID,,,
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.EagerTest.itHandlesImportInDeferredIf,ID,,,
