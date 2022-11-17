@@ -496,7 +496,7 @@ https://github.com/filestack/filestack-python,bfd98e91d3300d2fbae0569acb4863f9e7
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_success,OD-Vic,,,
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,NIO,,,
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,OD-Vic,,,
-https://github.com/fooof-tools/fooof,14d6196e0b60c7e6da95b5cf858b20adcc5fc0ac,fooof/tests/utils/test_download.py::test_check_data_file,NOD,,,pytest --flake-finder --flake-runs=2
+https://github.com/fooof-tools/fooof,14d6196e0b60c7e6da95b5cf858b20adcc5fc0ac,fooof/tests/utils/test_download.py::test_check_data_file,NOD,Opened,https://github.com/fooof-tools/fooof/pull/242,pytest --flake-finder --flake-runs=2
 https://github.com/FoteinosMerg/pymerkle,5318009e04b2ae44e194b8435ef181aa67ab8b9a,tests/tree/test_structure.py::test_1_leaves,NIO,,,
 https://github.com/ganehag/pyMeterBus,bc853aa38ac6b10301bdf97f13ac25b36985316f,tests/test_globals.py::TestSequenceFunctions::test_debug_default_value,OD-Vic,,,
 https://github.com/gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/example/test_example.py::TestClass::test_simple_example,NIO,Deleted,,
@@ -909,7 +909,7 @@ https://github.com/neulab/compare-mt,92502b30b1f228773179a01dd86fe1b8dfd400e5,te
 https://github.com/neulab/compare-mt,92502b30b1f228773179a01dd86fe1b8dfd400e5,tests/test_cache.py::TestSrcWordAccCache::test_src_wordacc_cache,OD-Brit,,,
 https://github.com/neulab/compare-mt,92502b30b1f228773179a01dd86fe1b8dfd400e5,tests/test_cache.py::TestWordAccCache::test_wordacc_cache,OD-Brit,,,
 https://github.com/Neuraxio/Neuraxle,20c6e5713198345b43bf6899355f1b5cf65eb02c,testing/hyperparams/test_distributions.py::test_gaussian_distribution_mixture_log,OD-Vic,,,
-https://github.com/neurodsp-tools/neurodsp,19aa50c71deaa19e4ed85efa192afa8ab63d0bf1,neurodsp/tests/utils/test_download.py::test_check_data_file,OD-Brit,,,
+https://github.com/neurodsp-tools/neurodsp,19aa50c71deaa19e4ed85efa192afa8ab63d0bf1,neurodsp/tests/utils/test_download.py::test_check_data_file,OD-Brit,Opened,https://github.com/neurodsp-tools/neurodsp/pull/308,
 https://github.com/nficano/pytube,b610f399722e001e99ee88d3673c148d903c5948,tests/test_streams.py::test_on_progress_hook,NIO,,,
 https://github.com/nicolaszein/autodiscover,3009f81c51b7a4cb077427e429d740db98eb173b,tests/test_autodiscover.py::TestAutoDiscover::test_autodiscover_with_pattern,OD-Brit,,,
 https://github.com/nir0s/clu,77da967a4577ca4cf100cfe34e87b39ad88bf21c,tests/test_ghost.py::TestCLI::test_fail_init_two_stashes_passphrase_file_exists,OD-Vic,,,
@@ -1067,7 +1067,7 @@ https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyr
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_init_with_dict,OD-Vic,,,
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_num_targets,OD-Vic,,,
 https://github.com/raamana/pyradigm,01d47cf34a9af4bb104e2891559059a522221b4d,pyradigm/tests/test_regress_dataset.py::test_return_data_labels,OD-Vic,,,
-https://github.com/raphaelvallat/pingouin,08560bb978949e97653b203f7374e90b022b88fb,pingouin/tests/test_regression.py::TestRegression::test_logistic_regression,OD-Vic,,,
+https://github.com/raphaelvallat/pingouin,08560bb978949e97653b203f7374e90b022b88fb,pingouin/tests/test_regression.py::TestRegression::test_logistic_regression,OD-Vic,Accepted,https://github.com/raphaelvallat/pingouin/pull/303,
 https://github.com/raphaelvallat/pingouin/issues/211,cc5d687e24453e79987991484f9311e738bcaa59,pingouin/tests/test_regression.py,,,,pytest --flake-finder --flake-runs=2 or pytest --randomly-seed=1234
 https://github.com/rduldulao/tornado-swirl,b8df27efc3d7fd0dce0f0290767c94ac2e747311,tests/test_swirl.py::TestSampleEndpoints::test_security_scheme1,OD-Brit,,,
 https://github.com/rduldulao/tornado-swirl,b8df27efc3d7fd0dce0f0290767c94ac2e747311,tests/test_swirl.py::TestSampleEndpoints::test_security_scheme2,OD-Brit,,,
