@@ -229,14 +229,14 @@ https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,te
 https://github.com/dgellerup/laminar,74258f6e6cc8b3b4e9eaf7cc522192a353a3b45e,test/test_laminar.py::test_init_my_lam,OD-Vic,,,
 https://github.com/dgilland/pydash/issues/170,24ad0e43b51b367d00447c45baa68c9c03ad1a52,tests/test_utilities.py::test_unique_id,OD,,,pytest --randomly-seed=123
 https://github.com/didix21/mdutils,9cc2a5cfc86a052f987feddcee7f37a4349fb8de,tests/test_mdutils.py::TestMdUtils,,,,pytest --flake-finder --flake-runs=2 or pytest --randomly-seed=1234
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_create_md_file,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_checkbox_checked_list,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_checkbox_list,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_header,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_list,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_reference_image_markdown_data,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_table_of_contents,OD-Vic,,,
-https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_references_placed_in_markdown_file,OD-Vic,,,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_create_md_file,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_checkbox_checked_list,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_checkbox_list,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_header,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_list,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_reference_image_markdown_data,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_new_table_of_contents,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
+https://github.com/didix21/mdutils,2ef859ecc1e4f1a3e24f4150c96f61180bc57ceb,tests/test_mdutils.py::TestMdUtils::test_references_placed_in_markdown_file,OD-Vic,Accepted,https://github.com/didix21/mdutils/pull/76,
 https://github.com/django-beam/django-beam,43b2111f5c65937aa1e2cc9704b59796e982a805,tests/test_contrib_reversion.py::test_revision_is_visible_in_list,NOD,,,
 https://github.com/django-beam/django-beam,43b2111f5c65937aa1e2cc9704b59796e982a805,tests/test_contrib_reversion.py::test_show_detail_from_previous_version,NOD,,,
 https://github.com/django-beam/django-beam,43b2111f5c65937aa1e2cc9704b59796e982a805,tests/test_views.py::test_delete,NOD,,,
@@ -993,7 +993,7 @@ https://github.com/Poogles/limitediterables,3ce3bc28d5c4092db3d5499ad60339c007f4
 https://github.com/Poogles/limitediterables,3ce3bc28d5c4092db3d5499ad60339c007f4c0e0,tests/test_iterables.py::test_rate_limit,OD-Vic,,,
 https://github.com/Poogles/limitediterables,3ce3bc28d5c4092db3d5499ad60339c007f4c0e0,tests/test_iterables.py::test_rate_limit_negative,OD-Vic,,,
 https://github.com/Poogles/limitediterables,3ce3bc28d5c4092db3d5499ad60339c007f4c0e0,tests/test_iterables.py::test_rate_limit_negative tests/test_iterables.py::test_rate_limit,,,,pytest --randomly-seed=1234
-https://github.com/povieira/noipy,a95f94f98e9550045d741b15501e7360c2623543,test/test_noipy.py::SanityTest::test_get_ip,,,,pytest --flake-finder --flake-runs=2
+https://github.com/povieira/noipy,a95f94f98e9550045d741b15501e7360c2623543,test/test_noipy.py::SanityTest::test_get_ip,,Opened,https://github.com/pv8/noipy/pull/203,pytest --flake-finder --flake-runs=2
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/connector/test_snapshot_azure.py::test_get_node_happy,NOD,,,
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/connector/test_snapshot_azure.py::test_get_version_for_type,NOD,,,
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/helper/config/test_config_utils.py::test_framework_config,NOD,,,
@@ -1507,10 +1507,10 @@ https://github.com/vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tes
 https://github.com/vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tests/test_project.py::testProjectNewMinimal,NIO,DeveloperFixed,,
 https://github.com/Vnet-as/myr-base,56e347b4f4d70f53a6afe55e96c1f9e35f5454eb,tests/test_base.py::TestApp::test_announcing_no_tasks,OD-Vic,,,
 https://github.com/voxpupuli/puppetboard/issues/646,88401f64b20da20edaf14558d6c0e9bdc697de3b,test/test_app.py,OD,,,pytest --randomly-seed=123 or pytest --randomly-seed=1234
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_file_contents,OD-Brit,,,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_jsonlines,OD-Brit,,,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_fobj,OD-Brit,,,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_str,OD-Brit,,,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_file_contents,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_jsonlines,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_fobj,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_str,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_fit_knee,OD-Vic,,,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_fit_nk,OD-Vic,,,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_load,OD-Brit,,,
