@@ -2695,7 +2695,6 @@ https://github.com/ConsenSys/tessera,ecdd1a2ce6412c11a8ae722d7a4527a4a66da688,te
 https://github.com/ConsenSys/tessera,ecdd1a2ce6412c11a8ae722d7a4527a4a66da688,eclipselink-utils,com.quorum.tessera.eclipselink.AtomicLongSequenceTest.customisedWithDbLogin,OD,Accepted,https://github.com/ConsenSys/tessera/pull/1193,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/42
 https://github.com/ConsenSys/tessera,ecdd1a2ce6412c11a8ae722d7a4527a4a66da688,eclipselink-utils,com.quorum.tessera.eclipselink.AtomicLongSequenceTest.customisedWithNullDbLogin,OD,Accepted,https://github.com/ConsenSys/tessera/pull/1193,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/42
 https://github.com/ConsenSys/tessera,ecdd1a2ce6412c11a8ae722d7a4527a4a66da688,eclipselink-utils,com.quorum.tessera.eclipselink.AtomicLongSequenceTest.onDisconnectDoesNothing,OD,Accepted,https://github.com/ConsenSys/tessera/pull/1193,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/42
-https://github.com/coupa/ghprb-plugin,f471f3b462de9e8138e146ea846d7c631271125f,.,org.jenkinsci.plugins.ghprb.GhprbRootActionTest.testUrlEncoded,ID,RepoArchived,,
 https://github.com/CrawlScript/WebCollector,016b61a1f6e52cf2ffb048a2abcc01d767beb0ab,.,cn.edu.hfut.dmic.webcollector.util.OkHttpRequesterTest.testHttpCode,NOD,,,
 https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-core,"lv.ctco.cukes.core.RunCukesTest.When let variable ""var1"" to be random password with length 8",NOD,,,
 https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-oauth-sample,"lv.ctco.cukes.oauth.sample.RunCukesOAuthTest.And response contains ""Read success""",NOD,,,
@@ -2746,7 +2745,6 @@ https://github.com/DataDog/datadog-kafka-connect-logs,e453f0c9efb50f2d7aaf2186ff
 https://github.com/DataDog/jmeter-datadog-backend-listener,4b237366bf81050e56aa4d96944cffcd594593c0,.,org.datadog.jmeter.plugins.DatadogBackendClientTest.testExtractLogs,ID,Opened,https://github.com/DataDog/jmeter-datadog-backend-listener/pull/33,
 https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testApp,ID,,,
 https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testAppCanonicalRate,ID,,,
-https://github.com/DataDog/metrics,78b732900fb0be1eb04be2d3d64d205f1a611042,metrics-core,com.yammer.metrics.util.tests.DeadlockHealthCheckTest.returnsUnhealthyIfDeadlocks,ID,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancel,NDOD,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancelObservable,NDOD;OD-Vic,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.internal.flowable.FlowableServerSocketTest.serverSocketReadsTcpPushWhenBufferIsSmallerThanInput,UD,,,
@@ -3396,7 +3394,6 @@ https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03
 https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03a,value-fixture,org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated,ID,Accepted,https://github.com/immutables/immutables/pull/1350,
 https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03a,value-fixture,org.immutables.fixture.jackson.ObjectMappedTest.keywordNames,ID,Accepted,https://github.com/immutables/immutables/pull/1350,
 https://github.com/immutables/immutables,b21e6bbfbb9038100532416c81e8270951c3e03a,value-fixture,org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections,ID,Accepted,https://github.com/immutables/immutables/pull/1350,
-https://github.com/Infosys/olingo-odata2,daa83f4d80f3eb8019ae2cb6729486d1821b8c89,odata2-jpa-processor/jpa-core,org.apache.olingo.odata2.jpa.processor.core.access.data.JPAEntityTest.testCreateODataEntryPropertyWithOutCallBack,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/388
 https://github.com/intel/graphbuilder,ca510a155398c32134ccc9dbe88cfbaef0254088,.,com.intel.hadoop.graphbuilder.test.graph.SimpleGraphTest.testGraphFormatter,ID,RepoArchived,,
 https://github.com/intel/jndn-utils,b4f2fb28e48d8a4bc18410ec6c932c0c229f8884,.,com.intel.jndn.utils.client.impl.DefaultSegmentedClientTest.testGetSegmentsAsync,ID,Accepted,https://github.com/intel/jndn-utils/pull/8,
 https://github.com/intel/jndn-utils,b4f2fb28e48d8a4bc18410ec6c932c0c229f8884,.,com.intel.jndn.utils.client.impl.DefaultSegmentedClientTest.verifyThatSegmentsAreRetrievedOnlyOnce,ID,Accepted,https://github.com/intel/jndn-utils/pull/8,
@@ -3550,17 +3547,6 @@ https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.
 https://github.com/jfree/jfreechart,520a4be69ba932061ab9b89f328842caf152e1d9,.,org.jfree.data.time.DayTest.testParseDay,OD-Vic,InspiredAFix,https://github.com/jfree/jfreechart/pull/103,
 https://github.com/jhipster/jhipster-registry,00db36611da5fc7aaf9d5372aa90f2465d80c0c4,.,io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount,OD-Vic,DeveloperFixed,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/24
 https://github.com/jhipster/jhipster-registry,00db36611da5fc7aaf9d5372aa90f2465d80c0c4,.,io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest,ID,Deleted,,
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.cliarg.CliParserTest.testParse,ID,,,
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,core,org.jsonex.core.util.ClassUtilTest.testGetProperties,ID,,,
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testBasicEncoding,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testCustomQuote,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testCyclicReference,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testDedupWithRef,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testEnumNameOption,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testFieldWithTypeVariable,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testFilter,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.jsoncoder.JSONCoderTest.testIncrementDecode,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/556
-https://github.com/jianwu/jsonex,83cd2edafbca4438abee6542162ab206ad3fedd8,jsoncoder,org.jsonex.snapshottest.SnapshotTest.testSnapshot,ID,,,
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.auth.ShibbolethAuthenticationAuthorityTest.testShibbolethAuthenticationModule,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.auth.XMPPAuthenticationAuthorityTest.testXmppDomainAuthentication,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
 https://github.com/jitsi/jicofo,2cae36e1e6781b438e52156d82cc32f8dea021b9,.,org.jitsi.jicofo.RolesTest.testPassModeratorRole,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/83
@@ -4978,16 +4964,6 @@ https://github.com/winder/Universal-G-Code-Sender,4426f71c900ddd4a1eeb3957f3275c
 https://github.com/winder/Universal-G-Code-Sender,4426f71c900ddd4a1eeb3957f3275cedc6312534,ugs-core,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithUnknownErrorShouldWriteGenericMessageToConsole,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/87
 https://github.com/winder/Universal-G-Code-Sender,4426f71c900ddd4a1eeb3957f3275cedc6312534,ugs-core,com.willwinder.universalgcodesender.GrblControllerTest.testGetGrblVersion,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/87
 https://github.com/winder/Universal-G-Code-Sender,4426f71c900ddd4a1eeb3957f3275cedc6312534,ugs-core,com.willwinder.universalgcodesender.GrblControllerTest.testIsReadyToStreamFile,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/87
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkApplicationScope,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkConversationScope,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkInjectionRequestScope,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkInjectionSessionBeans,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkInjectionsPojoFromOutput,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkInjectionTapestryServices,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkQualifierBasic,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkSessionScope,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkStereotype,ID,,,
-https://github.com/worldline/tapestry-cdi,0bd3d11e464b45661c31379e4016c3cc1599b133,.,org.apache.tapestry5.cdi.test.InjectTest.checkWebService,ID,,,
 https://github.com/wro4j/wro4j,185ab607f1d649ca38b4a772831ee754cd4649fb,wro4j-core,ro.isdc.wro.cache.support.TestSynchronizedCacheStrategyDecorator.shouldInvokeLoadTwoTimesForDifferentKeys,ID,,,
 https://github.com/wro4j/wro4j,185ab607f1d649ca38b4a772831ee754cd4649fb,wro4j-extensions,ro.isdc.wro.extensions.http.handler.TestModelAsJsonRequestHandler.shouldGenerateModelAsJson,ID,,,
 https://github.com/wro4j/wro4j,185ab607f1d649ca38b4a772831ee754cd4649fb,wro4j-extensions,ro.isdc.wro.extensions.http.handler.TestModelAsJsonRequestHandler.shouldNotProvideProxyUriForExternalResources,UD,,,
