@@ -3696,7 +3696,7 @@ https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-di
 https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-discovery-zookeeper,com.spinn3r.noxy.discovery.zookeeper.ZKTest.testMembershipJoinAndLeave,NDOD;UD,,,
 https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-reverse,com.spinn3r.noxy.reverse.ReverseProxyServiceTest.testRequestMetaForSuccessfulRequest,ID,Opened,https://github.com/spinn3r/noxy/pull/21,
 https://github.com/spotify/apollo,a03105ee1f98f8c5878f4e3c4d03c8732c6384bd,apollo-api-impl,com.spotify.apollo.route.MiddlewaresTest.asShouldSerializeResponseObjectAsJson,ID,RepoArchived,,
-https://github.com/spotify/dbeam,70837e8f610c16c012be424341857236d4242785,dbeam-core,com.spotify.dbeam.args.JdbcExportArgsTest.should parse correctly for mysql connection,UD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/33
+https://github.com/spotify/dbeam,70837e8f610c16c012be424341857236d4242785,dbeam-core,com.spotify.dbeam.args.JdbcExportArgsTest.should parse correctly for mysql connection,UD,MovedOrRenamed,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/33
 https://github.com/spotify/helios,aebf68dcbdf9d3850478e8bddd2c478fa5fa282a,helios-services,com.spotify.helios.agent.SupervisorTest.verifySupervisorStartsAndStopsDockerContainer,NOD,RepoArchived,,
 https://github.com/spotify/helios,aebf68dcbdf9d3850478e8bddd2c478fa5fa282a,helios-testing,com.spotify.helios.testing.HeliosSoloDeploymentTest.testUndeployLeftoverJobs,NOD;OD-Vic,RepoArchived,,
 https://github.com/spring-cloud/spring-cloud-aws,64ec6d15c67e98c3372ab88c9e5b31d5a89a68f8,spring-cloud-aws-context,org.springframework.cloud.aws.cache.config.xml.CacheBeanDefinitionParserTest.parseInternal_cacheConfigWithExpiration_returnsConfiguredCacheThatRespectExpiration,NOD,RepoArchived,,
@@ -4120,7 +4120,7 @@ https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30a
 https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.protocols.ProtoclHandshakeRejectionTest.testHandshakeRejectionTestCase9,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/22
 https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToJSON,ID,Opened,https://github.com/twilio/authy-java/pull/70,RepoArchived
 https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToXML,ID,RepoArchived,,
-https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.MetaFieldUtilTest.toMetaFieldInfoArray,ID,,,
+https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.MetaFieldUtilTest.toMetaFieldInfoArray,ID,Opened,https://github.com/twitter/cloudhopper-commons/pull/26,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.windowing.WindowTest.simulatedMultithreadedProcessing,ID,,,
 https://github.com/twitter/GraphJet,dbb652a99b6213ddb5892ae6e3396ef10fa0279b,graphjet-core,com.twitter.graphjet.algorithms.salsa.SalsaTest.testSalsaWithRandomGraph,ID,,,
 https://github.com/twitter/hraven,e35996b6e2f016bcd18db0bad320be7c93d95208,hraven-core,com.twitter.hraven.TestJsonSerde.testJsonSerializationFlowStatsJobDetails,ID,RepoArchived,,
