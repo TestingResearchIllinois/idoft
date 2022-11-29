@@ -137,8 +137,8 @@ https://github.com/chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,
 https://github.com/chie8842/expstock,28b7ece83fa601efd2b6c4b8b7bdd1a3b9ebc1df,expstock/test_expstock.py::test_append_param,NIO,Opened,https://github.com/chie8842/expstock/pull/18,
 https://github.com/chinapandaman/PyPDFForm,fcc1b297005a39900c1f928f602cbc5f38a1d60e,tests/unit/test_font.py::test_register_font_and_is_registered,NIO,Accepted,https://github.com/chinapandaman/PyPDFForm/pull/254,
 https://github.com/chinapnr/fishbase,1615ccff9106bf42fc6ae862cd13353c12c1b76d,test/test_logger.py::TestFishLogging::test_format3,OD-Brit,MovedOrRenamed,,Test renamed to test_format_03
+https://github.com/chinapnr/fishbase,ddd1cced20caff3518f13073381d31461caa39a5,test/test_logger.py::TestFishLogging::test_format_03,OD-Brit,,,
 https://github.com/chinapnr/fishbase,73ae6701eee5d1bdd31a3e7b4d86fa11de9b6522,test_common.py::TestFishCommon::test_yaml_conf_as_dict_01,NOD,Open,https://github.com/chinapnr/fishbase/pull/302,
-https://github.com/chinapnr/fish_base,1615ccff9106bf42fc6ae862cd13353c12c1b76d,test/test_logger.py::TestFishLogging::test_format3,OD-Brit,MovedOrRenamed,,Test renamed to test_format_03
 https://github.com/CitrineInformatics/citrine-python,cf2ec34cad3f1ff44478cad44e4918d7925cba25,tests/_util/test_functions.py::test_shadow_classes_in_module,NIO,Accepted,https://github.com/CitrineInformatics/citrine-python/pull/690,
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_cat_star,OD-Vic,,,
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_cd_group,OD-Vic,,,
