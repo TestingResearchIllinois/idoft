@@ -496,7 +496,7 @@ https://github.com/filestack/filestack-python,bfd98e91d3300d2fbae0569acb4863f9e7
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_success,OD-Vic,,,
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,NIO,,,
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,OD-Vic,,,
-https://github.com/fooof-tools/fooof,14d6196e0b60c7e6da95b5cf858b20adcc5fc0ac,fooof/tests/utils/test_download.py::test_check_data_file,NOD,Opened,https://github.com/fooof-tools/fooof/pull/242,pytest --flake-finder --flake-runs=2
+https://github.com/fooof-tools/fooof,14d6196e0b60c7e6da95b5cf858b20adcc5fc0ac,fooof/tests/utils/test_download.py::test_check_data_file,NOD,Rejected,https://github.com/fooof-tools/fooof/pull/242,pytest --flake-finder --flake-runs=2
 https://github.com/FoteinosMerg/pymerkle,5318009e04b2ae44e194b8435ef181aa67ab8b9a,tests/tree/test_structure.py::test_1_leaves,NIO,,,
 https://github.com/ganehag/pyMeterBus,bc853aa38ac6b10301bdf97f13ac25b36985316f,tests/test_globals.py::TestSequenceFunctions::test_debug_default_value,OD-Vic,,,
 https://github.com/gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/example/test_example.py::TestClass::test_simple_example,NIO,Deleted,,
@@ -1507,10 +1507,10 @@ https://github.com/vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tes
 https://github.com/vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tests/test_project.py::testProjectNewMinimal,NIO,DeveloperFixed,,
 https://github.com/Vnet-as/myr-base,56e347b4f4d70f53a6afe55e96c1f9e35f5454eb,tests/test_base.py::TestApp::test_announcing_no_tasks,OD-Vic,,,
 https://github.com/voxpupuli/puppetboard/issues/646,88401f64b20da20edaf14558d6c0e9bdc697de3b,test/test_app.py,OD,,,pytest --randomly-seed=123 or pytest --randomly-seed=1234
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_file_contents,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_jsonlines,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_fobj,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
-https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_str,OD-Brit,Opened,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_file_contents,OD-Brit,Rejected,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_jsonlines,OD-Brit,Rejected,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_fobj,OD-Brit,Rejected,https://github.com/fooof-tools/fooof/pull/243,
+https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/core/test_io.py::test_load_json_str,OD-Brit,Rejected,https://github.com/fooof-tools/fooof/pull/243,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_fit_knee,OD-Vic,,,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_fit_nk,OD-Vic,,,
 https://github.com/voytekresearch/fooof,7a520c4f8ac3a44f4f18dc025b5e5d40049c9f2b,fooof/tests/objs/test_fit.py::test_fooof_load,OD-Brit,,,
