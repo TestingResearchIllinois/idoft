@@ -35,8 +35,8 @@ https://github.com/aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,test
 https://github.com/AshtonUPS/Py-MI-PS,e43c2b4df2b59362c147024840bf541bb767ffd7,src/PyMIPS/tests/register_test.py,NIO,Open,https://github.com/AshtonUPS/Py-MI-PS/pull/23,
 https://github.com/AshtonUPS/Py-MI-PS,2d22327c75bac1b58a4804a61e7a703ecc5ba978,src/PyMIPS/tests/register_test.py::test_setting_to_num,NIO,Opened,https://github.com/AshtonUPS/Py-MI-PS/pull/22,
 https://github.com/AshtonUPS/Py-MI-PS,2d22327c75bac1b58a4804a61e7a703ecc5ba978,src/PyMIPS/tests/register_test.py::test_setting_to_num,OD-Vic,,,
-https://github.com/attzonko/mmpy_bot,4faa19a9e04c75af94c45c24dbd0c9d9ecb867d4,tests/unit_tests/test_scheduler.py::test_add_onetime_job_without_trigger_time,OD-Vic,Deleted,,
-https://github.com/attzonko/mmpy_bot,4faa19a9e04c75af94c45c24dbd0c9d9ecb867d4,tests/unit_tests/test_scheduler.py::test_add_onetime_job_with_trigger_time,OD-Vic,Deleted,,
+https://github.com/attzonko/mmpy_bot,4faa19a9e04c75af94c45c24dbd0c9d9ecb867d4,tests/unit_tests/test_scheduler.py::test_add_onetime_job_without_trigger_time,OD-Vic,Deleted,,Deleted in commit 8bba73afdd0dc3ce01c8b0599e59aa5688faf281
+https://github.com/attzonko/mmpy_bot,4faa19a9e04c75af94c45c24dbd0c9d9ecb867d4,tests/unit_tests/test_scheduler.py::test_add_onetime_job_with_trigger_time,OD-Vic,Deleted,,Deleted in commit 8bba73afdd0dc3ce01c8b0599e59aa5688faf281
 https://github.com/AuraiProject/freesia,16834c17725edac74eb50fc5ce2ff1db6f3f4840,tests/test_route.py::RouteTestCase::test_url_match,OD-Brit,,,
 https://github.com/avature/confight,be2d162c99cc3c709289913de137f8d8bfbd35d5,test_confight.py::TestLoad::test_it_should_load_and_merge_lists_of_paths,OD-Vic,,,
 https://github.com/bazaar-projects/docopt-ng,bbed40a2335686d2e14ac0e6c3188374dc4784da,tests/test_docopt_ng.py::test_docopt_ng_more_magic_global_arguments_and_dot_access,NIO,Opened,https://github.com/jazzband/docopt-ng/pull/20,
@@ -325,6 +325,7 @@ https://github.com/earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd
 https://github.com/earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_set_dir_route,NIO,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::testAggShockMarkovConsumerType::test_agent,OD-Vic,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::testKrusellSmith::test_agent,OD-Vic,MovedOrRenamed,,Test renamed to KrusellSmithAgentTestCase::test_agent
+https://github.com/econ-ark/HARK,f18dc69520db9e15d1d355e604ff712d38ce3d2b,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::KrusellSmithAgentTestCase::test_agent,OD-Vic,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_IndShockConsumerType.py::testIndShockConsumerType::test_simulated_values,OD-Vic,,,
 https://github.com/ECSHackWeek/impedance.py,d1019c161be9e967ae227117b72acae4351e198f,impedance/tests/test_circuit_elements.py::test_each_element,OD-Vic,,,
 https://github.com/ECSHackWeek/impedance.py,d1019c161be9e967ae227117b72acae4351e198f,impedance/tests/test_circuit_elements.py::test_element_function_names,OD-Vic,,,
@@ -1351,7 +1352,7 @@ https://github.com/Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb
 https://github.com/Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb57,tests/unittests/test_00_initialization.py::test_11_log_file,NIO,Opened,https://github.com/Teamworksapp/pydbvolve/pull/14,
 https://github.com/Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb57,tests/unittests/test_00_initialization.py::test_13_pre_config,OD-Vic,,,
 https://github.com/Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb57,tests/unittests/test_01_migration_table.py::test_02_check_migration_table_bad_structure,OD-Brit,,,
-https://github.com/Tedyst/HikLoad,b3eb7be65bd34040992e1b7b15f23ff4ce2e8dc4,tests/test_config.py::test_envvar,OD-Brit,Deleted,,
+https://github.com/Tedyst/HikLoad,b3eb7be65bd34040992e1b7b15f23ff4ce2e8dc4,tests/test_config.py::test_envvar,OD-Brit,Deleted,,Deleted in commit 9974a0090ec21279ed7332d8ef42b328f3d179a0
 https://github.com/Tencent/QTAF,c9141e8fbdfd89f5f13dd59dfab17f9e8193dcf8,tests/test_testbase/test_assert.py::AssertionTest::test_assert_failure,OD-Vic,,,
 https://github.com/thegetty/crom,98bb6be4e32b4c81eb7e0b5e841a915b015abaf0,tests/test_add_classification.py::TestAddClassification::test_add_classification,OD-Vic,,,
 https://github.com/thegetty/crom,98bb6be4e32b4c81eb7e0b5e841a915b015abaf0,tests/test_currency.py::TestCurrencyExtraction::test_extract_est,OD-Vic,,,
