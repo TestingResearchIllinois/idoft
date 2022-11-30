@@ -15,7 +15,10 @@ args = parser.parse_args()
 
 GITHUB_API_RATE_LIMIT = 5000
 FILEPATH, COLNAME, GITHUB_ACCESS_TOKEN = args.filepath, args.colname, args.github_access_token
-REPO_URLS = pd.read_csv(FILEPATH)[COLNAME].unique()
+
+data = pd.read_csv(FILEPATH)
+data = data[data['Status'].isna()]
+REPO_URLS = data[COLNAME].unique()
 NUM_REPOS = REPO_URLS.shape[0]
 
 def check_number_repos():

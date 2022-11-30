@@ -1,6 +1,6 @@
 # Repo Info Helper
 
-This script scans a given .csv file (works on both `pr-data.csv` and `py-data.csv`), specifically, just a single column inside, and outputs another .csv file, with 3 columns:
+This script scans a given .csv file (works on both `pr-data.csv` and `py-data.csv`), and outputs another .csv file, with 3 columns:
 
 * Repo URL
 * Months since latest commit to master/main
@@ -8,7 +8,7 @@ This script scans a given .csv file (works on both `pr-data.csv` and `py-data.cs
 
 ... which are sorted in descending order of number of stars and ascending order of months since last commit to master.
 
-The latter 2 values will help us in shortlisting a project to fix flaky tests in. The chances of your PR getting accepted are higher for a repository that is actively maintained and has a high number of stars.
+The latter 2 values will help us in shortlisting a project to fix flaky tests in. The chances of your PR getting accepted are higher for a repository that is actively maintained and has a high number of stars. This script will only scan URLs that have an empty `Status` column.
 
 ## To run:
 
