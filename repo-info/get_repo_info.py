@@ -1,3 +1,4 @@
+import os
 import argparse
 import datetime
 import pandas as pd
@@ -29,7 +30,8 @@ def get_repo_object(repo_url):
     try:
         repo_name = repo_url.split('github.com/')[1]
         return Github(GITHUB_ACCESS_TOKEN).get_repo(repo_name)
-    except:
+    except Exception as e:
+        print(e)
         return None
 
 def get_months_since_last_commit(repo):
@@ -39,6 +41,7 @@ def get_months_since_last_commit(repo):
         months_since_commit = get_diff_month(datetime.datetime.now(), latest_commit_date)
         return months_since_commit
     except Exception as e:
+        print(e)
         return None
 
 def get_maintained_repos():    
@@ -50,6 +53,6 @@ def get_maintained_repos():
     df['MONTHS_SINCE_LAST_COMMIT'] = df['REPO_OBJECT'].progress_apply(lambda repo_object: get_months_since_last_commit(repo_object))
     df['STARS'] = df['REPO_OBJECT'].progress_apply(lambda repo_object: repo_object.stargazers_count if repo_object is not None else None)
     df = df.sort_values(by=['MONTHS_SINCE_LAST_COMMIT', 'STARS'], ascending=[True, False]).drop(columns=['REPO_OBJECT', 'Unnamed: 0'], errors='ignore')
-    df.to_csv('repo_info.csv', index=False)
+    df.to_csv(f'{os.getcwd()}/repo-info/repo-info.csv', index=False)
 
 get_maintained_repos()

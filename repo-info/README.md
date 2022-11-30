@@ -16,6 +16,8 @@ The latter 2 values will help us in shortlisting a project to fix flaky tests in
 
 * Requires a github access token if there are more than 60 requests made (i.e. more than 60 unique repositories in the file), which is highly likely, since both `pr-data.csv` and `py-data.csv` each contain 300+ unique repositories at the time of writing this (Nov 2022).
 
-* To run: `python3 get_repo_info.py -t <GITHUB_ACCESS_TOKEN> -f '<CSV_FILEPATH>' -c '<COLUMN_NAME_CONTAINING_REPO_URL>'`
+* Following are the commands to run the script from the root directory. Remember to use a github access token to overcome the rate limit:
+    * For `pr-data.csv`: `repo-info/get_repo_info.py -f pr-data.csv -c 'Project URL' -t <github-access-token>`
+    * For `py-data.csv`: `repo-info/get_repo_info.py -f py-data.csv -c 'Project URL' -t <github-access-token>`
 
-The new file will be saved with the name `repo_info.csv` in the same directory as the script.
+The new file will be saved with the name `repo_info.csv` inside the `repo-info` directory.
