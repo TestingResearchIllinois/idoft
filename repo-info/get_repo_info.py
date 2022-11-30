@@ -58,4 +58,5 @@ def get_maintained_repos():
     df = df.sort_values(by=['MONTHS_SINCE_LAST_COMMIT', 'STARS'], ascending=[True, False]).drop(columns=['REPO_OBJECT', 'Unnamed: 0'], errors='ignore')
     df.to_csv(f'{os.getcwd()}/repo-info/repo-info.csv', index=False)
 
-get_maintained_repos()
+if __name__ == '__main__':
+    get_maintained_repos()
