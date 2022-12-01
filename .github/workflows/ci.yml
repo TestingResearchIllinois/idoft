@@ -4,7 +4,7 @@
   workflow_dispatch: null
 jobs:
   format-checker:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       # When there is no base commit (e.g., first push to a new branch), 
       # GitHub assigns a string of zeros to event.before. It's necessary to 
