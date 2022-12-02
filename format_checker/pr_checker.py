@@ -140,37 +140,12 @@ def check_notes(filename, row, i, log):
     if not pr_data["Notes"].fullmatch(row["Notes"]):
         log_std_error(filename, log, i, row, "Notes")
 
-def check_forked_project(filename, row, i, log, auth=None):
-    with open("projects.json", "r") as f:
+def check_forked_project(filename, row, i, log):
+    with open("format_checker/forked-projects.json", "r") as f:
         projects = json.load(f)
     proj_url = row["Project URL"]
-    if proj_url in projects:
-        if projects[proj_url] == "forked":
-            log_std_error(filename, log, i, row, "PR Link")
-            return False
-    else:
-        splitted_url = proj_url.split("/")
-        author = splitted_url[-2]
-        repo = splitted_url[-1]
-
-        url = "https://api.github.com/repos/{}/{}".format(author, repo)
-        try:
-            if auth:
-                resp = requests.get(url, auth=auth).json()
-            else:
-                resp = requests.get(url, auth=auth).json()
-            # Determine if it is a forked project
-            if resp.get("fork"):
-                log_std_error(filename, log, i, row, "PR Link")
-                projects[proj_url] = "forked"
-            else:
-                projects[proj_url] = "unforked"
-        except requests.exceptions.RequestException as e:
-            log_std_error(filename, log, i, row, "PR Link")
-            return False
-    with open("projects.json", "w") as f:
-        json.dump(projects, f)
-    return projects[proj_url] == "unforked"
+    if proj_url not in projects or (proj_url in projects and projects[proj_url] == "forked"):
+        log_std_error(filename, log, i, row, "Project URL")
 
 def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""

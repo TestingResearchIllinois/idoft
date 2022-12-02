@@ -1,31 +1,45 @@
 import csv
 import sys
+import json
 import logging
-import errorhandler
-from pr_checker import check_forked_project
-from utils import log_std_error, log_esp_error, log_warning
+import requests
+
+def check_existing_project(projects, row, auth):
+    proj_url = row["Project URL"]
+    if proj_url not in projects:
+        splitted_url = proj_url.split("/")
+        author = splitted_url[-2]
+        repo = splitted_url[-1]
+
+        url = "https://api.github.com/repos/{}/{}".format(author, repo)
+        try:
+            resp = requests.get(url, auth=auth).json()
+            print(resp)
+            if resp.get("fork"):
+                logging.info("forked project: ", proj_url)
+                projects[proj_url] = "forked"
+            else:
+                projects[proj_url] = "unforked"
+        except requests.exceptions.RequestException as e:
+            logging.info("RequestException: ", proj_url)
+            return False
+    return projects, projects[proj_url] == "unforked"
 
 if __name__ == "__main__":
     filename = "pr-data.csv"
-    error_handler = errorhandler.ErrorHandler()
-    stream_handler = logging.StreamHandler(stream=sys.stderr)
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    logger.addHandler(stream_handler)
-    log_std_error.tracker = 0
-    log_esp_error.tracker = 0
-    log_warning.tracker = 0
+    with open("format_checker/forked-projects.json", "r") as f:
+        projects = json.load(f)
     checked = []
     auth = (sys.argv[1], sys.argv[2])
     with open(filename, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if check_forked_project(filename, row, "", logger, auth):
+            projects, unforked = check_existing_project(projects, row, auth)
+            if unforked:
                 checked.append(row)
+    with open("format_checker/forked-projects.json", "w") as f:
+        json.dump(projects, f)
     with open(filename, "w") as csvfile:
         writer = csv.DictWriter(csvfile, checked[0].keys(), lineterminator='\n')
         writer.writeheader()
         writer.writerows(checked)
-
-
-
