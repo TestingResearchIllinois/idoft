@@ -148,6 +148,13 @@ def check_pr_link(filename, row, i, log):
     ):
         log_std_error(filename, log, i, row, "PR Link")
 
+def check_tab(filename, row, i, log):
+    """Checks that there is no tab in the row."""
+    
+    for key,value in row.items():
+        if '\t' in value:
+            log_std_error(filename, log, i, row, key)
+
 
 def run_checks_pr(log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
@@ -159,6 +166,7 @@ def run_checks_pr(log, commit_range):
         check_category,
         check_status,
         check_status_consistency,
+        check_tab,
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
