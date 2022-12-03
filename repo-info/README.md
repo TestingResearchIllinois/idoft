@@ -12,8 +12,6 @@ The latter 2 values will help us in shortlisting a project to fix flaky tests in
 
 ## To run:
 
-* Required libraries to install: `pandas`, `tqdm`, `pygithub`
-
 * Requires a github access token if there are more than 60 requests made (i.e. more than 60 unique repositories in the file), which is highly likely, since both `pr-data.csv` and `py-data.csv` each contain 300+ unique repositories at the time of writing this (Nov 2022).
 
 * Following are the commands to run the script from the root directory. Remember to use a github access token to overcome the rate limit:
