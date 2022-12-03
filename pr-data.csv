@@ -1289,6 +1289,7 @@ https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient,org.apache.hadoop.hdfs.TestNNBench.testNNBenchCreateReadAndDelete,ID,,,
 https://github.com/apache/hadoop,14cd969b6ea1898e9db6eeb9ea5292ec4558a706,hadoop-hdfs-project/hadoop-hdfs-client,org.apache.hadoop.hdfs.web.oauth2.TestClientCredentialTimeBasedTokenRefresher.refreshUrlIsCorrect,ID,,,
 https://github.com/apache/hadoop,14cd969b6ea1898e9db6eeb9ea5292ec4558a706,hadoop-hdfs-project/hadoop-hdfs-client,org.apache.hadoop.hdfs.web.oauth2.TestRefreshTokenTimeBasedTokenRefresher.refreshUrlIsCorrect,ID,,,
+https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-client,org.apache.hadoop.hdfs.web.TestURLConnectionFactory.testSSLFactoryCleanup,OD,,,
 https://github.com/apache/hadoop,14cd969b6ea1898e9db6eeb9ea5292ec4558a706,hadoop-common-project/hadoop-common,org.apache.hadoop.ipc.TestDecayRpcScheduler.testPriority,ID,Opened,https://github.com/apache/hadoop/pull/5085,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.lib.service.hadoop.TestFileSystemAccessService.createFileSystem,OD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.lib.service.hadoop.TestFileSystemAccessService.fileSystemCache,NOD,,,
