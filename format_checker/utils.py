@@ -92,7 +92,7 @@ def log_info(filename, log, message):
     log.info("INFO: On file " + filename + ": " + message)
 
 
-def log_std_error(filename, log, line, row, key):
+def log_std_error(filename, log, line, row, key, message = "Unspecified"):
     """Logs a standard error."""
 
     log_std_error.tracker += 1
@@ -106,7 +106,8 @@ def log_std_error(filename, log, line, row, key):
         + key
         + ': "'
         + row[key]
-        + '"'
+        + '", Reason: '
+        + message
     )
 
 

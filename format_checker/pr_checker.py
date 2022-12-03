@@ -130,7 +130,7 @@ def check_status_consistency(filename, row, i, log):
 
     if row["Status"] == "" and row["PR Link"] != "":
         check_pr_link(filename, row, i, log)
-        log_std_error(filename, log, i, row, "Status should not be empty when a PR link is provided.")        
+        log_std_error(filename, log, i, row, "Status", "Status should not be empty when a PR link is provided.")        
 
 def check_notes(filename, row, i, log):
     """Checks validity of Notes."""
@@ -150,10 +150,10 @@ def check_pr_link(filename, row, i, log):
 
 def check_tab(filename, row, i, log):
     """Checks that there is no tab in the row."""
-    
+
     for key,value in row.items():
         if '\t' in value:
-            log_std_error(filename, log, i, row, key)
+            log_std_error(filename, log, i, row, key, "There are TAB characters in this field")
 
 
 def run_checks_pr(log, commit_range):
