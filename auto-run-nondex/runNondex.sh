@@ -14,7 +14,7 @@ mkdir ./.runNondex/LOGSSS
 input="modnames"
 while IFS= read -r line
 do
-    mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex -pl :$line -Dlicense.skip=true | tee ./.runNondex/LOGSSS/$line.log
+    mvn edu.illinois:nondex-maven-plugin:2.1:nondex -pl :$line -Dlicense.skip=true | tee ./.runNondex/LOGSSS/$line.log
 done < "$input"
 grep -rnil "There are test failures" ./.runNondex/LOGSSS/* | tee ./.runNondex/LOGresult
 input=".runNondex/LOGresult"
