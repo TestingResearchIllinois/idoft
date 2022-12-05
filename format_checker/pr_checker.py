@@ -11,7 +11,6 @@ from common_checks import (
     run_checks,
 )
 
-
 # Contains information and regexes unique to pr-data.csv
 pr_data = {
     "columns": [
@@ -169,6 +168,9 @@ def run_checks_pr(log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
 
     filename = "pr-data.csv"
+    with open("format_checker/forked-projects.json", "r") as f:
+        global projects
+        projects = json.load(f)
     checks = [
         check_row_length,
         check_common_rules,
@@ -178,7 +180,5 @@ def run_checks_pr(log, commit_range):
         check_forked_project,
         check_tab,
     ]
-    with open("format_checker/forked-projects.json", "r") as f:
-        nonlocal projects = json.load(f)
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
