@@ -141,11 +141,12 @@ def check_notes(filename, row, i, log):
         log_std_error(filename, log, i, row, "Notes")
 
 def check_forked_project(filename, row, i, log):
-    with open("format_checker/forked-projects.json", "r") as f:
-        projects = json.load(f)
+    """Checks forked project."""
     proj_url = row["Project URL"]
-    if proj_url not in projects or (proj_url in projects and projects[proj_url] == "forked"):
-        log_std_error(filename, log, i, row, "Project URL")
+    if proj_url not in projects: 
+        log_std_error(filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json")
+    if proj_url in projects and projects[proj_url] == "forked":
+        log_std_error(filename, log, i, row, "Project URL", "Forked project")
 
 def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
@@ -177,5 +178,7 @@ def run_checks_pr(log, commit_range):
         check_forked_project,
         check_tab,
     ]
+    with open("format_checker/forked-projects.json", "r") as f:
+        nonlocal projects = json.load(f)
     run_checks(filename, pr_data, log, commit_range, checks)
     check_sort(filename, log)
