@@ -39,8 +39,8 @@ def get_repo_object(repo_url):
 
 def get_months_since_last_commit(repo):
     try:
-        master_branch = repo.get_branch('master')
-        latest_commit_date = master_branch.commit.commit.author.date
+        default_branch = repo.get_branch(repo.default_branch)
+        latest_commit_date = default_branch.commit.commit.author.date
         months_since_commit = get_diff_month(datetime.datetime.now(), latest_commit_date)
         return months_since_commit
     except Exception as e:
