@@ -11,6 +11,7 @@ from common_checks import (
     run_checks,
 )
 
+
 # Contains information and regexes unique to pr-data.csv
 pr_data = {
     "columns": [
