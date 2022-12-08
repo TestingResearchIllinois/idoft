@@ -17,6 +17,13 @@ python3 -m venv <path_to_the_new_virtual_environment>
 source <path_to_the_new_virtual_environment>/bin/activate
 ```
 
+Make sure to first install packages in `requirements.txt`.
+
+```bash
+# sudo apt install python3-pip
+cd auto-run-nondex
+pip install -r requirements.txt
+```
 
 # `runNondexUnderAuthor`
 
