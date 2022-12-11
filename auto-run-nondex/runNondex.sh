@@ -31,4 +31,16 @@ runNondex () {
     fi
 }
 
-runNondex $1
+if [ ! "$2" ]
+then
+    runNondex $1
+else
+    for file in $1/$2/*
+        do
+            echo "start running nondex in module: $file"
+            if test -d $file
+            then
+                runNondex.sh $file
+            fi
+        done
+fi
