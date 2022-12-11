@@ -39,10 +39,11 @@ The valid repo is defined as:
 
 ### Usage:
 ```bash
-./runNondex.sh <project_folder_path>
+./runNondex.sh <project_folder_path> <optional-directory-name>
 ./runNondexUnderAuthor.sh <author_repository_url> <path_where_you_want_to_clone_those repos>
 ```
 
+With the second parameter in `./runNondex.sh`, you can only run Nondex on modules in a certain directory instead of the entire project.
 
 
 >  To find the author_repository_url, find the author that you want to run Nondex with, and get this author's repository overview url (e.g., https://github.com/orgs/spotify/repositories). Note that you don't need to provide the url with other parameters, as the script will automatically add the parameters needed.
