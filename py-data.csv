@@ -499,7 +499,7 @@ https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd
 https://github.com/filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,OD-Vic,,,
 https://github.com/fooof-tools/fooof,14d6196e0b60c7e6da95b5cf858b20adcc5fc0ac,fooof/tests/utils/test_download.py::test_check_data_file,NOD,Rejected,https://github.com/fooof-tools/fooof/pull/242,pytest --flake-finder --flake-runs=2
 https://github.com/FoteinosMerg/pymerkle,5318009e04b2ae44e194b8435ef181aa67ab8b9a,tests/tree/test_structure.py::test_1_leaves,NIO,,,
-https://github.com/ganehag/pyMeterBus,bc853aa38ac6b10301bdf97f13ac25b36985316f,tests/test_globals.py::TestSequenceFunctions::test_debug_default_value,OD-Vic,,,
+https://github.com/ganehag/pyMeterBus,bc853aa38ac6b10301bdf97f13ac25b36985316f,tests/test_globals.py::TestSequenceFunctions::test_debug_default_value,OD-Vic,Opened,https://github.com/ganehag/pyMeterBus/pull/25,
 https://github.com/gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/example/test_example.py::TestClass::test_simple_example,NIO,Deleted,,
 https://github.com/gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/src/cws/test_scons.py::TestClass::test_zip,NIO,Deleted,,
 https://github.com/giganticode/dataprep,bb1d3731a39d221f2a037aaadc747a29a5e76c8d,tests/infrastructure/test_bperegistry.py::test_none,NIO,,,
