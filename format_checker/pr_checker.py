@@ -33,6 +33,7 @@ pr_data = {
         "NDOI",
         "NDOI",
         "UD",
+        "OSD"
     ],
     "Status": [
         "",
