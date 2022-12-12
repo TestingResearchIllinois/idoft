@@ -33,7 +33,7 @@ pr_data = {
         "NDOI",
         "NDOI",
         "UD",
-        "Portability"
+        "OSD"
     ],
     "Status": [
         "",

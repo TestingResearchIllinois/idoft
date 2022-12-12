@@ -124,7 +124,7 @@ NOD | Non-Deterministic tests
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 UD | Unknown Dependency tests that pass and fail in a test suite or in isolation
-Portability | Tests that pass and fail depending on the operating system
+OSD | Operating System Dependent tests that pass and fail depending on the operating system
  
 * **Status**: This defines the state the flaky test is in. Only one status may be used at any given time for each flaky test. The accepted status values are:
  
