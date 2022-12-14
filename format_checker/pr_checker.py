@@ -1,6 +1,8 @@
 """Implements rule checks for the pr-data.csv file."""
 
 import re
+import json
+import requests
 from utils import log_std_error, log_warning
 from common_checks import (
     check_common_rules,
@@ -139,6 +141,13 @@ def check_notes(filename, row, i, log):
     if not pr_data["Notes"].fullmatch(row["Notes"]):
         log_std_error(filename, log, i, row, "Notes")
 
+def check_forked_project(filename, row, i, log):
+    """Checks forked project."""
+    proj_url = row["Project URL"]
+    if proj_url not in projects: 
+        log_std_error(filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json")
+    if proj_url in projects and projects[proj_url] == "forked":
+        log_std_error(filename, log, i, row, "Project URL", "Forked project")
 
 def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
@@ -161,12 +170,16 @@ def run_checks_pr(log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
 
     filename = "pr-data.csv"
+    with open("format_checker/forked-projects.json", "r") as f:
+        global projects
+        projects = json.load(f)
     checks = [
         check_row_length,
         check_common_rules,
         check_category,
         check_status,
         check_status_consistency,
+        check_forked_project,
         check_tab,
     ]
     run_checks(filename, pr_data, log, commit_range, checks)
