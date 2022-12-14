@@ -1,5 +1,5 @@
 # International Dataset of Flaky Tests (IDoFT)
-This repository contains all of the data used to build the flaky tests website, hosted here: [http://mir.cs.illinois.edu/flakytests](http://mir.cs.illinois.edu/flakytests). While the website is only for Java tests for now, this repository includes flaky tests in both Java and Python. Specifically, the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) for **Java** and [py-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/py-data.csv) for **Python** contain all of the information about the flaky tests detected or fixed in the International Dataset of Flaky Tests (IDoFT).
+This repository contains all the data used to build the flaky tests' website, hosted here: [http://mir.cs.illinois.edu/flakytests](http://mir.cs.illinois.edu/flakytests). While the website is only for Java tests for now, this repository includes flaky tests in both Java and Python. Specifically, the [pr-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/pr-data.csv) for **Java** and [py-data.csv file](https://github.com/TestingResearchIllinois/idoft/blob/main/py-data.csv) for **Python** contain all the information about the flaky tests detected or fixed in the International Dataset of Flaky Tests (IDoFT).
  
 To contribute a newly detected or fixed flaky test to the dataset, please see [Contributing detected flaky test](#contributing-detected-flaky-test) or [Contributing fixed flaky test](#contributing-fixed-flaky-test), respectively.
 
@@ -96,7 +96,7 @@ We do not have an example yet. If someone wants to open an issue for a Python te
 
 ## Detailed information for each column
 
-* **Project URL**: The Github project where the flaky test was found.
+* **Project URL**: The GitHub project where the flaky test was found.
 
 Example: https://github.com/wso2/carbon-apimgt
 
@@ -125,6 +125,7 @@ NOD | Non-Deterministic tests
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 UD | Unknown Dependency tests that pass and fail in a test suite or in isolation
+OSD | Operating System Dependent tests that pass and fail depending on the operating system
  
 * **Status**: This defines the state the flaky test is in. Only one status may be used at any given time for each flaky test. The accepted status values are:
  
