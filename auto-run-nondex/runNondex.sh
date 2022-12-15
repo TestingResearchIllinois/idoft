@@ -1,13 +1,12 @@
 #!/bin/bash
 DIR="${PWD}"
-nondex_version="1.1.2"
+nondex_version="2.1.1"
 java_version=$(java -version 2>&1 | sed -n ';s/.* version "\(.*\)\.\(.*\)\..*".*/\1\2/p;')
 echo java_version "$java_version"
 if [[ "$java_version" -ge 90 ]]; then
-    echo version is more than 1.9
-    nondex_version="2.1.1"
+    echo java version is more than 1.9
 else         
-    echo version is less than 1.9
+    echo java version is less than 1.9
 fi
 runNondex () {
     cd $1
