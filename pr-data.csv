@@ -1000,7 +1000,7 @@ https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb/janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom3,ID,Opened,https://github.com/apache/atlas/pull/150,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb/janus,org.apache.atlas.repository.graphdb.janus.AtlasJanusGraphIndexClientTest.testGetTopTermsRandom5,ID,Opened,https://github.com/apache/atlas/pull/150,
 https://github.com/apache/atlas,c0700e436afccc04e7f77480d6fb8aed8e293db4,graphdb/janus,org.apache.atlas.repository.graphdb.janus.AtlasSolrQueryBuilderTest.testGenerateSolrQueryString2TypeNames,ID,Opened,https://github.com/apache/atlas/pull/151,
-https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta,ID,,,
+https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta,ID,Opened,https://github.com/apache/avro/pull/2012,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAvroDoc,ID,Accepted,https://github.com/apache/avro/pull/667,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testMultipleFieldAliases,ID,,,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testRecord,ID,Accepted,https://github.com/apache/avro/pull/667,
