@@ -12,7 +12,7 @@ runNondex () {
         echo OK
     fi
     mkdir .runNondex
-    mkdir ./.runNondex/LOGSSS_nondex
+    mkdir ./.runNondex/LOGSSS
     input="modnames"
     while IFS= read -r line
     do
