@@ -1021,7 +1021,7 @@ https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/jav
 https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/java/ipc-jetty,org.apache.avro.ipc.jetty.TestProtocolHttps.testGetRemote,OD,,,
 https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/java/ipc-jetty,org.apache.avro.ipc.jetty.TestProtocolHttps.testHashCode,OD,,,
 https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/java/avro,org.apache.avro.reflect.TestNonStringMapKeys.testNonStringMapKeys,ID,,,
-https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta,ID,,,
+https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta,ID,Opened,https://github.com/apache/avro/pull/2012,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAvroDoc,ID,Accepted,https://github.com/apache/avro/pull/667,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testMultipleFieldAliases,ID,Opened,https://github.com/apache/avro/pull/2015,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testRecord,ID,Accepted,https://github.com/apache/avro/pull/667,
