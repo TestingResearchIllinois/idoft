@@ -5198,7 +5198,8 @@ https://github.com/wildfly/wildfly,cb7af61bfbb5615b522cabf8ded9a135178089b7,unde
 https://github.com/wildfly/wildfly,cb7af61bfbb5615b522cabf8ded9a135178089b7,undertow,org.wildfly.extension.undertow.UndertowSubsystem80TestCase.testRuntime,ID,Accepted,https://github.com/wildfly/wildfly/pull/13728,
 https://github.com/wildfly/wildfly,cb7af61bfbb5615b522cabf8ded9a135178089b7,undertow,org.wildfly.extension.undertow.UndertowSubsystem90TestCase.testRuntime,ID,Accepted,https://github.com/wildfly/wildfly/pull/13728,
 https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,undertow,org.wildfly.extension.undertow.UndertowSubsystemTestCase.testRuntime,ID,,,
-https://github.com/wildfly/wildfly-core,b2264f4861f2b0c3de0bd54a29e7fe3365798a87,cli,org.jboss.as.cli.impl.aesh.HelpSupportTestCase.testStandalone,ID,,,
+https://github.com/wildfly/wildfly-core,624b3aa22e4064b42bd171e8d7753238a1d6616c,cli,org.jboss.as.cli.impl.aesh.HelpSupportTestCase.testStandalone,ID,Opened,https://github.com/wildfly/wildfly-core/pull/5366,
+https://github.com/wildfly/wildfly-core,db72abab9b89203891f5c84e0526028dc5f4e9ef,cli,org.jboss.as.cli.impl.BootScriptInvoker.test,ID,Opened,https://github.com/wildfly/wildfly-core/pull/5366,
 https://github.com/wildfly/wildfly-maven-plugin,ba664f977f4a20771eb7aab979164b2fb639a240,core,org.wildfly.plugin.core.DomainDeploymentManagerIT.testDeploy,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/229
 https://github.com/wildfly/wildfly-maven-plugin,ba664f977f4a20771eb7aab979164b2fb639a240,core,org.wildfly.plugin.core.DomainDeploymentManagerIT.testFailedDeployMulti,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/229
 https://github.com/wildfly/wildfly-maven-plugin,ba664f977f4a20771eb7aab979164b2fb639a240,core,org.wildfly.plugin.core.DomainDeploymentManagerIT.testFailedForceDeploy,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/229
