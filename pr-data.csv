@@ -5025,7 +5025,7 @@ https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a42
 https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a4263e50875ee,distributedlog-core,com.twitter.distributedlog.impl.metadata.TestZKLogMetadataForWriter.testCreateLogMetadataWithCustomMetadata,ID,,,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.MetaFieldUtilTest.toMetaFieldInfoArray,ID,Opened,https://github.com/twitter/cloudhopper-commons/pull/27,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.windowing.WindowTest.simulatedMultithreadedProcessing,ID,,,
-https://github.com/twitter/GraphJet,dbb652a99b6213ddb5892ae6e3396ef10fa0279b,graphjet-core,com.twitter.graphjet.algorithms.salsa.SalsaTest.testSalsaWithRandomGraph,ID,,,
+https://github.com/twitter/GraphJet,dbb652a99b6213ddb5892ae6e3396ef10fa0279b,graphjet-core,com.twitter.graphjet.algorithms.salsa.SalsaTest.testSalsaWithRandomGraph,ID,Opened,https://github.com/twitter/GraphJet/pull/138,
 https://github.com/twitter/hraven,e35996b6e2f016bcd18db0bad320be7c93d95208,hraven-core,com.twitter.hraven.TestJsonSerde.testJsonSerializationFlowStatsJobDetails,ID,RepoArchived,,
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,core,io.undertow.server.handlers.accesslog.ExtendedAccessLogFileTestCase.testSingleLogMessageToFile,UD,,,
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,core,io.undertow.server.handlers.proxy.LoadBalancingProxyHttpsTestCase.testLoadSharedWithServerShutdown,UD,,,
