@@ -1157,7 +1157,7 @@ https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensi
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.FlattenSpecParquetReaderTest.testNested1NoFlattenSpec,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.TimestampsParquetReaderTest.testDateHandling,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.WikiParquetReaderTest.testWiki,ID,,,
-https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/kafka-indexing-service,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorSpecTest.testSerdeWithInputFormat,ID,,,
+https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/kafka-indexing-service,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorSpecTest.testSerdeWithInputFormat,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/739
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/kafka-indexing-service,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorSpecTest.testSerdeWithSpecAndInputFormat,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/kafka-indexing-service,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTest.testIsTaskCurrent,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/kafka-indexing-service,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTest.testMultiTask,ID,,,
