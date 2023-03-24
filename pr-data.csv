@@ -1145,7 +1145,7 @@ https://github.com/apache/dolphinscheduler,26b7541d954ba63deb37e89479ab4d648573e
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/avro-extensions,org.apache.druid.data.input.AvroStreamInputFormatTest.testParseSchemaless,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/avro-extensions,org.apache.druid.data.input.AvroStreamInputRowParserTest.testParseSchemaless,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.CompatParquetReaderTest.testBinaryAsString,ID,,,
-https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.CompatParquetReaderTest.testParquetThriftCompat,ID,,,
+https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.CompatParquetReaderTest.testParquetThriftCompat,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/734
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.CompatParquetReaderTest.testProtoStructWithArray,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.FlattenSpecParquetReaderTest.testFlat1Autodiscover,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensions-core/parquet-extensions,org.apache.druid.data.input.parquet.FlattenSpecParquetReaderTest.testFlat1Flatten,ID,,,
