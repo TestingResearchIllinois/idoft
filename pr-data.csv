@@ -2664,7 +2664,7 @@ https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-c
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterIndexGroupByOrderByVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterIndexGroupByVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterIndexVerbose,ID,,,
-https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterOnTextIndexColumn,ID,,,
+https://github.com/apache/pinot,98c536ee80516effc6fe2df642a07c8b05962532,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterOnTextIndexColumn,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/741
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateUsingFilterOnTextIndexColumnVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectAggregateVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsUsingFilter,ID,,,
