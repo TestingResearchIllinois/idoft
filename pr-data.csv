@@ -2647,7 +2647,7 @@ https://github.com/apache/pinot,2253bd717a10c15220a1157316e233d11531e04b,pinot-c
 https://github.com/apache/pinot,85e413ebe8c80513a8a676fc090b1af0f50861f0,pinot-common,org.apache.pinot.common.utils.URIUtilsTest.testBuildURI,ID,Accepted,https://github.com/apache/pinot/pull/9928,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.core.operator.filter.NotFilterOperatorTest.testNotOperator,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.core.transport.server.routing.stats.ServerRoutingStatsManagerTest.testQuerySubmitAndCompletionStats,ID,,,
-https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.core.util.CrcUtilsTest.test1,ID,,,
+https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.core.util.CrcUtilsTest.test1,ID,InspiredAFix,https://github.com/apache/pinot/pull/10445,https://github.com/apache/pinot/issues/10442
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.BigDecimalQueriesTest.testQueriesWithDictColumn,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.BigDecimalQueriesTest.testQueriesWithNoDictColumn,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.BooleanNullEnabledQueriesTest.testQueriesWithDictColumn,ID,,,
