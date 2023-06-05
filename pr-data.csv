@@ -3592,7 +3592,7 @@ https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618
 https://github.com/Graylog2/graylog2-server,87d63f677759336987fbb21fd9c688235618e7bb,graylog2-server,org.graylog2.utilities.IPSubnetConverterTest.testNormalize,ID,Accepted,https://github.com/Graylog2/graylog2-server/pull/7543,
 https://github.com/haraldk/TwelveMonkeys,29f7547a99da1719aa22e7ea1f86b6b93d2fed55,imageio/imageio-core,com.twelvemonkeys.imageio.color.DiscreteAlphaIndexColorModelTest.testCreateCompatibleRaster,ID,,,
 https://github.com/haraldk/TwelveMonkeys,29f7547a99da1719aa22e7ea1f86b6b93d2fed55,imageio/imageio-core,com.twelvemonkeys.imageio.StandardImageMetadataSupportTest.withTextValuesMap,ID,,,
-https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.group_elements_by_length,ID,,,
+https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.group_elements_by_length,ID,Opened,https://github.com/hellokaton/30-seconds-of-java8/pull/5,
 https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys,ID,,,
 https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.union_test,ID,,,
 https://github.com/hexagonframework/spring-data-ebean,dd11b97654982403b50dd1d5369cadad71fce410,.,org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById,OD-Brit,Accepted,https://github.com/hexagonframework/spring-data-ebean/pull/8,
