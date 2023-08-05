@@ -4074,7 +4074,7 @@ https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee27
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.SamlHooksTest.replaceComplex,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.addClaim,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.addClaims,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
-https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.removeClaims,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,https://github.com/opengoofy/hippo4j/pull/1373
+https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.removeClaims,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.replaceClaims,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.TokenHooksTest.tokenExpiration,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
 https://github.com/okta/okta-hooks-sdk-java,918778779c7f07ddd61bf86e1a22ace1ee279649,hooks,com.okta.hooks.sdk.UserRegHooksTest.allow,ID,Accepted,https://github.com/okta/okta-hooks-sdk-java/pull/27,
@@ -4116,7 +4116,7 @@ https://github.com/OpenGamma/Strata,b998b2bc5183e67f267d1f573939a42fa9ee4bf3,mod
 https://github.com/OpenGamma/Strata,b998b2bc5183e67f267d1f573939a42fa9ee4bf3,modules/data,com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_addition,ID,Accepted,https://github.com/OpenGamma/Strata/pull/2332,
 https://github.com/OpenGamma/Strata,b998b2bc5183e67f267d1f573939a42fa9ee4bf3,modules/data,com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override,ID,Accepted,https://github.com/OpenGamma/Strata/pull/2332,
 https://github.com/OpenGamma/Strata,b998b2bc5183e67f267d1f573939a42fa9ee4bf3,modules/data,com.opengamma.strata.data.scenario.RepeatedScenarioMarketDataTest.test_of,ID,Accepted,https://github.com/OpenGamma/Strata/pull/2337,
-https://github.com/opengoofy/hippo4j,5e285ba5b47266d7dcede64aefae00fbe0c9c4ae,hippo4j-common,cn.hippo4j.common.toolkit.ContentUtilTest.assertGetPoolContent,ID,Open,https://github.com/opengoofy/hippo4j/pull/1373,Not reviewd still
+https://github.com/opengoofy/hippo4j,5e285ba5b47266d7dcede64aefae00fbe0c9c4ae,hippo4j-common,cn.hippo4j.common.toolkit.ContentUtilTest.assertGetPoolContent,ID,Opened,https://github.com/opengoofy/hippo4j/pull/1373,
 https://github.com/opengoofy/hippo4j,5e285ba5b47266d7dcede64aefae00fbe0c9c4ae,hippo4j-common,cn.hippo4j.common.toolkit.JSONUtilTest.assertToJSONString,ID,,,
 https://github.com/opengoofy/hippo4j,5e285ba5b47266d7dcede64aefae00fbe0c9c4ae,hippo4j-common,cn.hippo4j.common.toolkit.Md5UtilTest.assetGetTpContentMd5,ID,,,
 https://github.com/openhab/org.openhab.binding.zwave,495d04fcbe867ef1fb532ac546b41a243c56b2a6,.,org.openhab.binding.zwave.internal.converter.ZWaveAlarmConverterTest.Alarm_AlarmRaw,ID,Accepted,https://github.com/openhab/org.openhab.binding.zwave/pull/1681,
