@@ -259,6 +259,7 @@
   "https://github.com/nutzam/nutz": "unforked",
   "https://github.com/odrotbohm/sos": "unforked",
   "https://github.com/okta/okta-hooks-sdk-java": "unforked",
+  "https://github.com/opengoofy/hippo4j": "unforked",
   "https://github.com/openhab/org.openhab.binding.zwave": "unforked",
   "https://github.com/openpojo/openpojo": "unforked",
   "https://github.com/oracle/oci-hdfs-connector": "unforked",
@@ -356,6 +357,5 @@
   "https://github.com/yandex/yoctodb": "unforked",
   "https://github.com/yangfuhai/jboot": "unforked",
   "https://github.com/zalando/riptide": "unforked",
-  "https://github.com/zhangxd1989/spring-boot-cloud": "unforked",
-  "https://github.com/opengoofy/hippo4j": "unforked"
+  "https://github.com/zhangxd1989/spring-boot-cloud": "unforked"
 }
