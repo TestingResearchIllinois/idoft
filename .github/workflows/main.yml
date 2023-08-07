@@ -1,0 +1,32 @@
+name: test
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      
+      - name: Test without Nondex
+        run: |
+          cd ~
+          git clone https://github.com/hellokaton/30-seconds-of-java8
+          cd 30-seconds-of-java8
+          mvn clean install -DskipTests -pl . -am
+          mvn -pl . test -Dtest=snippets.SnippetsTests#pick_should_pick_key_pairs_corresponding_to_keys
+      
+      - name: Test with Nondex
+        run: |
+          cd ~
+          cd 30-seconds-of-java8
+          pwd
+          mvn clean install -DskipTests -pl . -am
+          mvn -pl . edu.illinois:nondex-maven-plugin:2.1.1:nondex -Dtest=snippets.SnippetsTests#pick_should_pick_key_pairs_corresponding_to_keys
