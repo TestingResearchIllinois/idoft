@@ -166,29 +166,10 @@ def check_tab(filename, row, i, log):
             log_std_error(filename, log, i, row, key, "There are TAB characters in this field")
 
 
-def run_checks_pr(log, commit_range):
+def run_checks_pr(filename, log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
 
     filename = "pr-data.csv"
-    with open("format_checker/forked-projects.json", "r") as f:
-        global projects
-        projects = json.load(f)
-    checks = [
-        check_row_length,
-        check_common_rules,
-        check_category,
-        check_status,
-        check_status_consistency,
-        check_forked_project,
-        check_tab,
-    ]
-    run_checks(filename, data, log, commit_range, checks)
-    check_sort(filename, log)
-
-def run_checks_gr(log, commit_range):
-    """Checks that gr-data.csv is properly formatted."""
-
-    filename = "gr-data.csv"
     with open("format_checker/forked-projects.json", "r") as f:
         global projects
         projects = json.load(f)
