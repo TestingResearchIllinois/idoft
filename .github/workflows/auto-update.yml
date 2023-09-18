@@ -21,7 +21,7 @@ jobs:
         java-version: '15'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B package --file auto-update-dataset/java/pom.xml
+      run: mvn clean -B package --file auto-update-dataset/java/pom.xml
     - name: git add file
       run: git add pr-data.csv
     - name: check for changes
@@ -32,17 +32,5 @@ jobs:
       run: git config --global user.name "Dobrosav Vlaskovic"
     - name: git commit changed file
       run: git commit -m "Auto-update pr-data"
-    - name: git push to main
-      run: git push
-    - name: git add file
-      run: git add gr-data.csv
-    - name: check for changes
-      run: git status
-    - name: set author
-      run: git config --global user.email "echatikyan@gmail.com"
-    - name: set author name
-      run: git config --global user.name "Elen Chatikyan"
-    - name: git commit changed file
-      run: git commit -m "Auto-update gr-data"
     - name: git push to main
       run: git push
