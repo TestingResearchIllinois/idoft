@@ -27,7 +27,7 @@ def get_commit_list(commit_range):
 
     # If it's the first push to a new branch, the event.before commit
     # will consist of 40 zeroes. This needs to be handled separately
-    elif re.fullmatch(r"0{40}", commit_range[0]):
+    elif len(commit_range) >= 3 and re.fullmatch(r"0{40}", commit_range[0]):
         commit_range = [commit_range[1][:7]] + subprocess.check_output(
             "git log --oneline "
             + str(commit_range[1])
