@@ -967,6 +967,7 @@ https://github.com/alibaba/wasp,b2593d8e4b31ca6da0cd2f3e18356338d9b6dace,plan,co
 https://github.com/alibaba/wasp,b2593d8e4b31ca6da0cd2f3e18356338d9b6dace,plan,com.alibaba.wasp.plan.execute.TestExecutionEngine.testQueryNext,NOD,,,
 https://github.com/alibaba/wasp,b2593d8e4b31ca6da0cd2f3e18356338d9b6dace,.,com.alibaba.wasp.TestStartingCluster.testStartAndShutdownCluster,ID,,,
 https://github.com/alien4cloud/alien4cloud,eb57d0feca6c37e0a4aafc3feef494e43e02ecda,alien4cloud-security,alien4cloud.security.LdapAuthenticationProviderTest.testLdapUserImport,OD,Accepted,https://github.com/alien4cloud/alien4cloud/pull/182,
+https://github.com/Alluxio/alluxio,e6289d03c7316ccc0a5e3fba2e3b495633713589,dora/core/server/proxy,alluxio.proxy.s3.S3RestServiceHandlerTest.testDeleteObjectReq,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.GreedyAllocatorTest.allocateBlock,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.MaxFreeAllocatorTest.allocateBlock,ID,,,
 https://github.com/Alluxio/alluxio,68fcda9dd2ca2181eb897e10ca02fa5bc3a3099f,core/server/worker,alluxio.worker.block.allocator.RoundRobinAllocatorTest.allocateBlock,ID,,,
