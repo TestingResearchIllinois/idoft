@@ -18,11 +18,13 @@ public class Main {
 	private static int count = 0;
 	private static ArrayList<String> columnValues = new ArrayList<String>();
 	private static ArrayList<String> ignore = new ArrayList<String>();
+	private static String currentDirectory = System.getProperty("user.dir");
+	private static String idoftDirPath = currentDirectory.substring(0, currentDirectory.lastIndexOf("/idoft/") + 6);
 	private void readData() {
 		Scanner scanner, scanner1;
 		int i=0;
 		try {
-			File f = new File("/home/runner/work/idoft/idoft/pr-data.csv");
+			File f = new File(idoftDirPath + "/pr-data.csv");
 			scanner = new Scanner(f);
 			scanner1 = new Scanner(new File("ignore.csv"));
 			while (scanner.hasNextLine()) {
@@ -93,7 +95,7 @@ public class Main {
 				if (i % 200 == 0)
 					Thread.sleep(20000);
 			}
-			fw = new FileWriter("/home/runner/work/idoft/idoft/pr-data.csv");
+			fw = new FileWriter(idoftDirPath + "pr-data.csv");
 			int i = 0;
 			while (i < count) {
 				fw.write(status[i] + "\n");
