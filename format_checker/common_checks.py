@@ -12,7 +12,7 @@ from utils import (
 )
 
 
-# Contains regexes for columns that are \
+# Contains regexes for columns that are
 # commmon to pr-data, gr-data and tic-fic-data
 common_data = {
     "Project URL": re.compile(

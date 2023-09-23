@@ -5,7 +5,7 @@ from requests_html import HTMLSession
 
 # it takes about 2 minutes to check 200 projects
 def main():
-    # get unique urls from pr-data.csv, we can also use \
+    # get unique urls from pr-data.csv, we can also use
     # cmd: `git pull -r ; cut -f1 -d, pr-data.csv | uniq`
     pr_data_url = r"https://raw.githubusercontent.com/" \
               r"TestingResearchIllinois/idoft/main/pr-data.csv"
