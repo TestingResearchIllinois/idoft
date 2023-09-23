@@ -18,7 +18,12 @@ if __name__ == "__main__":
     log_esp_error.tracker = 0
     log_warning.tracker = 0
     commit_range = sys.argv[1:]
-    checks = [lambda *args: run_checks_pr('pr-data.csv', *args), lambda *args: run_checks_pr('gr-data.csv', *args), run_checks_tic_fic, run_checks_tso_iso]
+    checks = [
+        lambda *args: run_checks_pr('pr-data.csv', *args),
+        lambda *args: run_checks_pr('gr-data.csv', *args),
+        run_checks_tic_fic,
+        run_checks_tso_iso
+    ]
     for check in checks:
         check(logger, sys.argv[1:])
     ERROR_COUNT = str(log_std_error.tracker + log_esp_error.tracker)

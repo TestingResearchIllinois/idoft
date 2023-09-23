@@ -4,6 +4,7 @@ import json
 import logging
 import requests
 
+
 def check_existing_project(projects, row, auth):
     proj_url = row["Project URL"]
     if proj_url not in projects:
@@ -20,10 +21,11 @@ def check_existing_project(projects, row, auth):
                 projects[proj_url] = "forked"
             else:
                 projects[proj_url] = "unforked"
-        except requests.exceptions.RequestException as e:
+        except requests.exceptions.RequestException:
             logging.info("RequestException: ", proj_url)
             return False
     return projects, projects[proj_url] == "unforked"
+
 
 if __name__ == "__main__":
     filename = "pr-data.csv"
@@ -40,6 +42,10 @@ if __name__ == "__main__":
     with open("format_checker/forked-projects.json", "w") as f:
         json.dump(projects, f)
     with open(filename, "w") as csvfile:
-        writer = csv.DictWriter(csvfile, checked[0].keys(), lineterminator='\n')
+        writer = csv.DictWriter(
+            csvfile,
+            checked[0].keys(),
+            lineterminator='\n'
+        )
         writer.writeheader()
         writer.writerows(checked)
