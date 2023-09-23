@@ -10,7 +10,8 @@ tqdm.pandas()
 parser = argparse.ArgumentParser()
 parser.add_argument('-t',
                     '--github_access_token',
-                    help='GitHub access token to overcome API rate limitations')
+                    help='GitHub access token to overcome API rate limitations'
+                    )
 parser.add_argument('-f',
                     '--filepath',
                     help='Filepath of .csv file containing repo data')
