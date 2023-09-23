@@ -1,0 +1,28 @@
+name: Flake8 Check
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.6
+
+      - name: Install dependencies
+        run: |
+          pip install -r repo-info/requirements.txt
+
+      - name: Run Flake8
+        run: |
+          flake8

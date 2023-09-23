@@ -12,8 +12,8 @@ from common_checks import (
 )
 
 
-# Contains information and regexes unique to pr-data.csv
-pr_data = {
+# Contains information and regexes unique to pr-data.csv and gr-data.csv files
+data = {
     "columns": [
         "Project URL",
         "SHA Detected",
@@ -66,7 +66,7 @@ def check_category(filename, row, i, log):
     """Check validity of Category."""
 
     if not re.fullmatch(r"(\w+|-|\;)*\w+", row["Category"]) or not all(
-        x in pr_data["Category"] for x in row["Category"].split(";")
+        x in data["Category"] for x in row["Category"].split(";")
     ):
         log_std_error(filename, log, i, row, "Category")
 
@@ -74,7 +74,7 @@ def check_category(filename, row, i, log):
 def check_status(filename, row, i, log):
     """Check validity of Status."""
 
-    if not row["Status"] in pr_data["Status"]:
+    if not row["Status"] in data["Status"]:
         log_std_error(filename, log, i, row, "Status")
 
 
@@ -139,7 +139,7 @@ def check_status_consistency(filename, row, i, log):
 def check_notes(filename, row, i, log):
     """Checks validity of Notes."""
 
-    if not pr_data["Notes"].fullmatch(row["Notes"]):
+    if not data["Notes"].fullmatch(row["Notes"]):
         log_std_error(filename, log, i, row, "Notes")
 
 def check_forked_project(filename, row, i, log):
@@ -153,7 +153,7 @@ def check_forked_project(filename, row, i, log):
 def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
 
-    if not pr_data["PR Link"].fullmatch(row["PR Link"]) or (
+    if not data["PR Link"].fullmatch(row["PR Link"]) or (
         re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
         != row["Project URL"].casefold()
     ):
@@ -167,7 +167,7 @@ def check_tab(filename, row, i, log):
             log_std_error(filename, log, i, row, key, "There are TAB characters in this field")
 
 
-def run_checks_pr(log, commit_range):
+def run_checks_pr(filename, log, commit_range):
     """Checks that pr-data.csv is properly formatted."""
 
     filename = "pr-data.csv"
@@ -183,5 +183,5 @@ def run_checks_pr(log, commit_range):
         check_forked_project,
         check_tab,
     ]
-    run_checks(filename, pr_data, log, commit_range, checks)
+    run_checks(filename, data, log, commit_range, checks)
     check_sort(filename, log)

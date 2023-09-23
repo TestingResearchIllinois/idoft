@@ -12,7 +12,7 @@ from utils import (
 )
 
 
-# Contains regexes for columns that are commmon to pr-data and tic-fic-data
+# Contains regexes for columns that are commmon to pr-data, gr-data and tic-fic-data
 common_data = {
     "Project URL": re.compile(r"(https:\/\/github.com)(\/(\w|\.|-)+){2}(?<!\.git)$"),
     "SHA": re.compile(r"\b[0-9a-f]{40}\b"),
@@ -92,7 +92,7 @@ def check_sort(filename, log):
     diff = subprocess.check_output(command, shell=True).decode("utf-8")
     if diff != "":
         log_esp_error(filename, log, "The file is not properly ordered")
-        print("Refer to IDoFT readme for how pr-data.csv should be sorted: https://github.com/TestingResearchIllinois/idoft#to-contribute-a-newly-detected-flaky-test")
+        print("Refer to IDoFT readme for how " + filename + " should be sorted: https://github.com/TestingResearchIllinois/idoft#to-contribute-a-newly-detected-flaky-test")
         print("Differences between current order and expected order:")
         print(diff)
 
