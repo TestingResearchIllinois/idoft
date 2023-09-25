@@ -168,9 +168,8 @@ def check_tab(filename, row, i, log):
 
 
 def run_checks_pr(filename, log, commit_range):
-    """Checks that pr-data.csv is properly formatted."""
+    """Checks that the given file is properly formatted."""
 
-    filename = "pr-data.csv"
     with open("format_checker/forked-projects.json", "r") as f:
         global projects
         projects = json.load(f)
