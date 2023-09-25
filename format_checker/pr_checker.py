@@ -2,7 +2,6 @@
 
 import re
 import json
-import requests
 from utils import log_std_error, log_warning
 from common_checks import (
     check_common_rules,
