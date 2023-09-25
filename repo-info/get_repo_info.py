@@ -21,13 +21,16 @@ data = data[data['Status'].isna()]
 REPO_URLS = data[COLNAME].unique()
 NUM_REPOS = REPO_URLS.shape[0]
 
+
 def check_number_repos():
     if NUM_REPOS > GITHUB_API_RATE_LIMIT:
         print(f'You can only make {GITHUB_API_RATE_LIMIT} requests per hour. Your file has {NUM_REPOS} unique repositories. Exiting.')
         exit(0)
 
+
 def get_diff_month(d1, d2):
     return (d1.year - d2.year) * 12 + d1.month - d2.month
+
 
 def get_repo_object(repo_url):
     try:
@@ -36,6 +39,7 @@ def get_repo_object(repo_url):
     except Exception as e:
         print(e)
         return None
+
 
 def get_months_since_last_commit(repo):
     try:
@@ -47,7 +51,8 @@ def get_months_since_last_commit(repo):
         print(e)
         return None
 
-def get_maintained_repos():    
+
+def get_maintained_repos():
     check_number_repos()
     print(f'Analyzing {NUM_REPOS} repositories...')
     df = pd.DataFrame()
@@ -57,6 +62,7 @@ def get_maintained_repos():
     df['STARS'] = df['REPO_OBJECT'].progress_apply(lambda repo_object: repo_object.stargazers_count if repo_object is not None else None)
     df = df.sort_values(by=['MONTHS_SINCE_LAST_COMMIT', 'STARS'], ascending=[True, False]).drop(columns=['REPO_OBJECT', 'Unnamed: 0'], errors='ignore')
     df.to_csv(f'{os.getcwd()}/repo-info/repo-info.csv', index=False)
+
 
 if __name__ == '__main__':
     get_maintained_repos()

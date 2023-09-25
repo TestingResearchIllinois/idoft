@@ -4,6 +4,7 @@ import json
 import logging
 import requests
 
+
 def check_existing_project(projects, row, auth):
     proj_url = row["Project URL"]
     if proj_url not in projects:
@@ -24,6 +25,7 @@ def check_existing_project(projects, row, auth):
             logging.info("RequestException: ", proj_url)
             return False
     return projects, projects[proj_url] == "unforked"
+
 
 if __name__ == "__main__":
     filename = "pr-data.csv"
