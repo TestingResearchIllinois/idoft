@@ -21,7 +21,7 @@ def check_existing_project(projects, row, auth):
                 projects[proj_url] = "forked"
             else:
                 projects[proj_url] = "unforked"
-        except requests.exceptions.RequestException as e:
+        except requests.exceptions.RequestException:
             logging.info("RequestException: ", proj_url)
             return False
     return projects, projects[proj_url] == "unforked"

@@ -46,7 +46,7 @@ def extract_personal_repos_with_pom_file():
     repos = soup.find_all('h3', class_='wb-break-all')
     try:
         next_page = soup.find('div', class_='paginate-container').contents[1].contents[1].attrs.get('href')
-    except Exception as e:
+    except Exception:
         next_page = None
 
     while repos or next_page:
@@ -64,7 +64,7 @@ def extract_personal_repos_with_pom_file():
             repos = soup.find_all('h3', class_='wb-break-all')
             try:
                 next_page = soup.find('div', class_='paginate-container').contents[1].contents[1].attrs.get('href')
-            except Exception as e:
+            except Exception:
                 next_page = None
         else:
             break
