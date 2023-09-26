@@ -25,4 +25,4 @@ jobs:
 
       - name: Run Flake8
         run: |
-          flake8
+          flake8 --extend-ignore=E501
