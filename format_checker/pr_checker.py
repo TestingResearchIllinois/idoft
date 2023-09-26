@@ -142,11 +142,7 @@ def check_status_consistency(filename, row, i, log):
 
     if row["Status"] == "" and row["PR Link"] != "":
         check_pr_link(filename, row, i, log)
-        log_std_error(
-            filename, log, i, row,
-            "Status",
-            "Status should not be empty when a PR link is provided."
-        )
+        log_std_error(filename, log, i, row, "Status", "Status should not be empty when a PR link is provided.")
 
 
 def check_notes(filename, row, i, log):
@@ -160,11 +156,8 @@ def check_forked_project(filename, row, i, log):
     """Checks forked project."""
     proj_url = row["Project URL"]
     if proj_url not in projects:
-        log_std_error(
-            filename, log, i, row,
-            "Project URL",
-            "Please add the new project to format_checker/forked-projects.json"
-        )
+        log_std_error(filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json")
+
     if proj_url in projects and projects[proj_url] == "forked":
         log_std_error(filename, log, i, row, "Project URL", "Forked project")
 
@@ -191,9 +184,8 @@ def check_tab(filename, row, i, log):
 
 
 def run_checks_pr(filename, log, commit_range):
-    """Checks that pr-data.csv is properly formatted."""
+    """Checks that the given file is properly formatted."""
 
-    filename = "pr-data.csv"
     with open("format_checker/forked-projects.json", "r") as f:
         global projects
         projects = json.load(f)

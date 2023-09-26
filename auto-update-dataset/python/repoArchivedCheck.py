@@ -90,14 +90,7 @@ def main():
               " and replace the corresponding line in csv.file)")
         for i in update:
             print("line_number " + str(i[0]) + ":")  # line_number
-            print(str(i[1:])
-                  .replace("[", "")
-                  .replace("]", "")
-                  .replace("\'", "")
-                  .replace(", ", ",")
-                  .replace("nan", "")
-                  .replace("\"", "")
-                  )
+            print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
             print("")
 
     print("3.anomaly:")
@@ -126,28 +119,14 @@ def main():
                 for j in anomaly:
                     for i in my_dict[j[1]]:
                         print("line_number " + str(i[0]) + ":")
-                        print(str(i[1:])
-                              .replace("[", "")
-                              .replace("]", "")
-                              .replace("\'", "")
-                              .replace(", ", ",")
-                              .replace("nan", "")
-                              .replace("\"", "")
-                              )
+                        print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
                         print("")
                 print("")
         else:
             for j in anomaly:
                 for i in my_dict[j[1]]:
                     print("line_number " + str(i[0]) + ":")
-                    print(str(i[1:])
-                          .replace("[", "")
-                          .replace("]", "")
-                          .replace("\'", "")
-                          .replace(", ", ",")
-                          .replace("nan", "")
-                          .replace("\"", "")
-                          )
+                    print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
                     print("")
             print("")
 
