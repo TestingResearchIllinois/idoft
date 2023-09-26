@@ -10,18 +10,18 @@ def main():
     urls = pd.read_csv(pr_data_url, usecols=["Project URL"])
     urls = list(set([i[0] for i in urls.values.tolist()]))
     print("load data from", pr_data_url)
-    
+
     # copy the first line of raw cvs.file here:
     csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
     cols = csv_first_line.split(",")
     status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
     notes = cols.index("Notes") + 1
     data = pd.read_csv(pr_data_url, usecols=cols)
-                                
+
     data = data.values  # get an array of array
     my_dict = {}  # {url:[[line_num, url, sha, path, ...], [...], ...],}
     line_number = 2
-    for i in data: 
+    for i in data:
         if i[0] not in my_dict:  # i[0] == project_url
             my_dict[i[0]] = []
         line = list(i)
@@ -69,7 +69,7 @@ def main():
         for j in my_dict[i]:
             if j[status_idx] != "RepoArchived" and j[notes] != "RepoArchived":
                 if pd.isna(j[status_idx]) or j[status_idx] == "":
-                    j[status_idx] = "RepoArchived"  
+                    j[status_idx] = "RepoArchived"
                 else:
                     j[notes] = "RepoArchived"
                 update.append(j)
@@ -78,14 +78,14 @@ def main():
     else:
         print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
         for i in update:
-            print("line_number "+ str(i[0]) + ":")  # line_number
+            print("line_number " + str(i[0]) + ":")  # line_number
             print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
             print("")
 
     print("3.anomaly:")
     for i in anomaly:
         print("status code:" + str(i[0]) + ", "),
-        print("url:", i[1]) 
+        print("url:", i[1])
         print("[!]details: ")
         update = []
         if str(i[0]) == '404':
@@ -93,7 +93,7 @@ def main():
                 for j in my_dict[i[1]]:
                     if j[status_idx] != "RepoDeleted" and j[notes] != "RepoDeleted":
                         if pd.isna(j[status_idx]) or j[status_idx] == "":
-                            j[status_idx] = "RepoDeleted"  
+                            j[status_idx] = "RepoDeleted"
                         else:
                             j[notes] = "RepoDeleted"
                 update.append(j)
@@ -103,17 +103,18 @@ def main():
                 print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
                 for j in anomaly:
                     for i in my_dict[j[1]]:
-                        print("line_number "+ str(i[0]) + ":") 
+                        print("line_number " + str(i[0]) + ":")
                         print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
                         print("")
                 print("")
         else:
             for j in anomaly:
                 for i in my_dict[j[1]]:
-                    print("line_number "+ str(i[0]) + ":") 
+                    print("line_number " + str(i[0]) + ":")
                     print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
                     print("")
             print("")
+
 
 if __name__ == "__main__":
     main()
