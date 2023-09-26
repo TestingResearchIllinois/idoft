@@ -56,10 +56,7 @@ data = {
         r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
     ),
     "Notes": re.compile(
-        r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\."
-        r"[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|"
-        r"https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|"
-        r"www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+        r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
     ),
 }
 
@@ -100,13 +97,7 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in [
-        "InspiredAFix",
-        "Skipped",
-        "MovedOrRenamed",
-        "Deprecated",
-        "Deleted"
-    ]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated", "Deleted"]:
 
         # Should contain a note
         if row["Notes"] == "":
@@ -157,7 +148,6 @@ def check_forked_project(filename, row, i, log):
     proj_url = row["Project URL"]
     if proj_url not in projects:
         log_std_error(filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json")
-
     if proj_url in projects and projects[proj_url] == "forked":
         log_std_error(filename, log, i, row, "Project URL", "Forked project")
 
@@ -177,10 +167,7 @@ def check_tab(filename, row, i, log):
 
     for key, value in row.items():
         if '\t' in value:
-            log_std_error(
-                filename, log, i, row, key,
-                "There are TAB characters in this field"
-            )
+            log_std_error(filename, log, i, row, key, "There are TAB characters in this field")
 
 
 def run_checks_pr(filename, log, commit_range):

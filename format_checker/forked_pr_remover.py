@@ -42,10 +42,6 @@ if __name__ == "__main__":
     with open("format_checker/forked-projects.json", "w") as f:
         json.dump(projects, f)
     with open(filename, "w") as csvfile:
-        writer = csv.DictWriter(
-            csvfile,
-            checked[0].keys(),
-            lineterminator='\n'
-        )
+        writer = csv.DictWriter(csvfile, checked[0].keys(), lineterminator='\n')
         writer.writeheader()
         writer.writerows(checked)

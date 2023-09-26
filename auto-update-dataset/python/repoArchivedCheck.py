@@ -5,20 +5,16 @@ from requests_html import HTMLSession
 
 # it takes about 2 minutes to check 200 projects
 def main():
-    # get unique urls from pr-data.csv, we can also use
-    # cmd: `git pull -r ; cut -f1 -d, pr-data.csv | uniq`
-    pr_data_url = r"https://raw.githubusercontent.com/" \
-              r"TestingResearchIllinois/idoft/main/pr-data.csv"
+    # get unique urls from pr-data.csv, we can also use cmd: `git pull -r ; cut -f1 -d, pr-data.csv | uniq`
+    pr_data_url = r"https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv"
     urls = pd.read_csv(pr_data_url, usecols=["Project URL"])
     urls = list(set([i[0] for i in urls.values.tolist()]))
     print("load data from", pr_data_url)
 
     # copy the first line of raw cvs.file here:
-    csv_first_line = (
-        "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name "
-        "(packageName.ClassName.methodName),Category,Status,PR Link,Notes")
+    csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
     cols = csv_first_line.split(",")
-    status_idx = cols.index("Status") + 1  # add linenumber into the cols later
+    status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
     notes = cols.index("Notes") + 1
     data = pd.read_csv(pr_data_url, usecols=cols)
 
@@ -47,11 +43,7 @@ def main():
     for url in urls:
         session = HTMLSession()
         r = session.get(url)
-        if (
-            r.status_code != 200 and
-            r.status_code != 429
-            # no need to report 429("Too Many Requests response"), 200("OK")
-        ):
+        if r.status_code != 200 and r.status_code != 429:  # no need to report 429("Too Many Requests response"), 200("OK")
             anomaly.append([r.status_code, url])
             print("anomaly[status_code, url]:", r.status_code, url)
         if cnt % 10 == 0:  # print every 10 repos
@@ -59,9 +51,7 @@ def main():
             print("time used: ", time.time() - t1, "s")
             t1 = time.time()
         cnt += 1
-        archived_message = ("This repository has been archived by the owner."
-                            " It is now read-only.")
-        if archived_message in r.text:
+        if "This repository has been archived by the owner. It is now read-only." in r.text:
             archived.append(url)
             print("archived: ", url)
         # if "archived" in r.text[:len(r.text)]:
@@ -86,8 +76,7 @@ def main():
     if not update:
         print("No need to update")
     else:
-        print("[!]Need to Update (Copy the following contents"
-              " and replace the corresponding line in csv.file)")
+        print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
         for i in update:
             print("line_number " + str(i[0]) + ":")  # line_number
             print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
@@ -102,10 +91,7 @@ def main():
         if str(i[0]) == '404':
             for i in anomaly:
                 for j in my_dict[i[1]]:
-                    if (
-                        j[status_idx] != "RepoDeleted" and
-                        j[notes] != "RepoDeleted"
-                    ):
+                    if j[status_idx] != "RepoDeleted" and j[notes] != "RepoDeleted":
                         if pd.isna(j[status_idx]) or j[status_idx] == "":
                             j[status_idx] = "RepoDeleted"
                         else:
@@ -114,8 +100,7 @@ def main():
             if not update:
                 print("No need to update")
             else:
-                print("[!]Need to Update (Copy the following contents"
-                      " and replace the corresponding line in csv.file)")
+                print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
                 for j in anomaly:
                     for i in my_dict[j[1]]:
                         print("line_number " + str(i[0]) + ":")
