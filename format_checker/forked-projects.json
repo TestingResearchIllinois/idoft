@@ -187,6 +187,7 @@
   "https://github.com/danwallach/star-vote-gradle": "unforked",
   "https://github.com/davidmoten/rxjava2-extras": "unforked",
   "https://github.com/dianping/cat": "unforked",
+  "https://github.com/diffplug/goomph": "unforked",
   "https://github.com/dnsjava/dnsjava": "unforked",
   "https://github.com/doanduyhai/Achilles": "unforked",
   "https://github.com/dromara/hutool": "unforked",
@@ -286,6 +287,7 @@
   "https://github.com/orbit/orbit": "unforked",
   "https://github.com/outbrain/aletheia": "unforked",
   "https://github.com/paypal/sdk-core-java": "unforked",
+  "https://github.com/pazzesko/pokemon-alea": "unforked",
   "https://github.com/pedrovgs/Algorithms": "unforked",
   "https://github.com/perwendel/spark": "unforked",
   "https://github.com/phax/as2-lib": "unforked",
@@ -301,6 +303,7 @@
   "https://github.com/rest-assured/rest-assured": "unforked",
   "https://github.com/ripe-ncc/whois": "unforked",
   "https://github.com/robovm/robovm": "unforked",
+  "https://github.com/romalev/reactive-spring-web-flux-service": "unforked",
   "https://github.com/rrd4j/rrd4j": "unforked",
   "https://github.com/runelite/runelite": "unforked",
   "https://github.com/schemacrawler/SchemaCrawler": "unforked",
@@ -367,6 +370,7 @@
   "https://github.com/vert-x3/vertx-rabbitmq-client": "unforked",
   "https://github.com/vipshop/vjtools": "unforked",
   "https://github.com/visallo/vertexium": "unforked",
+  "https://github.com/vlsergey/spring-data-rest-utils": "unforked",
   "https://github.com/vmware/admiral": "unforked",
   "https://github.com/vojtechhabarta/typescript-generator": "unforked",
   "https://github.com/webx/citrus": "unforked",
@@ -387,5 +391,6 @@
   "https://github.com/yandex/yoctodb": "unforked",
   "https://github.com/yangfuhai/jboot": "unforked",
   "https://github.com/zalando/riptide": "unforked",
-  "https://github.com/zhangxd1989/spring-boot-cloud": "unforked"
+  "https://github.com/zhangxd1989/spring-boot-cloud": "unforked",
+  "https://github.com/zhurlik/gradle-jboss-modules-plugin": "unforked"
 }
