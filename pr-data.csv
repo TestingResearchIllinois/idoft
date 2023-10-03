@@ -5035,8 +5035,8 @@ https://github.com/TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30a
 https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToJSON,ID,Opened,https://github.com/twilio/authy-java/pull/70,RepoArchived
 https://github.com/twilio/authy-java,394f11bea2ec438e6e6e7eb084497ae6fdf90ab6,.,com.authy.api.UserStatusTest.testToXML,ID,RepoArchived,,
 https://github.com/twilio/twilio-java,49865104e861266937f2db20157e6b724e5b3b87,.,com.twilio.jwt.taskrouter.PolicyTest.testToJson,ID,Accepted,https://github.com/twilio/twilio-java/pull/725,
-https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a4263e50875ee,distributedlog-core,com.twitter.distributedlog.impl.metadata.TestZKLogMetadataForWriter.testCreateLogMetadata,ID,,,
-https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a4263e50875ee,distributedlog-core,com.twitter.distributedlog.impl.metadata.TestZKLogMetadataForWriter.testCreateLogMetadataWithCustomMetadata,ID,,,
+https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a4263e50875ee,distributedlog-core,com.twitter.distributedlog.impl.metadata.TestZKLogMetadataForWriter.testCreateLogMetadata,ID,RepoArchived,,
+https://github.com/twitter-archive/distributedlog,6c7b5745b697617327235a8b773a4263e50875ee,distributedlog-core,com.twitter.distributedlog.impl.metadata.TestZKLogMetadataForWriter.testCreateLogMetadataWithCustomMetadata,ID,RepoArchived,,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.MetaFieldUtilTest.toMetaFieldInfoArray,ID,Opened,https://github.com/twitter/cloudhopper-commons/pull/27,
 https://github.com/twitter/cloudhopper-commons,05f06af02facfe4414c2ceaa799182c6dffbc1b4,ch-commons-util,com.cloudhopper.commons.util.windowing.WindowTest.simulatedMultithreadedProcessing,ID,Claimed,,
 https://github.com/twitter/GraphJet,dbb652a99b6213ddb5892ae6e3396ef10fa0279b,graphjet-core,com.twitter.graphjet.algorithms.salsa.SalsaTest.testSalsaWithRandomGraph,ID,Opened,https://github.com/twitter/GraphJet/pull/138,
