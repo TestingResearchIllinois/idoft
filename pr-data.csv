@@ -4046,8 +4046,7 @@ https://github.com/networknt/light-4j,75ad2d415c51d7b6475f1d270a66949609b125d5,b
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostInvalidJson,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostJsonMap,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,body,com.networknt.body.BodyHandlerTest.testPostNonJson,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
-https://github.com/networknt/light-4j,75ad2d415c51d7b6475f1d270a66949609b125d5,client,com.networknt.client.Http2ClientTest.callApiWithHttp2ConnectionPoolAsync,ID,,,
-https://github.com/networknt/light-4j,75ad2d415c51d7b6475f1d270a66949609b125d5,client,com.networknt.client.Http2ClientTest.testSingleAsych,ID,,,
+https://github.com/networknt/light-4j,75ad2d415c51d7b6475f1d270a66949609b125d5,client,com.networknt.client.Http2ClientTest.testSingleAsych,ID,Deleted,,
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,config,com.networknt.config.ConfigEscapeTest.testSql1,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,config,com.networknt.config.ConfigEscapeTest.testSql2,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
 https://github.com/networknt/light-4j,fcded1683dcbd41a968e221494778aa6b71e7428,config,com.networknt.config.ConfigEscapeTest.testValuesEscape,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/73
