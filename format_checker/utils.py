@@ -54,25 +54,21 @@ def get_commit_list(commit_range):
 
 def get_committed_lines(filename, commit_range):
     """
-    Computes which lines have been modified in the commits contained in the
-    push/PR.
+    Computes which lines have been modified in the commits contained in the push/PR.
     """
-
-    commit_list = get_commit_list(commit_range)
-    if commit_list != []:
-        commit_list = "\\|".join(commit_list)
+    if commit_range:
         command = (
-            "git blame "
+            "git diff -U0 "
+            + commit_range[0] + " " + commit_range[1]
+            + " -- "
             + filename
-            + " | grep -n '"
-            + commit_list
-            + "' | cut -f1 -d:"
+            + " | ./diff-lines.sh"
         )
         committed_lines = subprocess.check_output(command, shell=True)
         committed_lines = committed_lines.decode("utf-8").split("\n")[:-1]
+        committed_lines = sorted([*set(committed_lines)])
         return committed_lines
-    return commit_list
-
+    return []
 
 def get_uncommitted_lines(filename):
     """
