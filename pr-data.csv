@@ -1978,7 +1978,7 @@ https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,or
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinarySerDe.testLazyBinarySerDe,ID,,,
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinarySerDe2.testLazyBinarySerDe,ID,,,
 https://github.com/apache/hive,54e43339dd671018fc70ebb5d9f0b292d70391a6,itests/serde,org.apache.hadoop.hive.serde2.objectinspector.TestObjectInspectorUtils.testBucketHashGeneration,OD,,,
-https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.objectinspector.TestObjectInspectorUtils.testObjectInspectorUtils,ID,,,
+https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.objectinspector.TestObjectInspectorUtils.testObjectInspectorUtils,ID,Opened,https://github.com/apache/hive/pull/4798,
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.objectinspector.TestProtocolBuffersObjectInspectors.testProtocolBuffersObjectInspectors,ID,,,
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.objectinspector.TestReflectionObjectInspectors.testReflectionObjectInspectors,ID,,,
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,serde,org.apache.hadoop.hive.serde2.objectinspector.TestStandardObjectInspectors.testStandardUnionObjectInspector,ID,Accepted,https://github.com/apache/hive/pull/929,
