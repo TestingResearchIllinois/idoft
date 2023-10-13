@@ -3914,7 +3914,7 @@ https://github.com/karatelabs/karate,16452ef4d17ed76b079c6f1eba07a4749fa08d02,ka
 https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.core.parser.FeatureParserTest.testEngineForSimpleFeature,ID,,,
 https://github.com/karatelabs/karate,14807dbf8d7c45f709299574222dd498b1fa5e67,karate-core,com.intuit.karate.JsonUtilsTest.testBeanConversion,ID,Accepted,https://github.com/karatelabs/karate/pull/1829,
 https://github.com/karatelabs/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,Accepted,https://github.com/karatelabs/karate/pull/1829,
-https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.report.ReportUtilsTest.testCustomTags,ID,,,
+https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.report.ReportUtilsTest.testCustomTags,ID,Opened,https://github.com/karatelabs/karate/pull/2417,
 https://github.com/kevinsawicki/http-request,2d62a3e9da726942a93cf16b6e91c0187e6c0136,lib,com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication,OD-Vic,Opened,https://github.com/kevinsawicki/http-request/pull/151,
 https://github.com/kevinsawicki/http-request,2d62a3e9da726942a93cf16b6e91c0187e6c0136,lib,com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams,OD-Vic,Opened,https://github.com/kevinsawicki/http-request/pull/151,
 https://github.com/kevinsawicki/http-request,2d62a3e9da726942a93cf16b6e91c0187e6c0136,lib,com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams,OD-Vic,Opened,https://github.com/kevinsawicki/http-request/pull/151,
