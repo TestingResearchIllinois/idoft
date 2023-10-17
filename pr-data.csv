@@ -1938,6 +1938,7 @@ https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-r
 https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.json.instance.TestStoppableCheck.whenSerializingStoppableCheck,ID,Accepted,https://github.com/apache/helix/pull/2297,
 https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.TestInstancesAccessor.testGetAllInstances,ID,,,
 https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.TestPerInstanceAccessor.testGetAllMessages,ID,,,
+https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.TestPerInstanceAccessor.testGetAllInstances,OD,Claimed,,
 https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.TestResourceAccessor.testGetResources,ID,,,
 https://github.com/apache/helix,917b786e4da9a615c5177f27256e170feae2298f,helix-rest,org.apache.helix.rest.server.TestResourceAssignmentOptimizerAccessor.testComputePartitionAssignment,ID,,,
 https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,standalone-metastore/metastore-server,org.apache.hadoop.hive.common.TestStatsSetupConst.testStatColumnEntriesCompat,ID,InspiredAFix,https://github.com/apache/hive/pull/1024,
