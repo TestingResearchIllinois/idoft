@@ -4474,7 +4474,7 @@ https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byt
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.description.type.TypeDescriptionForLoadedTypeTest.testGenericTypeInconsistency,ID,,,
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.description.type.TypeDescriptionForLoadedTypeTest.testTypeAnnotationExceptionType,ID,,,
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testGenericTypeInconsistency,ID,,,
-https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testTypeAnnotationExceptionType,ID,,,
+https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testTypeAnnotationExceptionType,ID,Opened,https://github.com/raphw/byte-buddy/pull/1547,
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.dynamic.scaffold.MethodGraphCompilerDefaultTest.testGenericNonOverriddenClassExtension,ID,,,
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.dynamic.scaffold.MethodGraphCompilerDefaultTest.testGenericNonOverriddenInterfaceExtension,ID,,,
 https://github.com/raphw/byte-buddy,b19eabacf6a9df26641052037666566b2152ce9f,byte-buddy-dep,net.bytebuddy.dynamic.scaffold.MethodGraphCompilerDefaultTest.testGenericNonOverriddenInterfaceImplementation,ID,,,
