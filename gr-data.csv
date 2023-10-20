@@ -143,7 +143,6 @@ https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab59
 https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[7],ID,,,
 https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[8],ID,,,
 https://github.com/vlsergey/spring-data-rest-utils,eb109367f8dea9eae8a2b8951ab5942a90a0ea2a,.,io.github.vlsergey.springdatarestutils.ToOpenApiActionImplTest.test(String)[9],ID,,,
-https://github.com/xenit-eu/start.xenit.eu,4d4a8881a0f54337c7583e80f162ebe4a5c916b0,.,eu.xenit.alfred.initializr.generator.docker.compose.DockerComposeYmlWriterDelegateTest.testService,ID,,,
 https://github.com/xenit-eu/start.xenit.eu,4d4a8881a0f54337c7583e80f162ebe4a5c916b0,.,eu.xenit.alfred.initializr.generator.docker.compose.DockerComposeYmlWriterDelegateTest.testVolumes,ID,,,
 https://github.com/yahoo/parsec-libraries,142bc4c95a8ca7b8c82f7f95d8144cb6d4bc2096,parsec-logging,"com.yahoo.parsec.logging.LogUtilTest.""test generateLog with custom data object should return info contain custom json data""",ID,,,
 https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.descriptor.Xsd1_0Test.testGenerate,ID,,,
