@@ -3002,7 +3002,6 @@ https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-rab
 https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-samples/cukes-rest-sample,"lv.ctco.cukes.rest.run.RunCustomCukesTest.* mock response will have header ""expected"" with value ""hello""",NOD,,,
 https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-http,lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax,OD-Vic,Accepted,https://github.com/ctco/cukes/pull/157,
 https://github.com/ctco/cukes,b483e1a8f261b80a66291a42fc455256b0b5059c,cukes-samples/cukes-plugin-sample,lv.ctco.cukes.plugins.RunCukesTest.Given wait for 1 second,NOD,,,
-https://github.com/ctripcorp/apollo,24062ad9b314da0fb44ccb941dcfd3da46a91fb7,apollo-configservice,com.ctrip.framework.apollo.configservice.service.AppNamespaceServiceWithCacheTest.testAppNamespace,ID,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.freemarker.FreeMarkerGeneratorTest.testFreeMarkerGenerator,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.nonvisualregressiontests.NonVisualRegressionTest.testBookmarkBodySimple,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.nonvisualregressiontests.NonVisualRegressionTest.testBookmarkHeadAfterOverflowPage,OD,,,
