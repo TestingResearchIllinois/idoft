@@ -4297,6 +4297,7 @@ https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,al
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_avro_route,NOD,RepoDeleted,,
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_json_route,NOD,RepoDeleted,,
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_multiple_routes,NOD,RepoDeleted,,
+https://github.com/pac4j/pac4j,d004d027a2dff5b42e2f5424eff6aa557f0fe6a9,pac4j-oauth,org.pac4j.oauth.profile.JsonHelperTests.testToJSONString,ID,,,
 https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMap,ID,RepoArchived,,
 https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMapQueryURIPath,ID,RepoArchived,,
 https://github.com/pedrovgs/Algorithms,ed6f8a49948c09a21bfeb7bc38b4f24141795e38,.,com.github.pedrovgs.problem45.FindNthMostRepeatedElementTest.shouldFindNthMostRepeatedElement,ID,Accepted,https://github.com/pedrovgs/Algorithms/pull/63,
