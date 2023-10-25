@@ -3148,7 +3148,6 @@ https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,t
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/standard-config,org.glassfish.tyrus.test.standard_config.ProxyTest.testConnectStuck,UD,,,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/standard-config,org.glassfish.tyrus.test.standard_config.SessionTimeoutTest.testSessionNoTimeoutRaised,UD,,,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/standard-config,org.glassfish.tyrus.test.standard_config.SessionTimeoutTest.testSessionTimeout,UD,,,
-https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/e2e/standard-config,org.glassfish.tyrus.test.standard_config.SessionTimeoutTest.testSessionTimeoutChanged,ID,,,
 https://github.com/eclipse-ee4j/tyrus,d86e0cb0a4f26ba89daf8668137c156e57fea565,tests/servlet/autobahn-server,org.glassfish.tyrus.tests.servlet.autobahn.StandaloneServer.testServer,UD,,,
 https://github.com/eclipse/jetty.project,9cede68b355515e1cf8802fd1fcf67aa7547aad1,jetty-server,org.eclipse.jetty.server.ssl.SniSslConnectionFactoryTest.testSNIConnectNoWild,ID,,,
 https://github.com/eclipse/jetty.project,9cede68b355515e1cf8802fd1fcf67aa7547aad1,jetty-server,org.eclipse.jetty.server.ssl.SslConnectionFactoryTest.testSNIConnect,ID,,,
