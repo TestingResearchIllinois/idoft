@@ -3,7 +3,7 @@ https://github.com/aim42/htmlSanityCheck,619caf4fadb53a797d4ed68027ce3f3704fe6a0
 https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc3641ea9f,authentication-models,com.alexkudlick.authentication.models.AuthenticationRequestTest.testSerialize,ID,,,
 https://github.com/androidjp/spring-boot-gradle-redis-web,c94f7f7bb1c28a8a7c44c39c5fc593fa579252e2,.,com.jp.springbootgradleredisweb.SpringBootGradleRedisWebApplicationTests.contextLoads,ID-HtF,,,
 https://github.com/azurite-engine/Azurite,46b86b533e3cdd7623137df32a31fc4052ac043e,.,java.io.xml.XMLParserTest.parse,ID,Accepted,https://github.com/azurite-engine/Azurite/pull/91,
-https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.common.search.strategy.UctID-HtFeTest.testConstructionOfID-HtFeWithNoChildren,ID,,,
+https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.common.search.strategy.UctNodeTest.testConstructionOfNodeWithNoChildren,ID,,,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testCrazyP1Combo,ID,,,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer1MoveInHomeBin,ID,,,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testFinalPlayer1MoveOnPlayersSide,ID,,,
@@ -44,7 +44,7 @@ https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.gi
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileScalaWorksWithScala301,ID-HtF,,,
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileTestScalaDependsOnCompileScala,ID-HtF,,,
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithoutScalaLibrary,ID-HtF,,,
-https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithWrongScalaVersion,ID-HtF,,,ƒ
+https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithWrongScalaVersion,ID-HtF,,,
 https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenCallDoneWithCorrectHeaderAndBody,ID,,,
 https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenSuccessfulMessagesAndAccessTokenArePrinted,ID,,,
 https://github.com/chkpnt/truststorebuilder-gradle-plugin,8f2a40bf64ae487a15d40c51abeff447b795d7d0,.,"de.chkpnt.gradle.plugin.truststorebuilder.BuildTrustStoreTaskTest.""output folder is generated""",ID-HtF,,,
