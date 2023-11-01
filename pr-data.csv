@@ -1024,7 +1024,7 @@ https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/jav
 https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/java/avro,org.apache.avro.reflect.TestNonStringMapKeys.testNonStringMapKeys,ID,,,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta,ID,Opened,https://github.com/apache/avro/pull/2012,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAvroDoc,ID,Accepted,https://github.com/apache/avro/pull/667,
-https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testMultipleFieldAliases,ID,Opened,https://github.com/apache/avro/pull/2015,
+https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testMultipleFieldAliases,ID,Accepted,https://github.com/apache/avro/pull/2015,
 https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testRecord,ID,Accepted,https://github.com/apache/avro/pull/667,
 https://github.com/apache/bookkeeper,2aa59c74cdd1de13c33a593f6dccc888823c4a83,bookkeeper-server,org.apache.bookkeeper.replication.AuditorReplicasCheckTest.testReplicasCheckForBookieHandleNotAvailable,ID,Accepted,https://github.com/apache/bookkeeper/pull/3551,
 https://github.com/apache/bookkeeper,2aa59c74cdd1de13c33a593f6dccc888823c4a83,bookkeeper-server,org.apache.bookkeeper.replication.AuditorReplicasCheckTest.testReplicasCheckForLedgersFoundHavingLessThanAQReplicasOfAnEntry,ID,Accepted,https://github.com/apache/bookkeeper/pull/3551,
