@@ -1179,7 +1179,8 @@ https://github.com/apache/druid,4b0d1b3488add75097532f25c8bbbcb35daa4987,process
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithMultipleFeeds,ID,MovedOrRenamed,,https://github.com/apache/druid/commit/08b5951cc53c4fe474a129500c62a6adad78337f
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithParametrizedUriExtractor,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/784
 https://github.com/apache/druid,7301e60a9c506758d719cbb57426abcbf912b4b9,processing,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithParametrizedUriExtractor,ID,Opened,https://github.com/apache/druid/pull/15244,
-https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.math.expr.ParserTest.testApplyFunctions,ID,Opened,https://github.com/apache/druid/pull/13471,
+https://github.com/apache/druid,4b0d1b3488add75097532f25c8bbbcb35daa4987,processing,org.apache.druid.math.expr.ParserTest.testApplyFunctions,ID,,,
+https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.math.expr.ParserTest.testApplyFunctions,ID,MovedOrRenamed,,https://github.com/apache/druid/commit/08b5951cc53c4fe474a129500c62a6adad78337f
 https://github.com/apache/druid,4b0d1b3488add75097532f25c8bbbcb35daa4987,processing,org.apache.druid.math.expr.ParserTest.testFunctions,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.math.expr.ParserTest.testFunctions,ID,MovedOrRenamed,,https://github.com/apache/druid/commit/08b5951cc53c4fe474a129500c62a6adad78337f
 https://github.com/apache/druid,4b0d1b3488add75097532f25c8bbbcb35daa4987,processing,org.apache.druid.math.expr.ParserTest.testSimpleAdditivityOp1,ID,,,
