@@ -590,3 +590,9 @@ https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0
 https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossModule1_9Test.testResources,ID,,,
 https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.extension.JBossServerTest.testUndeploy,ID,,,
 https://github.com/zhurlik/gradle-jboss-modules-plugin,f50903d5dbc9be8901dfccdd0c09f9cf1b8933a7,.,com.github.zhurlik.task.TasksTest.greeterPluginAddsGreetingTaskToProject,ID,,,
+https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.CompletableFutureAndroidTest.completableFutureApi24,ID,,,
+https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.CompletableFutureAndroidTest.completableFuturePreApi24,ID,,,
+https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.onlyMatchesOptional,ID,,,
+https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalApi24,ID,,,
+https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalPreApi24,ID,,,
+
