@@ -2873,10 +2873,6 @@ https://github.com/baidu/Jprotobuf-rpc-socket,88bb62d511a7288087fe042855bb708247
 https://github.com/baidu/Jprotobuf-rpc-socket,88bb62d511a7288087fe042855bb708247758e93,jprotobuf-rpc-core,com.baidu.jprotobuf.pbrpc.proto.EchoServicePerformanceTest.performanceOneTreadTestWithLongText,NOD,,,
 https://github.com/baidu/Jprotobuf-rpc-socket,88bb62d511a7288087fe042855bb708247758e93,jprotobuf-rpc-core,com.baidu.jprotobuf.pbrpc.proto.EchoServiceTest.testAttachment,NOD,,,
 https://github.com/baidu/Jprotobuf-rpc-socket,88bb62d511a7288087fe042855bb708247758e93,jprotobuf-rpc-core,com.baidu.jprotobuf.pbrpc.TrunkEchoServiceTest.testGzip,NOD,,,
-https://github.com/baidu/uid-generator,2fcbc13d2016fcfb7648a18296951f6942215255,.,com.baidu.fsg.uid.CachedUidGeneratorTest.testParallelGenerate,ID,,,
-https://github.com/baidu/uid-generator,2fcbc13d2016fcfb7648a18296951f6942215255,.,com.baidu.fsg.uid.CachedUidGeneratorTest.testSerialGenerate,ID,,,
-https://github.com/baidu/uid-generator,2fcbc13d2016fcfb7648a18296951f6942215255,.,com.baidu.fsg.uid.DefaultUidGeneratorTest.testParallelGenerate,ID,,,
-https://github.com/baidu/uid-generator,2fcbc13d2016fcfb7648a18296951f6942215255,.,com.baidu.fsg.uid.DefaultUidGeneratorTest.testSerialGenerate,ID,,,
 https://github.com/biojava/biojava,e99364ac14294adeb9385b7b93c602c2d9b66bb6,biojava-core,org.biojava.nbio.core.search.io.blast.BlastXMLParserTest.testCreateObjects,NOD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/115
 https://github.com/biojava/biojava,e99364ac14294adeb9385b7b93c602c2d9b66bb6,biojava-core,org.biojava.nbio.core.search.io.SearchIOTest.testConstructorWithEvalueHspFilter,NOD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/115
 https://github.com/biojava/biojava,e99364ac14294adeb9385b7b93c602c2d9b66bb6,biojava-core,org.biojava.nbio.core.search.io.SearchIOTest.testConstructorWithoutFactoryGuess,NOD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/115
