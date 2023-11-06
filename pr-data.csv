@@ -1172,7 +1172,8 @@ https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,or
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.EmitterTest.testSanity,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.EmitterTest.testSanityWithGeneralizedCreation,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithMultipleFeeds,ID,,,
-https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithParametrizedUriExtractor,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/784
+https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithParametrizedUriExtractor,ID,MovedOrRenamed,,
+
 https://github.com/apache/druid,7301e60a9c506758d719cbb57426abcbf912b4b9,processing,org.apache.druid.java.util.emitter.core.ParametrizedUriEmitterTest.testEmitterWithParametrizedUriExtractor,ID,,,
 https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,core,org.apache.druid.math.expr.ParserTest.testApplyFunctions,ID,Opened,https://github.com/apache/druid/pull/13471,
 https://github.com/apache/druid,4b0d1b3488add75097532f25c8bbbcb35daa4987,processing,org.apache.druid.math.expr.ParserTest.testFunctions,ID,,,
@@ -1392,9 +1393,15 @@ https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-s
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-streaming-java,org.apache.flink.streaming.runtime.operators.windowing.MergingWindowSetTest.testMergeLargeWindowCoveringMultipleWindows,ID,Rejected,https://github.com/apache/flink/pull/11266,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-connectors/flink-connector-kafka-base,org.apache.flink.table.descriptors.KafkaTest.testValidation,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/8
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-table/flink-table-common,org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString,ID,Accepted,https://github.com/apache/flink/pull/11269,
+<<<<<<< HEAD
 https://github.com/apache/flink,ab70dcfa19827febd2c3cdc5cb81e942caa5b2f0,flink-table/flink-table-planner,org.apache.flink.table.expressions.MapTypeTest.testMapField,ID,,,
 https://github.com/apache/flink,ab70dcfa19827febd2c3cdc5cb81e942caa5b2f0,flink-table/flink-table-planner,org.apache.flink.table.planner.expressions.ScalarFunctionsTest.testPi,ID,,,
 https://github.com/apache/flink,ab70dcfa19827febd2c3cdc5cb81e942caa5b2f0,flink-table/flink-table-planner,org.apache.flink.table.expressions.MapTypeTest.testMapLiteral,ID,,,
+=======
+https://github.com/apache/flink,1845aa8e6fc094ed69a145b50ac295e058d8c695,flink-table/flink-table-planner,org.apache.flink.table.expressions.MapTypeTest.testMapField,ID,,,
+https://github.com/apache/flink,1845aa8e6fc094ed69a145b50ac295e058d8c695,flink-table/flink-table-planner,org.apache.flink.table.planner.expressions.ScalarFunctionsTest.testPi,ID,,,
+https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-table/flink-table-planner,org.apache.flink.table.expressions.MapTypeTest.testMapLiteral,ID,,,
+>>>>>>> fda931bad0b59fedc5271edf42028ed8a63281c5
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-table/flink-table-planner,org.apache.flink.table.expressions.MapTypeTest.testMapTypeCasting,ID,,,
 https://github.com/apache/flink,1845aa8e6fc094ed69a145b50ac295e058d8c695,flink-table/flink-table-planner,org.apache.flink.table.expressions.SqlExpressionTest.testValueConstructorFunctions,ID,,,
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-connectors/flink-connector-hive,org.apache.flink.table.functions.hive.HiveGenericUDFTest.testMap,ID,Accepted,https://github.com/apache/flink/pull/11052,
