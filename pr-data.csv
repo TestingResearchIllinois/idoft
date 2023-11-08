@@ -4926,7 +4926,7 @@ https://github.com/stleary/JSON-java,8353b9c3f06239c2ffe5b8a39e67ffc72893f666,.,
 https://github.com/stleary/JSON-java,8353b9c3f06239c2ffe5b8a39e67ffc72893f666,.,org.json.junit.XMLTest.testIndentSimpleJsonArray,ID,Accepted,https://github.com/stleary/JSON-java/pull/734,
 https://github.com/stleary/JSON-java,8353b9c3f06239c2ffe5b8a39e67ffc72893f666,.,org.json.junit.XMLTest.testIndentSimpleJsonObject,ID,Accepted,https://github.com/stleary/JSON-java/pull/734,
 https://github.com/streamx-co/FluentJPA,4faabd6739e53db9b98630e3e348d367c92e705f,.,co.streamx.fluent.JPA.FamilyTest.test1,ID,Accepted,https://github.com/streamx-co/FluentJPA/pull/4,
-https://github.com/tabulapdf/tabula-java,b0fde49e6aa06593d16c8aa0b8da0e3172db1ec2,.,technology.tabula.TestSpreadsheetExtractor.testRTL,ID,,,
+https://github.com/tabulapdf/tabula-java,b0fde49e6aa06593d16c8aa0b8da0e3172db1ec2,.,technology.tabula.TestSpreadsheetExtractor.testRTL,ID,Opened,https://github.com/tabulapdf/tabula-java/pull/533,
 https://github.com/takari/ollie,60c0ec5007779863a82c01eeba1a81f6864bb083,ollie,com.walmartlabs.ollie.app.OllieSslServerTest.validate,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/148
 https://github.com/takari/ollie,60c0ec5007779863a82c01eeba1a81f6864bb083,ollie,com.walmartlabs.ollie.config.ConfigurationProcessorTest.validateConfigurationProcessor,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/148
 https://github.com/takari/ollie,60c0ec5007779863a82c01eeba1a81f6864bb083,ollie,com.walmartlabs.ollie.config.ConfigurationProcessorTest.validateConfigurationProcessorUsingNonExistentOverrides,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/148
