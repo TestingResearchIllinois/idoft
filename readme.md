@@ -120,6 +120,7 @@ OD | Order-Dependent flaky tests as defined in [iDFlakies](http://mir.cs.illinoi
 OD-Brit | Order-Dependent Brittle tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 OD-Vic | Order-Dependent Victim tests as defined in [iFixFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/ShiETAL19iFixFlakies.pdf)
 ID | Implementation-Dependent Tests found by [Nondex](http://mir.cs.illinois.edu/marinov/publications/ShiETAL16NonDex.pdf)
+ID-HtF | Implementation-Dependent tests that are hard to fix. Brief description given in https://github.com/kaiyaok2/ID-HtF.
 NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](https://cs.gmu.edu/~winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
 NOD | Non-Deterministic tests 
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
@@ -145,6 +146,7 @@ RepoArchived | For test that is in an archived repo, which is indicated by GitHu
 Deprecated | For test that is in a deprecated repository, which is usually indicated in the project README or description as "Deprecated" or a similar message. To use this status, please also provide some [Notes](#adding-notes) that contain a link to the commit that marks the repository as deprecated. 
 RepoDeleted | For tests that are in repository that does not exist anymore and the link to the repository throws a 404 status code error.
 MovedToGradle | For tests that are in repository that moved from Maven to Gradle.
+FixedOrder | The test has a fixed order, e.g., using `@Order` in JUnit 5.
 
 * **PR Link**: Link to the pull request in the repository of the Project URL to fix a given flaky test.
 

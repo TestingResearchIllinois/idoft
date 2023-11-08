@@ -28,6 +28,7 @@ data = {
         "OD-Brit",
         "OD-Vic",
         "ID",
+        "ID-HtF",
         "NIO",
         "NOD",
         "NDOD",
@@ -52,6 +53,7 @@ data = {
         "MovedOrRenamed",
         "Claimed",
         "MovedToGradle",
+        "FixedOrder"
     ],
     "PR Link": re.compile(
         r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
