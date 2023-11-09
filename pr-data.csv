@@ -3101,6 +3101,8 @@ https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutoo
 https://github.com/dromara/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-core,cn.hutool.core.text.StrJoinerTest.joinMultiArrayTest,OD,Accepted,https://github.com/dromara/hutool/pull/1883,
 https://github.com/dromara/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-core,cn.hutool.core.util.JAXBUtilTest.beanToXmlTest,OD,Accepted,https://github.com/dromara/hutool/pull/1851,
 https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutool-core,cn.hutool.core.util.ReflectUtilTest.getMethodsFromInterfaceTest,ID,,,
+https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutool-json,cn.hutool.json.IssueI4XFMWTest.test,ID,Opened,https://github.com/dromara/hutool/pull/3378,
+https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutool-json,cn.hutool.json.IssueI6SZYBTest.pairTest,ID,Opened,https://github.com/dromara/hutool/pull/3378,
 https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutool-json,cn.hutool.json.Issues1881Test.parseTest,ID,Rejected,https://github.com/dromara/hutool/pull/2713,
 https://github.com/dromara/hutool,ec14f8384ad384fb6e054df722fe089d64af0c41,hutool-json,cn.hutool.json.TransientTest.beanWithoutTransientTest,ID,Rejected,https://github.com/dromara/hutool/pull/2713,
 https://github.com/dromara/hutool,12969f248329f81f76eb5bece8c718ac1c63f7b1,hutool-json,cn.hutool.json.xml.XMLTest.toXmlTest,OD,Accepted,https://github.com/dromara/hutool/pull/1874,
