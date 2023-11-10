@@ -3922,7 +3922,7 @@ https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,co
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopSecondJobEvenIfFirstStopFailed,ID,Rejected,https://github.com/jenkinsci/jenkins/pull/5989,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,jenkins.cli.StopBuildsCommandTest.shouldStopWorkingBuildsInSeveralJobs,ID,Rejected,https://github.com/jenkinsci/jenkins/pull/5989,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testBallColorTd,ID,Claimed,,
-https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testTasks,ID,,,
+https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testTasks,ID,DeveloperFixed,,https://github.com/jenkinsci/jenkins/commit/81072df4f7f3c0ecef0d5ab20100a87cb0acce58
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.capabilityRead,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.transport_chunking,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.transport_nio,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
