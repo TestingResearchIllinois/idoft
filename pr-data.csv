@@ -1680,7 +1680,6 @@ https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-tools/hadoop-distcp,org.apache.hadoop.tools.TestDistCpSystem.testPreserveUseNonEmptyDir,NOD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-tools/hadoop-distcp,org.apache.hadoop.tools.TestDistCpSystem.testPreserveUserSingleFile,NOD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-tools/hadoop-distcp,org.apache.hadoop.tools.TestDistCpSystem.testRecursiveChunkCopy,NOD,,,
-https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-tools/hadoop-distcp,org.apache.hadoop.tools.util.TestThrottledInputStream.testRead,ID,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-yarn-project/hadoop-yarn/hadoop-yarn-client,org.apache.hadoop.yarn.client.api.impl.TestAMRMClientContainerRequest.testDisableLocalityRelaxation,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-yarn-project/hadoop-yarn/hadoop-yarn-client,org.apache.hadoop.yarn.client.api.impl.TestAMRMClientContainerRequest.testFillInRacks,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-yarn-project/hadoop-yarn/hadoop-yarn-client,org.apache.hadoop.yarn.client.api.impl.TestAMRMClientContainerRequest.testOpportunisticAndGuaranteedRequests,OD,,,
