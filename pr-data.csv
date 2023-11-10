@@ -1293,7 +1293,7 @@ https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-c
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.AbstractInterfaceConfigTest.testScope,UD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.AbstractInterfaceConfigTest.testStub,UD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.cache.CacheTest.testCache,OD-Vic,,,
-https://github.com/apache/dubbo,3fc2d100bb2081c3da1996508e1f1200cea21d2f,dubbo-config/dubbo-config-api,org.apache.dubbo.config.event.listener.PublishingServiceDefinitionListenerTest.testOnServiceConfigExportedEvent,ID,,,
+https://github.com/apache/dubbo,3fc2d100bb2081c3da1996508e1f1200cea21d2f,dubbo-config/dubbo-config-api,org.apache.dubbo.config.event.listener.PublishingServiceDefinitionListenerTest.testOnServiceConfigExportedEvent,ID,Deleted,,https://github.com/apache/dubbo/commit/db41d2a5f4cebe1ebc88edd6c2e42ecd446a784d
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.GenericServiceTest.testGenericImplementationWithBeanSerialization,NOD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.GenericServiceTest.testGenericInvokeWithBeanSerialization,NOD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-config/dubbo-config-api,org.apache.dubbo.config.GenericServiceTest.testGenericReferenceException,NOD,,,
