@@ -2696,7 +2696,7 @@ https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-c
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsUsingFilterOnInvertedIndexColumnVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsUsingFilterVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsVariationsOfAndOperators,ID,,,
-https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsVariationsOfAndOperatorsVerbose,ID,,,
+httpas://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsVariationsOfAndOperatorsVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsVariationsOfOrOperators,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnsVariationsOfOrOperatorsVerbose,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.ExplainPlanQueriesTest.testSelectColumnUsingFilterOnJsonIndexColumn,ID,,,
