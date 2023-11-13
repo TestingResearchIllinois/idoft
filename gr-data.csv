@@ -1,6 +1,6 @@
 Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes
 https://github.com/aim42/htmlSanityCheck,619caf4fadb53a797d4ed68027ce3f3704fe6a03,.,org.aim42.htmlsanitycheck.check.BrokenCrossReferencesCheckerTest.testTwoBrokenLinks,ID,Accepted,https://github.com/aim42/htmlSanityCheck/pull/311,
-https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc3641ea9f,authentication-models,com.alexkudlick.authentication.models.AuthenticationRequestTest.testSerialize,ID,,,
+https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc3641ea9f,authentication-models,com.alexkudlick.authentication.models.AuthenticationRequestTest.testSerialize,ID,Opened,https://github.com/akud/modular-java-example/pull/3,
 https://github.com/android/android-studio-poet,f820e9cc0e5d7db4de9a7e31b818277143546f73,aspoet,"com.google.androidstudiopoet.converters.ConfigPojoToModuleConfigConverterTest.convert passes correct values to result ModuleConfig",ID,,,
 https://github.com/androidjp/spring-boot-gradle-redis-web,c94f7f7bb1c28a8a7c44c39c5fc593fa579252e2,.,com.jp.springbootgradleredisweb.SpringBootGradleRedisWebApplicationTests.contextLoads,ID-HtF,,,
 https://github.com/approvals/ApprovalTests.java.StarterProject.gradle,27b7dae34c97ac060d3166a9afc4163957dc7b61,.,org.samples.SampleTests.testJson,ID,,,
@@ -351,7 +351,7 @@ https://github.com/jparams/to-string-verifier,c5b1c6666d78b5fc7c9b07e81d48582b4d
 https://github.com/jparams/to-string-verifier,c5b1c6666d78b5fc7c9b07e81d48582b4d34fcb4,.,com.jparams.verifier.tostring.ToStringVerifierTest.testWithMatchingFieldsAndFailOnExcludedFieldsFails,ID,,,
 https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithExplicitOwner,ID,,,
 https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithImplicitOwner,ID,,,
-https://github.com/KelinTan/spring-boot-archetype,e4282acc9d4f94d0e9be44301222ecf3a5e29c5f,archetype-common,com.kelin.archetype.common.json.JsonConverterTest.testSerialize,ID,,,
+https://github.com/KelinTan/spring-boot-archetype,e4282acc9d4f94d0e9be44301222ecf3a5e29c5f,archetype-common,com.kelin.archetype.common.json.JsonConverterTest.testSerialize,ID,Accepted,https://github.com/KelinTan/spring-boot-archetype/pull/135,
 https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.HelperUtilsTests.mapToObjectArrayTest,ID,,,please run this project using Java 8 and NonDex v2.1.1-1
 https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtDebugTest,ID,,,please run this project using Java 8 and NonDex v2.1.1-1
 https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtErrorTest,ID,,,please run this project using Java 8 and NonDex v2.1.1-1
