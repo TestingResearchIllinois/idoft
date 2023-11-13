@@ -509,8 +509,8 @@ https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retr
 https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.onlyMatchesOptional,ID,,,
 https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalApi24,ID,,,
 https://github.com/square/retrofit,14b9b8c88ff80789a48dfdfad2c91463cc4333ad,retrofit,retrofit2.OptionalConverterFactoryAndroidTest.optionalPreApi24,ID,Deleted,,https://github.com/square/retrofit/commit/34f6a7fdc2f359d05a32f3262825563fc10929b4
-https://github.com/stleary/JSON-java,11c29c366de87fc3be38d26f2f0dac96ce28312e,.,org.json.junit.XMLTest.shouldCreateExplicitEndTagWithEmptyValueWhenConfigured,ID,,,
-https://github.com/stleary/JSON-java,11c29c366de87fc3be38d26f2f0dac96ce28312e,.,org.json.junit.XMLTest.shouldNotCreateExplicitEndTagWithEmptyValueWhenNotConfigured,ID,,,
+https://github.com/stleary/JSON-java,11c29c366de87fc3be38d26f2f0dac96ce28312e,.,org.json.junit.XMLTest.shouldCreateExplicitEndTagWithEmptyValueWhenConfigured,ID,Opened,https://github.com/stleary/JSON-java/pull/828,
+https://github.com/stleary/JSON-java,11c29c366de87fc3be38d26f2f0dac96ce28312e,.,org.json.junit.XMLTest.shouldNotCreateExplicitEndTagWithEmptyValueWhenNotConfigured,ID,Opened,https://github.com/stleary/JSON-java/pull/828,
 https://github.com/tehlers/gradle-duplicate-classes-check,4754962bc8df030289c77f347f10790d600a27a8,.,net.idlestate.gradle.duplicates.CheckDuplicateClassesEngineTest.testExcludeJarFiles,ID,,,
 https://github.com/tehlers/gradle-duplicate-classes-check,4754962bc8df030289c77f347f10790d600a27a8,.,net.idlestate.gradle.duplicates.CheckDuplicateClassesEngineTest.testSearchForDuplicates,ID,,,
 https://github.com/themoment-team/K2-server,c93e1ad31d4619f4b972e9d8d6fdc15c99fa2c55,.,com.moment.the.controller.release.UncomfortableControllerTest.top30_검증,ID,,,
