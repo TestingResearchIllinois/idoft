@@ -1429,7 +1429,7 @@ https://github.com/apache/flink,e246a05cd898e16758a52335250571e165a5148a,flink-t
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-tests,org.apache.flink.test.misc.GenericTypeInfoTest.testSerializerTree,ID,Claimed,,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testDeepToString,ID,Opened,https://github.com/apache/flink/pull/17934,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testRowNamed,ID,Opened,https://github.com/apache/flink/pull/17934,
-https://github.com/apache/geronimo-batchee,0071edabb6b340cc16f8e9d0e17ff25720b4d0fe,tools/cli,org.apache.batchee.cli.MainTest.executions,OD,,,
+https://github.com/apache/geronimo-batchee,0071edabb6b340cc16f8e9d0e17ff25720b4d0fe,tools/cli,org.apache.batchee.cli.MainTest.executions,OD,FixedOrder,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-common-project/hadoop-kms,org.apache.hadoop.crypto.key.kms.server.TestKMS.testStartStopHttpPseudo,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-common-project/hadoop-kms,org.apache.hadoop.crypto.key.kms.server.TestKMSAudit.testAggregationUnauth,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.fs.http.server.TestHttpFSAccessControlled.testAcessControlledFS,OD,,,
