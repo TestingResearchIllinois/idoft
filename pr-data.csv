@@ -3942,6 +3942,7 @@ https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.PrefetchingTest.testGetResource_precache,ID,DeveloperFixed,,https://github.com/TestingResearchIllinois/idoft/issues/47
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.PrefetchingTest.testInnerClass,ID,DeveloperFixed,,https://github.com/TestingResearchIllinois/idoft/issues/47
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.PrefetchingTest.testJarLoadingTest,ID,DeveloperFixed,,https://github.com/TestingResearchIllinois/idoft/issues/47
+https://github.com/jfree/jfreechart,e2d6788d594c51941ddae337ae666fda5c52ad9f,.,org.jfree.chart.plot.PolarPlotTest.testGetLegendItems2,ID,Opened,https://github.com/jfree/jfreechart/pull/387,
 https://github.com/jfree/jfreechart,520a4be69ba932061ab9b89f328842caf152e1d9,.,org.jfree.data.time.DayTest.testParseDay,OD-Vic,InspiredAFix,https://github.com/jfree/jfreechart/pull/103,
 https://github.com/jhipster/jhipster-registry,00db36611da5fc7aaf9d5372aa90f2465d80c0c4,.,io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount,OD-Vic,DeveloperFixed,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/24
 https://github.com/jhipster/jhipster-registry,00db36611da5fc7aaf9d5372aa90f2465d80c0c4,.,io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest,ID,Deleted,,
