@@ -5,6 +5,7 @@ import logging
 import errorhandler
 from tso_iso_checker import run_checks_tso_iso
 from tic_fic_checker import run_checks_tic_fic
+from forked_projects_util import run_checks_sort_fp
 from pr_checker import run_checks_pr
 from utils import log_std_error, log_esp_error, log_warning
 
@@ -21,6 +22,7 @@ if __name__ == "__main__":
     checks = [lambda *args: run_checks_pr('pr-data.csv', *args), lambda *args: run_checks_pr('gr-data.csv', *args), run_checks_tic_fic, run_checks_tso_iso]
     for check in checks:
         check(logger, sys.argv[1:])
+    run_checks_sort_fp('format_checker/forked-projects.json',logger)
     ERROR_COUNT = str(log_std_error.tracker + log_esp_error.tracker)
 
     if error_handler.fired:
