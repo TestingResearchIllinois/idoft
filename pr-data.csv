@@ -1137,7 +1137,7 @@ https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.
 https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.apache.cxf.attachment.AttachmentUtilTest.shortAsAttachmentMaxSize,OD,,,
 https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.apache.cxf.attachment.AttachmentUtilTest.stringAsAttachmentDirectory,OD,,,
 https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.apache.cxf.feature.transform.XSLTInterceptorsTest.outWriterStreamTest,OD,,,
-https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,helpers,org.apache.cxf.helpers.FileUtilsTest.testGetFiles,ID,Opened,https://github.com/apache/cxf/pull/1504,
+https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,helpers,org.apache.cxf.helpers.FileUtilsTest.testGetFiles,ID,Accepted,https://github.com/apache/cxf/pull/1504,
 https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.apache.cxf.io.CacheAndWriteOutputStreamTest.testDeleteTmpFile,OD-Brit,Accepted,https://github.com/apache/cxf/pull/942,
 https://github.com/apache/cxf,69925893ed0e8a8fdfe1164b4e097a5cf5524027,core,org.apache.cxf.io.CachedOutputStreamTest.testDeleteTmpFile,OD-Brit,Accepted,https://github.com/apache/cxf/pull/942,
 https://github.com/apache/cxf,d849512da6499d00e3e84eb60733a0343a473b44,rt/javascript/tests,org.apache.cxf.javascript.types.AttributeTest.testDeserialization,ID,Opened,https://github.com/apache/cxf/pull/1516,Detected by Nondex 1.1.3
