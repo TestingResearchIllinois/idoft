@@ -353,8 +353,8 @@ https://github.com/johnrengelman/shadow,d8117e942b7d98e3274cb1cc9dbb4e4e978a2a58
 https://github.com/jparams/to-string-verifier,c5b1c6666d78b5fc7c9b07e81d48582b4d34fcb4,.,com.jparams.verifier.tostring.ToStringVerifierTest.testContainsAllFieldsFailure,ID,,,
 https://github.com/jparams/to-string-verifier,c5b1c6666d78b5fc7c9b07e81d48582b4d34fcb4,.,com.jparams.verifier.tostring.ToStringVerifierTest.testWithIgnoredFieldsAndFailOnExcludedFieldsFails,ID,,,
 https://github.com/jparams/to-string-verifier,c5b1c6666d78b5fc7c9b07e81d48582b4d34fcb4,.,com.jparams.verifier.tostring.ToStringVerifierTest.testWithMatchingFieldsAndFailOnExcludedFieldsFails,ID,,,
-https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithExplicitOwner,ID,,,
-https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithImplicitOwner,ID,,,
+https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithExplicitOwner,ID,Opened,https://github.com/jreleaser/jreleaser/pull/1530,
+https://github.com/jreleaser/jreleaser,b834e78919aa275705098b11d059e98575f14657,jreleaser-linkedin-java-sdk,org.jreleaser.sdk.linkedin.LinkedinSdkTest.testMessageWithImplicitOwner,ID,Opened,https://github.com/jreleaser/jreleaser/pull/1530,
 https://github.com/KelinTan/spring-boot-archetype,e4282acc9d4f94d0e9be44301222ecf3a5e29c5f,archetype-common,com.kelin.archetype.common.json.JsonConverterTest.testSerialize,ID,Accepted,https://github.com/KelinTan/spring-boot-archetype/pull/135,
 https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.HelperUtilsTests.mapToObjectArrayTest,ID,,,please run this project using Java 8 and NonDex v2.1.1-1
 https://github.com/kwahome/sopa-api,829b3e85bf969e742030c36a0aaf51b9518590e3,.,io.github.kwahome.sopa.JSONRendererTests.loggingAtDebugTest,ID,,,please run this project using Java 8 and NonDex v2.1.1-1
