@@ -443,5 +443,7 @@
   "https://github.com/zalando/riptide": "unforked",
   "https://github.com/zeroturnaround/gradle-jrebel-plugin": "unforked",
   "https://github.com/zhangxd1989/spring-boot-cloud": "unforked",
-  "https://github.com/zhurlik/gradle-jboss-modules-plugin": "unforked"
+  "https://github.com/zhurlik/gradle-jboss-modules-plugin": "unforked",
+  "https://github.com/json-iterator/java": "unforked"
+
 }
