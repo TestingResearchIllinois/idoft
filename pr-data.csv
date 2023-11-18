@@ -3145,7 +3145,7 @@ https://github.com/dianping/cat,c4715a6aa6403af4c017b9180f9a3322afda9434,cat-cli
 https://github.com/dianping/cat,c4715a6aa6403af4c017b9180f9a3322afda9434,cat-client,com.dianping.cat.message.MessageTest.testForkAndJoinWithThreadPool,ID,,,
 https://github.com/dianping/cat,c4715a6aa6403af4c017b9180f9a3322afda9434,cat-client,com.dianping.cat.support.servlet.CatFilterTest.testMode0,ID,,,
 https://github.com/dianping/cat,c4715a6aa6403af4c017b9180f9a3322afda9434,cat-client,com.dianping.cat.support.servlet.CatFilterTest.testMode1,ID,,,
-https://github.com/dnsjava/dnsjava,d97b6a0685d59143372bb392ab591dd8dd840b61,.,org.xbill.DNS.APLRecordTest.test_malformed_address,UD,,,
+https://github.com/dnsjava/dnsjava,d97b6a0685d59143372bb392ab591dd8dd840b61,.,org.xbill.DNS.APLRecordTest.test_malformed_address,UD,MovedOrRenamed,,https://github.com/dnsjava/dnsjava/commit/4276ad715c2cff76a244b67c02f0035faa1b6220
 https://github.com/doanduyhai/Achilles,e3099bdce342910951c4862c78751fd81ed4552e,achilles-embedded,info.archinnov.achilles.embedded.PortFinderTest.try_to_find_first_port,NOD;UD,,,
 https://github.com/doanduyhai/Achilles,e3099bdce342910951c4862c78751fd81ed4552e,integration-test-2_1,info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_dsl_select_with_token_value,NOD,,,
 https://github.com/doanduyhai/Achilles,e3099bdce342910951c4862c78751fd81ed4552e,integration-test-2_1,info.archinnov.achilles.it.TestALLEntityAsChild.should_insert,NOD,,,
