@@ -780,7 +780,11 @@ https://github.com/alibaba/jetcache,d28019640ac3eb6ac167dd0dc582adac7656226e,jet
 https://github.com/alibaba/jetcache,d9a26f0bcfaef1a7fb6b374be500d2f2d947306d,jetcache-test,com.alicp.jetcache.LoadingCacheTest.test,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/202
 https://github.com/alibaba/jetcache,d9a26f0bcfaef1a7fb6b374be500d2f2d947306d,jetcache-test,com.alicp.jetcache.RefreshCacheTest.baseTest,ID,InspiredAFix,,https://github.com/TestingResearchIllinois/idoft/issues/202
 https://github.com/alibaba/metrics,2dbfbd0b2e9ba5d652f1f2e86d655cff8ea1ec66,prometheus,com.alibaba.metrics.prometheus.TestAlibabaMetricsExports.testExportFastCompass,ID,Accepted,https://github.com/alibaba/metrics/pull/74,
+https://github.com/alibaba/nacos,e77a0bbe0d39a852a52a8d81c20f3fab4f98773d,api,com.alibaba.nacos.api.config.ability.ServerRemoteAbilityTest.testSerialize,ID,Accepted,https://github.com/alibaba/nacos/pull/11373,
+https://github.com/alibaba/nacos,e77a0bbe0d39a852a52a8d81c20f3fab4f98773d,api,com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize,ID,Accepted,https://github.com/alibaba/nacos/pull/11373,
+https://github.com/alibaba/nacos,e77a0bbe0d39a852a52a8d81c20f3fab4f98773d,api,com.alibaba.nacos.api.config.remote.response.ConfigChangeBatchListenResponseTest.testSerializeSuccessResponse,ID,Accepted,https://github.com/alibaba/nacos/pull/11373,
 https://github.com/alibaba/nacos,525672272ecb00cd769a13c7b21a8e51cf873f25,api,com.alibaba.nacos.api.naming.pojo.healthcheck.HealthCheckerFactoryTest.testDeserializeExtend,OD-Vic,Accepted,https://github.com/alibaba/nacos/pull/4384,
+https://github.com/alibaba/nacos,e77a0bbe0d39a852a52a8d81c20f3fab4f98773d,api,com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize,ID,Accepted,https://github.com/alibaba/nacos/pull/11373,
 https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,http,com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl,ID,MovedOrRenamed,,
 https://github.com/alibaba/nacos,a0543adafcfed733c0659454e58b3bcd605008a4,common,com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl,ID,Accepted,https://github.com/alibaba/nacos/pull/7296,
 https://github.com/alibaba/nacos,63bd28ae9df8a164f5b8e981f4c533a5bce54eee,utils,com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3,ID,MovedOrRenamed,,
