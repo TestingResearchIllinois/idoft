@@ -3144,9 +3144,6 @@ https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-slf4j,com.openhtmltopdf.slf4j.Slf4JLoggerTest.testLogger,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.testcases.ConcateOutputTest.testConcateOutput,OD,,,
 https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03b0f,openhtmltopdf-examples,com.openhtmltopdf.testcases.TestcaseRunnerTest.runTestcaseRunner,OD,,,
-https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.core.H2FullPrunedBlockChainTest.testFirst100KBlocks,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
-https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.protocols.channels.PaymentChannelStateTest.basic,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
-https://github.com/danielmcclure/bitcoinj,ee064c0a5577f09ee43e25dbdba05cf757446edf,core,com.google.bitcoin.protocols.channels.PaymentChannelStateTest.serverAddsFeeTest,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/108
 https://github.com/DataDog/datadog-kafka-connect-logs,e453f0c9efb50f2d7aaf2186ff024b15bca9742b,.,com.datadoghq.connect.logs.sink.DatadogLogsApiWriterTest.writer_readingMultipleTopics_shouldBatchSeparate,ID,Opened,https://github.com/DataDog/datadog-kafka-connect-logs/pull/28,
 https://github.com/DataDog/jmeter-datadog-backend-listener,4b237366bf81050e56aa4d96944cffcd594593c0,.,org.datadog.jmeter.plugins.DatadogBackendClientTest.testExtractLogs,ID,Accepted,https://github.com/DataDog/jmeter-datadog-backend-listener/pull/33,
 https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testApp,ID,,,
