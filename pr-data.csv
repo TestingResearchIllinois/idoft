@@ -3402,6 +3402,7 @@ https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redp
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationDefault,ID,Opened,https://github.com/fromage/redpipe/pull/56,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationSingleHtml,NOD,RepoArchived,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationText,NOD,RepoArchived,,
+https://github.com/FudanNLP/fnlp,ce258f3e4a5add2ba0b5e4cbac7cab2190af6659,fnlp-demo,org.fnlp.demo.MLTest,ID,Opened,https://github.com/FudanNLP/fnlp/pull/71,
 https://github.com/FudanNLP/fnlp,ce258f3e4a5add2ba0b5e4cbac7cab2190af6659,fnlp-core,org.fnlp.nlp.cn.tag.CWSTaggerTest,ID,Opened,https://github.com/FudanNLP/fnlp/pull/70,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,ID,Accepted,https://github.com/funkygao/cp-ddd-framework/pull/65,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.testing.LogAssertTest.contains,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/80
