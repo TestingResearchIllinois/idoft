@@ -4612,7 +4612,7 @@ https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rr
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion2,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.demo.RunDemo.runDemo,OD-Vic,,,
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.graph.FontTest.testClean,OD-Vic,,,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.graph.FontTest.testClean,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/160,
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[0],ID,Accepted,https://github.com/runelite/runelite/pull/14104,
 https://github.com/runelite/runelite,3bad0b726be8eac4119e8ff657ca3160ae11a074,cache,net.runelite.cache.script.assembler.AssemblerTest.testAssemble[1],ID,Accepted,https://github.com/runelite/runelite/pull/14104,
 https://github.com/SAP/cloud-security-services-integration-library,eca48f5eb11386fedce23eabd60220c1b3933487,spring-security,com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals,ID,Opened,https://github.com/SAP/cloud-security-services-integration-library/pull/1338,
