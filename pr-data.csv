@@ -4041,6 +4041,7 @@ https://github.com/kagkarlsson/db-scheduler,4a8a28e60640dcd03e8d3bf212f483d35b0b
 https://github.com/kagkarlsson/db-scheduler,4a8a28e60640dcd03e8d3bf212f483d35b0b6310,.,com.github.kagkarlsson.scheduler.SchedulerClientTest.should_be_able_to_schedule_other_executions_from_an_executionhandler,NDOD;OD-Vic,,,
 https://github.com/kagkarlsson/db-scheduler,4a8a28e60640dcd03e8d3bf212f483d35b0b6310,.,com.github.kagkarlsson.scheduler.SchedulerTest.scheduler_should_execute_rescheduled_task_when_exactly_due,NOD;UD,,,
 https://github.com/kagkarlsson/db-scheduler,4a8a28e60640dcd03e8d3bf212f483d35b0b6310,.,com.github.kagkarlsson.scheduler.WaiterTest.should_wait_until_woken,NDOD;NOD,,,
+https://github.com/kal-an/file-reader-app,ba6af3f33000ff1fcde9338922e55a7b1c374f99,.,ru.kalan.filereaderapp.MultiPartParserTest.createBook_ok,ID,Opened,https://github.com/kal-an/file-reader-app/pull/1,
 https://github.com/kanwangzjm/funiture,71ca0fb0658b3d839d9e049ac36429207f05329b,.,com.app.mvc.dao.ShortUrlDaoTest.testSave,NIO,Opened,https://github.com/kanwangzjm/funiture/pull/51,https://github.com/kanwangzjm/funiture/issues/50
 https://github.com/karatelabs/karate,16452ef4d17ed76b079c6f1eba07a4749fa08d02,karate-core,com.intuit.karate.core.FeatureResultTest.testJsonConversion,ID,DeveloperWontFix,,
 https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.core.FeatureResultTest.testJsonConversion,ID,DeveloperWontFix,,
