@@ -65,3 +65,13 @@ With the second parameter in `./runNondex.sh`, you can only run Nondex on module
 >  `find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' &&  git rev-parse HEAD && git config --get remote.origin.url | rev | cut -c5- | rev  && cat .runNondex/htmlOutput && cat report_md.md" \; &> progress_stats.md`
 
 
+# `run_single_nondex`
+
+This script will run a single test with a particular seed value multiple number of times. This is useful to determine if a test is ID or NOD. For example, if a test fails 10(number can be changed) times with the same seed, then it is ID. If it fails some times and passes sometimes, then it is NOD.
+
+Update all the variables before running the script. You can also change the number of runs (currently it is 10).
+
+Multiple output files will be generated. One log file will be generated for one run of the test. Also a final output file will be generated (output_file) which contains the result of all the tests.
+
+First set up permissions by doing ```chmod +x run_single.sh``` and then run the script ```./run_single.sh```.
+
