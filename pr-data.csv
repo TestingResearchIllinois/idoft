@@ -4051,10 +4051,10 @@ https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,co
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultiple,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultipleUTF8,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
 https://github.com/jrtom/jung,1f579fe5d74ecbaecbe32ce6762e1fa9e17ed225,jung-algorithms,edu.uci.ics.jung.algorithms.shortestpath.TestMinimumSpanningTree.testDAG,ID,Opened,https://github.com/jrtom/jung/pull/258,
-https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.extra.TestPreciseFloat.test_direct_encode,OD,,,
+https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.extra.TestPreciseFloat.test_direct_encode,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/1102
 https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.extra.TestPreciseFloat.test_indirect_encode,ID,Opened,https://github.com/json-iterator/java/pull/353,
-https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.extra.TestPreciseFloat.test_indirect_encode,OD,,,
-https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.IterImplForStreamingTest.testLoadMore,OD,,,
+https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.extra.TestPreciseFloat.test_indirect_encode,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/1102
+https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.IterImplForStreamingTest.testLoadMore,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/1102
 https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.output.TestGenerics.test_wildcard,ID,Opened,https://github.com/json-iterator/java/pull/353,
 https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.output.TestGson.test_serializeNulls,ID,Opened,https://github.com/json-iterator/java/pull/353,
 https://github.com/json-iterator/java,6925cf4c19d313504b416f58a349a36bf563e0e1,.,com.jsoniter.output.TestGson.test_serializeNulls,ID,Opened,https://github.com/json-iterator/java/pull/353,
