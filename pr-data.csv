@@ -5805,3 +5805,4 @@ https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,ript
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.ObjectMapperOverrideTest.shouldOverride,ID,MovedOrRenamed,,https://github.com/zalando/riptide/commit/cef45a1e325b5b1fdc4c47def3269ad3578b1fe1
 https://github.com/zalando/riptide,8277e11fc069d8e24df0d233ef2577cc75659b75,riptide-spring-boot-starter,org.zalando.riptide.spring.url.UrlResolutionTest.shouldAppendUrl,UD,,,
 https://github.com/zhangxd1989/spring-boot-cloud,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,Claimed,,
+https://github.com/apache/linkis, 2b47014684a0f8b2491fa5b90410e10537fcfaa6,linkis-commons,org.apache.linkis.common.exception.ExceptionManagerTest#testGenerateException,ID,,,
