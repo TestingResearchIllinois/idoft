@@ -147,6 +147,7 @@ Deprecated | For test that is in a deprecated repository, which is usually indic
 RepoDeleted | For tests that are in repository that does not exist anymore and the link to the repository throws a 404 status code error.
 MovedToGradle | For tests that are in repository that moved from Maven to Gradle.
 FixedOrder | The test has a fixed order, e.g., using `@Order` in JUnit 5.
+Unmaintained | For tests that are in a repository that does not have any commits to main/master in the past 2 years. To use this status, please also provide some [Notes](#adding-notes) that contain the last commit date.
 
 * **PR Link**: Link to the pull request in the repository of the Project URL to fix a given flaky test.
 
