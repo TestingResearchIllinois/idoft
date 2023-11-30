@@ -2809,6 +2809,8 @@ https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-c
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.NullEnabledQueriesTest.testQueriesWithDictFloatColumn,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.NullEnabledQueriesTest.testQueriesWithNoDictDoubleColumn,ID,,,
 https://github.com/apache/pinot,ecf41be2ecd007853c2db19e1c6a038cf356cb9e,pinot-core,org.apache.pinot.queries.NullEnabledQueriesTest.testQueriesWithNoDictFloatColumn,ID,,,
+https://github.com/apache/pinot,f79b618141e07c140663791959d96956ad91d811,pinot-query-planner,org.apache.pinot.query.queries.ResourceBasedQueryPlansTest.testQueryExplainPlansAndQueryPlanConversion,ID,,,fails 21/375 cases
+https://github.com/apache/pinot,f79b618141e07c140663791959d96956ad91d811,pinot-query-planner,org.apache.pinot.query.queries.ResourceBasedQueryPlansTest.testQueryExplainPlansWithExceptions,ID,,,fails 1/38 cases
 https://github.com/apache/pinot,85e413ebe8c80513a8a676fc090b1af0f50861f0,pinot-spi,org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad,ID,Accepted,https://github.com/apache/pinot/pull/9925,
 https://github.com/apache/pulsar,505e08a76425c6e49ff5bc691f8ca7587184a2bf,pulsar-client,org.apache.pulsar.client.impl.schema.AvroSchemaTest.testAllowNullSchema,ID,Accepted,https://github.com/apache/pulsar/pull/6247,
 https://github.com/apache/pulsar,505e08a76425c6e49ff5bc691f8ca7587184a2bf,pulsar-client,org.apache.pulsar.client.impl.schema.AvroSchemaTest.testNotAllowNullSchema,ID,Accepted,https://github.com/apache/pulsar/pull/6247,
