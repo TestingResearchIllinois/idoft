@@ -3982,7 +3982,7 @@ https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4
 https://github.com/Huawei/vCenter_Plugin_DME,fa077ef3c8ee052afc01084bc5aaae7c3b4518a4,dmestore-service,com.huawei.dmestore.services.VmfsOperationServiceImplTest.expandVmfs,ID,,,
 https://github.com/hub4j/github-api,de1c7ec179bdd928b6c41712b7ea50062e798d9b,github,org.kohsuke.github.GHObjectTest.test_toString,ID,Accepted,https://github.com/hub4j/github-api/pull/1576,
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.EagerTest.itHandlesDoubleImportModification,ID,Claimed,,
-https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.EagerTest.itHandlesImportInDeferredIf,ID,,,
+https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.EagerTest.itHandlesImportInDeferredIf,ID,DeveloperFixed,https://github.com/HubSpot/jinjava/pull/1120,https://github.com/HubSpot/jinjava/commit/47405e7ff26e2c9633f891929072f94dd0df26a2
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.lib.filter.ListFilterTest.itConvertsSetsToLists,ID,Accepted,https://github.com/HubSpot/jinjava/pull/827,
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString,ID,Accepted,https://github.com/HubSpot/jinjava/pull/827,
 https://github.com/HubSpot/jinjava,b428343af85e613805674cd44dad416dfddde09c,.,com.hubspot.jinjava.lib.filter.ToYamlFilterTest.itWritesObjectAsString,ID,Accepted,https://github.com/HubSpot/jinjava/pull/827,
