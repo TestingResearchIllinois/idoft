@@ -60,7 +60,7 @@ https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,igni
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringCheckConcurrentModificationExceptionFromMap ,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringSizeLimits,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringWithAdditions,ID,,,
-https://github.com/approvals/ApprovalTests.java.StarterProject.gradle,27b7dae34c97ac060d3166a9afc4163957dc7b61,.,org.samples.SampleTests.testJson,ID,,,
+https://github.com/approvals/ApprovalTests.java.StarterProject.gradle,27b7dae34c97ac060d3166a9afc4163957dc7b61,.,org.samples.SampleTests.testJson,ID,,,Issue to discuss: https://github.com/approvals/ApprovalTests.java.StarterProject.gradle/issues/102
 https://github.com/azurite-engine/Azurite,46b86b533e3cdd7623137df32a31fc4052ac043e,.,java.io.xml.XMLParserTest.parse,ID,Accepted,https://github.com/azurite-engine/Azurite/pull/91,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.common.search.strategy.UctNodeTest.testConstructionOfNodeWithNoChildren,ID,Opened,https://github.com/bb4/bb4-games/pull/37,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.mancala.move.MoveMakerTest.testCrazyP1Combo,ID,Opened,https://github.com/bb4/bb4-games/pull/37,
