@@ -4858,6 +4858,8 @@ https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pip
 https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pippo-session-parent/pippo-session-mongodb,ro.pippo.session.mongodb.MongoDBSessionDataStorageTest.testDelete,NOD,,,
 https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pippo-session-parent/pippo-session-mongodb,ro.pippo.session.mongodb.MongoDBSessionDataStorageTest.testGet,NOD,,,
 https://github.com/pippo-java/pippo,ae898b6c478af7365b04c2f5bf9331abf496b166,pippo-session-parent/pippo-session-mongodb,ro.pippo.session.mongodb.MongoDBSessionDataStorageTest.testSave,NOD,,,
+https://github.com/pmd/pmd,bdc08e44fd92380d59cdc50cf9d8dd36e537c369,pmd-core,net.sourceforge.pmd.lang.rule.internal.LatticeRelationTest.testToString,ID,Opened,https://github.com/pmd/pmd/pull/4752,
+https://github.com/pmd/pmd,bdc08e44fd92380d59cdc50cf9d8dd36e537c369,pmd-core,net.sourceforge.pmd.renderers.SummaryHTMLRendererTest.testRendererMultiple,ID,Accepted,https://github.com/pmd/pmd/pull/4750,
 https://github.com/ppiastucki/recast4j,01d478e190b731d2fe861e3b969b4c8dd04f0ede,detourtilecache,org.recast4j.detour.tilecache.TileCacheTest.testPerformance,NOD,,,
 https://github.com/prometheus/client_java,47254cf2c4d18e6184629eb6907aac5991476500,dropwizard,io.prometheus.client.dropwizard.samplebuilder.CustomMappingSampleBuilderTest.test_WHEN_MoreToFormatInLabelsAndName_THEN_ShouldReturnCorrectSample,ID,Accepted,https://github.com/prometheus/client_java/pull/829,
 https://github.com/PSteph/jsonToOrmMapper,b84ba5c14dd40ca9f8556ba7b4bae6e868b3668e,.,com.p2sdev.jsonToOrmMapper.AppTest.testValidJSONObject,ID,Opened,https://github.com/PSteph/jsonToOrmMapper/pull/4,
