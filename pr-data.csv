@@ -4784,6 +4784,7 @@ https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,al
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_avro_route,NOD,RepoDeleted,,
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_json_route,NOD,RepoDeleted,,
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_multiple_routes,NOD,RepoDeleted,,
+https://github.com/OWASP/json-sanitizer,fc612ab374de73d03864d56fb87b6a103b234489,.,com.google.json.EvalMinifierTest,ID,Opened,https://github.com/OWASP/json-sanitizer/pull/31,
 https://github.com/pac4j/pac4j,d004d027a2dff5b42e2f5424eff6aa557f0fe6a9,pac4j-oauth,org.pac4j.oauth.profile.JsonHelperTests.testToJSONString,ID,Accepted,https://github.com/pac4j/pac4j/pull/2723,
 https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMap,ID,RepoArchived,,
 https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMapQueryURIPath,ID,RepoArchived,,
