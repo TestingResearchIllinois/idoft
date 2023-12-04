@@ -3651,6 +3651,15 @@ https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905f
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.testing.LogAssertTest.contains,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/80
 https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/common-util,uk.gov.gchq.gaffer.commonutil.OneOrMoreTest.shouldAddAllItemsWithDeduplicate,ID,Accepted,https://github.com/gchq/Gaffer/pull/3033,
 https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/common-util,uk.gov.gchq.gaffer.commonutil.OneOrMoreTest.shouldAddItemsWithDeduplicate,ID,Accepted,https://github.com/gchq/Gaffer/pull/3033,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.element.function.ReduceRelatedElementsTest.shouldReduceRelatedElementsWithManyRelationships,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.elementdefinition.view.ViewTest.shouldCreateAnIdenticalObjectWhenCloned,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.elementdefinition.view.ViewUtilTest.shouldCreateAnIdenticalObjectWhenCloned,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphSerialisableTest.shouldConsumeGraph,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPostExecuteFailure,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPostExecuteFailureWhenRunningJob,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPreExecuteFailure,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPreExecuteFailureWhenRunningJob,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.hook.UpdateViewHookTest.shouldMergeAndApplyWhiteList,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/operation,uk.gov.gchq.gaffer.jobtracker.JobTest.shouldJsonSerialiseAndDeserialise,ID,Opened,https://github.com/gchq/Gaffer/pull/3089,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/serialisation,uk.gov.gchq.gaffer.jsonSerialisation.JSONSerialiserTest.shouldSerialiseWithHistoricValues,ID,Opened,https://github.com/gchq/Gaffer/pull/3089,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/type,uk.gov.gchq.gaffer.serialisation.implementation.FreqMapSerialiserTest.shouldSerialiseWithHistoricValues,ID,Opened,https://github.com/gchq/Gaffer/pull/3089,
@@ -3660,6 +3669,7 @@ https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/sto
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldHandleNullDelimiter,ID,Opened,https://github.com/gchq/koryphe/pull/319,
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStrings,ID,Opened,https://github.com/gchq/koryphe/pull/319,
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStringsWithDelimiter,ID,Opened,https://github.com/gchq/koryphe/pull/319,
+https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.predicate.IsInTest.shouldJsonSerialiseAndDeserialise,ID,,,
 https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,Opened,https://github.com/gooddata/GoodData-CL/pull/145,the repo is archived
 https://github.com/google/error-prone,9f8c332d9ea67dfd31d8a91a023392f61097ae8a,core,com.google.errorprone.bugpatterns.StreamResourceLeakTest.positive,ID,,,
 https://github.com/google/graphicsfuzz,aa32d4cb556647ddaaf2048815bd6bca07d1bdab,generator,com.graphicsfuzz.generator.util.TransformationProbabilitiesTest.testToString,ID,Opened,https://github.com/google/graphicsfuzz/pull/1203,
