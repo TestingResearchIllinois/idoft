@@ -5909,7 +5909,7 @@ https://github.com/wildfly/wildfly,914e190167a79c538e0f87ea4385a6626bdecc9a,dist
 https://github.com/wildfly/wildfly,914e190167a79c538e0f87ea4385a6626bdecc9a,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneMicroProfileHA,ID,,,Detected by Nondex 1.1.3
 https://github.com/wildfly/wildfly,914e190167a79c538e0f87ea4385a6626bdecc9a,ee-dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneMinimalistic,ID,,,Detected by Nondex 1.1.3
 https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneMinimalistic,ID,,,
-https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandalonePicketLink,ID,,,
+https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandalonePicketLink,ID,Deleted,,https://github.com/wildfly/wildfly/commit/67b256c56eca30a7c486970c9387ebf173ebd70c
 https://github.com/wildfly/wildfly,914e190167a79c538e0f87ea4385a6626bdecc9a,ee-dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneRTS,ID,,,Detected by Nondex 1.1.3
 https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneRTS,ID,,,
 https://github.com/wildfly/wildfly,914e190167a79c538e0f87ea4385a6626bdecc9a,ee-dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testStandaloneXTS,ID,,,Detected by Nondex 1.1.3
