@@ -4779,6 +4779,11 @@ https://github.com/orbit/orbit,c4904af2f3745fea93871493edd7e09348e77768,actors/r
 https://github.com/orbit/orbit,c4904af2f3745fea93871493edd7e09348e77768,actors/test/actor-tests,cloud.orbit.actors.test.GenericActorStateTest.testGenericStateActor,ID,Deleted,,
 https://github.com/orbit/orbit,c4904af2f3745fea93871493edd7e09348e77768,actors/test/actor-tests,cloud.orbit.actors.test.OnlyIfActivatedTest.onlyIfActivatedTest,NIO,Deleted,,
 https://github.com/orbit/orbit,c4904af2f3745fea93871493edd7e09348e77768,actors/test/actor-tests,cloud.orbit.actors.test.serialization.JsonReferenceSerializationTest.testClassWithInnerValues,ID,Deleted,,
+https://github.com/orika-mapper/orika,27dd4c4666f2c559c0ef84d18221cf104b1f699c,core,ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase.testBeanToArrayGeneration,ID,,,
+https://github.com/orika-mapper/orika,27dd4c4666f2c559c0ef84d18221cf104b1f699c,core,ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase.testBeanToStringArrayGeneration,ID,,,
+https://github.com/orika-mapper/orika,27dd4c4666f2c559c0ef84d18221cf104b1f699c,core,ma.glasnost.orika.test.generator.BeanToListGenerationTestCase.testBeanToListGeneration,ID,,,
+https://github.com/orika-mapper/orika,27dd4c4666f2c559c0ef84d18221cf104b1f699c,core,ma.glasnost.orika.test.generator.ExpanderTestCase.testExpand,ID,,,
+https://github.com/orika-mapper/orika,27dd4c4666f2c559c0ef84d18221cf104b1f699c,core,ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest.testClassMapBuilderExtension,ID,,,
 https://github.com/OryxProject/oryx,72ae4bb3cc49d92b77e76d8a30fca8b6549b8865,framework/oryx-common,com.cloudera.oryx.common.io.IOUtilsTest.testDistinctFreePorts,NDOD;NOD,RepoArchived,,
 https://github.com/OryxProject/oryx,43511f068bb4905769edc00e32f894016e2d0419,framework/oryx-common,com.cloudera.oryx.common.PMML.PMMLUtilsTest.testToString,ID,Accepted,https://github.com/OryxProject/oryx/pull/368,RepoArchived
 https://github.com/OryxProject/oryx,43511f068bb4905769edc00e32f894016e2d0419,framework/oryx-common,com.cloudera.oryx.common.text.TextUtilsTest.testJSONMap,ID,Accepted,https://github.com/OryxProject/oryx/pull/369,RepoArchived
