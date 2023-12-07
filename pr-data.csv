@@ -4316,6 +4316,14 @@ https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.SpawnTest.outputPipe,OD,Accepted,https://github.com/jnr/jnr-posix/pull/185,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.SpawnTest.validPid,OD,Accepted,https://github.com/jnr/jnr-posix/pull/185,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
 https://github.com/JodaOrg/joda-time,d1ea2a53929d7d56d4f4560852e5586517a0dd47,.,org.joda.time.TestDateTimeZoneCutover.test_DateTime_minusDay_Gaza,UD,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.http,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.serverPicksThePort,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.sslWithSpecialHttpsSettings,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.simple,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.withPlainBean,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withMultiConfigAndStart,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withoutStart,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withStart,ID,,,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.oauth.param.RedditScopeBuilderTest.testAddMultiple,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultiple,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultipleUTF8,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
