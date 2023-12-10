@@ -1368,7 +1368,7 @@ https://github.com/apache/dubbo,5349c13a36d277a090e1dc68fbe7c3b46d78fc90,dubbo-c
 https://github.com/apache/dubbo,3fc2d100bb2081c3da1996508e1f1200cea21d2f,dubbo-common,org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations,ID,Accepted,https://github.com/apache/dubbo/pull/9123,
 https://github.com/apache/dubbo,3fc2d100bb2081c3da1996508e1f1200cea21d2f,dubbo-common,org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllMetaAnnotations,ID,Accepted,https://github.com/apache/dubbo/pull/9240,
 https://github.com/apache/dubbo,3fc2d100bb2081c3da1996508e1f1200cea21d2f,dubbo-common,org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations,ID,Accepted,https://github.com/apache/dubbo/pull/9240,
-https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ClassHelperTest.testForName3,OD,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/5
+https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ClassHelperTest.testForName3,OD,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/5;https://github.com/apache/dubbo/pull/3806
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ClassHelperTest.testForNameWithThreadContextClassLoader,UD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.DubboAppenderTest.testAppend,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/5
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.DubboAppenderTest.testAvailable,UD,,,
