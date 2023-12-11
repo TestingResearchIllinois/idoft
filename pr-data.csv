@@ -1255,8 +1255,8 @@ https://github.com/apache/cxf,d849512da6499d00e3e84eb60733a0343a473b44,rt/javasc
 https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,axrs/client/spec,org.apache.cxf.jaxrs.client.spec.ClientResponseFilterTest.testExceptionInClientResponseFilterWhenNotFound,ID,,,
 https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,rt/rs/extensions/search,org.apache.cxf.jaxrs.ext.search.BeanspectorTest.testMismatchedOverriddenBeans,ID,MovedOrRenamed,,https://github.com/apache/cxf/commit/960125550db5eddab32453eb1fdc6506044fdf93
 https://github.com/apache/cxf,d849512da6499d00e3e84eb60733a0343a473b44,rt/rs/extensions/search,org.apache.cxf.jaxrs.ext.search.BeanspectorTest.testMismatchedOverriddenBeans,ID,,,
-https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,jaxrs/utils,org.apache.cxf.jaxrs.utils.JAXBUtilsTest.extendedXmlJavaTypeAdapter,ID,,,
-https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,jaxrs/utils,org.apache.cxf.jaxrs.utils.JAXBUtilsTest.simpleXmlJavaTypeAdapter,ID,,,
+https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,jaxrs/utils,org.apache.cxf.jaxrs.utils.JAXBUtilsTest.extendedXmlJavaTypeAdapter,ID,Accepted,https://github.com/apache/cxf/pull/1542,
+https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,jaxrs/utils,org.apache.cxf.jaxrs.utils.JAXBUtilsTest.simpleXmlJavaTypeAdapter,ID,Accepted,https://github.com/apache/cxf/pull/1542,
 https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,tools/wadlto/jaxrs,org.apache.cxf.tools.wadlto.jaxrs.JAXRSContainerTest.testThrows,ID,,,
 https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,rt/transports/http-netty/netty-server,org.apache.cxf.transport.http.netty.server.integration.NettyServerTest.testGetWsdl,ID,Opened,https://github.com/apache/cxf/pull/1517,
 https://github.com/apache/cxf,649520354501295859b692ddf1b42adb919affbb,rt/transports/jms,org.apache.cxf.transport.jms.RequestResponseTest.testRequestTopicResponseStaticQueue,ID,,,
