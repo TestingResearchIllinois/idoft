@@ -97,6 +97,17 @@ def check_sort(filename, log):
         print(diff)
 
 
+def check_duplication(filename, log):
+    """Check for duplicated lines in a file"""
+
+    command = f'sort {filename} | uniq -cd'
+    diff = subprocess.check_output(command, shell=True).decode("utf-8")
+    if diff != "":
+        log_esp_error(filename, log, "The file contains duplicated lines")
+        print("Duplicated lines:")
+        print(diff)
+
+
 def run_checks(file, data_dict, log, commit_range, checks):
     """Checks rule compliance for any given dataset file."""
 
