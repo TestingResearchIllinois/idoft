@@ -9,7 +9,7 @@
 name: SWE 637 Assignment 4 Part 3
 
 on:
-  work
+  workflow_dispatch:
 
 jobs:
   build:
