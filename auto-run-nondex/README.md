@@ -65,37 +65,3 @@ With the second parameter in `./runNondex.sh`, you can only run Nondex on module
 >  `find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' &&  git rev-parse HEAD && git config --get remote.origin.url | rev | cut -c5- | rev  && cat .runNondex/htmlOutput && cat report_md.md" \; &> progress_stats.md`
 
 
-# `runSingleNondex`
-
-This script will run a single test with a particular seed value multiple number of times. This is useful to determine if a test is ID or NID. For example, if a test fails 10(number can be changed) times with the same seed, then it is likely ID. If it fails some times and passes sometimes, then it is likely NID.
-
-Update all the variables before running the script. You can also change the number of runs (currently it is 10).
-
-Multiple output files will be generated. One log file will be generated for one run of the test. Also a final output file will be generated (output_file) which contains the result of all the tests.
-
-Run the script with the following command:
- `./runSingleNondex.sh <Project Path> <Module> <Test Name> <nondex_runs> <nondex_seed> <rounds>`.
-
-
-Arguments:
-
-```
-Project Path - Global path to the project location. 
-        ex: "/home/dubbo"
-
-Module - Module path within the project.
-        ex: "dubbo-common"
-
-Test Name - Fully-Qualified Test Name 
-        ex: "org.apache.dubbo.common.utils.PojoUtilsTest.test_Loop_pojo"
-        NOTE: packageName.ClassName#methodName should use "#" before methodName instead of "."
-
-nondex_runs - Number of nondex_runs
-        ex: 1
-
-nondex_seed - Value for nondex_seed
-        ex: "974622"
-
-rounds - Number of rounds running the same test
-        ex: 10
-```
