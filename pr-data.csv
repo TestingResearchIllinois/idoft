@@ -4042,6 +4042,7 @@ https://github.com/FudanNLP/fnlp,ce258f3e4a5add2ba0b5e4cbac7cab2190af6659,fnlp-d
 https://github.com/FudanNLP/fnlp,ce258f3e4a5add2ba0b5e4cbac7cab2190af6659,fnlp-core,org.fnlp.nlp.cn.tag.CWSTaggerTest,ID,Opened,https://github.com/FudanNLP/fnlp/pull/70,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,ID,Accepted,https://github.com/funkygao/cp-ddd-framework/pull/65,
 https://github.com/funkygao/cp-ddd-framework,8c69f6a50db83459356a2ae66a910b1905fe4eb5,dddplus-test,io.github.dddplus.testing.LogAssertTest.contains,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/80
+https://github.com/gchq/Gaffer,789a898ccc5db57226109233b22bb6b5180c46c0,core/common-util,uk.gov.gchq.gaffer.commonutil.elementvisibilityutil.AuthorisationsTest.testToString,ID,,,
 https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/common-util,uk.gov.gchq.gaffer.commonutil.OneOrMoreTest.shouldAddAllItemsWithDeduplicate,ID,Accepted,https://github.com/gchq/Gaffer/pull/3033,
 https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/common-util,uk.gov.gchq.gaffer.commonutil.OneOrMoreTest.shouldAddItemsWithDeduplicate,ID,Accepted,https://github.com/gchq/Gaffer/pull/3033,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.element.function.ReduceRelatedElementsTest.shouldReduceRelatedElementsWithManyRelationships,ID,,,
