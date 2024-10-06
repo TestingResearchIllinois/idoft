@@ -4693,7 +4693,7 @@ https://github.com/jdbi/jdbi,17d4da9a7227a1604ce569e8180691282867c3c1,core,org.j
 https://github.com/jdereg/java-util,245458a912e04bf85116b10f240e7b4be217cd4f,.,com.cedarsoftware.util.TestGraphComparator.testNewArrayElement,ID,Opened,https://github.com/jdereg/java-util/pull/106,
 https://github.com/jdereg/json-io,e2dfec0aa5b539f8b2e1eca8c56ebede4d9b1215,.,com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement,ID,,,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicBooleanTest.testAssignAtomicBoolean,ID,,,
-https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicIntegerTest.testAssignAtomicInteger,ID,Opened,https://github.com/jdereg/json-io/pull/295,
+https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicIntegerTest.testAssignAtomicInteger,ID,Accepted,https://github.com/jdereg/json-io/pull/295,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicLongTest.testAssignAtomicLong,ID,,,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded,ID,,,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.EnumTests.testEnumWithPrivateMembersAsField_withPrivatesOn,ID,,,
