@@ -5427,7 +5427,7 @@ https://github.com/quarkusio/quarkus,84128ced08b138915584d1fe0dd378e001f6757f,co
 https://github.com/quarkusio/quarkus,84128ced08b138915584d1fe0dd378e001f6757f,core/devmode,io.quarkus.dev.CompilerFlagsTest.redundancyReduction,ID,Accepted,https://github.com/quarkusio/quarkus/pull/6839,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/tools/codestarts,io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject,ID,,,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.SetSectionTest.testDefaultValues,ID,,,
-https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.SetSectionTest.testLiterals,ID,,,
+https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.SetSectionTest.testLiterals,ID,Opened,https://github.com/quarkusio/quarkus/pull/43820,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.UserTagTest.testDefaultedKey,ID,,,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.UserTagTest.testUserTagLoopParam,ID,,,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/tools/registry-client,io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog,ID,,,
