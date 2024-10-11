@@ -4343,8 +4343,8 @@ https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testDecimalColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testIPv4Column,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testIPv6Column,ID,,,
-https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testListColumn,ID,,,
-https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testMapBigIntColumn,ID,,,
+https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testListColumn,ID,MovedOrRenamed,,https://github.com/GoogleCloudPlatform/DataflowTemplates/commit/0d01accc1cfa29b762a764bc226496bfde25165c
+https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testMapBigIntColumn,ID,MovedOrRenamed,,https://github.com/GoogleCloudPlatform/DataflowTemplates/commit/0d01accc1cfa29b762a764bc226496bfde25165c
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testMapBlobColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testMapBooleanColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testMapColumn,ID,,,
@@ -4358,7 +4358,7 @@ https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testTimeColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testTimestampColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testTinyIntColumn,ID,,,
-https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testType1UUIDColumn,ID,,,
+https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testType1UUIDColumn,ID,MovedOrRenamed,,https://github.com/GoogleCloudPlatform/DataflowTemplates/commit/0d01accc1cfa29b762a764bc226496bfde25165c
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testType4UUIDColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.bigtable.CassandraRowMapperFnTest.testVarIntColumn,ID,,,
 https://github.com/GoogleCloudPlatform/DataflowTemplates,5094c7b39de511c9ed441d9fde28553a88f68e4b,.,com.google.cloud.teleport.splunk.HttpEventPublisherTest.contentTest,ID,,,
