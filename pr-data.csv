@@ -3652,7 +3652,7 @@ https://github.com/danfickle/openhtmltopdf,4a0612fab7b3a55e3e11d485233b063006d03
 https://github.com/DataDog/datadog-kafka-connect-logs,e453f0c9efb50f2d7aaf2186ff024b15bca9742b,.,com.datadoghq.connect.logs.sink.DatadogLogsApiWriterTest.writer_readingMultipleTopics_shouldBatchSeparate,ID,Opened,https://github.com/DataDog/datadog-kafka-connect-logs/pull/28,
 https://github.com/DataDog/jmeter-datadog-backend-listener,4b237366bf81050e56aa4d96944cffcd594593c0,.,org.datadog.jmeter.plugins.DatadogBackendClientTest.testExtractLogs,ID,Accepted,https://github.com/DataDog/jmeter-datadog-backend-listener/pull/33,
 https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testApp,ID,,,
-https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testAppCanonicalRate,ID,,,
+https://github.com/DataDog/jmxfetch,15e72e2342dc29d71243308cdad8c525b4d34317,.,org.datadog.jmxfetch.TestApp.testAppCanonicalRate,ID,Opened,https://github.com/DataDog/jmxfetch/pull/541,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancel,NDOD,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.buffertofile.FlowableOnBackpressureBufferToFileTest.testCancelObservable,NDOD;OD-Vic,,,
 https://github.com/davidmoten/rxjava2-extras,d0315b6ecb0d24437ec0d440b6d768e89247d56c,.,com.github.davidmoten.rx2.internal.flowable.FlowableServerSocketTest.serverSocketReadsTcpPushWhenBufferIsSmallerThanInput,UD,,,
