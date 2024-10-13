@@ -6148,7 +6148,7 @@ https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.common.processor.MultiBeanListProcessorTest.testMultiBeanProcessor,ID,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.common.routine.AbstractRoutinesTest.testIterateJavaBeans,ID,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.common.routine.AbstractRoutinesTest.testParseAllJavaBeans,ID,,,
-https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.common.routine.AbstractRoutinesTest.testWriteAllJavaBeans,ID,,,
+https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.common.routine.AbstractRoutinesTest.testWriteAllJavaBeans,ID,Opened,https://github.com/uniVocity/univocity-parsers/pull/544,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.csv.CsvFormatDetectorTest.testDelimiterDiscovery,ID,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.fixed.FixedWidthParserTest.testFixedWidthAnnotation,ID,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.fixed.FixedWidthWriterTest.testFixedWidthAnnotation,ID,,,
