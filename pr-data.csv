@@ -6638,3 +6638,5 @@ https://github.com/zavtech/morpheus-core,09895c1a16293b69bbc79cd952fcec3d5d89e37
 https://github.com/zavtech/morpheus-core,09895c1a16293b69bbc79cd952fcec3d5d89e372,.,com.zavtech.morpheus.array.ArraysBasicTests.testLocalDateTimeArray,ID,Opened,https://github.com/zavtech/morpheus-core/pull/107,
 https://github.com/zavtech/morpheus-core,09895c1a16293b69bbc79cd952fcec3d5d89e372,.,com.zavtech.morpheus.array.ArraysBasicTests.testZonedDateTimeArray,ID,Opened,https://github.com/zavtech/morpheus-core/pull/107,
 https://github.com/zhangxd1989/spring-boot-cloud,e3966d7cefa4fa429d13bbc8de7f4dafbae0de35,registry,cn.zhangxd.registry.ApplicationTests.catalogLoads,ID,,,
+https://github.com/intuit/wasabi,eaac73406a80ca75fb9423bdf3faada67f955083,modules/assignment-objects,com.intuit.wasabi.authorizationobjects.UserRoleTest.testAssignmentFromOther,ID,Opened,https://github.com/intuit/wasabi/pull/456,
+https://github.com/intuit/wasabi,eaac73406a80ca75fb9423bdf3faada67f955083,modules/assignment-objects,com.intuit.wasabi.authenticationobjects.LoginCredentialsTest.testHashCodeAndEquals,ID,Opened,https://github.com/intuit/wasabi/pull/456,
