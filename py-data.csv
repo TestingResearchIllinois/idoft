@@ -1007,7 +1007,8 @@ https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/template_processor/base/test_base_template_processor.py::test_populate_template_snapshot_false,NOD,,,
 https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_network.py::test_get_free_port,NOD,,,
 https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_request.py::test_check_connect,NIO,Opened,https://github.com/flaggo/pydu/pull/19,
-https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_system.py::TestWhich::test_cmd_path,NIO,,,
+https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_system.py::TestWhich::test_cmd_path,NIO,Opened,https://github.com/flaggo/pydu/pull/22,
+https://github.com/Prodesire/pydu,e6e4055f81dbbece55dccfe29b7fb82b9bf40610,tests/test_iter.py::test_first_last,OD-Brit,Opened,https://github.com/flaggo/pydu/pull/21,
 https://github.com/prymitive/upaas-common,7a7d9ffb385151092c637c3ef500a79623c005ae,tests/test_storage_local.py::test_dir_exists,NIO,RepoArchived,,
 https://github.com/pustotnik/zenmake,6cff05114cea34fc204d9e95422f11dc25cd1228,tests/test_waf_assist.py::testUsedWafTaskKeys,NIO,Accepted,https://github.com/pustotnik/zenmake/pull/29,
 https://github.com/pyasi/pybuildkite/issues/72,0cf6db2adcc01bf3014b84da5e15f6e1bc50b46b,tests/test_client.py::TestClientRequest,OD,,,pytest --randomly-seed=123 or pytest --randomly-seed=1234
