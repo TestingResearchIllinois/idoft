@@ -122,7 +122,7 @@ https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d0
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-headers2-kwargs2-expected_body2-expected_headers2],OD-Vic,,,
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-headers3-kwargs3-expected_body3-expected_headers3],OD-Vic,,,
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-None-kwargs1-expected_body1-expected_headers1],OD-Vic,,,
-https://github.com/cbsinteractive/elemental.git,ca570c9f5fc43e20a4db23fc0137380f87be63f0,elemental/client_test.py::test_send_request_should_call_request_as_expected,OD-Vic,,,
+https://github.com/cbsinteractive/elemental.git,ca570c9f5fc43e20a4db23fc0137380f87be63f0,elemental/client_test.py::test_send_request_should_call_request_as_expected,OD-Vic,RepoArchived,,
 https://github.com/cdent/gabbi,8fbd5473efa2dbb65f327f823d66cb0c76931288,gabbi/tests/test_inner_fixture.py::test_pytest,,,,pytest --flake-finder --flake-runs=2
 https://github.com/cesar-rodriguez/terrascan,fd4ca9d23e694185fd5cb9ddf357b52b15adc6ca,tests/test_terrascan.py::test_success,OD-Vic,,,
 https://github.com/chakki-works/chazutsu,52b2f8acaac1b6c7eab97dded1a1757d3adcefa7,tests/test_movie_review.py::test_download,NOD,Open,https://github.com/chakki-works/chazutsu/pull/13,
