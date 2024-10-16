@@ -149,6 +149,7 @@ https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_pdf,OD-Vic,,,
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_stats,OD-Vic,,,
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_txt_dump,OD-Vic,,,
+https://github.com/clapeyre/h5nav,1c866a5085f1605a51064f5642e91d3682f8f572,tests/test_cli.py::test_cat,ID,Opened,https://github.com/clapeyre/h5nav/pull/7,
 https://github.com/codemagic-ci-cd/cli-tools,eb59b658978ca30df8cc0c24c2c328a292b81021,tests/models/test_certificate.py::test_create_certificate_signing_request,,,,pytest on univerisity VM
 https://github.com/codespell-project/codespell,4f2325ec18ccef64ed8062f63dc63d360fa33f47,test_dictionary.py::test_dictionary_looping,OD,Opened,https://github.com/codespell-project/codespell/pull/2105,
 https://github.com/Cognexa/plcx,2756c0ba78c4c9e572d95ba002708957bc55d4fa,plcx/tests/comm/test_client.py::test_clientx[123],OD-Vic,,,
@@ -223,9 +224,9 @@ https://github.com/demisto/demisto-sdk,925303e5c54fc3dda985ef19b6d56a956d189f69,
 https://github.com/den4uk/jsonextra,b548d607e8f196e1e1c456666e4f15f579762ecf,tests/test_jsonextra.py::test_disable_rex,NIO,InspiredAFix,https://github.com/den4uk/jsonextra/pull/10,
 https://github.com/den4uk/jsonextra,e82c2e873b4d9c8105fd4e5ed43e7fae4fe6bc2c,tests/test_jsonextra.py::test_disable_rex,NIO,InspiredAFix,https://github.com/den4uk/jsonextra/pull/9,
 https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_connection,NIO,Opened,https://github.com/jkehler/redisqueue/pull/3,
-https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_get_put_same_task,OD-Brit,,,
-https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_put_get,OD-Brit,,,
-https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_unique,OD-Brit,,,
+https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_get_put_same_task,OD-Brit,Opened,https://github.com/jkehler/redisqueue/pull/4,
+https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_put_get,OD-Brit,Opened,https://github.com/jkehler/redisqueue/pull/4,
+https://github.com/DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_unique,OD-Brit,Opened,https://github.com/jkehler/redisqueue/pull/4,
 https://github.com/dgellerup/laminar,74258f6e6cc8b3b4e9eaf7cc522192a353a3b45e,test/test_laminar.py::test_init_my_lam,OD-Vic,,,
 https://github.com/dgilland/pydash/issues/170,24ad0e43b51b367d00447c45baa68c9c03ad1a52,tests/test_utilities.py::test_unique_id,OD,,,pytest --randomly-seed=123
 https://github.com/didix21/mdutils,9cc2a5cfc86a052f987feddcee7f37a4349fb8de,tests/test_mdutils.py::TestMdUtils,,,,pytest --flake-finder --flake-runs=2 or pytest --randomly-seed=1234
