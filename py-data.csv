@@ -3,13 +3,13 @@ https://github.com/abeelen/nikamap,d39c488c89bf5d90fffe3c05580fc13551522ee5,nika
 https://github.com/abhinavsingh/proxy.py,9b4263777bea7b3e00a1a3546511f2117f210a2b,tests/common/test_utils.py::TestSocketConnectionUtils::test_new_socket_connection_ipv4,OD-Vic,,,
 https://github.com/actris-cloudnet/cloudnetpy,4caaec217c8e100fa2a11f76654917e0bd9560a7,tests/unit/test_meta_for_old_files.py::test_fix_old_data_2,NIO,Open,https://github.com/actris-cloudnet/cloudnetpy/pull/34,
 https://github.com/actris-cloudnet/cloudnetpy,c6c728ae760a43e4efbd04d469d6fd1adbb1d1f7,tests/unit/test_util.py::test_l2_norm,NIO,Open,https://github.com/actris-cloudnet/cloudnetpy/pull/35,
-https://github.com/AdventielFr/ecs-crd-cli.git,7b296c64086a204d3540da272e3d8dd74721c6c4,tests/test_prepareDeploymentServiceDefinitionStep.py::test_process_application_autoscaling_scalable_target_max_capacity_invalid,OD-Brit,,,
+https://github.com/AdventielFr/ecs-crd-cli,7b296c64086a204d3540da272e3d8dd74721c6c4,tests/test_prepareDeploymentServiceDefinitionStep.py::test_process_application_autoscaling_scalable_target_max_capacity_invalid,OD-Brit,,,
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD,Opened,https://github.com/agile4you/bottle-neck/pull/4,
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,NIO,Opened,https://github.com/agile4you/bottle-neck/pull/3,
-https://github.com/agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_handlers.py::test_handler_register_class_pass,OD-Vic,,,
-https://github.com/agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD-Brit,,,
-https://github.com/agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_cbv_pass,OD-Brit,,,
-https://github.com/agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,OD-Vic,,,
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_handlers.py::test_handler_register_class_pass,OD-Vic,,,
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD-Brit,,,
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_cbv_pass,OD-Brit,,,
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,OD-Vic,,,
 https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_check_call_args,OD,Opened,https://github.com/agronholm/typeguard/pull/220,
 https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_exec_no_namespace,OD,,,https://github.com/agronholm/typeguard/issues/221
 https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_forward_ref_policy_guess,OD,,,https://github.com/agronholm/typeguard/issues/221
@@ -122,7 +122,7 @@ https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d0
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-headers2-kwargs2-expected_body2-expected_headers2],OD-Vic,,,
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-headers3-kwargs3-expected_body3-expected_headers3],OD-Vic,,,
 https://github.com/cbornet/python-httpproblem,0b08139277e9cba02339eeb0996c0910d047274a,tests/test_problem.py::test_problem_http_response[None-None-None-None-None-None-kwargs1-expected_body1-expected_headers1],OD-Vic,,,
-https://github.com/cbsinteractive/elemental.git,ca570c9f5fc43e20a4db23fc0137380f87be63f0,elemental/client_test.py::test_send_request_should_call_request_as_expected,OD-Vic,,,
+https://github.com/cbsinteractive/elemental,ca570c9f5fc43e20a4db23fc0137380f87be63f0,elemental/client_test.py::test_send_request_should_call_request_as_expected,OD-Vic,RepoArchived,,
 https://github.com/cdent/gabbi,8fbd5473efa2dbb65f327f823d66cb0c76931288,gabbi/tests/test_inner_fixture.py::test_pytest,,,,pytest --flake-finder --flake-runs=2
 https://github.com/cesar-rodriguez/terrascan,fd4ca9d23e694185fd5cb9ddf357b52b15adc6ca,tests/test_terrascan.py::test_success,OD-Vic,,,
 https://github.com/chakki-works/chazutsu,52b2f8acaac1b6c7eab97dded1a1757d3adcefa7,tests/test_movie_review.py::test_download,NOD,Open,https://github.com/chakki-works/chazutsu/pull/13,
@@ -490,7 +490,7 @@ https://github.com/eukaryote/uberdict,852b9d8b80ab032ce7eb5c439ea8084336b69d04,t
 https://github.com/femueller/python-n26,22cb609efbf5125e36879441ea20d5a1c2a51e98,tests/test_cards.py::CardsTests::test_block_card_cli_all,OD-Brit,,,
 https://github.com/femueller/python-n26,22cb609efbf5125e36879441ea20d5a1c2a51e98,tests/test_cards.py::CardsTests::test_block_card_cli_single,OD-Brit,,,
 https://github.com/femueller/python-n26,22cb609efbf5125e36879441ea20d5a1c2a51e98,tests/test_cards.py::CardsTests::test_unblock_card_cli_single,OD-Brit,,,
-https://github.com/ferdinandvwyk/pyfilm.git,20688f59536c713650516f09e1873fcb5b506a17,tests/test_pyfilm.py::TestClass::test_calculate_cbar_ticks,NOD,,,
+https://github.com/ferdinandvwyk/pyfilm,20688f59536c713650516f09e1873fcb5b506a17,tests/test_pyfilm.py::TestClass::test_calculate_cbar_ticks,NOD,,,
 https://github.com/fifman/tangle,a36cff74d7f09bf8f24a91929b844ea1be7b1bcd,tests/test_bean.py::test_instance,NOD,,,
 https://github.com/fifman/tangle,a36cff74d7f09bf8f24a91929b844ea1be7b1bcd,tests/test_context.py::test_aspect,NIO,,,
 https://github.com/filestack/filestack-python,bfd98e91d3300d2fbae0569acb4863f9e77358cd,tests/intelligent_ingestion_test.py,,,,pytest --flake-finder --flake-runs=2
