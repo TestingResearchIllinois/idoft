@@ -4715,7 +4715,7 @@ https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicIntegerTest.testAssignAtomicInteger,ID,Accepted,https://github.com/jdereg/json-io/pull/295,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicLongTest.testAssignAtomicLong,ID,,,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded,ID,,,
-https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.EnumTests.testEnumWithPrivateMembersAsField_withPrivatesOn,ID,Opened,https://github.com/jdereg/json-io/pull/297,
+https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.EnumTests.testEnumWithPrivateMembersAsField_withPrivatesOn,ID,Accepted,https://github.com/jdereg/json-io/pull/297,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.MapsTest.testMap,ID,MovedOrRenamed,,https://github.com/jdereg/json-io/commit/45699f116bdaac9449cc58fbdd9310f00ac6df5b
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.MapsTest.testReconstituteMap,ID,,,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.NoTypeTest.testNoType,ID,,,
