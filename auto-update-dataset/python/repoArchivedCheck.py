@@ -13,6 +13,8 @@ def main():
 
     # copy the first line of raw cvs.file here:
     csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
+    if pr_data_url == "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv":
+        csv_first_line = "Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod),Category,Status,PR Link,Notes"
     cols = csv_first_line.split(",")
     status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
     notes = cols.index("Notes") + 1
