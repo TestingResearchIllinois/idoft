@@ -36,7 +36,8 @@ data = {
         "NDOI",
         "NDOI",
         "UD",
-        "OSD"
+        "OSD",
+        "TZD"
     ],
     "Status": [
         "",
