@@ -4773,7 +4773,7 @@ https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.
 https://github.com/JodaOrg/joda-time,d1ea2a53929d7d56d4f4560852e5586517a0dd47,.,org.joda.time.TestDateTimeZoneCutover.test_DateTime_minusDay_Gaza,UD,,,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.http,ID,,,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.serverPicksThePort,ID,,,
-https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.sslWithSpecialHttpsSettings,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.sslWithSpecialHttpsSettings,ID,Accepted,https://github.com/jolokia/jolokia/pull/756,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.simple,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.withPlainBean,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withMultiConfigAndStart,ID,,,
