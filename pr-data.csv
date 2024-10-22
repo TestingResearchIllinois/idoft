@@ -5910,7 +5910,7 @@ https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-j
 https://github.com/square/burst,e6af132e6b9badab699999cfd1764f11636ca00a,burst-junit4,com.squareup.burst.BurstJUnit4Test.multipleNamedFields,ID,Deprecated,,https://github.com/TestingResearchIllinois/idoft/issues/569
 https://github.com/square/catalog-api-demo,79e7a447aa0c0c3ca5512c826e6654119bde4988,.,com.squareup.catalog.demo.example.DeduplicateTaxesExampleTest.mergeDuplicate_neitherPresentAtAllLocations,ID,RepoArchived,,
 https://github.com/square/dagger,0fa73e0ee07015f191c25b1f3fdf7048321d1610,core,dagger.SetBindingTest.multiValueBindings_WithSingletonAndDefaultValues,ID,RepoArchived,,
-https://github.com/square/keywhiz,52e77fd9f477637d5ed36ed6d1815b9c96c06166,api,keywhiz.api.model.SanitizedSecretWithGroupsListAndCursorTest.deserializesCorrectly,ID,,,
+https://github.com/square/keywhiz,52e77fd9f477637d5ed36ed6d1815b9c96c06166,api,keywhiz.api.model.SanitizedSecretWithGroupsListAndCursorTest.deserializesCorrectly,ID,RepoArchived,,
 https://github.com/square/otto,2a67589abd91879cf23a8c96542b59349485ec3d,otto,com.squareup.otto.outside.AnnotatedHandlerFinderTest.neitherOverriddenNorAnnotated,UD,RepoArchived,,
 https://github.com/square/pagerduty-incidents,c95398ffcb246082bfccddf36fcb97c877a17204,.,com.squareup.pagerduty.incidents.EventTest.serialization,ID,Opened,https://github.com/square/pagerduty-incidents/pull/30,
 https://github.com/square/retrofit,ae28c3d5f6fe54f6ca409cdf82106efb47609f8f,retrofit-adapters/rxjava,retrofit2.adapter.rxjava.CancelDisposeTest.cancelDoesNotDispose,NOD,,,
