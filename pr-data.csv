@@ -5451,7 +5451,7 @@ https://github.com/qos-ch/logback,2946e3b0b34c2a22fd20b97058944aeb67d4361f,logba
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/arc/tests,io.quarkus.arc.test.buildextension.beans.SyntheticBeanCollisionTest.testFailure,ID,,,
 https://github.com/quarkusio/quarkus,84128ced08b138915584d1fe0dd378e001f6757f,core/devmode,io.quarkus.dev.CompilerFlagsTest.defaulting,ID,Accepted,https://github.com/quarkusio/quarkus/pull/6839,
 https://github.com/quarkusio/quarkus,84128ced08b138915584d1fe0dd378e001f6757f,core/devmode,io.quarkus.dev.CompilerFlagsTest.redundancyReduction,ID,Accepted,https://github.com/quarkusio/quarkus/pull/6839,
-https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/tools/codestarts,io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject,ID,,,
+https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/tools/codestarts,io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject,ID,Opened,https://github.com/quarkusio/quarkus/pull/44027,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.SetSectionTest.testDefaultValues,ID,,,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.SetSectionTest.testLiterals,ID,InspiredAFix,https://github.com/quarkusio/quarkus/pull/43820,
 https://github.com/quarkusio/quarkus,842924c270d47ee7b350f4dd59df47586854beeb,independent-projects/qute/core,io.quarkus.qute.UserTagTest.testDefaultedKey,ID,,,
