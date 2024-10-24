@@ -4055,6 +4055,7 @@ https://github.com/fluent/fluent-logger-java,da14ec349bf0904da9865940b57b8756361
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-engine,net.redpipe.engine.swagger.SwaggerApiTest.checkSwagger,NOD,RepoArchived,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkMail,NOD,RepoArchived,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationDefault,ID,Opened,https://github.com/fromage/redpipe/pull/56,
+https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationDefault,ID,DeveloperFixed,https://github.com/FroMage/redpipe/commit/2fc605bc2fad4aadbb3b05282f528a05673df2ca#diff-86139da6bd888a5e7589f89d4f81a426bac99cd8aabab363efb5e338c1158f5bR131,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationSingleHtml,NOD,RepoArchived,,
 https://github.com/fromage/redpipe,0aff891d6befdf0dcc2bdbfda22262cdf82ac66f,redpipe-templating-freemarker,net.redpipe.templating.freemarker.ApiTest.checkTemplateNegociationText,NOD,RepoArchived,,
 https://github.com/FudanNLP/fnlp,ce258f3e4a5add2ba0b5e4cbac7cab2190af6659,fnlp-demo,org.fnlp.demo.MLTest,ID,Opened,https://github.com/FudanNLP/fnlp/pull/71,
@@ -4757,6 +4758,7 @@ https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,te
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testBallColorTd,ID,,,
 https://github.com/jenkinsci/jenkins,d2fa87606246e1f1dc1450d7199778343945197e,test,lib.layout.IconTest.testTasks,ID,DeveloperFixed,,https://github.com/jenkinsci/jenkins/commit/81072df4f7f3c0ecef0d5ab20100a87cb0acce58
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.capabilityRead,OD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
+https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.capabilityRead,OD,DeveloperFixed,,https://github.com/jenkinsci/remoting/commit/26e24490f041ef423cbe1c94b262983790613fbd#diff-ee56285c19352719bba4df32d1496b4c9d9f11c34062a587815d0e1b041b66df
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.transport_chunking,OD,Opened,https://github.com/jenkinsci/remoting/pull/706,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.transport_nio,OD,Opened,https://github.com/jenkinsci/remoting/pull/706,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
 https://github.com/jenkinsci/remoting,abf0455a68ad6c52a57e912bb89d51f883f77542,.,hudson.remoting.ClassFilterTest.transport_non_chunking,OD,Opened,https://github.com/jenkinsci/remoting/pull/706,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/82
@@ -5541,6 +5543,7 @@ https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compil
 https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1276,
 https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1272,
 https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1274,
+https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1276,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testExport,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testImport,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,,,
