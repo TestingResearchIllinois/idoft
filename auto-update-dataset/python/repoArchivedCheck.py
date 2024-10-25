@@ -1,19 +1,30 @@
 import pandas as pd
 import time
 from requests_html import HTMLSession
+import sys
 
+# Mapping of file names to URLs
+data_urls = {
+    'py-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv",
+    'pr-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv",
+    'gr-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/gr-data.csv"
+}
 
 # it takes about 2 minutes to check 200 projects
 def main():
-    # get unique urls from pr-data.csv, we can also use cmd: `git pull -r ; cut -f1 -d, pr-data.csv | uniq`
-    pr_data_url = r"https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv"
+    if len(sys.argv) != 2 or sys.argv[1] not in data_urls:
+        print("Usage: python script.py [py-data.csv | pr-data.csv | gr-data.csv]")
+        sys.exit(1)
+    # get unique urls from passed filename, we can also use cmd: `git pull -r ; cut -f1 -d,  `filename` | uniq`
+    file_name = sys.argv[1]
+    pr_data_url = data_urls[file_name]
     urls = pd.read_csv(pr_data_url, usecols=["Project URL"])
     urls = list(set([i[0] for i in urls.values.tolist()]))
     print("load data from", pr_data_url)
 
     # copy the first line of raw cvs.file here:
     csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
-    if pr_data_url == "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv":
+    if file_name == "py-data.csv":
         csv_first_line = "Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod),Category,Status,PR Link,Notes"
     cols = csv_first_line.split(",")
     status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
