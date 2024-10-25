@@ -3466,7 +3466,7 @@ https://github.com/apolloconfig/apollo-java,5344bc4f07288842bb850145bcf80a084bd9
 https://github.com/ArangoDB-Community/arangodb-tinkerpop-provider,e61a1b05cda8b1aa6f61dbbed77841b6f260a9e6,.,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_ServerVersion,UD,Unmaintained,,last commit on 2020-11-19
 https://github.com/arquillian/arquillian-core,cc1b19cd54b0ae259c6b7c5dcd249fc405cb6e58,test/impl-base,org.jboss.arquillian.test.impl.enricher.resource.ArquillianResourceTestEnricherTestCase.shouldBeAbleToInjectBaseContextOnMethodWithQualifier,ID,,,
 https://github.com/AuthMe/AuthMeReloaded,fcd4a2fad777ab54ac271702225c4a0f19edb186,.,fr.xephi.authme.listener.PlayerListenerTest.shouldHideChatFromUnauthed,ID,Accepted,https://github.com/AuthMe/AuthMeReloaded/pull/2386,
-https://github.com/authorjapps/zerocode,6ef5f20eaff6a8bad3713b4aee6a482cdbd6e256,core,org.jsmart.zerocode.core.engine.preprocessor.ZeroCodeAssertionsProcessorImplTest.testDateAfterBefore_fail_both,ID,,,
+https://github.com/authorjapps/zerocode,6ef5f20eaff6a8bad3713b4aee6a482cdbd6e256,core,org.jsmart.zerocode.core.engine.preprocessor.ZeroCodeAssertionsProcessorImplTest.testDateAfterBefore_fail_both,ID,Opened,https://github.com/authorjapps/zerocode/pull/691,
 https://github.com/authorjapps/zerocode,6ef5f20eaff6a8bad3713b4aee6a482cdbd6e256,core,org.jsmart.zerocode.core.httpclient.BasicHttpClientTest.createRequestBuilder,ID,,,
 https://github.com/authorjapps/zerocode,6ef5f20eaff6a8bad3713b4aee6a482cdbd6e256,core,org.jsmart.zerocode.core.httpclient.BasicHttpClientTest.createRequestBuilder_frontSlash,ID,,,
 https://github.com/authorjapps/zerocode,6ef5f20eaff6a8bad3713b4aee6a482cdbd6e256,core,org.jsmart.zerocode.core.httpclient.BasicHttpClientTest.createRequestBuilder_jsonValue,ID,,,
