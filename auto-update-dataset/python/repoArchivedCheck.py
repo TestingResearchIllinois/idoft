@@ -10,6 +10,7 @@ data_urls = {
     'gr-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/gr-data.csv"
 }
 
+
 # it takes about 2 minutes to check 200 projects
 def main():
     if len(sys.argv) != 2 or sys.argv[1] not in data_urls:
