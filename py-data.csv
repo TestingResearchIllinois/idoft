@@ -1223,8 +1223,8 @@ https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,e
 https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_thermal_properties.py::Test_ThermalProperties::test_ufactor_nomass_construction,OD-Vic,,,
 https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_thermal_properties.py::Test_ThermalProperties::test_ufactor_roofvegetation_construction,OD-Vic,,,
 https://github.com/sashgorokhov/python-telegram-handler,4ac0e5cbb6ac3c3f81a57be6b3cea49dfd8e8ec4,tests/test_handlers.py::test_handler_init_without_chat,OD-Brit,RepoArchived,,
-https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,,,
-https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,,,
+https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,Deleted,,https://github.com/scikit-hep/scikit-hep/commit/6f3edf223ee925d4c0e0ce5447a3619d086de162
+https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,Deleted,,https://github.com/scikit-hep/scikit-hep/commit/6f3edf223ee925d4c0e0ce5447a3619d086de162
 https://github.com/scrapinghub/shub, 7297d6b05b487749d99a4d94eea2f2de3e558f8a,test_utils.py::ReleaseUtilsTes::test_get_docker_client,OD,Opened,https://github.com/scrapinghub/shub/pull/411,
 https://github.com/scrapinghub/spidermon,d58090de7c0fcb656fc4daa19b6119df95df57d6,test_validators_schematics.py::test_choices,NOD,Opened,https://github.com/scrapinghub/spidermon/pull/322,
 https://github.com/sdrobert/pydrobert-gpyopt,ce2699ca89687f848c2a86db44eed125d65886de,test_gpyopt.py::test_strings_are_provided,NOD,,,
