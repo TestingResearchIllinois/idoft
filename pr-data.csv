@@ -4735,6 +4735,7 @@ https://github.com/jdbi/jdbi,17d4da9a7227a1604ce569e8180691282867c3c1,core,org.j
 https://github.com/jdbi/jdbi,17d4da9a7227a1604ce569e8180691282867c3c1,core,org.jdbi.v3.core.mapper.reflect.BeanMapperMockTest.shouldThrowOnPropertyTypeWithoutRegisteredMapper,ID,DeveloperWontFix,https://github.com/jdbi/jdbi/pull/2552,
 https://github.com/jdereg/java-util,245458a912e04bf85116b10f240e7b4be217cd4f,.,com.cedarsoftware.util.TestGraphComparator.testNewArrayElement,ID,Accepted,https://github.com/jdereg/java-util/pull/106,
 https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
+https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com.cedarsoftware.io.AtomicLongTest.testAssignAtomicLong,ID,DeveloperFixed,,https://github.com/jdereg/json-io/commit/9adaedaf947489856d1bddbad106d87bccdf9713
 https://github.com/jdereg/json-io,0df114821029ecb9bfbd0e3657f2b515c9a85889,.,com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
 https://github.com/jdereg/json-io,a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e,.,com.cedarsoftware.io.MapsTest.testMap,ID,Accepted,https://github.com/jdereg/json-io/pull/302,
 https://github.com/jdereg/json-io,8d46689078710b044c80ff577c486e323d035eb5,.,com.cedarsoftware.io.MapsTest.testReconstituteMap,ID,,,
