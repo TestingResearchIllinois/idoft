@@ -1240,8 +1240,8 @@ https://github.com/securenative/securenative-python,0eae99733b7565341487ad32f044
 https://github.com/SekouD/mlconjug,840e990bd96b56785a68712e9729582ede168ec2,tests/test_mlconjug.py::TestConjugator::test_conjugate tests/test_mlconjug.py::TestModel::test_predict,,,,pytest --randomly-seed=1234
 https://github.com/SergeyShk/ruTS,af02f627d9022f0f4825d9bed4ffc97d3d329f2d,tests/test_utils.py::test_extract_archive,NOD,,,
 https://github.com/sgaynetdinov/py-vkontakte,b03246b8d4b6f5ee5ab7e5c67e09e1f14b85fd9c,tests/test_message.py::test_message,OD-Vic,,,
-https://github.com/sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,NIO,,,
-https://github.com/sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,OD-Vic,,,
+https://github.com/sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,NIO,Opened,https://github.com/sjoerdk/anonapi/pull/545,
+https://github.com/sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,OD-Vic,Opened,https://github.com/sjoerdk/anonapi/pull/545,
 https://github.com/sloria/TextBlob,6396e24e85af7462cbed648fee21db5082a1f3fb,tests/test_formats.py::TestRegistry::test_register,NIO,Opened,https://github.com/sloria/TextBlob/pull/404,
 https://github.com/solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_ArbitraryNumberImputer,OD-Vic,,,
 https://github.com/solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_CategoricalVariableImputer,NIO,DeveloperFixed,,
