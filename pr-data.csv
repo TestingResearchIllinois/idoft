@@ -4741,7 +4741,7 @@ https://github.com/jdereg/json-io,a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e,.,com
 https://github.com/jdereg/json-io,8d46689078710b044c80ff577c486e323d035eb5,.,com.cedarsoftware.io.MapsTest.testReconstituteMap,ID,,,
 https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com.cedarsoftware.io.NoTypeTest.testNoType,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
 https://github.com/jdereg/json-io,fc5e2d1e442cb1172bbeaa7a16daece76c298214,.,com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
-https://github.com/jdereg/json-io,e2dfec0aa5b539f8b2e1eca8c56ebede4d9b1215,.,com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement,ID,,,
+https://github.com/jdereg/json-io,e2dfec0aa5b539f8b2e1eca8c56ebede4d9b1215,.,com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement,ID,Opened,https://github.com/jdereg/json-io/pull/303,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicBooleanTest.testAssignAtomicBoolean,ID,MovedOrRenamed,,https://github.com/jdereg/json-io/commit/45699f116bdaac9449cc58fbdd9310f00ac6df5b
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicIntegerTest.testAssignAtomicInteger,ID,Accepted,https://github.com/jdereg/json-io/pull/295,
 https://github.com/jdereg/json-io,f8958ef52bbdc94f8aed7d98c96d2775200ec7e7,.,com.cedarsoftware.util.io.AtomicLongTest.testAssignAtomicLong,ID,MovedOrRenamed,,https://github.com/jdereg/json-io/commit/45699f116bdaac9449cc58fbdd9310f00ac6df5b
