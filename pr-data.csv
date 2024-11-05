@@ -2803,7 +2803,7 @@ https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-c
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.common.schematree.ClusterSchemaTreeTest.testMultiWildcard,ID,,,
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.common.schematree.ClusterSchemaTreeTest.testSchemaTreeVisitor,ID,,,
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.common.schematree.ClusterSchemaTreeTest.testSchemaTreeWithScope,ID,,,
-https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.execution.operator.schema.SchemaFetchScanOperatorTest.testSchemaFetchResult,ID,,,
+https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.execution.operator.schema.SchemaFetchScanOperatorTest.testSchemaFetchResult,ID,Opened,https://github.com/apache/iotdb/pull/13996,
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.plan.analyze.AnalyzeTest.testSelectIntoPath,ID,,,
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.plan.optimization.ColumnInjectionPushDownTest.testCannotPushDownTimeJoinAlignByTime,ID,,,
 https://github.com/apache/iotdb,f94f99a48281519ddf156ba67cd1825d1491557c,iotdb-core/datanode,org.apache.iotdb.db.queryengine.plan.optimization.ColumnInjectionPushDownTest.testPartialPushDownTimeJoinAlignByDevice,ID,,,
