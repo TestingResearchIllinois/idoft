@@ -61,11 +61,7 @@ def get_unmaintained_repos():
     df[['MONTHS_SINCE_LAST_COMMIT', 'LAST_COMMIT_DATE']] = df['REPO_URL'].progress_apply(
         lambda url: pd.Series(get_months_since_last_commit(get_repo_object(url)))
     )
-    
-    # Filter to include only repos with more than 24 months since last commit
     unmaintained_df = df[df['MONTHS_SINCE_LAST_COMMIT'] > 24]
-    
-    # Save to CSV
     output_path = f"{os.getcwd()}/unmaintained-repos.csv"
     unmaintained_df.to_csv(output_path, index=False)
     print(f"Saved list of unmaintained repos (over 2 years since last commit) to '{output_path}'.")
