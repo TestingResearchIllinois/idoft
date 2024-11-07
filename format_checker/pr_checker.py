@@ -103,7 +103,7 @@ def check_status_consistency(filename, row, i, log):
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated", "Deleted"]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated", "Deleted", "DeveloperFixed"]:
 
         # Should contain a note
         if row["Notes"] == "":
@@ -116,7 +116,7 @@ def check_status_consistency(filename, row, i, log):
                     "Status " + row["Status"] + " should contain a note",
                 )
             # error if no note:
-            if row["Status"] in ["MovedOrRenamed", "Deleted"]:
+            if row["Status"] in ["MovedOrRenamed", "Deleted", "DeveloperFixed"]:
                 log_std_error(filename, log, i, row, "Notes")
 
         # If it contains a note, it should be a valid link
