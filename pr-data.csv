@@ -4074,6 +4074,7 @@ https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/gra
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPostExecuteFailureWhenRunningJob,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPreExecuteFailure,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPreExecuteFailureWhenRunningJob,ID,,,
+https://github.com/gchq/Gaffer,ac602892435bdd0180f783c80f774149f50eb7f0,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldConstructGraphAndCreateViewWithGroups,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/1238
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.hook.UpdateViewHookTest.shouldMergeAndApplyWhiteList,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/operation,uk.gov.gchq.gaffer.jobtracker.JobTest.shouldJsonSerialiseAndDeserialise,ID,Opened,https://github.com/gchq/Gaffer/pull/3089,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/serialisation,uk.gov.gchq.gaffer.jsonSerialisation.JSONSerialiserTest.shouldSerialiseWithHistoricValues,ID,Opened,https://github.com/gchq/Gaffer/pull/3089,
