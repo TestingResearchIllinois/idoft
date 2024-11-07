@@ -4743,7 +4743,7 @@ https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com
 https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com.cedarsoftware.io.AtomicLongTest.testAssignAtomicLong,ID,DeveloperFixed,,https://github.com/jdereg/json-io/commit/9adaedaf947489856d1bddbad106d87bccdf9713
 https://github.com/jdereg/json-io,0df114821029ecb9bfbd0e3657f2b515c9a85889,.,com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
 https://github.com/jdereg/json-io,a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e,.,com.cedarsoftware.io.MapsTest.testMap,ID,Accepted,https://github.com/jdereg/json-io/pull/302,
-https://github.com/jdereg/json-io,8d46689078710b044c80ff577c486e323d035eb5,.,com.cedarsoftware.io.MapsTest.testReconstituteMap,ID,,,
+https://github.com/jdereg/json-io,8d46689078710b044c80ff577c486e323d035eb5,.,com.cedarsoftware.io.MapsTest.testReconstituteMap,ID,Accepted,https://github.com/jdereg/json-io/pull/302,
 https://github.com/jdereg/json-io,45699f116bdaac9449cc58fbdd9310f00ac6df5b,.,com.cedarsoftware.io.NoTypeTest.testNoType,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
 https://github.com/jdereg/json-io,fc5e2d1e442cb1172bbeaa7a16daece76c298214,.,com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint,ID,Accepted,https://github.com/jdereg/json-io/pull/301,
 https://github.com/jdereg/json-io,e2dfec0aa5b539f8b2e1eca8c56ebede4d9b1215,.,com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement,ID,Opened,https://github.com/jdereg/json-io/pull/303,
