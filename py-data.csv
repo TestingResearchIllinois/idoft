@@ -592,9 +592,8 @@ https://github.com/heavenshell/py-autodoc,001d5ff03d41a5d714075eb08e666c413d50f0
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_get_item,OD-Brit,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_get_no_item,OD-Vic,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_read_json,OD-Vic,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
-https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item,NIO,Unmaintained,,latest commit 2018/11/13
-https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item,OD-Vic,Unmaintained,,latest commit 2018/11/13
-https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item tests/test_main.py::test_update_item tests/test_main.py::test_set_item_fail,,Unmaintained,,pytest --flake-finder --flake-runs=2;latest commit 2018/11/13
+https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item,NIO,Opened,https://github.com/hefnawi/json-storage-manager/pull/2,
+https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item,OD-Vic,Opened,https://github.com/hefnawi/json-storage-manager/pull/2,
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item_fail,OD-Brit,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_update_item,OD-Brit,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
 https://github.com/hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_write_json,OD-Vic,Opened,https://github.com/hefnawi/json-storage-manager/pull/1,
