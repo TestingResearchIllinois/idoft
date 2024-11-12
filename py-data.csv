@@ -974,7 +974,7 @@ https://github.com/ozzywalsh/metcli,4658176034cea68955849bf488494c8ce3ffcbcd,met
 https://github.com/Parsely/serpextract,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_custom_parser_explicit,OD-Vic,Unmaintained,,latest commit 2021/08/16
 https://github.com/Parsely/serpextract,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_custom_parser_implicit,OD-Brit,Unmaintained,,latest commit 2021/08/16
 https://github.com/Parsely/serpextract,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_naive_detection,OD-Vic,Unmaintained,,latest commit 2021/08/16
-https://github.com/Parsely/serpextract,e156430b32eb833686820f490dbcdd989f27baa2,test_serps.py::TestSERPs::test_mojeek,NOD,Opened,	https://github.com/Parsely/serpextract/pull/26,
+https://github.com/Parsely/serpextract,e156430b32eb833686820f490dbcdd989f27baa2,test_serps.py::TestSERPs::test_mojeek,NOD,Opened,https://github.com/Parsely/serpextract/pull/26,
 https://github.com/Parsely/serpextract/,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_custom_parser_explicit,OD-Vic,,,
 https://github.com/Parsely/serpextract/,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_custom_parser_implicit,OD-Brit,,,
 https://github.com/Parsely/serpextract/,aec8f2bd79c66953938569a24b05c693ab70b4ce,tests/test_serps.py::TestSERPs::test_naive_detection,OD-Vic,,,
