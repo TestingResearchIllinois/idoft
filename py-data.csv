@@ -187,10 +187,10 @@ https://github.com/crazyscientist/osc-tiny,88c33c2c7f73ea26067e1bb4190bab5dc298d
 https://github.com/crazyscientist/osc-tiny,a1ec7de6633a3067b0d2b3706efcab99e091720f,osctiny/tests/test_issues.py::TestIssue::test_get,,,,pytest --randomly-seed=123
 https://github.com/cronofy/pycronofy/issues/72,eac7d290e3f3638d82c84d1c51a46c10257a6e20,pycronofy/tests/test_client.py::test_refresh,OD,,,pytest --randomly-seed=1234
 https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_ibu_aut,NIO,Opened,https://github.com/crumpstrr33/Utter-More/pull/1,
-https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[alexa_test-csv-None],OD-Brit,,,
-https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[csv_test-csv-None],OD-Brit,,,
-https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[file_override_test-txt-csv],OD-Brit,,,
-https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[txt_test-txt-None],OD-Brit,,,
+https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[alexa_test-csv-None],OD-Brit,Opened,https://github.com/crumpstrr33/Utter-More/pull/2,
+https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[csv_test-csv-None],OD-Brit,Opened,https://github.com/crumpstrr33/Utter-More/pull/2,
+https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[file_override_test-txt-csv],OD-Brit,Opened,https://github.com/crumpstrr33/Utter-More/pull/2,
+https://github.com/crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_saving_utterances[txt_test-txt-None],OD-Brit,Opened,https://github.com/crumpstrr33/Utter-More/pull/2,
 https://github.com/CyberZHG/keras-layer-normalization,077dc72b6bae1a0551c3b879557478b587be340d,tests/test_layer_normalization.py,ID,Accepted,https://github.com/CyberZHG/keras-layer-normalization/pull/4,RepoArchived
 https://github.com/CyberZHG/keras-transformer,52a3fa27d5598eca23be9031fc67a011d42cbefb,tests/test_get_model.py,ID,Accepted,https://github.com/CyberZHG/keras-transformer/pull/42,RepoArchived
 https://github.com/d4nuu8/krllint,2f9376cdae14c201364d9c31b4c19a8ff2f708d2,tests/test_extraneous_whitespace.py::ExtraneousWhiteSpaceTestCase::test_rule_without_fix,OD-Vic,Unmaintained,,latest commit 2019/03/02
