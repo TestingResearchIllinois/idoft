@@ -6726,9 +6726,9 @@ https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason,OD-Vic,Accepted,https://github.com/undertow-io/undertow/pull/684,
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.extension.JsrWebsocketExtensionTestCase.testLongTextMessage,UD,,,
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer07Test.testCloseFrame,UD,,,
-https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer07Test.testErrorHandling,NOD;OD-Vic,,,
-https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer08Test.testErrorHandling,NOD;OD-Vic,,,
-https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer13Test.testErrorHandling,NOD;OD-Vic,,,
+https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer07Test.testErrorHandling,NOD;OD-Vic,Skipped,,https://github.com/TestingResearchIllinois/idoft/issues/1482
+https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer08Test.testErrorHandling,NOD;OD-Vic,Skipped,,https://github.com/TestingResearchIllinois/idoft/issues/1482
+https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.JsrWebSocketServer13Test.testErrorHandling,NOD;OD-Vic,Skipped,,https://github.com/TestingResearchIllinois/idoft/issues/1482
 https://github.com/undertow-io/undertow,d0efffad5d2034bb07525cac9b299dac72c3045d,websockets-jsr,io.undertow.websockets.jsr.test.reconnect.ClientEndpointReconnectTestCase.testAnnotatedClientEndpoint,NOD,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.annotations.AnnotationHelperTest.testContentCleaner,ID,,,
 https://github.com/uniVocity/univocity-parsers,7e7d1b3c0a3dceaed4a8413875eb1500f2a028ec,core,com.univocity.parsers.annotations.meta.MetaAnnotationTest.testWriteWithMetaAnnotation,ID,,,
