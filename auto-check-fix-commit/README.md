@@ -17,12 +17,21 @@ Reference - https://git-scm.com/docs/git-bisect/
 
 ### Usage
 
-1. Copy scripts `git-bisect-runner.sh` and `git-bisect-script.sh` to the directory of the project containing the fixed flaky test.
+1. Fork/clone this repo with the auto-check-fix-commit module containing the `git-bisect-runner.sh` and `git-bisect-script.sh` scripts.
 
+2. Copy scripts `git-bisect-runner.sh` and `git-bisect-script.sh` to the directory of the project containing the fixed flaky test.
 
-2. Run the script using the below command
+3. Within the project containing the DeveloperFixed test, run the script using the command below. Modify arguments to specific flaky commit, fixed commit, module path, test case of your project, mvn install options, and NonDex version. This command will also ensure standard error and output messages go to `git_bisect_output.log`, while running command in the background (since using nohup).
 ```shell
-./git-bisect-runner.sh --flaky e6d76803f27133d7700811585f5310470e50e487 --fixed 5828d56a824748e7c91076842fad75efb42f92f9 --module core/server/worker --test alluxio.worker.block.BlockLockManagerTest#lockAlreadyReadLockedBlock
+nohup ./git-bisect-runner.sh --flaky <FLAKY_COMMIT> --fixed <FIXED_COMMIT> --module <MODULE_PATH> --test <TEST_CASE> --mvn-install "<MAVEN_OPTIONS>" --nondex-version "<NONDEX VERSION>" &> git_bisect_output.log
+```
+Example:
+```shell
+nohup ./git-bisect-runner.sh --flaky ecf41be2ecd007853c2db19e1c6a038cf356cb9e --fixed f69557e325c5bb9e4e250bb0ec2db12d85298211 --module pinot-core --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries --mvn-install "-Dspotless.skip" --nondex-version "2.1.7" &> git_bisect_output.log 
 ```
 
-The output of this execution will give the commit where the flaky test was fixed.
+The output of this execution will give the commit where the flaky test was fixed. Messages within process can be found in log file within project directory.
+
+To check for errors during process, run: `git bisect status`
+To check log as process is running, run: `git bisect log`
+To stop and reset bisect process, run: `git bisect reset`
