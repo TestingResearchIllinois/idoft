@@ -43,12 +43,6 @@ def main():
         my_dict[i[0]].append(line)
         line_number += 1
 
-    # # save urls in file
-    # f = open("pandas_reads_results.txt", "w")
-    # for i in urls:
-    #     f.writelines(i + "\n")
-    # f.close()
-
     archived = []
     anomaly = []
     begin = time.time()
@@ -69,12 +63,11 @@ def main():
         if div and "This repository has been archived by the owner" in div.text:
             archived.append(url)
             print("archived: ", url)
-        # if "archived" in r.text[:len(r.text)]:
-        #     print(url)
     end = time.time()
 
     print("\n===========\n[summary]")
     print("1.total time: ", end-begin, "s")
+    print("")
 
     print("2.repoArchived: ")
     for i in archived:
@@ -96,38 +89,38 @@ def main():
             print("line_number " + str(i[0]) + ":")  # line_number
             print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
             print("")
+    print("")
 
     print("3.anomaly:")
     for i in anomaly:
-        print("status code:" + str(i[0]) + ", "),
+        print("status code: " + str(i[0])),
         print("url:", i[1])
         print("[!]details: ")
-        update = []
+        updates = []
         if str(i[0]) == '404':
-            for i in anomaly:
-                for j in my_dict[i[1]]:
-                    if j[status_idx] != "RepoDeleted" and j[notes] != "RepoDeleted":
-                        if pd.isna(j[status_idx]) or j[status_idx] == "":
-                            j[status_idx] = "RepoDeleted"
-                        else:
-                            j[notes] = "RepoDeleted"
-                update.append(j)
-            if not update:
+            for record in my_dict[i[1]]:
+                if record[status_idx] != "RepoDeleted" and record[notes] != "RepoDeleted":
+                    # should mark deleted archived repo as deleted
+                    if pd.isna(record[status_idx]) or record[status_idx] == "" or record[status_idx] == "RepoArchived":
+                        record[status_idx] = "RepoDeleted"
+                    else:
+                        record[notes] = "RepoDeleted"
+                    updates.append(record)
+            if not updates:
                 print("No need to update")
+                print("")
             else:
                 print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
-                for j in anomaly:
-                    for i in my_dict[j[1]]:
-                        print("line_number " + str(i[0]) + ":")
-                        print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
-                        print("")
+                for update in updates:
+                    print("line_number " + str(update[0]) + ":")
+                    print(str(update[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                    print("")
                 print("")
         else:
-            for j in anomaly:
-                for i in my_dict[j[1]]:
-                    print("line_number " + str(i[0]) + ":")
-                    print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
-                    print("")
+            for record in my_dict[i[1]]:
+                print("line_number " + str(record[0]) + ":")
+                print(str(record[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                print("")
             print("")
 
 
