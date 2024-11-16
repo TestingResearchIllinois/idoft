@@ -4223,7 +4223,7 @@ https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStrings,ID,Opened,https://github.com/gchq/koryphe/pull/319,
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStringsWithDelimiter,ID,Opened,https://github.com/gchq/koryphe/pull/319,
 https://github.com/gchq/koryphe,36c63c3e24145e04405d7620524b23cf9b5b5849,core,uk.gov.gchq.koryphe.impl.predicate.IsInTest.shouldJsonSerialiseAndDeserialise,ID,Opened,https://github.com/gchq/koryphe/pull/322,
-https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,Opened,https://github.com/gooddata/GoodData-CL/pull/145,RepoArchived
+https://github.com/gooddata/GoodData-CL,58728ec3e57ea9a4d689f38b0b385e8724af618c,connector,com.gooddata.csv.DataTypeGuessTest.testIsDate,OD,Opened,https://github.com/gooddata/GoodData-CL/pull/145,RepoDeleted
 https://github.com/google/error-prone,9f8c332d9ea67dfd31d8a91a023392f61097ae8a,core,com.google.errorprone.bugpatterns.StreamResourceLeakTest.positive,ID,,,
 https://github.com/google/graphicsfuzz,aa32d4cb556647ddaaf2048815bd6bca07d1bdab,generator,com.graphicsfuzz.generator.util.TransformationProbabilitiesTest.testToString,ID,Opened,https://github.com/google/graphicsfuzz/pull/1203,
 https://github.com/google/gson,e685705b2bf3ae174958612a185bd231c0e0c5d9,gson,com.google.gson.functional.CollectionTest.testCollectionOfBagOfPrimitivesSerialization,ID,DeveloperWontFix,,https://github.com/google/gson/issues/2520
@@ -5836,8 +5836,8 @@ https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,al
 https://github.com/outbrain/aletheia,024a4b7ea4c186329bbe1e20bb31048d95add836,aletheia-core,com.outbrain.aletheia.SampleDomainClassDatumTest.test_multiple_routes,NOD,RepoDeleted,,
 https://github.com/OWASP/json-sanitizer,fc612ab374de73d03864d56fb87b6a103b234489,.,com.google.json.EvalMinifierTest,ID,Opened,https://github.com/OWASP/json-sanitizer/pull/31,
 https://github.com/pac4j/pac4j,d004d027a2dff5b42e2f5424eff6aa557f0fe6a9,pac4j-oauth,org.pac4j.oauth.profile.JsonHelperTests.testToJSONString,ID,Accepted,https://github.com/pac4j/pac4j/pull/2723,
-https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMap,ID,RepoArchived,,
-https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMapQueryURIPath,ID,RepoArchived,,
+https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMap,ID,RepoArchived,,RepoDeleted
+https://github.com/paypal/sdk-core-java,42e793eeafae2fd1cb90fe2cc81a8ba22be830da,.,com.paypal.core.rest.RESTUtilTest.testFormatURIPathMapQueryMapQueryURIPath,ID,RepoArchived,,RepoDeleted
 https://github.com/pedrovgs/Algorithms,ed6f8a49948c09a21bfeb7bc38b4f24141795e38,.,com.github.pedrovgs.problem45.FindNthMostRepeatedElementTest.shouldFindNthMostRepeatedElement,ID,Accepted,https://github.com/pedrovgs/Algorithms/pull/63,
 https://github.com/perwendel/spark,1973e402f5d4c1442ad34a1d38ed0758079f7773,.,spark.RequestTest.testQueryParams,ID,Opened,https://github.com/perwendel/spark/pull/1285,
 https://github.com/phax/as2-lib,a5b4ba5d5b110e649770609e803338763bec8c39,,MongoDBPartnershipFactorySpec.add a Partnership,UD,,,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/32
