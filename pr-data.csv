@@ -4216,7 +4216,7 @@ https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/com
 https://github.com/gchq/Gaffer,ca465ec9243c7ed981528379e351bddeae8d5c83,core/common-util,uk.gov.gchq.gaffer.commonutil.OneOrMoreTest.shouldAddItemsWithDeduplicate,ID,Accepted,https://github.com/gchq/Gaffer/pull/3033,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.element.function.ReduceRelatedElementsTest.shouldReduceRelatedElementsWithManyRelationships,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.elementdefinition.view.ViewTest.shouldCreateAnIdenticalObjectWhenCloned,ID,Opened,https://github.com/gchq/Gaffer/pull/3327,
-https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.elementdefinition.view.ViewUtilTest.shouldCreateAnIdenticalObjectWhenCloned,ID,,,
+https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/data,uk.gov.gchq.gaffer.data.elementdefinition.view.ViewUtilTest.shouldCreateAnIdenticalObjectWhenCloned,ID,Opened,https://github.com/gchq/Gaffer/pull/3327,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphSerialisableTest.shouldConsumeGraph,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPostExecuteFailure,ID,,,
 https://github.com/gchq/Gaffer,f11dbd900273f3928372955266731f8623681f89,core/graph,uk.gov.gchq.gaffer.graph.GraphTest.shouldCallAllGraphHooksOnGraphHookPostExecuteFailureWhenRunningJob,ID,,,
