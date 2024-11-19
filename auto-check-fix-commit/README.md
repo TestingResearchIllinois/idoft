@@ -23,11 +23,11 @@ Reference - https://git-scm.com/docs/git-bisect/
 
 3. Within the project containing the DeveloperFixed test, run the script using the command below. Modify arguments to specific flaky commit, fixed commit, module path, test case of your project, mvn install options, and NonDex version. This command will also ensure standard error and output messages go to `git_bisect_output.log`, while running command in the background (since using nohup).
 ```shell
-nohup ./git-bisect-runner.sh --flaky <FLAKY_COMMIT> --fixed <FIXED_COMMIT> --module <MODULE_PATH> --test <TEST_CASE> --mvn-install "<MAVEN_OPTIONS>" --nondex-version "<NONDEX VERSION>" &> git_bisect_output.log
+nohup ./git-bisect-runner.sh --flaky <FLAKY_COMMIT> --fixed <FIXED_COMMIT> --module <MODULE_PATH> --test <TEST_CASE> --nondex-version "<NONDEX VERSION>" --mvn-install "<MAVEN_OPTIONS>" &> git_bisect_output.log
 ```
 Example:
 ```shell
-nohup ./git-bisect-runner.sh --flaky ecf41be2ecd007853c2db19e1c6a038cf356cb9e --fixed f69557e325c5bb9e4e250bb0ec2db12d85298211 --module pinot-core --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries --mvn-install "-Dspotless.skip" --nondex-version "2.1.7" &> git_bisect_output.log 
+nohup ./git-bisect-runner.sh --flaky ecf41be2ecd007853c2db19e1c6a038cf356cb9e --fixed f69557e325c5bb9e4e250bb0ec2db12d85298211 --module pinot-core --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries --nondex-version "2.1.7" --mvn-install "-Dspotless.skip" &> git_bisect_output.log 
 ```
 
 The output of this execution will give the commit where the flaky test was fixed. Messages within process can be found in log file within project directory.
