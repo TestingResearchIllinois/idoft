@@ -646,7 +646,7 @@ https://github.com/alibaba/asyncload,9891e7086bff81ebdd4991435d21b549e48e874d,.,
 https://github.com/alibaba/druid,4ccecebe8da73df3ae22124fc5add3015fd1a8f1,core,com.alibaba.druid.bvt.pool.DruidDataSourceTest_exceptionSorter.test_event_error,ID,,,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,pool,com.alibaba.druid.bvt.pool.DruidDataSourceTest_exceptionSorter.test_event_error,ID,MovedOrRenamed,,https://github.com/alibaba/druid/commit/1e93276be86bcf5f8cf114b08689e37f27da8721
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateDatabaseTest.test_2,ID,Opened,https://github.com/alibaba/druid/pull/4575,
-https://github.com/alibaba/druid,ed00cabc48aa329371bec3b6e5a692510d1f1bb2,core,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateDatabaseTest.test_3,ID,,,
+https://github.com/alibaba/druid,ed00cabc48aa329371bec3b6e5a692510d1f1bb2,core,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateDatabaseTest.test_3,ID,Opened,https://github.com/alibaba/druid/pull/6240,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateExternalCatalogTest1.test_0,ID,Opened,https://github.com/alibaba/druid/pull/4574,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateExternalCatalogTest1.test_1,ID,Opened,https://github.com/alibaba/druid/pull/4574,
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateExternalCatalogTest2.test_0,ID,Opened,https://github.com/alibaba/druid/pull/4576,
