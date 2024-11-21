@@ -74,6 +74,10 @@ https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.ids.TestIds.testDeleteByIds,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.ids.TestIds.testSelectByIds,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.rowbounds.TestSelectRowBounds.testSelectByExample,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.all,ID,,,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.byId,ID,,,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.exampleQuery,ID,,,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.rawMybatisQuery,ID,,,
 https://github.com/Accenture/mercury,6b744cdbb2206feca62848df92b3bf542f890be5,extensions/rest-automation-lib,org.platformlambda.automation.tests.WebSocketTests.userChannelTest,NOD,DeveloperFixed,,https://github.com/Accenture/Mercury/commit/47663ff9c7803aa8613a81b3dff71ec9908e2d6e
 https://github.com/Accenture/mercury,e659caf000c2a714d921a52cbc85e13f56cef981,system/platform-core,org.platformlambda.core.PostOfficeTest.journalYamlTest,ID,Accepted,https://github.com/Accenture/mercury/pull/143,
 https://github.com/Activiti/Activiti,b11f757a48600e53aaf3fcb7a3ba1ece6c463cb4,activiti-engine,org.activiti.engine.test.bpmn.async.AsyncTaskTest.testAsyncEndEvent,UD,MovedOrRenamed,,https://github.com/Activiti/Activiti/commit/c04f27c338d87c72fbebfea9b72ec76e93cccded
