@@ -37,7 +37,7 @@ https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc364
 https://github.com/akud/modular-java-example,438bc99147e45aa3a6c81f5211fdfdbc3641ea9f,authentication-client,com.alexkudlick.authentication.models.AuthenticationRequestTest.testSerialize,ID,Accepted,https://github.com/akud/modular-java-example/pull/3,
 https://github.com/android/android-studio-poet,f820e9cc0e5d7db4de9a7e31b818277143546f73,aspoet,"com.google.androidstudiopoet.converters.ConfigPojoToModuleConfigConverterTest.convert passes correct values to result ModuleConfig",ID,RepoArchived,,
 https://github.com/androidjp/spring-boot-gradle-redis-web,c94f7f7bb1c28a8a7c44c39c5fc593fa579252e2,.,com.jp.springbootgradleredisweb.SpringBootGradleRedisWebApplicationTests.contextLoads,ID-HtF,Unmaintained,,last commit on 2018-11-11
-https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-page-memory,AbstractFreeListTest.testMultiThread,ID,,,
+https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-page-memory,AbstractFreeListTest.testMultiThread,ID,MovedOrRenamed,,https://github.com/apache/ignite-3/commit/7f93d63d09c429e66e955a2eb9b86de99b845358
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationAnyListenerTest.testAnyCreateNamedPolymorphicConfig,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationAnyListenerTest.testAnyGetConfigFromNotificationEventOnCreate,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationAnyListenerTest.testAnyGetConfigFromNotificationEventOnDelete,ID,,,
