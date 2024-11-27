@@ -1,8 +1,8 @@
 """
 This script filters rows from a CSV file based on specific criteria.
 
-It identifies rows where the project name (extracted from a URL column) 
-starts with a given letter and where the "Status" column is empty. 
+It identifies rows where the project name (extracted from a URL column)
+starts with a given letter and where the "Status" column is empty.
 The filtered rows are saved to a new CSV file.
 
 Usage:
