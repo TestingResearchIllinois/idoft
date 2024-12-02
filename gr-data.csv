@@ -205,8 +205,8 @@ https://github.com/corda/corda-gradle-plugins,3d5218466ad3b5ad129cce1a957a6befdc
 https://github.com/corda/corda-gradle-plugins,3d5218466ad3b5ad129cce1a957a6befdcaef4f2,quasar-utils,net.corda.plugins.quasar.QuasarPluginTest.testExcludeClassLoaders,ID-HtF,,,
 https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43fc04d13,.,sexpression.test.ASEConverterTest.testReciprocity,ID,Opened,https://github.com/danwallach/star-vote-gradle/pull/2,
 https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43fc04d13,.,sexpression.test.ASEConverterTest.testToASE,ID,Opened,https://github.com/danwallach/star-vote-gradle/pull/2,
-https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.ndarray.NDListTest.testSafetensors,ID,,,
-https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.util.PairListTest.testConstruction,ID,,,flakiness appear with `--nondexRuns=10`
+https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.ndarray.NDListTest.testSafetensors,ID,DeveloperFixed,,https://github.com/deepjavalibrary/djl/commit/7d197ba8c3c63bb6cb20b25c18b13ca12cd3233b
+https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.util.PairListTest.testConstruction,ID,DeveloperFixed,,https://github.com/deepjavalibrary/djl/commit/7d197ba8c3c63bb6cb20b25c18b13ca12cd3233b
 https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFile,ID,,,
 https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppend,ID,,,
 https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppendDefault,ID,,,
