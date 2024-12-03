@@ -4645,7 +4645,7 @@ https://github.com/helidon-io/helidon-build-tools,c60640f0aee61b44f377b7a1fff700
 https://github.com/helidon-io/helidon-build-tools,c60640f0aee61b44f377b7a1fff70022ed8846ca,archetype/engine-v2,io.helidon.build.archetype.engine.v2.util.InputPermutationsTest.testE2e,NOD,,,
 https://github.com/helidon-io/helidon-build-tools,c60640f0aee61b44f377b7a1fff70022ed8846ca,archetype/engine-v2,io.helidon.build.archetype.engine.v2.util.InputPermutationsTest.testExternals2,NOD,,,
 https://github.com/helidon-io/helidon-build-tools,c60640f0aee61b44f377b7a1fff70022ed8846ca,archetype/engine-v2,io.helidon.build.archetype.engine.v2.util.InputPermutationsTest.testFilters,NOD,,,
-https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.group_elements_by_length,ID,Opened,https://github.com/hellokaton/30-seconds-of-java8/pull/5,
+https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.group_elements_by_length,ID,Accepted,https://github.com/hellokaton/30-seconds-of-java8/pull/5,
 https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys,ID,Opened,https://github.com/hellokaton/30-seconds-of-java8/pull/6,
 https://github.com/hellokaton/30-seconds-of-java8,1af5d4dee567f00e662cb9b74abc16067312e338,.,snippets.SnippetsTests.union_test,ID,Unmaintained,,last commit on 2018-01-30
 https://github.com/hexagonframework/spring-data-ebean,dd11b97654982403b50dd1d5369cadad71fce410,.,org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById,OD-Brit,Accepted,https://github.com/hexagonframework/spring-data-ebean/pull/8,
