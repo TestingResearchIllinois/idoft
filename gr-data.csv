@@ -85,6 +85,7 @@ https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,igni
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationListenerTest.testStopListen,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationRegistryTest.testComplicatedPolymorphicConfig,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-configuration,ConfigurationUtilTest.testSchemaFields,ID,Opened,https://github.com/apache/ignite-3/pull/4557,
+https://github.com/apache/ignite-3,4b422d5686ae8ae77c814be0578b478c033059f7,ignite-page-memory,FreeListImplTest.testMultiThread,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testHierarchy,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToString,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringCheckConcurrentModificationExceptionFromMap ,ID,,,
