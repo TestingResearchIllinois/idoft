@@ -673,8 +673,8 @@ https://github.com/jnoortheen/dynamic-conf,42257f06a66765ac4f5de1c6a4637f4db779c
 https://github.com/jnoortheen/dynamic-conf,42257f06a66765ac4f5de1c6a4637f4db779c5ab,tests/test_conf.py::test_config_reading[.env],OD-Vic,Unmaintained,,latest commit 2020/12/03
 https://github.com/jnoortheen/dynamic-conf,42257f06a66765ac4f5de1c6a4637f4db779c5ab,tests/test_conf.py::test_config_reading[env.py],OD-Vic,Unmaintained,,latest commit 2020/12/03
 https://github.com/jnoortheen/dynamic-conf,42257f06a66765ac4f5de1c6a4637f4db779c5ab,tests/test_conf.py::test_singleton,NIO,Unmaintained,,latest commit 2020/12/03
-https://github.com/joblib/joblib,440b1b899d357a9db6526ca87051a77963b33631,joblib/test/test_memory.py::test_argument_change,NIO,,,
-https://github.com/joblib/joblib,440b1b899d357a9db6526ca87051a77963b33631,joblib/test/test_memory.py::test_memory_file_modification,NIO,,,
+https://github.com/joblib/joblib,440b1b899d357a9db6526ca87051a77963b33631,joblib/test/test_memory.py::test_argument_change,NIO,Opened,https://github.com/joblib/joblib/pull/1631,
+https://github.com/joblib/joblib,440b1b899d357a9db6526ca87051a77963b33631,joblib/test/test_memory.py::test_memory_file_modification,NIO,Opened,https://github.com/joblib/joblib/pull/1631,
 https://github.com/joegasewicz/Flask-JWT-Router,0fb1e256c81409be6f08d8be12f07e5f58b4f914,tests/test_routing.py::TestRouting::test_api_named_routes,NOD,Unmaintained,,latest commit 2022/06/22
 https://github.com/joegasewicz/Flask-JWT-Router,0fb1e256c81409be6f08d8be12f07e5f58b4f914,tests/test_routing.py::TestRouting::test_before_middleware,NOD,Unmaintained,,latest commit 2022/06/22
 https://github.com/joegasewicz/Flask-JWT-Router,0fb1e256c81409be6f08d8be12f07e5f58b4f914,tests/test_routing.py::TestRouting::test_dynamic_params,OD-Vic,Unmaintained,,latest commit 2022/06/22
