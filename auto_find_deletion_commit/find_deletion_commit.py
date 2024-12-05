@@ -27,7 +27,7 @@ def find_deleted_test_function(repo_path, file_path, test_function_name):
             text=True,
         )
         if result.returncode != 0 or not result.stdout:
-            print(f"No deletion found for test function")
+            print("No deletion found for test function")
             return None
         lines = result.stdout.splitlines()
         for line in lines:
@@ -55,5 +55,5 @@ if __name__ == "__main__":
             repo_path = repo_dir
         else:
             repo_path = repo_input
-            
+
         find_deleted_test_function(repo_path, file_path, test_function_name)
