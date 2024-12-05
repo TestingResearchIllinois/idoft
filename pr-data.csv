@@ -176,6 +176,7 @@ https://github.com/Adyen/adyen-java-api-library,6fb5cd049b57a22d2ec4465d204c15f1
 https://github.com/Adyen/adyen-java-api-library,6fb5cd049b57a22d2ec4465d204c15f1c90dd325,.,com.adyen.PaymentRequestBuilderTest.TestCSEPaymentRequest,ID,Accepted,https://github.com/Adyen/adyen-java-api-library/pull/681,
 https://github.com/Adyen/adyen-java-api-library,6fb5cd049b57a22d2ec4465d204c15f1c90dd325,.,com.adyen.serializer.SaleToAcquirerDataSerializerTest.testSerialize,ID,Accepted,https://github.com/Adyen/adyen-java-api-library/pull/681,
 https://github.com/Adyen/adyen-java-api-library,6fb5cd049b57a22d2ec4465d204c15f1c90dd325,.,com.adyen.service.CheckoutTest.testPaymentsRequestWithXidAndCavv,ID,Accepted,https://github.com/Adyen/adyen-java-api-library/pull/681,
+https://github.com/airlift/airlift,75d88c2b13117000ac38c2eb582a7d539ddb9633,json,io.airlift.json.subtype.TestJsonSubType.testExpectedJson,ID,Opened,https://github.com/airlift/airlift/pull/1335,
 https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9924b3c4524d9f6,.,com.aliyun.tair.tests.tairbloom.TairBloomClusterTest.bfaddTest,NOD,,,
 https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9924b3c4524d9f6,.,com.aliyun.tair.tests.tairbloom.TairBloomClusterTest.bfinsert,NOD,,,
 https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9924b3c4524d9f6,.,com.aliyun.tair.tests.tairbloom.TairBloomClusterTest.bfinsertBinary,NOD,,,
