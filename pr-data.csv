@@ -1700,7 +1700,7 @@ https://github.com/apache/flink,e246a05cd898e16758a52335250571e165a5148a,flink-t
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-tests,org.apache.flink.test.misc.GenericTypeInfoTest.testSerializerTree,ID,,,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testDeepToString,ID,Opened,https://github.com/apache/flink/pull/17934,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testRowNamed,ID,Opened,https://github.com/apache/flink/pull/17934,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression,ID,,,
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression,ID,Opened,https://github.com/apache/fury/pull/1968,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.collection.LazyMapTest.testMap,ID,,,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.FuryCopyTest.mutableObjectCopyTest,ID,,,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.resolver.MetaContextTest.testShareClassDefCompatible,ID,,,
