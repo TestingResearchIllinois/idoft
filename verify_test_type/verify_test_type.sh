@@ -13,19 +13,53 @@ commit_hash="$2"
 test_name="$3"
 test_class="$4"
 
+# Deduce correct nondex version based on the current system default java version
+java_version_output=$(java -version 2>&1 | head -n 1)
+java_version=$(echo "$java_version_output" | awk -F '"' '/version/ {print $2}' | cut -d. -f1)
+# If Java version is in newer format (e.g., 11, 17, 21)
+if [ "$java_version" -eq "$java_version" ] 2>/dev/null; then
+  major_version="$java_version"
+else
+  # Handle older Java versions (e.g., 1.8 for Java 8)
+  major_version=$(echo "$java_version_output" | awk -F '"' '/version/ {print $2}' | awk -F. '{print $2}')
+fi
+if [ "$major_version" -eq 8 ]; then
+    echo "Java version 8 detected."
+    nondex_version="2.1.1" 
+elif [ "$major_version" -eq 11 ]; then
+    echo "Java version 11 detected."
+    nondex_version="2.1.1" 
+elif [ "$major_version" -eq 17 ]; then
+    echo "Java version 17 detected."
+    nondex_version="2.1.7"
+elif [ "$major_version" -eq 21 ]; then
+    echo "Java version 21 detected."
+    nondex_version="2.2.1"
+else
+    echo "Unsupported Java version: $major_version"
+fi
+
+
 echo "Module Name: $module_name"
 echo "Commit Hash: $commit_hash"
 echo "Test Name: $test_name"
 echo "Test Class: $test_class"
+echo "Nondex Version: $nondex_version"
 
 echo "Running tests for module '$module_name'"
 echo "Executing test '$test_name' in the class '$test_class'."
 
+echo "Checking out to specific commit"
+git reset --hard "$commit_hash"
+
+echo "Doing a clean install"
+mvn clean
+
 current_dir="$(pwd)"
 
-base_dir="$current_dir/$target/$test_name/logs"
+base_dir="$current_dir/target/$test_class.$test_name/logs"
 
-echo "Running commands for $target:"
+echo "Running commands for $test_class.$test_name:"
 echo "base_dir/outdir: $base_dir"
 
 # Create the directory if it doesn't exist
@@ -34,15 +68,7 @@ if [ ! -d "$base_dir" ]; then
     echo "Created directory: $base_dir"
 fi
 
-echo "Checking out to specific commit"
-git reset --hard "$commit_hash"
-
-echo "Cleaning directory"
-rm -rf "$base_dir"/*
-echo "Doing a clean install"
-mvn clean
 echo "Installing module"
-
 mvn install -pl "$module_name" -am -DskipTests |& tee "$base_dir/install.log"
 if grep -q "BUILD SUCCESS" "$base_dir/install.log"; then
     echo "CHECKPOINT-MVN: mvn install succeeded"
@@ -51,10 +77,10 @@ if grep -q "BUILD SUCCESS" "$base_dir/install.log"; then
     mvn -pl "$module_name" test -Dmaven.test.failure.ignore=false -Dtest="$test_class#$test_name" |& tee "$base_dir/normal_test_standalone.log"
     if grep -q "BUILD SUCCESS" "$base_dir/normal_test_standalone.log"; then
         echo "CHECKPOINT-TESTSTANDALONE: test passes individually running nondex"
-        mvn -pl "$module_name" edu.illinois:nondex-maven-plugin:2.1.1:nondex -Dmaven.test.failure.ignore=false -Dtest="$test_class#$test_name" |& tee "$base_dir/nondex_simple.log"
+        mvn -pl "$module_name" edu.illinois:nondex-maven-plugin:"$nondex_version":nondex -Dmaven.test.failure.ignore=false -Dtest="$test_class#$test_name" |& tee "$base_dir/nondex_simple.log"
         if grep -q "BUILD SUCCESS" "$base_dir/nondex_simple.log"; then
             echo "CHECKPOINT-NONDEXPASS: Test success with non-dex running with more runs"
-            mvn -pl "$module_name" edu.illinois:nondex-maven-plugin:2.1.1:nondex -Dmaven.test.failure.ignore=false -Dtest="$test_class#$test_name" -DnondexRuns=50 |& tee "$base_dir/nondex_50runs.log"
+            mvn -pl "$module_name" edu.illinois:nondex-maven-plugin:"$nondex_version":nondex -Dmaven.test.failure.ignore=false -Dtest="$test_class#$test_name" -DnondexRuns=50 |& tee "$base_dir/nondex_50runs.log"
             if grep -q "BUILD SUCCESS" "$base_dir/nondex_50runs.log"; then
                 echo "CHECKPOINT-NONDEXPASS_50_RUNS: Test success with non-dex 50 runs attempting to run the full class for testing OD"
 
