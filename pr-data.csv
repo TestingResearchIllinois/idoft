@@ -5476,8 +5476,8 @@ https://github.com/languagetool-org/languagetool,b753260938b41c688b4dd3f3a240674
 https://github.com/languagetool-org/languagetool,b753260938b41c688b4dd3f3a24067449fdb97e8,languagetool-language-modules/en,org.languagetool.rules.en.EnglishTest.testLanguage,ID,,,
 https://github.com/lcw2004/one,7b9b249ab1c09f39be885f95a27a756288be4548,one-notify,com.lcw.one.main.EmailServiceTest.sendEmailList,NOD,Unmaintained,,last commit on 2019-12-17
 https://github.com/lets-blade/blade,2f1c463ee37537a31ca64634719cf618496e3500,blade-core,com.hellokaton.blade.BladeTest.testAddStatics,ID,Accepted,https://github.com/lets-blade/blade/pull/455,
-https://github.com/lets-blade/blade,7903085022f53dfb9d64c263185ad1f6f09b4d60,blade-core,com.hellokaton.blade.BladeTest.testAppName,ID,Opened,https://github.com/lets-blade/blade/pull/454,
-https://github.com/lets-blade/blade,2f1c463ee37537a31ca64634719cf618496e3500,blade-core,com.hellokaton.blade.BladeTest.testShowFileList,ID,Opened,https://github.com/lets-blade/blade/pull/456,
+https://github.com/lets-blade/blade,7903085022f53dfb9d64c263185ad1f6f09b4d60,blade-core,com.hellokaton.blade.BladeTest.testAppName,ID,Rejected,https://github.com/lets-blade/blade/pull/454,
+https://github.com/lets-blade/blade,2f1c463ee37537a31ca64634719cf618496e3500,blade-core,com.hellokaton.blade.BladeTest.testShowFileList,ID,Rejected,https://github.com/lets-blade/blade/pull/456,
 https://github.com/lets-blade/blade,ecf15b06647a1640036933219c5dabeaf75335f0,blade-kit,com.hellokaton.blade.kit.JsonKitTest.test4,ID,Opened,https://github.com/lets-blade/blade/pull/447,
 https://github.com/lets-blade/blade,0efa4ed9dd3cbf5d3323d5d5876cfa4b051a9aa9,blade-core,com.hellokaton.blade.mvc.route.ANYBuilderTest.testCreateRouteBuilder,ID,Accepted,https://github.com/lets-blade/blade/pull/457,
 https://github.com/lets-blade/blade,0efa4ed9dd3cbf5d3323d5d5876cfa4b051a9aa9,blade-core,com.hellokaton.blade.mvc.route.ANYMatcherTest.testAddMultiParameter,ID,Accepted,https://github.com/lets-blade/blade/pull/457,
