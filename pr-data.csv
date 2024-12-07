@@ -6250,9 +6250,9 @@ https://github.com/skyscreamer/JSONassert,523009b2576b9f54ed78c6f4720fba87f79b14
 https://github.com/Slimefun/Slimefun4,d5e4149b4f4d83dd1620d4a4cbb6d876903c851c,.,io.github.thebusybiscuit.slimefun4.api.items.settings.TestMaterialTagSetting.testAllowedValue,ID,Accepted,https://github.com/Slimefun/Slimefun4/pull/3179,
 https://github.com/Slimefun/Slimefun4,282367d6ffaf60d79f1fa357d90b01ca154c44f2,.,io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestMaterialTagSetting.testAllowedValue,ID,MovedOrRenamed,,https://github.com/TestingResearchIllinois/idoft/issues/51
 https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.DefaultContentDeliveryConfigBuilderTestCase.testUnsupportedVisitor,ID,Accepted,https://github.com/smooks/smooks/pull/885,
-https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_dom,ID,,,
-https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_includeEnclosingDocument,ID,,,
-https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_sax,ID,,,
+https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_dom,ID,Opened,https://github.com/smooks/smooks/pull/893,
+https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_includeEnclosingDocument,ID,Opened,https://github.com/smooks/smooks/pull/893,
+https://github.com/smooks/smooks,024ca88e771dd77032b1774fe257dcc233308d90,core,org.smooks.engine.delivery.java.JavaSourceTestCase.test_sax,ID,Opened,https://github.com/smooks/smooks/pull/893,
 https://github.com/snakeyaml/snakeyaml,626340b5bcd50a8eb12413478e935be077c6b39c,.,org.yaml.snakeyaml.lowlevel.LowLevelApiTest.testLowLevel,ID,Accepted,https://github.com/snakeyaml/snakeyaml/pull/9,
 https://github.com/snakeyaml/snakeyaml,626340b5bcd50a8eb12413478e935be077c6b39c,.,org.yaml.snakeyaml.types.BoolTagTest.testBoolOutAsEmpty2,ID,Accepted,https://github.com/snakeyaml/snakeyaml/pull/9,
 https://github.com/snakeyaml/snakeyaml,626340b5bcd50a8eb12413478e935be077c6b39c,.,org.yaml.snakeyaml.types.BoolTagTest.testBoolOutAsEmpty3,ID,Accepted,https://github.com/snakeyaml/snakeyaml/pull/9,
