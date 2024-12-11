@@ -24,8 +24,11 @@ fi
 # Ensure we're in the root directory of the repository
 cd "$(git rev-parse --show-toplevel)" || exit 1
 
-echo "Processing batch input from $BATCH_FILE ..."
-echo
+OUTPUT_FILE="batch_output.log"
+> "$OUTPUT_FILE" # Clear the file at the start of each run
+
+echo "Processing batch input from $BATCH_FILE ..." | tee -a "$OUTPUT_FILE"
+echo | tee -a "$OUTPUT_FILE"
 
 while IFS= read -r line; do
     # Skip empty lines or lines starting with '#'
@@ -33,22 +36,22 @@ while IFS= read -r line; do
         continue
     fi
     
-    # Extract parameters from line
+    # Extract parameters from the line
     FUNCTION_NAME=$(echo "$line" | awk '{print $1}')
     FILENAME=$(echo "$line" | awk '{print $2}')
     START_COMMIT=$(echo "$line" | awk '{print $3}')
 
     if [ -z "$FUNCTION_NAME" ] || [ -z "$FILENAME" ] || [ -z "$START_COMMIT" ]; then
-        echo "Skipping malformed line: $line"
+        echo "Skipping malformed line: $line" | tee -a "$OUTPUT_FILE"
         continue
     fi
 
-    echo "----------------------------------------"
-    echo "Checking for function renames or file renames/moves for:"
-    echo "FUNCTION_NAME: $FUNCTION_NAME"
-    echo "FILENAME:      $FILENAME"
-    echo "START_COMMIT:  $START_COMMIT"
-    echo "----------------------------------------"
+    echo "----------------------------------------" | tee -a "$OUTPUT_FILE"
+    echo "Checking for function renames or file renames/moves for:" | tee -a "$OUTPUT_FILE"
+    echo "FUNCTION_NAME: $FUNCTION_NAME" | tee -a "$OUTPUT_FILE"
+    echo "FILENAME:      $FILENAME" | tee -a "$OUTPUT_FILE"
+    echo "START_COMMIT:  $START_COMMIT" | tee -a "$OUTPUT_FILE"
+    echo "----------------------------------------" | tee -a "$OUTPUT_FILE"
 
     METHOD_REGEX="(public|protected|private|static|\\s)+\\s+.*\\s+$FUNCTION_NAME\\s*\\(.*\\)"
 
@@ -61,7 +64,9 @@ while IFS= read -r line; do
         --reverse \
         --color \
         --decorate \
-        -- "$FILENAME" | less -R
+        -- "$FILENAME" >> "$OUTPUT_FILE"
 
-    echo
+    echo | tee -a "$OUTPUT_FILE"
 done < "$BATCH_FILE"
+
+echo "All results have been logged to $OUTPUT_FILE."

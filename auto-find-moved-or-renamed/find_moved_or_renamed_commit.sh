@@ -35,4 +35,4 @@ git log "$START_COMMIT"..HEAD \
     --reverse \
     --color \
     --decorate \
-    -- "$FILENAME" | less -R
+    -- "$FILENAME" > outputfile.log
