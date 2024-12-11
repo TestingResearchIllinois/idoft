@@ -4,7 +4,7 @@
 # and identifies the commit where each function was modified.
 
 # Usage:
-# ./find_moved_or_renamed_commit.sh <BATCH_FILE>
+# ./find_moved_or_renamed_commit_batch.sh <BATCH_FILE>
 #
 # The batch file should have one set of parameters per line, in the following format:
 # FUNCTION_NAME FILENAME START_COMMIT
