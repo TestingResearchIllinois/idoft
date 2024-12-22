@@ -5062,11 +5062,9 @@ https://github.com/kagkarlsson/db-scheduler,4a8a28e60640dcd03e8d3bf212f483d35b0b
 https://github.com/kal-an/file-reader-app,ba6af3f33000ff1fcde9338922e55a7b1c374f99,.,ru.kalan.filereaderapp.MultiPartParserTest.createBook_ok,ID,Opened,https://github.com/kal-an/file-reader-app/pull/1,
 https://github.com/kanwangzjm/funiture,71ca0fb0658b3d839d9e049ac36429207f05329b,.,com.app.mvc.dao.ShortUrlDaoTest.testSave,NIO,Opened,https://github.com/kanwangzjm/funiture/pull/51,https://github.com/kanwangzjm/funiture/issues/50
 https://github.com/karatelabs/karate,16452ef4d17ed76b079c6f1eba07a4749fa08d02,karate-core,com.intuit.karate.core.FeatureResultTest.testJsonConversion,ID,DeveloperWontFix,,
-https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.core.FeatureResultTest.testJsonConversion,ID,DeveloperWontFix,,
 https://github.com/karatelabs/karate,16452ef4d17ed76b079c6f1eba07a4749fa08d02,karate-core,com.intuit.karate.core.KarateHttpMockHandlerTest.testMultipleCookies,ID,Rejected,https://github.com/karatelabs/karate/pull/1856,
 https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.core.KarateHttpMockHandlerTest.testMultipleCookies,ID,Rejected,https://github.com/karatelabs/karate/pull/2348,
 https://github.com/karatelabs/karate,16452ef4d17ed76b079c6f1eba07a4749fa08d02,karate-core,com.intuit.karate.core.parser.FeatureParserTest.testEngineForSimpleFeature,ID,DeveloperWontFix,,
-https://github.com/karatelabs/karate,2c42468d5f32cb32592ad4a46bcf5ff1a4e60a5e,karate-core,com.intuit.karate.core.parser.FeatureParserTest.testEngineForSimpleFeature,ID,DeveloperWontFix,,
 https://github.com/karatelabs/karate,c496f976d1c12d3e3c0ee6ec229c09355bee8e7e,karate-core,com.intuit.karate.graal.JsEngineTest.testObjectsWithinFunction,ID,DeveloperWontFix,https://github.com/karatelabs/karate/pull/2458,
 https://github.com/karatelabs/karate,14807dbf8d7c45f709299574222dd498b1fa5e67,karate-core,com.intuit.karate.JsonUtilsTest.testBeanConversion,ID,Accepted,https://github.com/karatelabs/karate/pull/1829,
 https://github.com/karatelabs/karate,09bc49eb6fcfc029a09dbdb385137ff71985c89b,karate-core,com.intuit.karate.JsonUtilsTest.testPojoConversion,ID,Accepted,https://github.com/karatelabs/karate/pull/1829,
@@ -6211,11 +6209,8 @@ https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-api,net.ripe.db.whois.api.rdap.RdapResponseJsonTest.ip_serialization_test,ID,Accepted,https://github.com/RIPE-NCC/whois/pull/1097,
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-api,net.ripe.db.whois.api.rdap.RdapResponseJsonTest.nameserver_serialization_test,ID,Accepted,https://github.com/RIPE-NCC/whois/pull/1097,
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-endtoend,net.ripe.db.whois.spec.domain.AckResponseTest.successes,UD,,,
-https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1272,
-https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1274,
-https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1276,
-https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1272,
-https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1274,
+https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1272,https://github.com/robovm/robovm/pull/1274 https://github.com/robovm/robovm/pull/1276
+https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1272,https://github.com/robovm/robovm/pull/1274 https://github.com/robovm/robovm/pull/1276
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testExport,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testImport,OD-Vic,,,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,,,
