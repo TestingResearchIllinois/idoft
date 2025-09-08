@@ -4841,9 +4841,9 @@ https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.
 https://github.com/INRIA/spoon,17330abe8aac89d907ac977e8e22ff35103eccd1,.,spoon.test.comment.CommentTest.testAnnotationTypeComment,ID,Accepted,https://github.com/INRIA/spoon/pull/5037,
 https://github.com/INRIA/spoon,17330abe8aac89d907ac977e8e22ff35103eccd1,.,spoon.test.compilation.CompilationTest.testModuleResolution,ID,Accepted,https://github.com/INRIA/spoon/pull/5037,
 https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.factory.FactoryTest.factoryTest,ID,,,
-https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.imports.ImportTest.staticImports_ofNestedTypes_shouldBeRecorded,ID,Opened,https://github.com/INRIA/spoon/pull/6084,
-https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.imports.ImportTest.staticTypeAndMethodImport_importShouldAppearOnlyOnceIfTheirSimpleNamesAreEqual,ID,Opened,https://github.com/INRIA/spoon/pull/6084,
-https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.position.PositionTest.testPositionOfCtImport,ID,Opened,https://github.com/INRIA/spoon/pull/6084,
+https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.imports.ImportTest.staticImports_ofNestedTypes_shouldBeRecorded,ID,Accepted,https://github.com/INRIA/spoon/pull/6084,https://github.com/INRIA/spoon/pull/6123
+https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.imports.ImportTest.staticTypeAndMethodImport_importShouldAppearOnlyOnceIfTheirSimpleNamesAreEqual,ID,Accepted,https://github.com/INRIA/spoon/pull/6084,https://github.com/INRIA/spoon/pull/6123
+https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.position.PositionTest.testPositionOfCtImport,ID,Accepted,https://github.com/INRIA/spoon/pull/6084,https://github.com/INRIA/spoon/pull/6123
 https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.processing.ProcessingTest.testInitPropertiesWithWrongType,ID,Opened,https://github.com/INRIA/spoon/pull/6084,
 https://github.com/INRIA/spoon,bd9b16fc599fe6ed4c1c876ded15a611e4e4cc96,.,spoon.test.replace.ReplaceParametrizedTest.createTests,ID,,,
 https://github.com/INRIA/spoon,17330abe8aac89d907ac977e8e22ff35103eccd1,.,spoon.test.template.SubstitutionTest.testCreateTypeFromTemplate,ID,Accepted,https://github.com/INRIA/spoon/pull/5037,
