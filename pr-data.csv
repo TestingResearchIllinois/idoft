@@ -889,7 +889,7 @@ https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.service.ClientTrackServiceTest.testTrackClientMd5,OD-Vic,,,
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.service.ConfigChangePublisherTest.testConfigChangeNotify,OD-Vic,,,
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.service.DiskServiceUnitTest.testCreateConfig,OD-Vic,,,
-https://github.com/alibaba/nacos,2a0dafa2f4e1a8f1fac38e8bf750b77858c03af3,config,com.alibaba.nacos.config.server.service.repository.embedded.EmbeddedConfigInfoPersistServiceImplTest.testInsertOrUpdateCasOfInsertConfigSuccess,ID,,,
+https://github.com/alibaba/nacos,2a0dafa2f4e1a8f1fac38e8bf750b77858c03af3,config,com.alibaba.nacos.config.server.service.repository.embedded.EmbeddedConfigInfoPersistServiceImplTest.testInsertOrUpdateCasOfInsertConfigSuccess,ID,Accepted,https://github.com/alibaba/nacos/pull/13858,https://github.com/alibaba/nacos/issues/13857
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.utils.DiskUtilsTest.testTargetBetaFile,OD-Vic,,,
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.utils.MD5UtilTest.testCompareMd5,OD-Vic,,,
 https://github.com/alibaba/nacos,f136dde8fae27797156f0ecb9abbe80774beaea4,config,com.alibaba.nacos.config.server.utils.PropertyUtilTest.testGetPropertyV1,OD-Vic,,,
