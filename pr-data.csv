@@ -6813,7 +6813,7 @@ https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a64
 https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a648398,modules/swagger-jaxrs2,io.swagger.v3.jaxrs2.ReaderTest.testGetSummaryAndDescription,ID,,,
 https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a648398,modules/swagger-jaxrs2,io.swagger.v3.jaxrs2.ReaderTest.testOas31Petstore,ID,,,
 https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a648398,modules/swagger-jaxrs2,io.swagger.v3.jaxrs2.ReaderTest.testTicket3587,ID,,,
-https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a648398,modules/swagger-jaxrs2,io.swagger.v3.jaxrs2.util.ServletUtilsTest.convertWithRightOutputSize,ID,,,
+https://github.com/swagger-api/swagger-core,5186247f9c9703bd962f9df95289bb942a648398,modules/swagger-jaxrs2,io.swagger.v3.jaxrs2.util.ServletUtilsTest.convertWithRightOutputSize,ID,Opened,https://github.com/swagger-api/swagger-core/pull/4981,
 https://github.com/tabulapdf/tabula-java,b0fde49e6aa06593d16c8aa0b8da0e3172db1ec2,.,technology.tabula.TestSpreadsheetExtractor.testRTL,ID,Opened,https://github.com/tabulapdf/tabula-java/pull/533,
 https://github.com/takari/ollie,60c0ec5007779863a82c01eeba1a81f6864bb083,ollie,com.walmartlabs.ollie.app.OllieSslServerTest.validate,NOD,,,https://github.com/TestingResearchIllinois/idoft/issues/148
 https://github.com/tbsalling/aismessages,7b0c4c708b6bb9a6da3d5737bcad1857ade8a931,.,dk.tbsalling.aismessages.nmea.NMEAMessageHandlerTest.canHandleFragmentedMessageReceived,OD-Vic,Accepted,https://github.com/tbsalling/aismessages/pull/41,
