@@ -5073,7 +5073,7 @@ https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolo
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.simple,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.JolokiaServerIntegrationTest.withPlainBean,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withMultiConfigAndStart,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
-https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withoutStart,ID,,,
+https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withoutStart,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withStart,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,73b830d2c38899ed33e95b487e9a291a80fb9f5f,service/serializer,org.jolokia.service.serializer.json.SimplifiersTest.fileSimplifier,ID,Accepted,https://github.com/jolokia/jolokia/pull/907,
 https://github.com/jolokia/jolokia,f769a3b1374909b64a2dfbbcb03918a487dce475,support/spring,org.jolokia.support.spring.SpringJolokiaServerTest.systemProperties,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
