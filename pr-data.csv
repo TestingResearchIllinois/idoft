@@ -5063,6 +5063,7 @@ https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolo
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withMultiConfigAndStart,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withoutStart,ID,,,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-spring,org.jolokia.jvmagent.spring.SpringJolokiaServerTest.withStart,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
+https://github.com/jolokia/jolokia,73b830d2c38899ed33e95b487e9a291a80fb9f5f,service/serializer,org.jolokia.service.serializer.json.SimplifiersTest.fileSimplifier,ID,Opened,https://github.com/jolokia/jolokia/pull/907,
 https://github.com/jolokia/jolokia,f769a3b1374909b64a2dfbbcb03918a487dce475,support/spring,org.jolokia.support.spring.SpringJolokiaServerTest.systemProperties,ID,Accepted,https://github.com/jolokia/jolokia/pull/750,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.oauth.param.RedditScopeBuilderTest.testAddMultiple,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
 https://github.com/jReddit/jReddit,ac0b518f190c30228e401ef66d53329bbd27bad6,.,com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultiple,ID,Opened,https://github.com/jReddit/jReddit/pull/158,
