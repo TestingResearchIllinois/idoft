@@ -4019,7 +4019,7 @@ https://github.com/eclipse-vertx/vert.x,b4fd4d691cfa802189c5a5d25688ea739440bf4a
 https://github.com/eclipse-vertx/vert.x,b4fd4d691cfa802189c5a5d25688ea739440bf4a,.,io.vertx.core.http.headers.HttpHeadersAdaptorTest.testAddAll2,ID,Accepted,https://github.com/eclipse-vertx/vert.x/pull/4975,
 https://github.com/eclipse-vertx/vert.x,b4fd4d691cfa802189c5a5d25688ea739440bf4a,.,io.vertx.core.http.headers.VertxHttpHeadersTest.testAddAll2,ID,Accepted,https://github.com/eclipse-vertx/vert.x/pull/4975,
 https://github.com/eclipse-vertx/vert.x,b4fd4d691cfa802189c5a5d25688ea739440bf4a,.,io.vertx.core.http.headers.VertxHttpHeadersTest.testSetAll,ID,Accepted,https://github.com/eclipse-vertx/vert.x/pull/4998,
-https://github.com/eclipse-vertx/vert.x,67ba7136b486fef8d22699c6fc366d80bf6eb6fa,.,io.vertx.core.json.JsonPOJOMapperTest.testSerialization,ID,,,
+https://github.com/eclipse-vertx/vert.x,67ba7136b486fef8d22699c6fc366d80bf6eb6fa,.,io.vertx.core.json.JsonPOJOMapperTest.testSerialization,ID,Opened,https://github.com/eclipse-vertx/vert.x/pull/5735,
 https://github.com/eclipse-vertx/vert.x,27cb9611cd2e7eb34bed6486ca0131d661acb594,vertx-core-logging,io.vertx.it.JULLogDelegateTest.testDelegateUnwrap,ID,,,
 https://github.com/eclipse-vertx/vert.x,27cb9611cd2e7eb34bed6486ca0131d661acb594,vertx-core-logging,io.vertx.it.JULLogDelegateTest.testError,ID,,,
 https://github.com/eclipse-vertx/vert.x,27cb9611cd2e7eb34bed6486ca0131d661acb594,vertx-core-logging,io.vertx.it.JULLogDelegateTest.testInfo,ID,,,
