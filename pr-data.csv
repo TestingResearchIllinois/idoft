@@ -4058,7 +4058,7 @@ https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec43963
 https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass,ID,,,
 https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass,ID,,,
 https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,,,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,,,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,Opened,https://github.com/EsotericSoftware/kryo/pull/1219,
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.compress.DeflateTest.testDeflate,ID,Unmaintained,,last commit on 2020-03-05
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.InputStreamSenderTest.testStream,ID,Unmaintained,,last commit on 2020-03-05
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.MultipleServerTest.testMultipleThreads,ID,Unmaintained,,last commit on 2020-03-05
