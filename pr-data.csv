@@ -1859,7 +1859,7 @@ https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls,OD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-client,org.apache.hadoop.hdfs.client.impl.TestLeaseRenewer.testDaemonThreadLeak,OD,,,
-https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestExportsTable.testViewFsMultipleExportPoint,ID,,,
+https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestExportsTable.testViewFsMultipleExportPoint,ID,Opened,https://github.com/apache/hadoop/pull/8009,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestReaddir.testReaddirBasic,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestReaddir.testReaddirPlus,OD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testAccess,OD-Vic,Accepted,https://github.com/apache/hadoop/pull/6329,
