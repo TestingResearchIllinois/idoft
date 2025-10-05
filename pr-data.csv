@@ -1422,7 +1422,7 @@ https://github.com/apache/druid,50963edcae70150f13520b619f167512d951a71b,extensi
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-filter/dubbo-filter-cache,org.apache.dubbo.cache.support.jcache.JCacheFactoryTest.testJCacheGetExpired,OD-Vic,MovedOrRenamed,,https://github.com/apache/dubbo/commit/acee3e2f03227894b5aa4d852de1a6a4bcfab60e
 https://github.com/apache/dubbo,5349c13a36d277a090e1dc68fbe7c3b46d78fc90,dubbo-common,org.apache.dubbo.common.beanutil.JavaBeanSerializeUtilTest.testDeserializeBean,OD-Vic,,,
 https://github.com/apache/dubbo,5349c13a36d277a090e1dc68fbe7c3b46d78fc90,dubbo-common,org.apache.dubbo.common.beanutil.JavaBeanSerializeUtilTest.testDeserialize_Array,OD-Vic,,,
-https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.bytecode.WrapperTest.test_getMethodNames_ContainExtendsParentMethods,ID,Rejected,https://github.com/apache/dubbo/pull/6978,
+https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.bytecode.WrapperTest.test_getMethodNames_ContainExtendsParentMethods,ID,Accepted,https://github.com/apache/dubbo/pull/15683,Rejected https://github.com/apache/dubbo/pull/6978
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.concurrent.ExecutionListTest.testAddRunnableToExecutor,OD,Deleted,,https://github.com/TestingResearchIllinois/idoft/issues/5;https://github.com/apache/dubbo/commit/2a91684355476e57496e1158ee7e9eaee884969a
 https://github.com/apache/dubbo,5349c13a36d277a090e1dc68fbe7c3b46d78fc90,dubbo-common,org.apache.dubbo.common.extension.ExtensionLoaderTest.testInjectExtension,OD-Vic,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.extension.ExtensionLoaderTest.test_AddExtension,NIO,Accepted,https://github.com/apache/dubbo/pull/6953,
@@ -1736,15 +1736,23 @@ https://github.com/apache/flink,e246a05cd898e16758a52335250571e165a5148a,flink-t
 https://github.com/apache/flink,23c9b5ac50d04d28a34a87c78eb2d3331c06b74b,flink-tests,org.apache.flink.test.misc.GenericTypeInfoTest.testSerializerTree,ID,,,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testDeepToString,ID,Opened,https://github.com/apache/flink/pull/17934,
 https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testRowNamed,ID,Opened,https://github.com/apache/flink/pull/17934,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.collection.LazyMapTest.testMap,ID,Accepted,https://github.com/apache/fory/pull/2692,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.ForyCopyTest.mutableObjectCopyTest,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.resolver.MetaContextTest.testShareClassDefCompatible,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.resolver.MetaContextTest.testShareClassName,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.tesPriorityQueueSerializer,ID,Accepted,https://github.com/apache/fory/pull/2693,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializers,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,,,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression,ID,Accepted,https://github.com/apache/fury/pull/1968,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.collection.LazyMapTest.testMap,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.FuryCopyTest.mutableObjectCopyTest,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.resolver.MetaContextTest.testShareClassDefCompatible,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.resolver.MetaContextTest.testShareClassName,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.tesPriorityQueueSerializer,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializers,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,,,
-https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,,,
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.collection.LazyMapTest.testMap,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.FuryCopyTest.mutableObjectCopyTest,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.resolver.MetaContextTest.testShareClassDefCompatible,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.resolver.MetaContextTest.testShareClassName,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.tesPriorityQueueSerializer,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializers,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
+https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
 https://github.com/apache/geronimo-batchee,0071edabb6b340cc16f8e9d0e17ff25720b4d0fe,tools/cli,org.apache.batchee.cli.MainTest.executions,OD,FixedOrder,,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hbase,org.apache.gora.hbase.store.TestHBaseStore.assertMetadataAnalyzer,NOD,,,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testAutoCreateSchema,ID,Opened,https://github.com/apache/gora/pull/298,
@@ -1851,7 +1859,7 @@ https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls,OD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-httpfs,org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-client,org.apache.hadoop.hdfs.client.impl.TestLeaseRenewer.testDaemonThreadLeak,OD,,,
-https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestExportsTable.testViewFsMultipleExportPoint,ID,,,
+https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestExportsTable.testViewFsMultipleExportPoint,ID,Opened,https://github.com/apache/hadoop/pull/8009,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestReaddir.testReaddirBasic,OD,,,
 https://github.com/apache/hadoop,a585a73c3e02ac62350c136643a5e7f6095a3dbb,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestReaddir.testReaddirPlus,OD,,,
 https://github.com/apache/hadoop,cc2babc1f75c93bf89a8f10da525f944c15d02ea,hadoop-hdfs-project/hadoop-hdfs-nfs,org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testAccess,OD-Vic,Accepted,https://github.com/apache/hadoop/pull/6329,
@@ -3381,16 +3389,16 @@ https://github.com/apache/pulsar,505e08a76425c6e49ff5bc691f8ca7587184a2bf,pulsar
 https://github.com/apache/pulsar,505e08a76425c6e49ff5bc691f8ca7587184a2bf,pulsar-client,org.apache.pulsar.client.impl.schema.KeyValueSchemaInfoTest.testKeyValueSchemaInfoToString,ID,Accepted,https://github.com/apache/pulsar/pull/6435,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-client,org.apache.pulsar.client.impl.schema.ProtobufNativeSchemaTest.testSchema,ID,Opened,https://github.com/apache/pulsar/pull/24805,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-client,org.apache.pulsar.client.impl.schema.ProtobufSchemaTest.testParsingInfoProperty,ID,Opened,https://github.com/apache/pulsar/pull/24807,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-common,org.apache.pulsar.common.policies.data.NamespaceOwnershipStatusTest.testSerialization,ID,,,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-common,org.apache.pulsar.common.policies.data.NamespaceOwnershipStatusTest.testSerialization,ID,Opened,https://github.com/apache/pulsar/pull/24821,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-common,org.apache.pulsar.common.policies.data.PoliciesDataTest.propertyAdmin,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-common,org.apache.pulsar.common.policies.impl.NamespaceIsolationPoliciesTest.testJsonSerialization,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.FunctionConfigUtilsTest.testConvertBackFidelity,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.SinkConfigUtilsTest.testConvertBackFidelity,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.SourceConfigUtilsTest.testBatchConfigMergeEqual,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/elastic-search,org.apache.pulsar.io.elasticsearch.ElasticSearchExtractTests.testGenericRecord,ID,,,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-common,org.apache.pulsar.common.policies.impl.NamespaceIsolationPoliciesTest.testJsonSerialization,ID,Opened,https://github.com/apache/pulsar/pull/24821,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.FunctionConfigUtilsTest.testConvertBackFidelity,ID,Opened,https://github.com/apache/pulsar/pull/24821,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.SinkConfigUtilsTest.testConvertBackFidelity,ID,Opened,https://github.com/apache/pulsar/pull/24821,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-functions/utils,org.apache.pulsar.functions.utils.SourceConfigUtilsTest.testBatchConfigMergeEqual,ID,Opened,https://github.com/apache/pulsar/pull/24821,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/elastic-search,org.apache.pulsar.io.elasticsearch.ElasticSearchExtractTests.testGenericRecord,ID,Opened,https://github.com/apache/pulsar/pull/24821,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/http,org.apache.pulsar.io.http.HttpSinkTest.testGenericRecord,ID,,,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/kafka,org.apache.pulsar.io.kafka.sink.KafkaAbstractSinkTest.testInvalidConfigWillThrownException,ID,,,
-https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/kinesis,org.apache.pulsar.io.kinesis.UtilsTest.testKeyValueSerializeNoValue,ID,,,
+https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/kinesis,org.apache.pulsar.io.kinesis.UtilsTest.testKeyValueSerializeNoValue,ID,Opened,https://github.com/apache/pulsar/pull/24821,
 https://github.com/apache/pulsar,fdeb191a946a76ca5edde81464f453fcd03fc6d3,pulsar-io/mongo,org.apache.pulsar.io.mongodb.MongoSourceTest.testWriteBadMessage,ID,,,
 https://github.com/apache/rocketmq,a75c74234915f1673c635639e6a70e4c25dcd740,common,org.apache.rocketmq.common.filter.FilterAPITest.testBuildTagSome,ID,Accepted,https://github.com/apache/rocketmq/pull/3959,
 https://github.com/apache/rocketmq,3c0b3307011fad53f811e08d05147d94fc6c0d67,common,org.apache.rocketmq.common.UtilAllTest.testCalculateFileSizeInPath,ID,DeveloperFixed,https://github.com/apache/rocketmq/pull/7445,https://github.com/apache/rocketmq/commit/5d492c338258d07613103e6ae16df4c6fa5b3838
@@ -4053,12 +4061,12 @@ https://github.com/Ericsson/ecchronos,5d58b0e4c922822c9df3d893fff2246d5784b11f,c
 https://github.com/Ericsson/ecchronos,5d58b0e4c922822c9df3d893fff2246d5784b11f,core,com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.testRepairHalf,ID,Accepted,https://github.com/Ericsson/ecchronos/pull/244,
 https://github.com/Ericsson/ecchronos,5d58b0e4c922822c9df3d893fff2246d5784b11f,core,com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.testRepairSuccessfully,ID,Accepted,https://github.com/Ericsson/ecchronos/pull/244,
 https://github.com/Erudika/para,4e5c7de01e1a88ee830216b35fae8d1ef3314d32,para-server,com.erudika.para.persistence.MockDAOTest.testReadPage,ID,Accepted,https://github.com/Erudika/para/pull/83,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue,ID,,,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue,ID,,,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass,ID,,,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1220,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1220,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1220,
 https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1220,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,,,
-https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,Opened,https://github.com/EsotericSoftware/kryo/pull/1219,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1219,
+https://github.com/EsotericSoftware/kryo,c6d199b1e3622dd323d0641260c4e31cec439636,main-versioned,com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams,ID,Accepted,https://github.com/EsotericSoftware/kryo/pull/1219,
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.compress.DeflateTest.testDeflate,ID,Unmaintained,,last commit on 2020-03-05
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.InputStreamSenderTest.testStream,ID,Unmaintained,,last commit on 2020-03-05
 https://github.com/EsotericSoftware/kryonet,03a135e2039bd7eb20e436ad70539238563d15a4,.,com.esotericsoftware.kryonet.MultipleServerTest.testMultipleThreads,ID,Unmaintained,,last commit on 2020-03-05
@@ -5390,7 +5398,7 @@ https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-c
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-case-mgmt/jbpm-case-mgmt-impl,org.jbpm.casemgmt.impl.SubCaseServiceImplTest.testStartCaseWithSubCaseDestroySubCase,ID,,,
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-case-mgmt/jbpm-case-mgmt-impl,org.jbpm.casemgmt.impl.SubCaseServiceImplTest.testStartProcessWithSubCaseDestroySubCase,ID,,,
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-flow-builder,org.jbpm.compiler.xml.processes.XMLPersistenceTest.testPersistenceOfEmptyNodes,ID,Opened,https://github.com/kiegroup/jbpm/pull/2473,
-https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-flow-builder,org.jbpm.compiler.xml.processes.XMLPersistenceTest.testPersistenceOfFullNodes,ID,,,
+https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-flow-builder,org.jbpm.compiler.xml.processes.XMLPersistenceTest.testPersistenceOfFullNodes,ID,Opened,https://github.com/kiegroup/jbpm/pull/2473,
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-event-emitters/jbpm-event-emitters-elasticsearch,org.jbpm.event.emitters.elasticsearch.ElasticSearchEventEmitterTest.testCaseInstanceThroughEmitter,ID,,,
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-event-emitters/jbpm-event-emitters-elasticsearch,org.jbpm.event.emitters.elasticsearch.ElasticSearchEventEmitterTest.testProcessInstanceThroughEmitter,ID,,,
 https://github.com/kiegroup/jbpm,f7e80e82b7670c09485ce83869a287ef51dcb59c,jbpm-event-emitters/jbpm-event-emitters-elasticsearch,org.jbpm.event.emitters.elasticsearch.ElasticSearchEventEmitterTest.testTaskInstanceThroughEmitter,ID,,,
