@@ -91,6 +91,8 @@ https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,igni
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringCheckConcurrentModificationExceptionFromMap ,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringSizeLimits,ID,,,
 https://github.com/apache/ignite-3,8e11db74fa6f10e6026194e69d858ee4735fc70f,ignite-core,IgniteToStringBuilderSelfTest.testToStringWithAdditions,ID,,,
+https://github.com/apache/kafka,4a5aa3716978a766827521af1942ec54d6636324,core,kafka.network.DynamicConnectionQuotaTest.testDynamicConnectionQuota,NOD,Opened,https://github.com/apache/kafka/pull/20657,
+https://github.com/apache/kafka,f5a87b37030708e877d40169da9b64a1e382c4f3,metadata,org.apache.kafka.controller.QuorumControllerTest.testMinIsrUpdateWithElr,NOD,Opened,https://github.com/apache/kafka/pull/20645,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-http-api,io.servicetalk.http.api.DefaultHttpHeadersTest.headersWithSameNamesAndValuesShouldBeEquivalent,ID,,,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerNewRoundRobinLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[1],ID,,,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerNewRoundRobinLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[2],ID,,,
