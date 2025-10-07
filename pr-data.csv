@@ -5064,6 +5064,7 @@ https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.
 https://github.com/jnr/jnr-posix,dbda72ce198a8dd766c30c591d63d726d2a28a7c,.,jnr.posix.SpawnTest.validPid,OD,Accepted,https://github.com/jnr/jnr-posix/pull/185,https://github.com/TestingResearchIllinois/flaky-test-dataset/issues/84
 https://github.com/JodaOrg/joda-time,d1ea2a53929d7d56d4f4560852e5586517a0dd47,.,org.joda.time.TestDateTimeZoneCutover.test_DateTime_minusDay_Gaza,UD,,,
 https://github.com/jolokia/jolokia,f5688d4dbc02a74df8f05bee77056ee331363119,client/jmx-adapter,org.jolokia.client.jmxadapter.JmxBridgeTest.testMBeanInfo,ID,Accepted,https://github.com/jolokia/jolokia/pull/909,
+https://github.com/jolokia/jolokia,47f5bd3fdcadc0c66116a9a8ae74ef5404d1428d,client/jmx-adapter,org.jolokia.client.jmxadapter.JmxBridgeTest.testRecordingSettings,ID,Opened,https://github.com/jolokia/jolokia/pull/914,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.http,ID,Accepted,https://github.com/jolokia/jolokia/pull/765,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.serverPicksThePort,ID,Accepted,https://github.com/jolokia/jolokia/pull/765,
 https://github.com/jolokia/jolokia,ead322cc39f43b5b46d9353f539896a430a61b69,jolokia-jvm,org.jolokia.jvmagent.JolokiaServerTest.sslWithSpecialHttpsSettings,ID,Accepted,https://github.com/jolokia/jolokia/pull/756,
