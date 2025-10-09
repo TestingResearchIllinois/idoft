@@ -52,6 +52,7 @@
   "https://github.com/IBM/platform-services-java-sdk": "unforked",
   "https://github.com/IBM/vpc-java-sdk": "unforked",
   "https://github.com/INRIA/spoon": "unforked",
+  "https://github.com/apache/logging-log4j2": "unforked",
   "https://github.com/JakduK/jakduk-api": "unforked",
   "https://github.com/JakeWharton/mosaic": "unforked",
   "https://github.com/JodaOrg/joda-time": "unforked",
@@ -565,6 +566,5 @@
   "https://github.com/zavtech/morpheus-core": "unforked",
   "https://github.com/zeroturnaround/gradle-jrebel-plugin": "unforked",
   "https://github.com/zhangxd1989/spring-boot-cloud": "unforked",
-  "https://github.com/zhurlik/gradle-jboss-modules-plugin": "unforked",
-  "https://github.com/apache/logging-log4j2": "unforked"
+  "https://github.com/zhurlik/gradle-jboss-modules-plugin": "unforked"
 }
