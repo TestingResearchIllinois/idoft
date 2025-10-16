@@ -664,7 +664,7 @@ https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9
 https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9924b3c4524d9f6,.,com.aliyun.tair.tests.tairzset.TairZsetTest.zrevrank,NOD,,,
 https://github.com/alibaba/alibabacloud-tairjedis-sdk,f6215930b9e21a5252c95296d9924b3c4524d9f6,.,com.aliyun.tair.tests.tairzset.TairZsetTest.zscore,NOD,,,
 https://github.com/alibaba/asyncload,9891e7086bff81ebdd4991435d21b549e48e874d,.,com.alibaba.asyncload.AsyncLoadThreadLocalTest.testInheritableThreadLocalRunnerSet,OD-Vic,Unmaintained,,last commit on 2018-05-15
-https://github.com/alibaba/druid,4ccecebe8da73df3ae22124fc5add3015fd1a8f1,core,com.alibaba.druid.bvt.pool.DruidDataSourceTest_exceptionSorter.test_event_error,ID,,,
+https://github.com/alibaba/druid,4ccecebe8da73df3ae22124fc5add3015fd1a8f1,core,com.alibaba.druid.bvt.pool.DruidDataSourceTest_exceptionSorter.test_event_error,ID,DeveloperFixed,,https://github.com/alibaba/druid/commit/b2fcc80e2ef70c7abf08676426d933569645897f
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,pool,com.alibaba.druid.bvt.pool.DruidDataSourceTest_exceptionSorter.test_event_error,ID,MovedOrRenamed,,https://github.com/alibaba/druid/commit/1e93276be86bcf5f8cf114b08689e37f27da8721
 https://github.com/alibaba/druid,ad05a9293b6be2d5562807698b215b673db0417a,create,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateDatabaseTest.test_2,ID,Opened,https://github.com/alibaba/druid/pull/4575,
 https://github.com/alibaba/druid,ed00cabc48aa329371bec3b6e5a692510d1f1bb2,core,com.alibaba.druid.bvt.sql.mysql.create.MySqlCreateDatabaseTest.test_3,ID,Opened,https://github.com/alibaba/druid/pull/6240,
