@@ -6381,7 +6381,7 @@ https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot
 https://github.com/soot-oss/soot,23758df0ce8327bb414d982aeb325a4f5e83ccf8,.,soot.toolkits.graph.TestDominance.TestSimpleDiamond,ID,Accepted,https://github.com/soot-oss/soot/pull/1802,
 https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.compare.TestPackageSheet.tesConcludedLicensetCol,ID,Accepted,https://github.com/spdx/tools/pull/312,
 https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.compare.TestPackageSheet.testDeclaredLicenseCol,ID,Accepted,https://github.com/spdx/tools/pull/312,
-https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.rdfparser.license.TestLicenseInfoFactory.testParseSPDXLicenseStringMixedCase,ID,,,
+https://github.com/spdx/tools,cf965bc2fa99e1c5ca23f992f18cef48c08dec9f,.,org.spdx.rdfparser.license.TestLicenseInfoFactory.testParseSPDXLicenseStringMixedCase,ID,RepoArchived,,
 https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-discovery-zookeeper,com.spinn3r.noxy.discovery.zookeeper.ZKTest.testBulkClusterJoining,NDOD;UD;NOD,RepoDeleted,,
 https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-discovery-zookeeper,com.spinn3r.noxy.discovery.zookeeper.ZKTest.testDiscoveryListener,NDOD;UD;NOD,RepoDeleted,,
 https://github.com/spinn3r/noxy,d53a49421f385c70b5abe7e8cda84ff3a7b59c71,noxy-discovery-zookeeper,com.spinn3r.noxy.discovery.zookeeper.ZKTest.testMembershipJoinAndLeave,NDOD;UD,RepoDeleted,,
