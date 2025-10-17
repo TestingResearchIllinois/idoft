@@ -74,11 +74,11 @@ https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.ids.TestIds.testDeleteByIds,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.ids.TestIds.testSelectByIds,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
 https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,base,tk.mybatis.mapper.test.rowbounds.TestSelectRowBounds.testSelectByExample,OD-Vic,,,https://github.com/TestingResearchIllinois/idoft/issues/90
-https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.all,ID,Opened,https://github.com/abel533/Mapper/pull/940,
-https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.byId,ID,Opened,https://github.com/abel533/Mapper/pull/940,
-https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.exampleQuery,ID,Opened,https://github.com/abel533/Mapper/pull/940,
-https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.logicDelInsert,ID,Opened,https://github.com/abel533/Mapper/pull/940,
-https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.rawMybatisQuery,ID,Opened,https://github.com/abel533/Mapper/pull/940,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.all,ID,Accepted,https://github.com/abel533/Mapper/pull/940,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.byId,ID,Accepted,https://github.com/abel533/Mapper/pull/940,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.exampleQuery,ID,Accepted,https://github.com/abel533/Mapper/pull/940,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.logicDelInsert,ID,Accepted,https://github.com/abel533/Mapper/pull/940,
+https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,solon-plugin,tk.mybatis.solon.test.service.TkMapperServiceTest.rawMybatisQuery,ID,Accepted,https://github.com/abel533/Mapper/pull/940,
 https://github.com/Accenture/mercury,6b744cdbb2206feca62848df92b3bf542f890be5,extensions/rest-automation-lib,org.platformlambda.automation.tests.WebSocketTests.userChannelTest,NOD,DeveloperFixed,,https://github.com/Accenture/Mercury/commit/47663ff9c7803aa8613a81b3dff71ec9908e2d6e
 https://github.com/Accenture/mercury,8586dc79f8bf75a929896f0aac03fe95824d9578,system/platform-core,org.platformlambda.core.MulticastTest.routingTest,TD,,,
 https://github.com/Accenture/mercury,8586dc79f8bf75a929896f0aac03fe95824d9578,system/platform-core,org.platformlambda.core.ObjectStreamTest.asyncReadWrite,TD,,,
