@@ -9,9 +9,7 @@ There are many flaky tests marked as ```DeveloperFixed```. Once you find the fir
 
 ## Find the commit which fixed the flaky test using Git Bisect
 
-Git Bisect command uses a binary search algorithm to find which commit in your project’s history introduced a bug. You use it by first telling it a "bad" commit that is known to contain the bug, and a "good" commit that is known to be before the bug was introduced.
-
-The git-bisect-script-alluxio.sh script handles the case where the flaky test is fixed in the latest commit.
+Git Bisect uses a binary search algorithm to find which commit fixed a flaky test. This tool uses custom terminology: "flaky" for the old broken state and "non-flaky" for the new fixed state, making the process more intuitive.
 
 Reference - https://git-scm.com/docs/git-bisect/
 
@@ -21,17 +19,125 @@ Reference - https://git-scm.com/docs/git-bisect/
 
 2. Copy scripts `git-bisect-runner.sh` and `git-bisect-script.sh` to the directory of the project containing the fixed flaky test.
 
-3. Within the project containing the DeveloperFixed test, run the script using the command below. Modify arguments to specific flaky commit, fixed commit, module path, test case of your project, mvn install options, and NonDex version. This command will also ensure standard error and output messages go to `git_bisect_output.log`, while running command in the background (since using nohup).
+3. Within the project containing the DeveloperFixed test, run the script using the command below.
+
+#### Command Format
+
 ```shell
-nohup ./git-bisect-runner.sh --flaky <FLAKY_COMMIT> --fixed <FIXED_COMMIT> --module <MODULE_PATH> --test <TEST_CASE> --nondex-version "<NONDEX VERSION>" --mvn-install "<MAVEN_OPTIONS>" &> git_bisect_output.log
-```
-Example:
-```shell
-nohup ./git-bisect-runner.sh --flaky ecf41be2ecd007853c2db19e1c6a038cf356cb9e --fixed f69557e325c5bb9e4e250bb0ec2db12d85298211 --module pinot-core --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries --nondex-version "2.1.7" --mvn-install "-Dspotless.skip" &> git_bisect_output.log 
+./git-bisect-runner.sh \
+  --flaky           <FLAKY_COMMIT> \
+  --fixed           <FIXED_COMMIT> \
+  --module          <MODULE_PATH> \
+  --test            <TEST_CASE> \
+  --nondex-version  <NONDEX_VERSION> \
+  [--mvn-install    <MAVEN_OPTIONS>]
 ```
 
-The output of this execution will give the commit where the flaky test was fixed. Messages within process can be found in log file within project directory.
+#### Argument Details
 
-To check for errors during process, run: `git bisect status`
-To check log as process is running, run: `git bisect log`
-To stop and reset bisect process, run: `git bisect reset`
+| Argument | Format | Description | Example |
+|----------|--------|-------------|---------|
+| `--flaky` | Git commit hash (full or short) | The commit where the test **was flaky** | `ecf41be2ecd007853c2db19e1c6a038cf356cb9e` or `ecf41be` |
+| `--fixed` | Git commit hash (full or short) | The commit where the test **was fixed** | `f69557e325c5bb9e4e250bb0ec2db12d85298211` or `f69557e` |
+| `--module` | Maven module path | The Maven module containing the test (relative to project root) | `pinot-core` or `server/service` |
+| `--test` | Fully qualified test name | Format: `package.ClassName#methodName` or `package.ClassName` | `org.apache.pinot.queries.QueryTest#testMethod` |
+| `--nondex-version` | Version string | The NonDex Maven plugin version to use | `"2.1.7"` or `"1.1.2"` |
+| `--mvn-install` | Maven CLI options (optional) | Additional Maven options for build | `"-Dspotless.skip"` or `"-Dlicense.skip -DskipTests"` |
+
+**Important Notes:**
+- **Module Path**: Use the Maven module identifier (same as `-pl` argument in Maven)
+  - For single module projects: use `.` or the module name
+  - For multi-module projects: use the relative path like `sub-module/nested-module`
+- **Test Case Format**: 
+  - Single test method: `com.example.TestClass#testMethodName`
+  - Entire test class: `com.example.TestClass`
+- **Commit Hashes**: Both short (7+ chars) and full (40 chars) SHA hashes are acceptable
+
+#### Examples
+
+**Example 1: Basic usage**
+```shell
+./git-bisect-runner.sh \
+  --flaky ecf41be2ecd007853c2db19e1c6a038cf356cb9e \
+  --fixed f69557e325c5bb9e4e250bb0ec2db12d85298211 \
+  --module pinot-core \
+  --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries \
+  --nondex-version "2.1.7" \
+  --mvn-install "-Dspotless.skip"
+```
+
+**Example 2: Using short commit hashes**
+```shell
+./git-bisect-runner.sh \
+  --flaky ecf41be \
+  --fixed f69557e \
+  --module server/service \
+  --test com.example.integration.ApiTest#shouldHandleTimeout \
+  --nondex-version "2.1.7"
+```
+
+**Example 3: Multi-module project with multiple Maven options**
+```shell
+./git-bisect-runner.sh \
+  --flaky abc1234 \
+  --fixed def5678 \
+  --module galleon-pack/layer-metadata-tests \
+  --test org.wildfly.feature.pack.layer.tests.opentelemetry.OpenTelemetryLayerMetaDataTestCase \
+  --nondex-version "2.1.7" \
+  --mvn-install "-Dlicense.skip -DskipFormat"
+```
+
+**Example 4: Running in background with logging**
+```shell
+nohup ./git-bisect-runner.sh \
+  --flaky ecf41be \
+  --fixed f69557e \
+  --module pinot-core \
+  --test org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries \
+  --nondex-version "2.1.7" \
+  --mvn-install "-Dspotless.skip" \
+  &> git_bisect_output.log &
+```
+#### Alternative: Using Default Values
+
+You can also set default values directly in `git-bisect-runner.sh` (lines 5-10) to avoid typing arguments every time:
+
+```bash
+# Default values in git-bisect-runner.sh
+mvn_options="-Dspotless.skip"
+nondex_version="2.1.7"
+flaky_commit="ecf41be2ecd007853c2db19e1c6a038cf356cb9e"
+fixed_commit="f69557e325c5bb9e4e250bb0ec2db12d85298211"
+test_module="pinot-core"
+test_case="org.apache.pinot.queries.ForwardIndexHandlerReloadQueriesTest#testSelectQueries"
+```
+
+Then simply run:
+```shell
+./git-bisect-runner.sh
+```
+
+**Note:** Command-line arguments will override default values if both are provided. 
+### Output
+
+The script will:
+1. Display configuration settings
+2. Validate all inputs and commits
+3. Run the bisect process with colored status updates
+4. Show the commit that fixed the flaky test
+5. Display the bisect log
+6. Automatically reset the bisect session
+
+### Troubleshooting
+
+The script includes built-in error handling, but you can also use these git commands:
+
+- Check bisect status: `git bisect log`
+- View current state: `git bisect visualize` or `git bisect view`
+- Manually reset if needed: `git bisect reset`
+
+### Exit Codes
+
+- `0`: Test is flaky (old state)
+- `1`: Test is non-flaky (new state)  
+- `125`: Build failed, skip this commit (git bisect special code)
