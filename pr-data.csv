@@ -1742,9 +1742,9 @@ https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-cor
 https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.resolver.MetaContextTest.testShareClassDefCompatible,ID,Accepted,https://github.com/apache/fory/pull/2739,
 https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.resolver.MetaContextTest.testShareClassName,ID,Accepted,https://github.com/apache/fory/pull/2739,
 https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.tesPriorityQueueSerializer,ID,Accepted,https://github.com/apache/fory/pull/2693,
-https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializers,ID,,,
-https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,,,
-https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,,,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializers,ID,Accepted,https://github.com/apache/fory/pull/2790,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,Accepted,https://github.com/apache/fory/pull/2790,
+https://github.com/apache/fory,5f9934e281fde3341c3e9db3b5d3981d08afd85a,fory-core,org.apache.fory.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,Accepted,https://github.com/apache/fory/pull/2790,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression,ID,Accepted,https://github.com/apache/fury/pull/1968,
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.collection.LazyMapTest.testMap,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.FuryCopyTest.mutableObjectCopyTest,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
