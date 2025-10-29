@@ -1462,6 +1462,7 @@ https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-c
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ExecutorUtilTest.testGracefulShutdown1,UD,,,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ExecutorUtilTest.testGracefulShutdown2,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/5
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.ExecutorUtilTest.testIsTerminated,UD,,,
+https://github.com/apache/dubbo,aed93d5abe21bc7d30b7de08929205a4dbb3c16a,dubbo-common,org.apache.dubbo.common.utils.JsonUtilsTest.consistentTest,ID,Opened,https://github.com/apache/dubbo/pull/15746,
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.LogHelperTest.testError,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/5
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.LogHelperTest.testWarn,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/5
 https://github.com/apache/dubbo,737f7a7ea67832d7f17517326fb2491d0a086dd7,dubbo-common,org.apache.dubbo.common.utils.LogUtilTest.testFindLevel,OD,,,https://github.com/TestingResearchIllinois/idoft/issues/5
