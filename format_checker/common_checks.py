@@ -90,7 +90,7 @@ def check_row_length(header_len, filename, row, i, log):
 
 def check_sort(filename, log):
     """Checks order of a file."""
-    command = 'echo "$(head -n1 ' + filename + " && tail -n +2 " + filename
+    command = 'echo "$(head -n 1 ' + filename + " && tail -n +2 " + filename
     if filename == "py-data.csv":
         command += ' | LC_ALL=C sort -k1,1 -k3,3 -t, -f)" >  sorted-'
     else:
