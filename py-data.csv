@@ -32,6 +32,7 @@ https://github.com/alexrudy/supertunnel,4c64e2fedda3382b809a2c3d01c711ec4961f933
 https://github.com/alexrudy/supertunnel,4c64e2fedda3382b809a2c3d01c711ec4961f933,supertunnel/ssh/continuous_test.py::test_ssh_log_line[Host example.com not responding-Action.DISCONNECTED],OD-Brit,Unmaintained,,latest commit 2019/11/21
 https://github.com/aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain,NIO,Unmaintained,,latest commit 2018/11/19
 https://github.com/aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain tests/test_kitsune.py::test_kitsune_printer_rainbow,,Unmaintained,,pytest --flake-finder --flake-runs=2;latest commit 2018/11/19
+https://github.com/apache/beam,faae168fa34e97475df70b707f4df91c4946c6ca,sdks/python/apache_beam/runners/portability/portable_runner_test.py::PortableRunnerTest::test_assert_that,OD,Accepted,https://github.com/apache/beam/pull/36485,Repo recommend by GPT
 https://github.com/AshtonUPS/Py-MI-PS,e43c2b4df2b59362c147024840bf541bb767ffd7,src/PyMIPS/tests/register_test.py,NIO,Open,https://github.com/AshtonUPS/Py-MI-PS/pull/23,RepoDeleted
 https://github.com/AshtonUPS/Py-MI-PS,2d22327c75bac1b58a4804a61e7a703ecc5ba978,src/PyMIPS/tests/register_test.py::test_setting_to_num,NIO,Opened,https://github.com/AshtonUPS/Py-MI-PS/pull/22,RepoDeleted
 https://github.com/AshtonUPS/Py-MI-PS,2d22327c75bac1b58a4804a61e7a703ecc5ba978,src/PyMIPS/tests/register_test.py::test_setting_to_num,OD-Vic,RepoDeleted,,
