@@ -3,7 +3,13 @@
 import re
 import json
 from utils import log_std_error, log_warning
-from common_checks import check_common_rules, check_row_length, check_sort, run_checks, check_duplication
+from common_checks import (
+    check_common_rules,
+    check_row_length,
+    check_sort,
+    run_checks,
+    check_duplication
+)
 
 
 # Contains information and regexes unique to pr-data.csv and gr-data.csv files
@@ -32,7 +38,7 @@ data = {
         "UD",
         "OSD",
         "TZD",
-        "TD",
+        "TD"
     ],
     "Status": [
         "",
@@ -52,9 +58,11 @@ data = {
         "Claimed",
         "MovedToGradle",
         "FixedOrder",
-        "Unmaintained",
+        "Unmaintained"
     ],
-    "PR Link": re.compile(r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"),
+    "PR Link": re.compile(
+        r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
+    ),
     "Notes": re.compile(
         r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
     ),
@@ -90,21 +98,14 @@ def check_status_consistency(filename, row, i, log):
         # a workaround for that issue.
         if (
             row["Project URL"] == "https://github.com/apache/incubator-dubbo"
-            and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() == "https://github.com/apache/dubbo"
+            and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() 
+            == "https://github.com/apache/dubbo"
         ):
             pass
         else:
             check_pr_link(filename, row, i, log)
 
-    if row["Status"] in [
-        "InspiredAFix",
-        "Skipped",
-        "MovedOrRenamed",
-        "Deprecated",
-        "Deleted",
-        "DeveloperFixed",
-        "RepoRenamed",
-    ]:
+    if row["Status"] in ["InspiredAFix", "Skipped", "MovedOrRenamed", "Deprecated", "Deleted", "DeveloperFixed", "RepoRenamed"]:
 
         # Should contain a note
         if row["Notes"] == "":
@@ -156,9 +157,7 @@ def check_forked_project(filename, row, i, log):
     """Checks forked project."""
     proj_url = row["Project URL"]
     if proj_url not in projects:
-        log_std_error(
-            filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json"
-        )
+        log_std_error(filename, log, i, row, "Project URL", "Please add the new project to format_checker/forked-projects.json")
     if proj_url in projects and projects[proj_url] == "forked":
         log_std_error(filename, log, i, row, "Project URL", "Forked project")
 
@@ -167,7 +166,8 @@ def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
 
     if not data["PR Link"].fullmatch(row["PR Link"]) or (
-        re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() != row["Project URL"].casefold()
+        re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() 
+        != row["Project URL"].casefold()
     ):
         log_std_error(filename, log, i, row, "PR Link")
 
@@ -176,7 +176,7 @@ def check_tab(filename, row, i, log):
     """Checks that there is no tab in the row."""
 
     for key, value in row.items():
-        if "\t" in value:
+        if '\t' in value:
             log_std_error(filename, log, i, row, key, "There are TAB characters in this field")
 
 
