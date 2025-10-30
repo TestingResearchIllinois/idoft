@@ -19,10 +19,16 @@ if __name__ == "__main__":
     log_esp_error.tracker = 0
     log_warning.tracker = 0
     commit_range = sys.argv[1:]
-    checks = [lambda *args: run_checks_pr('pr-data.csv', *args), lambda *args: run_checks_pr('gr-data.csv', *args), run_checks_tic_fic, run_checks_tso_iso]
+    checks = [
+        lambda *args: run_checks_pr("pr-data.csv", *args),
+        lambda *args: run_checks_pr("gr-data.csv", *args),
+        lambda *args: run_checks_pr("py-data.csv", *args),
+        run_checks_tic_fic,
+        run_checks_tso_iso,
+    ]
     for check in checks:
         check(logger, sys.argv[1:])
-    run_checks_sort_fp('format_checker/forked-projects.json', logger)
+    run_checks_sort_fp("format_checker/forked-projects.json", logger)
     ERROR_COUNT = str(log_std_error.tracker + log_esp_error.tracker)
 
     if error_handler.fired:
@@ -37,8 +43,6 @@ if __name__ == "__main__":
         logger.info(
             "%s %s",
             str(log_warning.tracker),
-            " warnings generated"
-            if log_warning.tracker != 1
-            else " warning generated",
+            " warnings generated" if log_warning.tracker != 1 else " warning generated",
         )
     logger.info("Success: Exiting with code 0 due to no logged errors")
