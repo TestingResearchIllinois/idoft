@@ -90,21 +90,13 @@ def check_row_length(header_len, filename, row, i, log):
 
 def check_sort(filename, log):
     """Checks order of a file."""
+    command = 'echo "$(head -n1 ' + filename + " && tail -n +2 " + filename
+    if filename == "py-data.csv":
+        command += ' | LC_ALL=C sort -k1,1 -k3,3 -t, -f)" >  sorted-'
+    else:
+        command += ' | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" >  sorted-'
+    command += filename + "; diff " + filename + " sorted-" + filename + "; rm sorted-" + filename
 
-    command = (
-        'echo "$(head -n1 '
-        + filename
-        + " && tail -n +2 "
-        + filename
-        + ' | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" >  sorted-'
-        + filename
-        + "; diff "
-        + filename
-        + " sorted-"
-        + filename
-        + "; rm sorted-"
-        + filename
-    )
     diff = subprocess.check_output(command, shell=True).decode("utf-8")
     if diff != "":
         log_esp_error(filename, log, "The file is not properly ordered")
