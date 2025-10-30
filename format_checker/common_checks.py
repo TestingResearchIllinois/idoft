@@ -17,7 +17,9 @@ common_data = {
     "Project URL": re.compile(r"(https:\/\/github.com)(\/(\w|\.|-)+){2}(?<!\.git)$"),
     "SHA": re.compile(r"\b[0-9a-f]{40}\b"),
     "Module Path": re.compile(r"((\w|\.|-)+(\/|\w|\.|-)*)|^$"),
-    "Fully-Qualified Name": re.compile(r"((\w|\s)+\.)+(\w+|\d+|\W+)+(\[((\d+)|(\w+|\s)+)\])?"),
+    "Fully-Qualified Name": re.compile(
+        r"((\w|\s)+\.)+(\w+|\d+|\W+)+(\[((\d+)|(\w+|\s)+)\])?"
+    ),
     "Py Fully-Qualified Name": re.compile(
         r"[\w./\\-]+::(?:[A-Za-z_][A-Za-z0-9_]*::)?[A-Za-z_][A-Za-z0-9_]*",
     ),
@@ -47,12 +49,9 @@ def check_common_rules(filename, row, i, log):
         # only check module path for pr-data.csv and gr-data.csv
         if not common_data["Module Path"].fullmatch(row["Module Path"]):
             log_std_error(filename, log, i, row, "Module Path")
-        if (
-            not common_data["Fully-Qualified Name"].fullmatch(
-                row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
-            )
-            or "#" in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
-        ):
+        if not common_data["Fully-Qualified Name"].fullmatch(
+            row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
+        ) or "#" in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]:
             log_std_error(
                 filename,
                 log,
@@ -62,12 +61,9 @@ def check_common_rules(filename, row, i, log):
             )
     else:
         # don't check module path for py-data.csv, test name column header is different in py-data.csv
-        if (
-            not common_data["Py Fully-Qualified Name"].fullmatch(
-                row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]
-            )
-            or "#" in row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]
-        ):
+        if not common_data["Py Fully-Qualified Name"].fullmatch(
+            row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]
+        ) or "#" in row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]:
             log_std_error(
                 filename,
                 log,
@@ -84,7 +80,12 @@ def check_row_length(header_len, filename, row, i, log):
         log_esp_error(
             filename,
             log,
-            "On row " + str(i) + ", row length should be " + str(header_len) + " but is " + str(len(row)),
+            "On row "
+            + str(i)
+            + ", row length should be "
+            + str(header_len)
+            + " but is "
+            + str(len(row)),
         )
 
 
@@ -100,11 +101,7 @@ def check_sort(filename, log):
     diff = subprocess.check_output(command, shell=True).decode("utf-8")
     if diff != "":
         log_esp_error(filename, log, "The file is not properly ordered")
-        print(
-            "Refer to IDoFT readme for how "
-            + filename
-            + " should be sorted: https://github.com/TestingResearchIllinois/idoft#to-contribute-a-newly-detected-flaky-test"
-        )
+        print("Refer to IDoFT readme for how " + filename + " should be sorted: https://github.com/TestingResearchIllinois/idoft#to-contribute-a-newly-detected-flaky-test")
         print("Differences between current order and expected order:")
         print(diff)
 
@@ -112,7 +109,7 @@ def check_sort(filename, log):
 def check_duplication(filename, log):
     """Check for duplicated lines in a file"""
 
-    command = f"sort {filename} | uniq -cd"
+    command = f'sort {filename} | uniq -cd'
     diff = subprocess.check_output(command, shell=True).decode("utf-8")
     if diff != "":
         log_esp_error(filename, log, "The file contains duplicated lines")
@@ -150,8 +147,8 @@ def run_checks(file, data_dict, log, commit_range, checks):
         else:
             log_info(file, log, "There are no changes to be checked")
 
-    with open(file, "rb") as fp:
+    with open(file, 'rb') as fp:
         for line in fp:
-            if line.endswith(b"\r\n"):
+            if line.endswith(b'\r\n'):
                 log_esp_error(file, log, "Incorrect End of Line encoding")
                 break
