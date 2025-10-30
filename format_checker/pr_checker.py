@@ -98,7 +98,7 @@ def check_status_consistency(filename, row, i, log):
         # a workaround for that issue.
         if (
             row["Project URL"] == "https://github.com/apache/incubator-dubbo"
-            and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() 
+            and re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
             == "https://github.com/apache/dubbo"
         ):
             pass
@@ -166,7 +166,7 @@ def check_pr_link(filename, row, i, log):
     """Checks validity of the PR Link."""
 
     if not data["PR Link"].fullmatch(row["PR Link"]) or (
-        re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold() 
+        re.sub(r"\/pull\/\d+", "", row["PR Link"]).casefold()
         != row["Project URL"].casefold()
     ):
         log_std_error(filename, log, i, row, "PR Link")
