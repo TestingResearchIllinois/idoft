@@ -20,6 +20,9 @@ common_data = {
     "Fully-Qualified Name": re.compile(
         r"((\w|\s)+\.)+(\w+|\d+|\W+)+(\[((\d+)|(\w+|\s)+)\])?"
     ),
+    "Py Fully-Qualified Name": re.compile(
+        r"[\w./\\-]+::(?:[A-Za-z_][A-Za-z0-9_]*::)?[A-Za-z_][A-Za-z0-9_]*",
+    ),
 }
 
 
@@ -42,18 +45,32 @@ def check_common_rules(filename, row, i, log):
         log_std_error(filename, log, i, row, "Project URL")
     if not common_data["SHA"].fullmatch(row["SHA Detected"]):
         log_std_error(filename, log, i, row, "SHA Detected")
-    if not common_data["Module Path"].fullmatch(row["Module Path"]):
-        log_std_error(filename, log, i, row, "Module Path")
-    if not common_data["Fully-Qualified Name"].fullmatch(
-        row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
-    ) or '#' in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]:
-        log_std_error(
-            filename,
-            log,
-            i,
-            row,
-            "Fully-Qualified Test Name (packageName.ClassName.methodName)",
-        )
+    if filename != "py-data.csv":
+        # only check module path for pr-data.csv and gr-data.csv
+        if not common_data["Module Path"].fullmatch(row["Module Path"]):
+            log_std_error(filename, log, i, row, "Module Path")
+        if not common_data["Fully-Qualified Name"].fullmatch(
+                row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]
+        ) or "#" in row["Fully-Qualified Test Name (packageName.ClassName.methodName)"]:
+            log_std_error(
+                filename,
+                log,
+                i,
+                row,
+                "Fully-Qualified Test Name (packageName.ClassName.methodName)",
+            )
+    else:
+        # don't check module path for py-data.csv, test name column header is different in py-data.csv
+        if not common_data["Py Fully-Qualified Name"].fullmatch(
+                row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]
+        ) or "#" in row["Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"]:
+            log_std_error(
+                filename,
+                log,
+                i,
+                row,
+                "Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)",
+            )
 
 
 def check_row_length(header_len, filename, row, i, log):
@@ -75,21 +92,15 @@ def check_row_length(header_len, filename, row, i, log):
 def check_sort(filename, log):
     """Checks order of a file."""
 
-    command = (
-        'echo "$(head -n1 '
-        + filename
-        + " && tail -n +2 "
-        + filename
-        + ' | LC_ALL=C sort -k1,1 -k4,4 -t, -f)" >  sorted-'
-        + filename
-        + "; diff "
-        + filename
-        + " sorted-"
-        + filename
-        + "; rm sorted-"
-        + filename
-    )
-    diff = subprocess.check_output(command, shell=True).decode("utf-8")
+    command = f"echo \"$(head -n1 {filename} && tail +2 {filename}"
+    if filename == "py-data.csv":
+        command += " | LC_ALL=C sort -k1,1 -k3,3 -t, -f)\" > sorted-"
+    else:
+        command += " | LC_ALL=C sort -k1,1 -k4,4 -t, -f)\" > sorted-"
+
+    command += f"{filename}; diff {filename} sorted-{filename}; rm sorted-{filename}"
+
+    diff = subprocess.check_output(["bash", "-c", command]).decode("utf-8")
     if diff != "":
         log_esp_error(filename, log, "The file is not properly ordered")
         print("Refer to IDoFT readme for how " + filename + " should be sorted: https://github.com/TestingResearchIllinois/idoft#to-contribute-a-newly-detected-flaky-test")
