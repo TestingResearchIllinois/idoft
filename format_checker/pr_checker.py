@@ -196,6 +196,15 @@ def run_checks_pr(filename, log, commit_range):
         check_forked_project,
         check_tab,
     ]
-    run_checks(filename, data, log, commit_range, checks)
+    if filename == "py-data.csv":
+        # deepcopy, then change the column name
+        import copy
+
+        py_data = copy.deepcopy(data)
+        py_data["columns"][3] = "Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"
+        py_data["columns"].remove("Module Path")
+        run_checks(filename, py_data, log, commit_range, checks)
+    else:
+        run_checks(filename, data, log, commit_range, checks)
     check_sort(filename, log)
     check_duplication(filename, log)

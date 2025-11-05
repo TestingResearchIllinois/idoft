@@ -4,11 +4,11 @@ https://github.com/abhinavsingh/proxy.py,9b4263777bea7b3e00a1a3546511f2117f210a2
 https://github.com/actris-cloudnet/cloudnetpy,4caaec217c8e100fa2a11f76654917e0bd9560a7,tests/unit/test_meta_for_old_files.py::test_fix_old_data_2,NIO,Open,https://github.com/actris-cloudnet/cloudnetpy/pull/34,
 https://github.com/actris-cloudnet/cloudnetpy,c6c728ae760a43e4efbd04d469d6fd1adbb1d1f7,tests/unit/test_util.py::test_l2_norm,NIO,Open,https://github.com/actris-cloudnet/cloudnetpy/pull/35,
 https://github.com/AdventielFr/ecs-crd-cli,7b296c64086a204d3540da272e3d8dd74721c6c4,tests/test_prepareDeploymentServiceDefinitionStep.py::test_process_application_autoscaling_scalable_target_max_capacity_invalid,OD-Brit,Unmaintained,,latest commit 2022/07/08
-https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD,Opened,https://github.com/agile4you/bottle-neck/pull/4,
-https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,NIO,Opened,https://github.com/agile4you/bottle-neck/pull/3,
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_handlers.py::test_handler_register_class_pass,OD-Vic,Unmaintained,,latest commit 2017/05/08
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD,Opened,https://github.com/agile4you/bottle-neck/pull/4,
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_mount_pass,OD-Brit,Unmaintained,,latest commit 2017/05/08
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_cbv_pass,OD-Brit,Unmaintained,,latest commit 2017/05/08
+https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,NIO,Opened,https://github.com/agile4you/bottle-neck/pull/3,
 https://github.com/agile4you/bottle-neck,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,OD-Vic,Unmaintained,,latest commit 2017/05/08
 https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_check_call_args,OD,Opened,https://github.com/agronholm/typeguard/pull/220,
 https://github.com/agronholm/typeguard, 2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17,test_typeguard.py::test_exec_no_namespace,OD,,,https://github.com/agronholm/typeguard/issues/221
@@ -140,6 +140,7 @@ https://github.com/chinapnr/fishbase,1615ccff9106bf42fc6ae862cd13353c12c1b76d,te
 https://github.com/chinapnr/fishbase,ddd1cced20caff3518f13073381d31461caa39a5,test/test_logger.py::TestFishLogging::test_format_03,OD-Brit,Unmaintained,,latest commit 2022/09/13
 https://github.com/chinapnr/fishbase,73ae6701eee5d1bdd31a3e7b4d86fa11de9b6522,test_common.py::TestFishCommon::test_yaml_conf_as_dict_01,NOD,Open,https://github.com/chinapnr/fishbase/pull/302,
 https://github.com/CitrineInformatics/citrine-python,cf2ec34cad3f1ff44478cad44e4918d7925cba25,tests/_util/test_functions.py::test_shadow_classes_in_module,NIO,Accepted,https://github.com/CitrineInformatics/citrine-python/pull/690,
+https://github.com/clapeyre/h5nav,1c866a5085f1605a51064f5642e91d3682f8f572,tests/test_cli.py::test_cat,ID,Opened,https://github.com/clapeyre/h5nav/pull/7,
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_cat_star,OD-Vic,Unmaintained,,latest commit 2020/10/06
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_cd_group,OD-Vic,Unmaintained,,latest commit 2020/10/06
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_dump,OD-Vic,Unmaintained,,latest commit 2020/10/06
@@ -149,7 +150,6 @@ https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_pdf,OD-Vic,Unmaintained,,latest commit 2020/10/06
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_stats,OD-Vic,Unmaintained,,latest commit 2020/10/06
 https://github.com/clapeyre/h5nav,595040c2f9b65196ceaf18d1c2c58d848466a22c,tests/test_cli.py::test_txt_dump,OD-Vic,Unmaintained,,latest commit 2020/10/06
-https://github.com/clapeyre/h5nav,1c866a5085f1605a51064f5642e91d3682f8f572,tests/test_cli.py::test_cat,ID,Opened,https://github.com/clapeyre/h5nav/pull/7,
 https://github.com/codemagic-ci-cd/cli-tools,eb59b658978ca30df8cc0c24c2c328a292b81021,tests/models/test_certificate.py::test_create_certificate_signing_request,,,,pytest on univerisity VM
 https://github.com/codespell-project/codespell,4f2325ec18ccef64ed8062f63dc63d360fa33f47,test_dictionary.py::test_dictionary_looping,OD,Opened,https://github.com/codespell-project/codespell/pull/2105,
 https://github.com/Cognexa/plcx,2756c0ba78c4c9e572d95ba002708957bc55d4fa,plcx/tests/comm/test_client.py::test_clientx[123],OD-Vic,Unmaintained,,latest commit 2021/05/31
@@ -324,9 +324,9 @@ https://github.com/dvc94ch/pykicad,cdebcaeb4ab6c8903ebecfd0748f826ea406923f,test
 https://github.com/earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/repository_test.py::test_repository tests/stage_test.py::test_set_dir_route,,Unmaintained,,pytest --flake-finder --flake-runs=2;latest commit 2016/04/17
 https://github.com/earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_get_dir_route,OD-Vic,Unmaintained,,latest commit 2016/04/17
 https://github.com/earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_set_dir_route,NIO,Unmaintained,,latest commit 2016/04/17
+https://github.com/econ-ark/HARK,f18dc69520db9e15d1d355e604ff712d38ce3d2b,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::KrusellSmithAgentTestCase::test_agent,OD-Vic,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::testAggShockMarkovConsumerType::test_agent,OD-Vic,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::testKrusellSmith::test_agent,OD-Vic,MovedOrRenamed,,Test renamed to KrusellSmithAgentTestCase::test_agent
-https://github.com/econ-ark/HARK,f18dc69520db9e15d1d355e604ff712d38ce3d2b,HARK/ConsumptionSaving/tests/test_ConsAggShockModel.py::KrusellSmithAgentTestCase::test_agent,OD-Vic,,,
 https://github.com/econ-ark/HARK,c9138af45fd0a0d97c718c8558f3ea8d9f2ae820,HARK/ConsumptionSaving/tests/test_IndShockConsumerType.py::testIndShockConsumerType::test_simulated_values,OD-Vic,,,
 https://github.com/ECSHackWeek/impedance.py,d1019c161be9e967ae227117b72acae4351e198f,impedance/tests/test_circuit_elements.py::test_each_element,OD-Vic,,,
 https://github.com/ECSHackWeek/impedance.py,d1019c161be9e967ae227117b72acae4351e198f,impedance/tests/test_circuit_elements.py::test_element_function_names,OD-Vic,,,
@@ -1005,10 +1005,10 @@ https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/helper/config/test_rundata_utils.py::test_init_config,NOD,,,
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/helper/httpapi/test_restapi_azure.py::test_web_client_data,NOD,,,
 https://github.com/prancer-io/cloud-validation-framework,94522590d9881a5125d81da701a65f7f63383c0d,tests/processor/template_processor/base/test_base_template_processor.py::test_populate_template_snapshot_false,NOD,,,
+https://github.com/Prodesire/pydu,e6e4055f81dbbece55dccfe29b7fb82b9bf40610,tests/test_iter.py::test_first_last,OD-Brit,Opened,https://github.com/Prodesire/pydu/pull/21,
 https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_network.py::test_get_free_port,NOD,Unmaintained,,latest commit 2021/12/27
-https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_request.py::test_check_connect,NIO,Opened,https://github.com/flaggo/pydu/pull/19,
-https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_system.py::TestWhich::test_cmd_path,NIO,Opened,https://github.com/flaggo/pydu/pull/22,
-https://github.com/Prodesire/pydu,e6e4055f81dbbece55dccfe29b7fb82b9bf40610,tests/test_iter.py::test_first_last,OD-Brit,Opened,https://github.com/flaggo/pydu/pull/21,
+https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_request.py::test_check_connect,NIO,Opened,https://github.com/Prodesire/pydu/pull/19,
+https://github.com/Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_system.py::TestWhich::test_cmd_path,NIO,Opened,https://github.com/Prodesire/pydu/pull/22,
 https://github.com/prymitive/upaas-common,7a7d9ffb385151092c637c3ef500a79623c005ae,tests/test_storage_local.py::test_dir_exists,NIO,RepoArchived,,
 https://github.com/pustotnik/zenmake,6cff05114cea34fc204d9e95422f11dc25cd1228,tests/test_waf_assist.py::testUsedWafTaskKeys,NIO,Accepted,https://github.com/pustotnik/zenmake/pull/29,
 https://github.com/pyasi/pybuildkite/issues/72,0cf6db2adcc01bf3014b84da5e15f6e1bc50b46b,tests/test_client.py::TestClientRequest,OD,,,pytest --randomly-seed=123 or pytest --randomly-seed=1234
@@ -1222,7 +1222,6 @@ https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,e
 https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_thermal_properties.py::Test_ThermalProperties::test_ufactor_nomass_construction,OD-Vic,,,
 https://github.com/santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_thermal_properties.py::Test_ThermalProperties::test_ufactor_roofvegetation_construction,OD-Vic,,,
 https://github.com/sashgorokhov/python-telegram-handler,4ac0e5cbb6ac3c3f81a57be6b3cea49dfd8e8ec4,tests/test_handlers.py::test_handler_init_without_chat,OD-Brit,RepoArchived,,
-https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,Deleted,,https://github.com/scikit-hep/scikit-hep/commit/6f3edf223ee925d4c0e0ce5447a3619d086de162
 https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,tests/dataset/test_numpydataset.py::test_methods,OD-Vic,Deleted,,https://github.com/scikit-hep/scikit-hep/commit/6f3edf223ee925d4c0e0ce5447a3619d086de162
 https://github.com/scrapinghub/shub, 7297d6b05b487749d99a4d94eea2f2de3e558f8a,test_utils.py::ReleaseUtilsTes::test_get_docker_client,OD,Opened,https://github.com/scrapinghub/shub/pull/411,
 https://github.com/scrapinghub/spidermon,d58090de7c0fcb656fc4daa19b6119df95df57d6,test_validators_schematics.py::test_choices,NOD,Opened,https://github.com/scrapinghub/spidermon/pull/322,
