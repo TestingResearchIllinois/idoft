@@ -99,10 +99,12 @@ https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,se
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerNewRoundRobinLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[2],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerP2CLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[1],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerP2CLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[2],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
+https://github.com/apple/servicetalk,759798cfe34c23c45ca717e6353ea38bae854fd4,servicetalk-loadbalancer,io.servicetalk.loadbalancer.EagerP2CLoadBalancerTest.roundRobining,ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.LingeringNewRoundRobinLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[1],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.LingeringNewRoundRobinLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[2],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.LingeringP2CLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[1],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/apple/servicetalk,00e740cc1de2eefdd9569563d8f0cb6e5aff7b39,servicetalk-loadbalancer,io.servicetalk.loadbalancer.LingeringP2CLoadBalancerTest.resubscribeToEventsWhenAllHostsAreUnhealthy[2],ID,Opened,https://github.com/apple/servicetalk/pull/3357,
+https://github.com/apple/servicetalk,759798cfe34c23c45ca717e6353ea38bae854fd4,servicetalk-loadbalancer,io.servicetalk.loadbalancer.LingeringP2CLoadBalancerTest.roundRobining,ID,Opened,https://github.com/apple/servicetalk/pull/3357,
 https://github.com/approvals/ApprovalTests.java.StarterProject.gradle,27b7dae34c97ac060d3166a9afc4163957dc7b61,.,org.samples.SampleTests.testJson,ID,,,Issue to discuss: https://github.com/approvals/ApprovalTests.java.StarterProject.gradle/issues/102
 https://github.com/azurite-engine/Azurite,46b86b533e3cdd7623137df32a31fc4052ac043e,.,java.io.xml.XMLParserTest.parse,ID,Accepted,https://github.com/azurite-engine/Azurite/pull/91,
 https://github.com/bb4/bb4-games,3568de98f992f6d4b07df468cdedfa19643f7b45,.,com.barrybecker4.game.twoplayer.common.search.strategy.UctNodeTest.testConstructionOfNodeWithNoChildren,ID,Opened,https://github.com/bb4/bb4-games/pull/37,
@@ -147,10 +149,10 @@ https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.gi
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileTestScalaDependsOnCompileScala,ID-HtF,Unmaintained,,latest commit 2022/06/24
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithoutScalaLibrary,ID-HtF,Unmaintained,,latest commit 2022/06/24
 https://github.com/bhuemer/gbt,e8b13f62ef8e544200b16892306a874c4cf6bf8b,.,com.github.bhuemer.gbt.ScalaPluginTest.compileWithWrongScalaVersion,ID-HtF,Unmaintained,,latest commit 2022/06/24
-https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.createAudioExample,ID,,,
-https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.createMIDIAutomationInClipsExample,ID,,,
-https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.validateComplexDawProject,ID,,,
-https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.validateDawProject,ID,,,
+https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.createAudioExample,ID,Opened,https://github.com/bitwig/dawproject/pull/100,
+https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.createMIDIAutomationInClipsExample,ID,Opened,https://github.com/bitwig/dawproject/pull/100,
+https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.validateComplexDawProject,ID,Opened,https://github.com/bitwig/dawproject/pull/100,
+https://github.com/bitwig/dawproject,5818a716fc5b131f62ed427cac0c665f0d0627e0,.,com.bitwig.dawproject.DawProjectTest.validateDawProject,ID,Opened,https://github.com/bitwig/dawproject/pull/100,
 https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenCallDoneWithCorrectHeaderAndBody,ID,Accepted,https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor/pull/7,
 https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor,190d81920d9ccead567808fa0f03cbc5b4a38e63,.,advisor.authentication.SpotifyAccessTokenFetcherTest.givenValidResponse_whenRequestingAccessToken_thenSuccessfulMessagesAndAccessTokenArePrinted,ID,Accepted,https://github.com/carlos-velasco/JetBrainsAcademy-MusicAdvisor/pull/7,
 https://github.com/chatterjeesunit/java-playground,d57e72c94251ff435a689595c2cab2b3599c761c,.,com.util.jwt.JWTDemoTest$JWTCreationTests.shouldGenerateDifferentJWTIdEachTime,NOD,Unmaintained,,latest commit 2022/04/18
@@ -211,10 +213,10 @@ https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43
 https://github.com/danwallach/star-vote-gradle,e4a76205fcaf9a196485d467f2887df43fc04d13,.,sexpression.test.ASEConverterTest.testToASE,ID,Opened,https://github.com/danwallach/star-vote-gradle/pull/2,
 https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.ndarray.NDListTest.testSafetensors,ID,,,
 https://github.com/deepjavalibrary/djl,c69aeb6cff248e1a6efc485e38db624e4ee800e5,api,ai.djl.util.PairListTest.testConstruction,ID,,,flakiness appear with `--nondexRuns=10`
-https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFile,ID,,,
-https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppend,ID,,,
-https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppendDefault,ID,,,
-https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithSlicingOptions,ID,,,
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFile,ID,Opened,https://github.com/diffplug/goomph/pull/222,
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppend,ID,Opened,https://github.com/diffplug/goomph/pull/222,
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithAppendDefault,ID,Opened,https://github.com/diffplug/goomph/pull/222,
+https://github.com/diffplug/goomph,f854b11ba51ebd97ba88d1369d7f2e913d6ab58d,.,com.diffplug.gradle.p2.P2ModelTest.testMirrorAntFileWithSlicingOptions,ID,Opened,https://github.com/diffplug/goomph/pull/222,
 https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.customRunToFixMessage,ID-HtF,,,
 https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.lineEndingProblem,ID-HtF,,,
 https://github.com/diffplug/spotless,51ee9d4def6b8b782a619b0a1b924dfc7b83e2e5,plugin-gradle,com.diffplug.gradle.spotless.DiffMessageFormatterTest.longFile,ID-HtF,,,
