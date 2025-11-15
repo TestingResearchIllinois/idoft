@@ -1774,7 +1774,7 @@ https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-cor
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.collection.CollectionSerializersTest.testCollectionFieldSerializersCopy,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
 https://github.com/apache/fury,9295e58ae706a3734f6fa80704c41502ba73131e,fury-core,org.apache.fury.serializer.ProtocolInteroperabilityTest.testComplexCollection,ID,RepoRenamed,,Repo was renamed from apache/fury to apache/fory
 https://github.com/apache/geronimo-batchee,0071edabb6b340cc16f8e9d0e17ff25720b4d0fe,tools/cli,org.apache.batchee.cli.MainTest.executions,OD,FixedOrder,,
-https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hbase,org.apache.gora.hbase.store.TestHBaseStore.assertMetadataAnalyzer,NOD,,,
+https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hbase,org.apache.gora.hbase.store.TestHBaseStore.assertMetadataAnalyzer,NOD,Opened,https://github.com/apache/gora/pull/307,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testAutoCreateSchema,ID,Opened,https://github.com/apache/gora/pull/298,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testBenchmarkExists,ID,Opened,https://github.com/apache/gora/pull/301,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testDeleteSchema,ID,Opened,https://github.com/apache/gora/pull/299,
