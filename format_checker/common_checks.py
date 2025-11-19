@@ -89,6 +89,19 @@ def check_row_length(header_len, filename, row, i, log):
         )
 
 
+def check_empty_lines(filename, row, line, log):
+    """Checks that the csv file does not contain empty lines."""
+    with open(filename, "r", newline="") as csvfile:
+        for i, l in enumerate(csvfile, start=1):
+            if l.strip() == "":
+                log_esp_error(
+                    filename,
+                    log,
+                    f"There's an empty line at line {i} in the file",
+                )
+                break
+
+
 def check_sort(filename, log):
     """Checks order of a file."""
 
