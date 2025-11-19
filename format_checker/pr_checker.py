@@ -7,6 +7,7 @@ from common_checks import (
     check_common_rules,
     check_row_length,
     check_sort,
+    check_empty_lines,
     run_checks,
     check_duplication
 )
@@ -195,6 +196,7 @@ def run_checks_pr(filename, log, commit_range):
         check_status_consistency,
         check_forked_project,
         check_tab,
+        check_empty_lines
     ]
     if filename == "py-data.csv":
         # deepcopy, then change the column name
