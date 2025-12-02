@@ -1878,7 +1878,7 @@ https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hiv
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testResultSizeStartKeyWithLimit,ID,Opened,https://github.com/apache/gora/pull/306,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testResultSizeWithLimit,ID,Opened,https://github.com/apache/gora/pull/306,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-hive,org.apache.gora.hive.store.TestHiveStore.testTruncateSchema,ID,Opened,https://github.com/apache/gora/pull/300,
-https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-ignite,org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest.testCountQuery,NOD,,,
+https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-ignite,org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest.testCountQuery,NOD,Opened,https://github.com/apache/gora/pull/309,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-ignite,org.apache.gora.ignite.store.TestIgniteStore.igniteStoreMetadataAnalyzerTest,NOD,Opened,https://github.com/apache/gora/pull/296,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-ignite,org.apache.gora.ignite.store.TestIgniteStore.testAutoCreateSchema,NOD,Opened,https://github.com/apache/gora/pull/296,
 https://github.com/apache/gora,6c6b06c916b969352a6757ba7025cc78055fa87a,gora-ignite,org.apache.gora.ignite.store.TestIgniteStore.testBenchmarkExists,NOD,Opened,https://github.com/apache/gora/pull/296,
