@@ -1,0 +1,223 @@
+#!/bin/bash
+
+# Setup temporary init script for NonDex (Hidden implementation detail)
+init_script=$(mktemp /tmp/nondex-auto-init.XXXXXX.gradle)
+cleanup() {
+  rm -f "$init_script"
+}
+trap cleanup EXIT
+
+# Check if all required arguments are provided
+if [ "$#" -ne 4 ]; then
+  echo "Ensure that you are running the command from the repo root"
+  echo "Usage: $0 <module_name> <commit_hash> <test_name> <test_class>"
+  exit 1
+fi
+
+# Assign command-line arguments to variables
+module_name="$1"
+commit_hash="$2"
+test_name="$3"
+test_class="$4"
+
+# Handle Gradle specific project path format 
+if [ "$module_name" = "." ]; then
+    gradle_prefix=":"
+else
+    mod="${module_name//\//:}"
+    [[ "$mod" != :* ]] && mod=":$mod"
+    gradle_prefix="${mod}:"
+fi
+
+# Deduce correct nondex version based on the current system default java version
+java_version_output=$(java -version 2>&1 | head -n 1)
+java_version=$(echo "$java_version_output" | awk -F '"' '/version/ {print $2}' | cut -d. -f1)
+# If Java version is in newer format (e.g., 11, 17, 21)
+if [ "$java_version" -eq "$java_version" ] 2>/dev/null; then
+  major_version="$java_version"
+else
+  # Handle older Java versions (e.g., 1.8 for Java 8)
+  major_version=$(echo "$java_version_output" | awk -F '"' '/version/ {print $2}' | awk -F. '{print $2}')
+fi
+
+if [ "$major_version" -eq 8 ]; then
+    echo "Java version 8 detected."
+    nondex_version="2.1.1" 
+elif [ "$major_version" -eq 11 ]; then
+    echo "Java version 11 detected."
+    nondex_version="2.1.1" 
+elif [ "$major_version" -eq 17 ]; then
+    echo "Java version 17 detected."
+    nondex_version="2.1.7"
+elif [ "$major_version" -eq 21 ]; then
+    echo "Java version 21 detected."
+    nondex_version="2.2.1"
+else
+    echo "Unsupported Java version: $major_version"
+    nondex_version="2.1.7" # Fallback
+fi
+
+echo "Module Name: $module_name"
+echo "Commit Hash: $commit_hash"
+echo "Test Name: $test_name"
+echo "Test Class: $test_class"
+echo "Nondex Version: $nondex_version"
+
+echo "Running tests for module '$module_name'"
+echo "Executing test '$test_name' in the class '$test_class'."
+
+echo "Checking out to specific commit"
+# Ensure wrapper is executable and stop daemon before reset to avoid locks
+chmod +x gradlew 2>/dev/null || true
+./gradlew --stop > /dev/null 2>&1 || true
+
+git reset --hard "$commit_hash"
+
+echo "Doing a clean install"
+# Preparing the NonDex injection script
+cat <<EOF > "$init_script"
+initscript {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath "edu.illinois:nondex-gradle-plugin:$nondex_version"
+    }
+}
+allprojects {
+    apply plugin: 'edu.illinois.nondex'
+}
+EOF
+
+current_dir="$(pwd)"
+
+base_dir="$current_dir/target/$test_class.$test_name/logs"
+
+echo "Running commands for $test_class.$test_name:"
+echo "base_dir/outdir: $base_dir"
+
+# Create the directory if it doesn't exist
+if [ ! -d "$base_dir" ]; then
+    mkdir -p "$base_dir"
+    echo "Created directory: $base_dir"
+fi
+
+echo "Installing module"
+./gradlew clean "${gradle_prefix}assemble" -x test |& tee "$base_dir/install.log"
+
+if grep -q "BUILD SUCCESSFUL" "$base_dir/install.log"; then
+    echo "CHECKPOINT-GRADLE: gradle assemble succeeded"
+    echo "Running test"
+
+    ./gradlew "${gradle_prefix}test" --tests "$test_class.$test_name" |& tee "$base_dir/normal_test_standalone.log"
+    if grep -q "BUILD SUCCESSFUL" "$base_dir/normal_test_standalone.log"; then
+        echo "CHECKPOINT-TESTSTANDALONE: test passes individually running nondex"
+        
+        ./gradlew --init-script "$init_script" "${gradle_prefix}nondexTest" --tests "$test_class.$test_name" |& tee "$base_dir/nondex_simple.log"
+        if grep -q "BUILD SUCCESSFUL" "$base_dir/nondex_simple.log"; then
+            echo "CHECKPOINT-NONDEXPASS: Test success with non-dex running with more runs"
+            
+            ./gradlew --init-script "$init_script" "${gradle_prefix}nondexTest" --tests "$test_class.$test_name" -DnondexRuns=50 |& tee "$base_dir/nondex_50runs.log"
+            if grep -q "BUILD SUCCESSFUL" "$base_dir/nondex_50runs.log"; then
+                echo "CHECKPOINT-NONDEXPASS_50_RUNS: Test success with non-dex 50 runs attempting to run the full class for testing OD"
+
+                for ((i = 1; i <= 4; i++)); do
+                    ./gradlew "${gradle_prefix}test" --tests "$test_class" | tee -a "$base_dir/test_class_4runs.log"
+                done
+                echo "Class level tests dumped in $base_dir/test_class_4runs.log"
+                echo "CHECKPOINT CLASS: If current test fails at class level anytime, then we can conclude it as OD"
+
+                echo "Running module level tests"
+
+                for ((i = 1; i <= 10; i++)); do
+                    ./gradlew "${gradle_prefix}test" | tee -a "$base_dir/module_level_10runs.log"
+                done
+                echo "CHECKPOINT MODULE: Module level tests dumped in $base_dir/module_level_10runs.log"
+
+                echo "Running test individually multiple times"
+                for ((i = 1; i <= 10; i++)); do
+                    ./gradlew "${gradle_prefix}test" --tests "$test_class.$test_name" | tee -a "$base_dir/single_test_10runs.log"
+                done
+                echo "Individual tests dumped in $base_dir/single_test_10runs.log"
+                
+                echo "CHECKPOINT FINAL: Nondex has passed with 50 runs. Analyze the module,class and Individual level test logs for conclusion"
+                exit 0
+            else
+                echo "CHECKPOINT FINAL: Failed on non-dex when the number of runs were increased but passed individually and with lower nondex runs. Test is likely ID"
+                exit 0
+            fi
+        else
+            echo "CHECKPOINT OD/NOD CHECK: Test passed once individually then failed on non-dex, checking for OD/NOD by running individually 20 times"
+            fail_count=0
+
+            for ((i = 1; i <= 20; i++)); do
+                ./gradlew "${gradle_prefix}test" --tests "$test_class.$test_name" | tee -a "$base_dir/single_test_20runs_idpath.log"
+                if grep -qE "BUILD FAILED|BUILD FAILURE|BUILD FAIL" "$base_dir/single_test_20runs_idpath.log" ; then
+                    ((fail_count++))
+                    echo "CHECKPOINT OD/NOD STATUS: Failed"
+                else
+                    echo "CHECKPOINT OD/NOD STATUS: Passed"
+                fi
+            done
+
+            if [ "$fail_count" -eq 0 ]; then
+                echo "CHECKPOINT ID: Test fails non-dex, and passes normally always hence mostly ID"
+                exit 0 
+            else
+                echo "CHECKPOINT OD: Test looks OD as it passes and fails sometimes, running at the class level to check for OD"
+                fail_count=0
+
+                for ((i = 1; i <= 4; i++)); do
+                    ./gradlew "${gradle_prefix}test" --tests "$test_class" | tee -a "$base_dir/test_class_4runs_nonidpath.log"
+                done
+                echo "Class level tests dumped in $base_dir/test_class_4runs_nonidpath.log"
+                echo "CHECKPOINT CLASS: If current test fails at class level anytime, then we can conclude it as OD"
+
+                echo "Running module level tests"
+                
+                for ((i = 1; i <= 10; i++)); do
+                    ./gradlew "${gradle_prefix}test" | tee -a "$base_dir/module_level_10runs.log"
+                done
+
+                echo "CHECKPOINT MODULE: module level tests dumped in $base_dir/module_level_10runs.log"
+                echo "CHECKPOINT FINAL: Test has failed with Nondex and is failing independently sometimes. Analyze the module and class level test logs for OD/NOD"
+            fi
+        fi
+    else 
+        echo "Test fails normally, trying with a few more runs"
+        fail_count=0
+
+        for ((i = 1; i <= 10; i++)); do
+            ./gradlew "${gradle_prefix}test" --tests "$test_class.$test_name" | tee -a "$base_dir/single_test_10runs_nonidpath.log"
+            if grep -qE "BUILD FAILED|BUILD FAILURE|BUILD FAIL"  "$base_dir/single_test_10runs_nonidpath.log"; then
+                ((fail_count++))
+                echo "CHECKPOINT TEST_FAILURE: Failed"
+            else
+                echo "CHECKPOINT TEST_PASSED: Passed"
+            fi
+        done
+
+        if [ "$fail_count" -eq 10 ]; then
+            echo "CHECKPOINT: Test always fails aborting"
+            exit 0
+        fi
+
+        echo "Passing and failing sometimes looks NOD, checking at the class level"
+
+        for ((i = 1; i <= 4; i++)); do
+            ./gradlew "${gradle_prefix}test" --tests "$test_class" | tee -a "$base_dir/test_class_4runs_nonidpath.log"
+        done
+        echo "Class level tests dumped in $base_dir/test_class_4runs_nonidpath.log"
+        echo "CHECKPOINT CLASS: If current test passes at class level always, then we can conclude it as OD else it could be NOD"
+
+        echo "Running Module level tests" 
+        for ((i = 1; i <= 10; i++)); do
+                ./gradlew "${gradle_prefix}test" | tee -a "$base_dir/module_level_10runs.log"
+        done
+        echo "Module level tests dumped in $base_dir/module_level_10runs.log"
+        echo "CHECKPOINT MODULE: If current test passes at module level always, then we can conclude it as OD else it could be NOD"
+    fi
+else
+    echo "gradle assemble failed aborting"
+fi
