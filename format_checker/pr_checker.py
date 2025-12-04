@@ -13,6 +13,9 @@ from common_checks import (
 )
 
 
+# URL pattern used in Notes validation
+url_pattern = r"https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}"
+
 # Contains information and regexes unique to pr-data.csv and gr-data.csv files
 data = {
     "columns": [
@@ -65,9 +68,9 @@ data = {
     "PR Link": re.compile(
         r"((https:\/\/github.com\/((\w|\.|-)+\/)+)(pull\/\d+))"
     ),
-    "Notes": re.compile(
-        r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
-    ),
+    "URL Base": re.compile(url_pattern),
+    "Notes": re.compile(rf"({url_pattern})(;.*)?"),
+    "Notes URL with Text": re.compile(rf"({url_pattern})\s+.+"),
 }
 
 
@@ -152,7 +155,11 @@ def check_notes(filename, row, i, log):
     """Checks validity of Notes."""
 
     if not data["Notes"].fullmatch(row["Notes"]):
-        log_std_error(filename, log, i, row, "Notes")
+        # Check if it's a URL followed by text without semicolon
+        if data["Notes URL with Text"].fullmatch(row["Notes"]):
+            log_std_error(filename, log, i, row, "Notes", "URL and additional text must be separated by semicolon (ex: 'URL; description')")
+        else:
+            log_std_error(filename, log, i, row, "Notes")
 
 
 def check_forked_project(filename, row, i, log):
