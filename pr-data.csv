@@ -6589,11 +6589,11 @@ https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois
 https://github.com/ripe-ncc/whois,79e90f41d7eeee42f2c3ad299bfccc4e8005ce8c,whois-endtoend,net.ripe.db.whois.spec.domain.AckResponseTest.successes,UD,,,
 https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteConsole,ID,Opened,https://github.com/robovm/robovm/pull/1272,https://github.com/robovm/robovm/pull/1274 https://github.com/robovm/robovm/pull/1276
 https://github.com/robovm/robovm,ef091902377c00dc0fb2db87e8d79c8afb5e9010,compiler,org.robovm.compiler.config.ConfigTest.testWriteIOS,ID,Opened,https://github.com/robovm/robovm/pull/1272,https://github.com/robovm/robovm/pull/1274 https://github.com/robovm/robovm/pull/1276
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testExport,OD-Vic,Opened,https://github.com/rrd4j/rrd4j/pull/173,
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testImport,OD-Vic,Opened,https://github.com/rrd4j/rrd4j/pull/173,
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,Opened,https://github.com/rrd4j/rrd4j/pull/173,
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion2,OD-Vic,Opened,https://github.com/rrd4j/rrd4j/pull/173,
-https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.demo.RunDemo.runDemo,OD-Vic,Opened,https://github.com/rrd4j/rrd4j/pull/173,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testExport,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/173,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.jrrd.ExportImport.testImport,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/173,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion1,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/173,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.core.LongRunning.testVersion2,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/173,
+https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.demo.RunDemo.runDemo,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/173,
 https://github.com/rrd4j/rrd4j,5e0c9c7e138167388721a0620b95526e89fd6059,.,org.rrd4j.graph.FontTest.testClean,OD-Vic,Accepted,https://github.com/rrd4j/rrd4j/pull/160,
 https://github.com/rrd4j/rrd4j,37c76d77c6f8e62b52ba47ca79f2958f2bc7bd67,.,org.rrd4j.graph.TimeAxisTest.customFormatting,TZD,Accepted,https://github.com/rrd4j/rrd4j/pull/172,
 https://github.com/rrd4j/rrd4j,37c76d77c6f8e62b52ba47ca79f2958f2bc7bd67,.,org.rrd4j.graph.TimeAxisTest.firstTest,TZD,Accepted,https://github.com/rrd4j/rrd4j/pull/172,
