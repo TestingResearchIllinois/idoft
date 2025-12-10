@@ -6,16 +6,26 @@ import sys
 
 # Mapping of file names to URLs
 data_urls = {
-    'py-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv",
-    'pr-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv",
-    'gr-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/gr-data.csv"
+    'py-data.csv': (
+        "https://raw.githubusercontent.com/TestingResearchIllinois"
+        "/idoft/main/py-data.csv"
+    ),
+    'pr-data.csv': (
+        "https://raw.githubusercontent.com/TestingResearchIllinois"
+        "/idoft/main/pr-data.csv"
+    ),
+    'gr-data.csv': (
+        "https://raw.githubusercontent.com/TestingResearchIllinois"
+        "/idoft/main/gr-data.csv"
+    )
 }
+
 
 # Worker Function
 def check_repository_status(url):
     """
     Worker function to check a single repository URL for archived status.
-    Returns a dictionary containing the URL, status code, and whether it's archived.
+    Returns a dictionary with the URL, status code, and whether it's archived.
     """
 
     try:
@@ -25,9 +35,16 @@ def check_repository_status(url):
         is_archived = False
         if r.status_code == 200:
             # Check for the archived banner div
-            div = r.html.find('#js-repo-pjax-container > div.flash.flash-warn.flash-full.border-top-0.text-center.text-bold.py-2', first=True)
-            if div and "This repository has been archived by the owner" in div.text:
-                is_archived
+            div = r.html.find(
+                '#js-repo-pjax-container > div.flash.flash-warn.flash-full.'
+                'border-top-0.text-center.text-bold.py-2',
+                first=True
+            )
+            if (
+                div and
+                "This repository has been archived by the owner" in div.text
+            ):
+                is_archived = True
 
         return {
             'url': url,
@@ -51,7 +68,7 @@ def main():
         print("  <file_name>: [py-data.csv | pr-data.csv | gr-data.csv]")
         print("  [max_workers]: Optional integer, default is 4.")
         sys.exit(1)
-    
+
     # Define MAX_WORKERS
     MAX_WORKERS = 4
     if len(sys.argv) == 3:
@@ -64,8 +81,9 @@ def main():
         except ValueError:
             print("Error: max_workers must be an integer!")
             sys.exit(1)
-    
-    # get unique urls from passed filename, we can also use cmd: `git pull -r ; cut -f1 -d,  `filename` | uniq`
+
+    # get unique urls from passed filename
+    # we can also use cmd: `git pull -r ; cut -f1 -d,  `filename` | uniq`
     file_name = sys.argv[1]
     pr_data_url = data_urls[file_name]
     urls = pd.read_csv(pr_data_url, usecols=["Project URL"])
@@ -73,11 +91,19 @@ def main():
     print("load data from", pr_data_url)
 
     # copy the first line of raw cvs.file here:
-    csv_first_line = "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category,Status,PR Link,Notes"
+    csv_first_line = (
+        "Project URL,SHA Detected,Module Path,Fully-Qualified Test Name "
+        "(packageName.ClassName.methodName),Category,Status,PR Link,Notes"
+    )
     if file_name == "py-data.csv":
-        csv_first_line = "Project URL,SHA Detected,Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod),Category,Status,PR Link,Notes"
+        csv_first_line = (
+            "Project URL,SHA Detected,Pytest Test Name "
+            "(PathToFile::TestClass::TestMethod or PathToFile::TestMethod),"
+            "Category,Status,PR Link,Notes"
+        )
     cols = csv_first_line.split(",")
-    status_idx = cols.index("Status") + 1  # we add linenumber into the cols later
+    # we add linenumber into the cols later
+    status_idx = cols.index("Status") + 1
     notes = cols.index("Notes") + 1
     data = pd.read_csv(pr_data_url, usecols=cols)
 
@@ -95,13 +121,19 @@ def main():
     archived = []
     anomaly = []
 
-    print(f"Starting parallel check on {len(urls)} URLs using {MAX_WORKERS} threads...")
+    print(
+        f"Starting parallel check on {len(urls)} "
+        "URLs using {MAX_WORKERS} threads..."
+    )
     begin = time.time()
 
     # Parallel Processing
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         # Submit all URLs
-        future_url_dict = {executor.submit(check_repository_status, url) : url for url in urls}
+        future_url_dict = {
+            executor.submit(check_repository_status, url): url
+            for url in urls
+        }
 
         # Iterate over completed results
         cnt = 0
@@ -113,10 +145,15 @@ def main():
                 if result['is_archived']:
                     archived.append(url)
                     print("archived: ", url)
-                elif  result['status_code'] != 200 and result['status_code'] != 429:  # no need to report 429("Too Many Requests response"), 200("OK")
+                elif (result['status_code'] != 200
+                        and result['status_code'] != 429):
+                    # no need to report
+                    # 429("Too Many Requests response"), 200("OK")
                     anomaly.append([result['status_code'], url])
-                    print("anomaly[status_code, url]:", result['status_code'], url)
-                
+                    print(
+                        "anomaly[status_code, url]:",
+                        result['status_code'], url
+                    )
                 cnt += 1
                 if cnt % 10 == 0:  # print every 10 repos
                     print("count: ", str(cnt)),
@@ -148,15 +185,23 @@ def main():
     if not update:
         print("No need to update")
     else:
-        print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
+        print(
+            "[!]Need to Update "
+            "(Copy the following contents "
+            "and replace the corresponding line in csv.file)"
+        )
         for i in update:
             print("line_number " + str(i[0]) + ":")  # line_number
-            print(str(i[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+            print(
+                str(i[1:]).replace("[", "").replace("]", "")
+                .replace("\'", "").replace(", ", ",")
+                .replace("nan", "").replace("\"", "")
+            )
             print("")
     print("")
 
     print("3.anomaly:")
-    anomaly.sort(key=lambda x:x[1])
+    anomaly.sort(key=lambda x: x[1])
     for i in anomaly:
         print("status code: " + str(i[0])),
         print("url:", i[1])
@@ -164,9 +209,15 @@ def main():
         updates = []
         if str(i[0]) == '404':
             for record in my_dict[i[1]]:
-                if record[status_idx] != "RepoDeleted" and record[notes] != "RepoDeleted":
+                if (
+                    record[status_idx] != "RepoDeleted"
+                    and record[notes] != "RepoDeleted"
+                ):
                     # should mark deleted archived repo as deleted
-                    if pd.isna(record[status_idx]) or record[status_idx] == "" or record[status_idx] == "RepoArchived":
+                    if (
+                        pd.isna(record[status_idx]) or record[status_idx] == ""
+                        or record[status_idx] == "RepoArchived"
+                    ):
                         record[status_idx] = "RepoDeleted"
                     else:
                         record[notes] = "RepoDeleted"
@@ -175,16 +226,25 @@ def main():
                 print("No need to update")
                 print("")
             else:
-                print("[!]Need to Update (Copy the following contents and replace the corresponding line in csv.file)")
+                print("[!]Need to Update (Copy the following contents "
+                      "and replace the corresponding line in csv.file)")
                 for update in updates:
                     print("line_number " + str(update[0]) + ":")
-                    print(str(update[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                    print(
+                        str(update[1:]).replace("[", "").replace("]", "")
+                        .replace("\'", "").replace(", ", ",")
+                        .replace("nan", "").replace("\"", "")
+                    )
                     print("")
                 print("")
         else:
             for record in my_dict[i[1]]:
                 print("line_number " + str(record[0]) + ":")
-                print(str(record[1:]).replace("[", "").replace("]", "").replace("\'", "").replace(", ", ",").replace("nan", "").replace("\"", ""))
+                print(
+                    str(record[1:]).replace("[", "").replace("]", "")
+                    .replace("\'", "").replace(", ", ",")
+                    .replace("nan", "").replace("\"", "")
+                )
                 print("")
             print("")
 
