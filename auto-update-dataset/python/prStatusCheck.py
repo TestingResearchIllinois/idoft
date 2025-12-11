@@ -7,6 +7,7 @@ import re
 import time
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # Setup logging
 logging.basicConfig(
@@ -40,6 +41,9 @@ else:
 # Regular expression to match GitHub URLs
 GITHUB_URL_PATTERN = re.compile(r"github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)")
 
+# Cache for PR status lookups to avoid redundant API calls. Key: PR URL, Value: fetched status
+pr_status_cache = {}
+
 # Data Source URLs
 DATA_URLS = {
     'py-data.csv': "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/py-data.csv",
@@ -49,14 +53,25 @@ DATA_URLS = {
 
 # File paths
 IGNORE_PATH = os.path.abspath(os.path.join(script_dir, "../ignore.csv"))
-REPORT_PATH = os.path.join(script_dir, "report.log")
+REPORT_PATH = os.path.join(script_dir, "accepted.log")
 MANUAL_CHECK_PATH = os.path.join(script_dir, "manual-check.log")
 
-def fetch_status(url, original_status):
+def fetch_status(url, original_status):    
+    """
+    Fetch PR status from GitHub API with caching.
+    """
+    
+    def cache_and_return(url, result):
+        """Cache the result and return it."""
+        pr_status_cache[url] = result
+        return result
+    
+    if url in pr_status_cache:
+        logger.debug(f"Cache hit for {url}")
+        return pr_status_cache[url] 
     match = GITHUB_URL_PATTERN.search(url)
     if not match:
-        logger.warning(f"Invalid GitHub URL format: {url}. Returning original status.")
-        return original_status
+        return cache_and_return(url, "Invalid URL")
     owner, repo, number = match.groups()
     pull_url = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}"
     try:
@@ -65,21 +80,26 @@ def fetch_status(url, original_status):
             data = response.json()
             state = data.get("state")
             if state == "open":
-                return "Opened"
+                result = "Opened"
             elif state == "closed":
                 merged = data.get("merged", False)
-                return "Accepted" if merged else "Unknown"
+                result = "Accepted" if merged else "Unknown"
+            else:
+                result = original_status
+            return cache_and_return(url, result)
         elif response.status_code == 404:
-            logger.warning(f"PR {url} returned 404. Manual check recommended. Returning original status.")
-            return original_status
+            return cache_and_return(url, "PR Not Found")
         else:
-            logger.warning(f"API Error for PR {url}: {response.status_code}. Returning original status.")
-            return original_status
+            return "Fetch Error"
     except Exception as e:
-        logger.warning(f"Exception fetching PR {url}: {e}. Returning original status.")
-        return original_status
+        logger.warning(f"Exception fetching PR {url}: {e}.")
+        return "Fetch Error"
 
 def process_row(filename, index, row):
+    """
+    Only check for updates when the PR is in 'Opened' status.
+    Other statuses (Accepted, Rejected, etc.) are treated as final and not re-checked.
+    """
     url = row['PR Link']
     original_status = row['Status']
     csv_row = index + 2
@@ -93,6 +113,12 @@ def process_row(filename, index, row):
     if changed:
         if new_status == "Accepted":
             msg = f"[{filename}] Row {csv_row}: Status changed {original_status} -> {new_status} ({url})"
+        elif new_status == "Invalid URL":
+            msg = f"[{filename}] Row {csv_row}: Invalid URL, Status remains {original_status} ({url})"
+        elif new_status == "PR Not Found":
+            msg = f"[{filename}] Row {csv_row}: PR not found, Status remains {original_status} ({url})"
+        elif new_status == "Fetch Error":
+            msg = f"[{filename}] Row {csv_row}: Fetch error, Status remains {original_status} ({url}.)"
         else:
             msg = f"[{filename}] Row {csv_row}: Status changed but could not be determined, remains {original_status} ({url}. Please check manually.)"
     else:
@@ -145,9 +171,9 @@ def main():
         except Exception as e:
             logger.warning(f"Failed to load ignore list: {e}")
     with open(REPORT_PATH, "w") as f:
-        f.write(f"Update Report - {time.ctime()}\n")
+        f.write(f"Accepted updates - {time.ctime()}\n")
     with open(MANUAL_CHECK_PATH, "w") as f:
-        f.write(f"Please mannually check - {time.ctime()}\n")
+        f.write(f"Please manually check - {time.ctime()}\n")
     any_range_specified = any(r[0] is not None for r in file_ranges.values())
     for filename, url in DATA_URLS.items():
         start_idx, end_idx = file_ranges.get(filename, (None, None))
@@ -169,6 +195,10 @@ def main():
             except Exception as e:
                 logger.error(f"Failed to load data from URL {url}: {e}")
                 continue
+        line_cache = {}
+        if os.path.exists(local_path):
+            with open(local_path, 'r', newline='', encoding='utf-8') as f:
+                line_cache = {i: line for i, line in enumerate(f, start=1)}
         test_name_col = "Fully-Qualified Test Name (packageName.ClassName.methodName)"
         if filename == "py-data.csv":
             test_name_col = "Pytest Test Name (PathToFile::TestClass::TestMethod or PathToFile::TestMethod)"
@@ -176,6 +206,7 @@ def main():
         num_threads = args.threads
         file_report_lines = []
         manual_check_lines = []
+        lines_to_restore = set()
         if start_idx is None or end_idx is None:
             pandas_start = 0
             pandas_end = len(df) - 1
@@ -193,13 +224,17 @@ def main():
             continue
         with ThreadPoolExecutor(max_workers=num_threads) as executor:
             for index, row in rows_to_process.iterrows():
+                csv_row = index + 2
                 status = str(row['Status'])
                 if test_name_col in df.columns:
                     test_name = str(row[test_name_col])
                     if test_name in ignored_paths:
+                        lines_to_restore.add(csv_row)
                         continue
-                if "Opened" in status:
-                    tasks.append(executor.submit(process_row, filename, index, row))
+                if "Opened" not in status:
+                    lines_to_restore.add(csv_row)
+                    continue
+                tasks.append(executor.submit(process_row, filename, index, row))
             logger.info(f"Queued {len(tasks)} tasks for {filename}.")
             updated_count = 0
             changed_count = 0
@@ -207,26 +242,38 @@ def main():
             for future in as_completed(tasks):
                 try:
                     idx, new_status, changed, pr_url, log_msg = future.result()
+                    csv_row = idx + 2
                     if changed:
                         if new_status == "Accepted":
                             df.at[idx, 'Status'] = new_status
                             updated_count += 1
                             file_report_lines.append(log_msg)
                         else:
+                            lines_to_restore.add(csv_row)
                             manual_check_lines.append(log_msg)
                             changed_count += 1
                     else:
+                        lines_to_restore.add(csv_row)
                         still_open_count += 1
                 except Exception as e:
                     logger.error(f"Task failed: {e}")
         logger.info(f"summary for {filename}: {updated_count} statuses updated, {changed_count} changed but need manual check, {still_open_count} still open.")
-        if updated_count > 0:   
+        if updated_count > 0:
             df.to_csv(local_path, index=False)
+            if lines_to_restore and line_cache:
+                with open(local_path, 'r', newline='', encoding='utf-8') as f:
+                    lines = f.readlines()
+                for ln in lines_to_restore:
+                    if ln <= len(lines) and ln in line_cache:
+                        lines[ln - 1] = line_cache[ln]
+                with open(local_path, 'w', newline='', encoding='utf-8') as f:
+                    f.writelines(lines)
+                logger.info(f"Restored {len(lines_to_restore)} unchanged lines")
         if file_report_lines:
             with open(REPORT_PATH, "a") as f:
                 for line in file_report_lines:
                     f.write(line + "\n")
-            logger.info(f"Report updated for {filename}")
+            logger.info(f"Accepted log updated for {filename}")
         if manual_check_lines:
             with open(MANUAL_CHECK_PATH, "a") as f:
                 for line in manual_check_lines:
