@@ -570,7 +570,10 @@ https://github.com/guillaumewatteeux/centreon-sdk-python,9f207d5458afc3304e24f16
 https://github.com/guillaumewatteeux/centreon-sdk-python,9f207d5458afc3304e24f16988069467b19eab81,tests/test_resourcecfg.py::TestResourceCFG::test_resourcecfg_not_exist,OD-Brit,Unmaintained,,latest commit 2019/02/15
 https://github.com/guillaumewatteeux/centreon-sdk-python,9f207d5458afc3304e24f16988069467b19eab81,tests/test_resourcecfg.py::TestResourceCFG::test_resourcecfg_setparam,OD-Brit,Unmaintained,,latest commit 2019/02/15
 https://github.com/gwpy/gwosc,06b56ce506fda3af4857c8a1aae7bb60fb1925e9,gwosc/tests/test_datasets.py::test_dataset_type_local,NIO,,,
-https://github.com/h2non/pook,2071da27701c82ce02b015e01e2aa6fd203e7bb5,tests/unit/api_test.py::test_mock_contructors,OD-Vic,,,
+https://github.com/h2non/pook,2071da27701c82ce02b015e01e2aa6fd203e7bb5,tests/unit/api_test.py::test_activate,OD-Brit,Opened,https://github.com/h2non/pook/pull/169,
+https://github.com/h2non/pook,2071da27701c82ce02b015e01e2aa6fd203e7bb5,tests/unit/api_test.py::test_mock_contructors,OD-Vic,Opened,https://github.com/h2non/pook/pull/169,
+https://github.com/h2non/pook,2071da27701c82ce02b015e01e2aa6fd203e7bb5,tests/unit/api_test.py::test_on,OD-Brit,Opened,https://github.com/h2non/pook/pull/169,
+https://github.com/h2non/pook,2071da27701c82ce02b015e01e2aa6fd203e7bb5,tests/unit/api_test.py::test_use,OD-Brit,Opened,https://github.com/h2non/pook/pull/169,
 https://github.com/haney/python-ansel,afb2b28d8595beeb1f87e355b611f01e13b8e664,tests/test_incremental.py::test_decode_invalid_raising_error_handler[+],OD-Brit,Unmaintained,,latest commit 2022/09/01
 https://github.com/hbradleyiii/ext_pylib,15a9b5a80db87b5f20e03ef6bfa015acf4bf8543,"tests/files/test_node.py::test_node_repr[atts0-{'path' : None, 'group' : None}]",OD-Vic,Unmaintained,,latest commit 2016/04/04
 https://github.com/hbradleyiii/ext_pylib,15a9b5a80db87b5f20e03ef6bfa015acf4bf8543,"tests/files/test_node.py::test_node_repr[atts1-{'path' : '/this/path/file', 'group' : None}]",OD-Vic,Unmaintained,,latest commit 2016/04/04
