@@ -149,7 +149,7 @@ def main():
                     # no need to report
                     # 429("Too Many Requests response"), 200("OK")
                     anomaly.append([result['status_code'], url])
-                    print("anomaly[status_code, url]:", r.status_code, url)
+                    print("anomaly[status_code, url]:", result['status_code'], url)
                 cnt += 1
                 if cnt % 10 == 0:  # print every 10 repos
                     print("count: ", str(cnt)),
