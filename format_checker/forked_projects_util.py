@@ -40,6 +40,20 @@ def is_fp_sorted(data):
     return list1 == list2
 
 
+def find_duplicate_json_keys(file_path):
+    from collections import Counter
+    import re
+    
+    with open(file_path, "r") as f:
+        content = f.read()
+    
+    # Extract all keys using regex: "key": 
+    pattern = r'"([^"]+)"\s*:'
+    keys = re.findall(pattern, content)
+    counter = Counter(keys)
+    return [k for k, v in counter.items() if v > 1]
+
+
 def update_fp(data, file_path):
     sorted_data = dict(sorted(data.items()))
 
@@ -61,8 +75,11 @@ def check_stale_fp(data, file_path, log):
 def run_checks_sort_fp(file_path, log):
     with open(file_path, "r") as file:
         data = json.load(file)
-    if not is_fp_sorted(data):
-        log_esp_error(file_path, log, "Entries are not sorted")
+    dups = find_duplicate_json_keys(file_path)
+    if dups:
+        log_esp_error(file_path, log, f"Duplicate in forked-projects.json keys detected: {dups}")
+    elif not is_fp_sorted(data):
+        log_esp_error(file_path, log, "Entries in forked-projects.json are not sorted")
     else:
         log_info(file_path, log, "There are no changes to be checked")
 
