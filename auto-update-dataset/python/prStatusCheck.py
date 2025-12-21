@@ -51,19 +51,20 @@ IGNORE_PATH = os.path.abspath(os.path.join(script_dir, "../ignore.csv"))
 REPORT_PATH = os.path.join(script_dir, "accepted.log")
 MANUAL_CHECK_PATH = os.path.join(script_dir, "manual-check.log")
 
-def fetch_status(url, original_status):    
+
+def fetch_status(url, original_status):
     """
     Fetch PR status from GitHub API with caching.
     """
-    
+
     def cache_and_return(url, result):
         """Cache the result and return it."""
         pr_status_cache[url] = result
         return result
-    
+
     if url in pr_status_cache:
         logger.debug(f"Cache hit for {url}")
-        return pr_status_cache[url] 
+        return pr_status_cache[url]
     match = GITHUB_URL_PATTERN.search(url)
     if not match:
         return cache_and_return(url, "Invalid URL")
@@ -89,6 +90,7 @@ def fetch_status(url, original_status):
     except Exception as e:
         logger.warning(f"Exception fetching PR {url}: {e}.")
         return "Fetch Error"
+
 
 def process_row(filename, index, row):
     """
@@ -121,6 +123,7 @@ def process_row(filename, index, row):
     logger.info(msg)
     return index, new_status, changed, url, msg
 
+
 def parse_range(range_str):
     if not range_str:
         return None, None
@@ -139,6 +142,7 @@ def parse_range(range_str):
     except ValueError:
         logger.error(f"Invalid range values: {range_str}")
         sys.exit(1)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Update PR statuses in CSV files.")
@@ -274,6 +278,7 @@ def main():
                 for line in manual_check_lines:
                     f.write(line + "\n")
             logger.info(f"Manual check log updated for {filename}")
+
 
 if __name__ == "__main__":
     main()
