@@ -122,7 +122,7 @@ OD-Vic | Order-Dependent Victim tests as defined in [iFixFlakies](http://mir.cs.
 ID | Implementation-Dependent Tests found by [Nondex](http://mir.cs.illinois.edu/marinov/publications/ShiETAL16NonDex.pdf)
 ID-HtF | Implementation-Dependent tests that are hard to fix. Brief description given in https://github.com/kaiyaok2/ID-HtF.
 NIO | Non-Idempotent-Outcome Tests as defined in [ICSE’22 work](https://cs.gmu.edu/~winglam/publications/2022/WeiETAL22NIO.pdf). Tests that pass in the first run but fail in the second.
-NOD | Non-Deterministic tests 
+NOD | Non-Order-Dependent flaky tests as defined in [iDFlakies](http://mir.cs.illinois.edu/winglam/publications/2019/LamETAL19iDFlakies.pdf)
 NDOD | Non-Deterministic Order-Dependent tests that fail non-deterministically but with significantly different failure rates in different orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 NDOI | Non-Deterministic Order-Independent tests that fail non-deterministically but similar failure rates in all orders as defined in our [ISSRE’20 work](http://mir.cs.illinois.edu/winglam/publications/2020/LamETAL20ISSRE.pdf)
 UD | Unknown Dependency tests that pass and fail in a test suite or in isolation
